@@ -40,8 +40,10 @@
       "acceptance_ids": [
         "A01"
       ],
-      "status": "todo",
-      "evidence": [],
+      "status": "in_progress",
+      "evidence": [
+        "docs/LOCAL_SETUP.md"
+      ],
       "blocker": null
     },
     {
@@ -57,8 +59,10 @@
       "acceptance_ids": [
         "A02"
       ],
-      "status": "todo",
-      "evidence": [],
+      "status": "in_progress",
+      "evidence": [
+        "docs/LOCAL_SETUP.md"
+      ],
       "blocker": null
     },
     {
@@ -74,8 +78,10 @@
       "acceptance_ids": [
         "A03"
       ],
-      "status": "todo",
-      "evidence": [],
+      "status": "in_progress",
+      "evidence": [
+        "docs/LOCAL_SETUP.md"
+      ],
       "blocker": null
     },
     {
@@ -93,8 +99,10 @@
         "A04",
         "A05"
       ],
-      "status": "todo",
-      "evidence": [],
+      "status": "in_progress",
+      "evidence": [
+        "docs/LOCAL_SETUP.md"
+      ],
       "blocker": null
     },
     {
@@ -498,8 +506,11 @@
         "A37",
         "A38"
       ],
-      "status": "todo",
-      "evidence": [],
+      "status": "done",
+      "evidence": [
+        "evidence/asset-review.md",
+        "assets/manifest.json"
+      ],
       "blocker": null
     },
     {
@@ -516,8 +527,10 @@
       "acceptance_ids": [
         "A39"
       ],
-      "status": "todo",
-      "evidence": [],
+      "status": "in_progress",
+      "evidence": [
+        "docs/LOCAL_SETUP.md"
+      ],
       "blocker": null
     },
     {

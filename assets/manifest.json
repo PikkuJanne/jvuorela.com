@@ -16,9 +16,9 @@
       },
       "aspect_ratio": "3:4",
       "expected_filename_stem": "winbooksplit-character-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/WinBookSplit_character.png",
-      "source_sha256": null,
+      "source_sha256": "eb8a9aa6133c7862b3b31a0143fa3a442c8fb70c029c8edf7d544996467f1c21",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -37,19 +37,50 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winbooksplit-character-v01-480.webp",
+          "sha256": "65ca1bea1d1203b4960c793653919a89d112565119c64a704ed0ecfaf77c3a9d",
+          "size_bytes": 55814,
+          "width": 480,
+          "height": 640,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "eb8a9aa6133c7862b3b31a0143fa3a442c8fb70c029c8edf7d544996467f1c21"
+        },
+        {
+          "path": "assets/approved/winbooksplit-character-v01-960.webp",
+          "sha256": "7bb2765f008fa9701402c3c8105aa9956a7e074badcd03516031f52035d6eac0",
+          "size_bytes": 186684,
+          "width": 960,
+          "height": 1280,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "eb8a9aa6133c7862b3b31a0143fa3a442c8fb70c029c8edf7d544996467f1c21"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1407644,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1086,
+        "height": 1448,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "tool hero"
+      "intended_use": "tool hero",
+      "actual_source_file": "Website Assets/WinBookSplit_character.png"
     },
     {
       "slot_id": "winbooksplit-avatar",
@@ -62,9 +93,9 @@
       },
       "aspect_ratio": "1:1",
       "expected_filename_stem": "winbooksplit-avatar-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/WinBookSplit_portrait.png",
-      "source_sha256": null,
+      "source_sha256": "14ebb9d13acc8a20494a8614f2c282ef92183f6c9d471fd1b97955b8a6559784",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -83,19 +114,50 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winbooksplit-avatar-v01-360.webp",
+          "sha256": "a7e0eac0b37ea007069cc32f93fce690a25f19d6f7eef7e5984a68268f890ed3",
+          "size_bytes": 43100,
+          "width": 360,
+          "height": 360,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "14ebb9d13acc8a20494a8614f2c282ef92183f6c9d471fd1b97955b8a6559784"
+        },
+        {
+          "path": "assets/approved/winbooksplit-avatar-v01-640.webp",
+          "sha256": "5fd00cda2c24cb75fcb0947cfdcc73f02e21dda1e739cfe8a6ff689447171aac",
+          "size_bytes": 111398,
+          "width": 640,
+          "height": 640,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "14ebb9d13acc8a20494a8614f2c282ef92183f6c9d471fd1b97955b8a6559784"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 2318822,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "home tool card"
+      "intended_use": "home tool card",
+      "actual_source_file": "Website Assets/WinBookSplit_portrait.png"
     },
     {
       "slot_id": "winbooksplit-social",
@@ -108,9 +170,9 @@
       },
       "aspect_ratio": "40:21",
       "expected_filename_stem": "winbooksplit-social-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/WinBookSplit_SM.png",
-      "source_sha256": null,
+      "source_sha256": "819d8ae2cd834d163109bb56c294b08004f8db6de22c9f56fb49e8c5dff12104",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -129,19 +191,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winbooksplit-social-v01-1200.png",
+          "sha256": "3f1330b850e53601166106bddc8562cb32033dcf91d927d3ed7090019bb10317",
+          "size_bytes": 1406228,
+          "width": 1200,
+          "height": 631,
+          "format": "png",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "819d8ae2cd834d163109bb56c294b08004f8db6de22c9f56fb49e8c5dff12104"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 2439548,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1730,
+        "height": 909,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "page sharing metadata"
+      "intended_use": "page sharing metadata",
+      "actual_source_file": "Website Assets/WinBookSplit_SM.png"
     },
     {
       "slot_id": "winbooksplit-icon",
@@ -154,9 +237,9 @@
       },
       "aspect_ratio": "1:1",
       "expected_filename_stem": "winbooksplit-icon-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "PS Visuals/WinBookSplit.png",
-      "source_sha256": null,
+      "source_sha256": "c9385cc2874821281cec1744f8459b6fb3a427ed9955cf7976353e42fc11891b",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -175,19 +258,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winbooksplit-icon-v01-96.webp",
+          "sha256": "3d2948f7629f9852ac3c1cb51307c7bf92037cc0a213db4ccb412d8a2bfc5b79",
+          "size_bytes": 4214,
+          "width": 96,
+          "height": 96,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "c9385cc2874821281cec1744f8459b6fb3a427ed9955cf7976353e42fc11891b"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1931166,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "tool interface icon"
+      "intended_use": "tool interface icon",
+      "actual_source_file": "PS Visuals/WinBookSplit.png"
     },
     {
       "slot_id": "winpdfmerger-character",
@@ -200,9 +304,9 @@
       },
       "aspect_ratio": "3:4",
       "expected_filename_stem": "winpdfmerger-character-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/WinPDFMerger_character.png",
-      "source_sha256": null,
+      "source_sha256": "f8397940a5e56dcb551ddea0b9452a8da70e0ff1668375209a856a8b3e7ef306",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -221,19 +325,50 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winpdfmerger-character-v01-480.webp",
+          "sha256": "177f282509cfe56829059982218a45910f300e33e885bbc919d25a75b00f8b1b",
+          "size_bytes": 46188,
+          "width": 480,
+          "height": 640,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "f8397940a5e56dcb551ddea0b9452a8da70e0ff1668375209a856a8b3e7ef306"
+        },
+        {
+          "path": "assets/approved/winpdfmerger-character-v01-960.webp",
+          "sha256": "deb8c53dbbf78bc0425238efc04c6cae4b4650fdeaeb4ded70d93a1c646d41ab",
+          "size_bytes": 150922,
+          "width": 960,
+          "height": 1280,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "f8397940a5e56dcb551ddea0b9452a8da70e0ff1668375209a856a8b3e7ef306"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1158282,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1086,
+        "height": 1448,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "tool hero"
+      "intended_use": "tool hero",
+      "actual_source_file": "Website Assets/WinPDFMerger_character.png"
     },
     {
       "slot_id": "winpdfmerger-avatar",
@@ -246,9 +381,9 @@
       },
       "aspect_ratio": "1:1",
       "expected_filename_stem": "winpdfmerger-avatar-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/WinPDFMerger_portrait.png",
-      "source_sha256": null,
+      "source_sha256": "91d86b8c4bfd2d533b48a0a61155d5d3b0e3021b2741003ae1c6e6ee41ae98de",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -267,19 +402,50 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winpdfmerger-avatar-v01-360.webp",
+          "sha256": "9eea4ad21bc1030766031f0e9cb398f5bc1f463deded64771cae755a958b37ee",
+          "size_bytes": 43660,
+          "width": 360,
+          "height": 360,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "91d86b8c4bfd2d533b48a0a61155d5d3b0e3021b2741003ae1c6e6ee41ae98de"
+        },
+        {
+          "path": "assets/approved/winpdfmerger-avatar-v01-640.webp",
+          "sha256": "43181344f5dc0bcac839de51688615bd65ac3ecafc2d66f2708273248a187edf",
+          "size_bytes": 117144,
+          "width": 640,
+          "height": 640,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "91d86b8c4bfd2d533b48a0a61155d5d3b0e3021b2741003ae1c6e6ee41ae98de"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 2496105,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "home tool card"
+      "intended_use": "home tool card",
+      "actual_source_file": "Website Assets/WinPDFMerger_portrait.png"
     },
     {
       "slot_id": "winpdfmerger-social",
@@ -292,9 +458,9 @@
       },
       "aspect_ratio": "40:21",
       "expected_filename_stem": "winpdfmerger-social-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/WinPDFMerger_ SM.png",
-      "source_sha256": null,
+      "source_sha256": "67963e64cc935a681f82ddec9b1a28ad5af3e1775d3da1721af42fe16749ef94",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -313,21 +479,42 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winpdfmerger-social-v01-1200.png",
+          "sha256": "a835ded8b7e9b9f8c911864054272ff0a0b01f0740d03b17100fe5393084b923",
+          "size_bytes": 1440140,
+          "width": 1200,
+          "height": 631,
+          "format": "png",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "67963e64cc935a681f82ddec9b1a28ad5af3e1775d3da1721af42fe16749ef94"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 2546064,
       "source_aliases": [
         "Website Assets/WinPDFMerger_SM.png"
       ],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1730,
+        "height": 909,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "page sharing metadata"
+      "intended_use": "page sharing metadata",
+      "actual_source_file": "Website Assets/WinPDFMerger_ SM.png"
     },
     {
       "slot_id": "winpdfmerger-icon",
@@ -340,9 +527,9 @@
       },
       "aspect_ratio": "1:1",
       "expected_filename_stem": "winpdfmerger-icon-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "PS Visuals/WinPDFMerger.png",
-      "source_sha256": null,
+      "source_sha256": "401903d74f397b96c82da22d701b436b08cc817411976b062df49a00c15a98ff",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -361,19 +548,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winpdfmerger-icon-v01-96.webp",
+          "sha256": "1ea73be70506f8d48f4c98b72440c5a7a644b1f3c85e8e3f703fd66c8ee4bf5b",
+          "size_bytes": 4736,
+          "width": 96,
+          "height": 96,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "401903d74f397b96c82da22d701b436b08cc817411976b062df49a00c15a98ff"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1922395,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "tool interface icon"
+      "intended_use": "tool interface icon",
+      "actual_source_file": "PS Visuals/WinPDFMerger.png"
     },
     {
       "slot_id": "winvidcompress-character",
@@ -386,9 +594,9 @@
       },
       "aspect_ratio": "3:4",
       "expected_filename_stem": "winvidcompress-character-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/WinVidCompress_character.png",
-      "source_sha256": null,
+      "source_sha256": "7ffc6d1f70706a0ebe0581d2e9901083fdf27b6278b6b73e76d0bc99c440f1a7",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -407,19 +615,50 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winvidcompress-character-v01-480.webp",
+          "sha256": "0f7b6fbd204a2def5b8285b72f7a3a43d28e8b40d50bba889b2615dc5f93923a",
+          "size_bytes": 49814,
+          "width": 480,
+          "height": 640,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "7ffc6d1f70706a0ebe0581d2e9901083fdf27b6278b6b73e76d0bc99c440f1a7"
+        },
+        {
+          "path": "assets/approved/winvidcompress-character-v01-960.webp",
+          "sha256": "08a4dadc7a5886701e51d582aabca0d51898367b04cdc4fe7a25fb1cf55c6ff5",
+          "size_bytes": 159534,
+          "width": 960,
+          "height": 1280,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "7ffc6d1f70706a0ebe0581d2e9901083fdf27b6278b6b73e76d0bc99c440f1a7"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1176036,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1086,
+        "height": 1448,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "tool hero"
+      "intended_use": "tool hero",
+      "actual_source_file": "Website Assets/WinVidCompress_character.png"
     },
     {
       "slot_id": "winvidcompress-avatar",
@@ -432,9 +671,9 @@
       },
       "aspect_ratio": "1:1",
       "expected_filename_stem": "winvidcompress-avatar-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/WinVidCompress_portrait.png",
-      "source_sha256": null,
+      "source_sha256": "f34b2e07c06885576ed092a2ec236d44b6cc193bad3727438163fa87f921c370",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -453,19 +692,50 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winvidcompress-avatar-v01-360.webp",
+          "sha256": "900c18a893355c096c4504a621393cb6184fbbba6b26c562b3f5b169a0b1628c",
+          "size_bytes": 47766,
+          "width": 360,
+          "height": 360,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "f34b2e07c06885576ed092a2ec236d44b6cc193bad3727438163fa87f921c370"
+        },
+        {
+          "path": "assets/approved/winvidcompress-avatar-v01-640.webp",
+          "sha256": "fc06dd90283148fca461e1c0b307567a12f0922d3824bbc6c83d497965c0bf33",
+          "size_bytes": 121358,
+          "width": 640,
+          "height": 640,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "f34b2e07c06885576ed092a2ec236d44b6cc193bad3727438163fa87f921c370"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 2568018,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "home tool card"
+      "intended_use": "home tool card",
+      "actual_source_file": "Website Assets/WinVidCompress_portrait.png"
     },
     {
       "slot_id": "winvidcompress-social",
@@ -478,9 +748,9 @@
       },
       "aspect_ratio": "40:21",
       "expected_filename_stem": "winvidcompress-social-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/WinVidCompress_SM.png",
-      "source_sha256": null,
+      "source_sha256": "5ada57e317468f5bbad551775d900ce6e6585861096bc9e6886fbc36a531eab1",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -499,19 +769,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winvidcompress-social-v01-1200.png",
+          "sha256": "ed6b88d686954479fb1a4fa1fe0bdb1df072b07ae790cc641e50ebcd037ccaea",
+          "size_bytes": 1352632,
+          "width": 1200,
+          "height": 631,
+          "format": "png",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "5ada57e317468f5bbad551775d900ce6e6585861096bc9e6886fbc36a531eab1"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 2379196,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1730,
+        "height": 909,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "page sharing metadata"
+      "intended_use": "page sharing metadata",
+      "actual_source_file": "Website Assets/WinVidCompress_SM.png"
     },
     {
       "slot_id": "winvidcompress-icon",
@@ -524,9 +815,9 @@
       },
       "aspect_ratio": "1:1",
       "expected_filename_stem": "winvidcompress-icon-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "PS Visuals/WinVidCompress.png",
-      "source_sha256": null,
+      "source_sha256": "e00fa7c8e5eac0352933f77acc2b094694d788cd57aee67ad902f03d582639d6",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -545,19 +836,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winvidcompress-icon-v01-96.webp",
+          "sha256": "ee8963c7587ad74ee329eb82bd5a4cc9b8f35e01c2674ee02ced57c936f69876",
+          "size_bytes": 5184,
+          "width": 96,
+          "height": 96,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "e00fa7c8e5eac0352933f77acc2b094694d788cd57aee67ad902f03d582639d6"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1890802,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "tool interface icon"
+      "intended_use": "tool interface icon",
+      "actual_source_file": "PS Visuals/WinVidCompress.png"
     },
     {
       "slot_id": "universalpodcastdownloader-character",
@@ -570,9 +882,9 @@
       },
       "aspect_ratio": "3:4",
       "expected_filename_stem": "universalpodcastdownloader-character-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/UniversalPodcastDownloader_character.png",
-      "source_sha256": null,
+      "source_sha256": "2a5a10a3301b171f7ea9b9961fb034b3bc42e34eeb739c5351dc41c3d0c62f73",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -591,19 +903,50 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/universalpodcastdownloader-character-v01-480.webp",
+          "sha256": "5413759cfb50f5ad0b506ccebc7b57cfe1d5dc06e4db70c8d340c430bc87a447",
+          "size_bytes": 45118,
+          "width": 480,
+          "height": 640,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "2a5a10a3301b171f7ea9b9961fb034b3bc42e34eeb739c5351dc41c3d0c62f73"
+        },
+        {
+          "path": "assets/approved/universalpodcastdownloader-character-v01-960.webp",
+          "sha256": "f896afb1693649e4467e26d47d7ca16b59c7916f2e269eb66eba587b8ad937a8",
+          "size_bytes": 143630,
+          "width": 960,
+          "height": 1280,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "2a5a10a3301b171f7ea9b9961fb034b3bc42e34eeb739c5351dc41c3d0c62f73"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1116169,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1086,
+        "height": 1448,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "tool hero"
+      "intended_use": "tool hero",
+      "actual_source_file": "Website Assets/UniversalPodcastDownloader_character.png"
     },
     {
       "slot_id": "universalpodcastdownloader-avatar",
@@ -616,9 +959,9 @@
       },
       "aspect_ratio": "1:1",
       "expected_filename_stem": "universalpodcastdownloader-avatar-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/UniversalPodcastDownloader_portrait.png",
-      "source_sha256": null,
+      "source_sha256": "3361845c7d0f36be596ff36acc8865b28b149f70dee17af77d2edecea33dbee9",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -637,19 +980,50 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/universalpodcastdownloader-avatar-v01-360.webp",
+          "sha256": "6f25fcd7744e75883e83673d68d0d7b2dd0151e97d48ce835086173a1ee2297f",
+          "size_bytes": 39908,
+          "width": 360,
+          "height": 360,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "3361845c7d0f36be596ff36acc8865b28b149f70dee17af77d2edecea33dbee9"
+        },
+        {
+          "path": "assets/approved/universalpodcastdownloader-avatar-v01-640.webp",
+          "sha256": "eff7c995165885c56440ed67b6f8703fa30074425552365997bed4f67b1172a7",
+          "size_bytes": 100280,
+          "width": 640,
+          "height": 640,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "3361845c7d0f36be596ff36acc8865b28b149f70dee17af77d2edecea33dbee9"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 2368955,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "home tool card"
+      "intended_use": "home tool card",
+      "actual_source_file": "Website Assets/UniversalPodcastDownloader_portrait.png"
     },
     {
       "slot_id": "universalpodcastdownloader-social",
@@ -662,9 +1036,9 @@
       },
       "aspect_ratio": "40:21",
       "expected_filename_stem": "universalpodcastdownloader-social-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/UniversalPodcastDownloader_SM.png",
-      "source_sha256": null,
+      "source_sha256": "cc41029c4ed1125c58b793a719987623f5a18731b8d84a57a9c267f1e8d4fd4b",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -683,19 +1057,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/universalpodcastdownloader-social-v01-1200.png",
+          "sha256": "ae2584fdb0e177ac20267a137a9c3cf6af3e888d3ef2fe808631a3bf6dd4583d",
+          "size_bytes": 1308336,
+          "width": 1200,
+          "height": 631,
+          "format": "png",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "cc41029c4ed1125c58b793a719987623f5a18731b8d84a57a9c267f1e8d4fd4b"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 2293710,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1730,
+        "height": 909,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "page sharing metadata"
+      "intended_use": "page sharing metadata",
+      "actual_source_file": "Website Assets/UniversalPodcastDownloader_SM.png"
     },
     {
       "slot_id": "universalpodcastdownloader-icon",
@@ -708,9 +1103,9 @@
       },
       "aspect_ratio": "1:1",
       "expected_filename_stem": "universalpodcastdownloader-icon-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "PS Visuals/UniversalPodcastDownloader.png",
-      "source_sha256": null,
+      "source_sha256": "48a0ddb49100e49147f35f76df41909234a58cad99980f15082e1ec9074c9521",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -729,19 +1124,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/universalpodcastdownloader-icon-v01-96.webp",
+          "sha256": "90dd1120cf138fc93c8af226d7953f57997eaeb57150d096f3b6bf54667b6f75",
+          "size_bytes": 5218,
+          "width": 96,
+          "height": 96,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "48a0ddb49100e49147f35f76df41909234a58cad99980f15082e1ec9074c9521"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1939736,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "tool interface icon"
+      "intended_use": "tool interface icon",
+      "actual_source_file": "PS Visuals/UniversalPodcastDownloader.png"
     },
     {
       "slot_id": "winaudioclean-character",
@@ -754,9 +1170,9 @@
       },
       "aspect_ratio": "3:4",
       "expected_filename_stem": "winaudioclean-character-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/WinAudioClean_character.png",
-      "source_sha256": null,
+      "source_sha256": "9400bd486b7320748b75324b5a794cfd3de223e6edd34c02c34cf5ec1908a15e",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -775,19 +1191,50 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winaudioclean-character-v01-480.webp",
+          "sha256": "300cd29503286099d4e75e5cd44acfd39b07751142f6fe63318f76d7e8b5c77c",
+          "size_bytes": 43352,
+          "width": 480,
+          "height": 640,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "9400bd486b7320748b75324b5a794cfd3de223e6edd34c02c34cf5ec1908a15e"
+        },
+        {
+          "path": "assets/approved/winaudioclean-character-v01-960.webp",
+          "sha256": "80bff4cbc42f536a0a22c97e98d41347e64d148e575d5f806a2345359755ef83",
+          "size_bytes": 141808,
+          "width": 960,
+          "height": 1280,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "9400bd486b7320748b75324b5a794cfd3de223e6edd34c02c34cf5ec1908a15e"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1194786,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1086,
+        "height": 1448,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "tool hero"
+      "intended_use": "tool hero",
+      "actual_source_file": "Website Assets/WinAudioClean_character.png"
     },
     {
       "slot_id": "winaudioclean-avatar",
@@ -800,9 +1247,9 @@
       },
       "aspect_ratio": "1:1",
       "expected_filename_stem": "winaudioclean-avatar-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/WinAudioClean_portrait.png",
-      "source_sha256": null,
+      "source_sha256": "f51e5b1d0b6c8f14cd4377eba379eda011638cc6951a1dda0528030d123e0505",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -821,19 +1268,50 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winaudioclean-avatar-v01-360.webp",
+          "sha256": "f77f82be5c69fc639261a1acf2b67d141616a272fc422e4d8fbe2771b6ef239e",
+          "size_bytes": 35666,
+          "width": 360,
+          "height": 360,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "f51e5b1d0b6c8f14cd4377eba379eda011638cc6951a1dda0528030d123e0505"
+        },
+        {
+          "path": "assets/approved/winaudioclean-avatar-v01-640.webp",
+          "sha256": "c3f395cc4b80cd6b169901cbf073f1e13c47e076163b895f91a5980410626c2f",
+          "size_bytes": 90986,
+          "width": 640,
+          "height": 640,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "f51e5b1d0b6c8f14cd4377eba379eda011638cc6951a1dda0528030d123e0505"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 2065925,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "home tool card"
+      "intended_use": "home tool card",
+      "actual_source_file": "Website Assets/WinAudioClean_portrait.png"
     },
     {
       "slot_id": "winaudioclean-social",
@@ -846,9 +1324,9 @@
       },
       "aspect_ratio": "40:21",
       "expected_filename_stem": "winaudioclean-social-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/WinAudioClean_SM.png",
-      "source_sha256": null,
+      "source_sha256": "f449e6a6b57c8be9ca0e788d62a271c4911e5f2c7d966c3fa7f39130a6e5dbab",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -867,19 +1345,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winaudioclean-social-v01-1200.png",
+          "sha256": "eae120338707f3dce405afcdefe969a22c698fab457e85548fc8f6763b6d80a6",
+          "size_bytes": 1225118,
+          "width": 1200,
+          "height": 630,
+          "format": "png",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "f449e6a6b57c8be9ca0e788d62a271c4911e5f2c7d966c3fa7f39130a6e5dbab"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 2182783,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1731,
+        "height": 909,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "page sharing metadata"
+      "intended_use": "page sharing metadata",
+      "actual_source_file": "Website Assets/WinAudioClean_SM.png"
     },
     {
       "slot_id": "winaudioclean-icon",
@@ -892,9 +1391,9 @@
       },
       "aspect_ratio": "1:1",
       "expected_filename_stem": "winaudioclean-icon-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "PS Visuals/WinAudioClean.png",
-      "source_sha256": null,
+      "source_sha256": "ef475d3eef6cb824ea7e2eaa9e9f99c0442d5ceb001edc848b4b7a47f4cc3a94",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -913,19 +1412,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winaudioclean-icon-v01-96.webp",
+          "sha256": "2cbde9f8b49c71ded92cc89b5c5d3f47e18d739eff933ec0f71a33b3c5bfaab5",
+          "size_bytes": 4688,
+          "width": 96,
+          "height": 96,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "ef475d3eef6cb824ea7e2eaa9e9f99c0442d5ceb001edc848b4b7a47f4cc3a94"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1804770,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "tool interface icon"
+      "intended_use": "tool interface icon",
+      "actual_source_file": "PS Visuals/WinAudioClean.png"
     },
     {
       "slot_id": "winimagenormalizer-character",
@@ -938,9 +1458,9 @@
       },
       "aspect_ratio": "3:4",
       "expected_filename_stem": "winimagenormalizer-character-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/WinImageNormalizer_character.png",
-      "source_sha256": null,
+      "source_sha256": "bd84e6049411bfb3e0617b4d0c0cf5fcc979e7f3d1f7d64eb8691e0bc427f6b0",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -959,19 +1479,50 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winimagenormalizer-character-v01-480.webp",
+          "sha256": "6d4098e9851016407001ff0164af1cf14bbf8c728f2a367c33a5aa295bf23623",
+          "size_bytes": 46606,
+          "width": 480,
+          "height": 640,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "bd84e6049411bfb3e0617b4d0c0cf5fcc979e7f3d1f7d64eb8691e0bc427f6b0"
+        },
+        {
+          "path": "assets/approved/winimagenormalizer-character-v01-960.webp",
+          "sha256": "3e6a3847e0ec20ad4cf3be89895d4881a41e45c575ce09cf64c2c80a41ef7c7b",
+          "size_bytes": 153148,
+          "width": 960,
+          "height": 1280,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "bd84e6049411bfb3e0617b4d0c0cf5fcc979e7f3d1f7d64eb8691e0bc427f6b0"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1156306,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1086,
+        "height": 1448,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "tool hero"
+      "intended_use": "tool hero",
+      "actual_source_file": "Website Assets/WinImageNormalizer_character.png"
     },
     {
       "slot_id": "winimagenormalizer-avatar",
@@ -984,9 +1535,9 @@
       },
       "aspect_ratio": "1:1",
       "expected_filename_stem": "winimagenormalizer-avatar-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/WinImageNormalizer_portrait.png",
-      "source_sha256": null,
+      "source_sha256": "58e83720543e415f3f64c11d95af5a284a0e37909856c2a24e0c7382fe757f48",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1005,19 +1556,50 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winimagenormalizer-avatar-v01-360.webp",
+          "sha256": "81b1c24690f29567b122a5e0ab2bf31117bc55e0f44d3e189ea87e4f9b741fab",
+          "size_bytes": 36582,
+          "width": 360,
+          "height": 360,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "58e83720543e415f3f64c11d95af5a284a0e37909856c2a24e0c7382fe757f48"
+        },
+        {
+          "path": "assets/approved/winimagenormalizer-avatar-v01-640.webp",
+          "sha256": "9b7dae5356aad0e49009d2fd5af1085930a722e2d1e7dba59c1056e0212598fb",
+          "size_bytes": 94910,
+          "width": 640,
+          "height": 640,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "58e83720543e415f3f64c11d95af5a284a0e37909856c2a24e0c7382fe757f48"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 2278207,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "home tool card"
+      "intended_use": "home tool card",
+      "actual_source_file": "Website Assets/WinImageNormalizer_portrait.png"
     },
     {
       "slot_id": "winimagenormalizer-social",
@@ -1030,9 +1612,9 @@
       },
       "aspect_ratio": "40:21",
       "expected_filename_stem": "winimagenormalizer-social-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/WinImageNormalizer_SM.png",
-      "source_sha256": null,
+      "source_sha256": "18a310646bc7ef8cee4c3bde19688bdccab0ac52d9384731ab083b18890e9369",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1051,19 +1633,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winimagenormalizer-social-v01-1200.png",
+          "sha256": "e636ac81b2e58c8156f931de5c1fa0320487409fa28a4664752232d86eb7eda6",
+          "size_bytes": 1343121,
+          "width": 1200,
+          "height": 631,
+          "format": "png",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "18a310646bc7ef8cee4c3bde19688bdccab0ac52d9384731ab083b18890e9369"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 2395522,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1730,
+        "height": 909,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "page sharing metadata"
+      "intended_use": "page sharing metadata",
+      "actual_source_file": "Website Assets/WinImageNormalizer_SM.png"
     },
     {
       "slot_id": "winimagenormalizer-icon",
@@ -1076,9 +1679,9 @@
       },
       "aspect_ratio": "1:1",
       "expected_filename_stem": "winimagenormalizer-icon-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "PS Visuals/WinImageNormalizer.png",
-      "source_sha256": null,
+      "source_sha256": "072d17d388fe85bdc6c8e639a8c9d39a02dbce4cd6b3950a01566d4d3c09040c",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1097,19 +1700,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/winimagenormalizer-icon-v01-96.webp",
+          "sha256": "2f50e7f4bcf0b4917d42c07b91848108c4885b299988806783695ac2fdede6e1",
+          "size_bytes": 4836,
+          "width": 96,
+          "height": 96,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "072d17d388fe85bdc6c8e639a8c9d39a02dbce4cd6b3950a01566d4d3c09040c"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1770820,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "tool interface icon"
+      "intended_use": "tool interface icon",
+      "actual_source_file": "PS Visuals/WinImageNormalizer.png"
     },
     {
       "slot_id": "audiofileforphone-character",
@@ -1122,9 +1746,9 @@
       },
       "aspect_ratio": "3:4",
       "expected_filename_stem": "audiofileforphone-character-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/AudioFileForPhone_character.png",
-      "source_sha256": null,
+      "source_sha256": "d7d06bb5ccae6ca9a30544e409d9f234192e2b6eb1651fd655ff42d2cd884acc",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1143,19 +1767,50 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/audiofileforphone-character-v01-480.webp",
+          "sha256": "0d20249d73487a0823e90a4d34fd9498a9c77bf6a3e223ae26899e956cd4ca71",
+          "size_bytes": 47824,
+          "width": 480,
+          "height": 640,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "d7d06bb5ccae6ca9a30544e409d9f234192e2b6eb1651fd655ff42d2cd884acc"
+        },
+        {
+          "path": "assets/approved/audiofileforphone-character-v01-960.webp",
+          "sha256": "49aa887cb720b7b39ded3af9a05e014b13d1cc57dce952d5cb7babedfb7a9b1f",
+          "size_bytes": 154496,
+          "width": 960,
+          "height": 1280,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "d7d06bb5ccae6ca9a30544e409d9f234192e2b6eb1651fd655ff42d2cd884acc"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1144376,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1086,
+        "height": 1448,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "tool hero"
+      "intended_use": "tool hero",
+      "actual_source_file": "Website Assets/AudioFileForPhone_character.png"
     },
     {
       "slot_id": "audiofileforphone-avatar",
@@ -1168,9 +1823,9 @@
       },
       "aspect_ratio": "1:1",
       "expected_filename_stem": "audiofileforphone-avatar-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/AudioFileForPhone_portrait.png",
-      "source_sha256": null,
+      "source_sha256": "d67858d87a45b06d91ee458913bbd3925779d1a0e85a38b57a801ea617d4cf37",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1189,19 +1844,50 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/audiofileforphone-avatar-v01-360.webp",
+          "sha256": "16f0e72c5a274d101169a3e93d58653ddfe0464515390f3c85a0bf079b37b5fb",
+          "size_bytes": 48236,
+          "width": 360,
+          "height": 360,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "d67858d87a45b06d91ee458913bbd3925779d1a0e85a38b57a801ea617d4cf37"
+        },
+        {
+          "path": "assets/approved/audiofileforphone-avatar-v01-640.webp",
+          "sha256": "205edccbdc605bba879b8f0dc440049d70caf96a4137e79f7f7fc594b3ffda49",
+          "size_bytes": 127776,
+          "width": 640,
+          "height": 640,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "d67858d87a45b06d91ee458913bbd3925779d1a0e85a38b57a801ea617d4cf37"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 2680906,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "home tool card"
+      "intended_use": "home tool card",
+      "actual_source_file": "Website Assets/AudioFileForPhone_portrait.png"
     },
     {
       "slot_id": "audiofileforphone-social",
@@ -1214,9 +1900,9 @@
       },
       "aspect_ratio": "40:21",
       "expected_filename_stem": "audiofileforphone-social-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/AudioFileForPhone_SM.png",
-      "source_sha256": null,
+      "source_sha256": "813d65f841e3c22981146f80b909a572fa25212e57d176f4cac71a2bf27cf6ef",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1235,19 +1921,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/audiofileforphone-social-v01-1200.png",
+          "sha256": "9169339b3ba97b5923e65dbafbae34cd7a099bc2d88e83113317238ffbc1e4ae",
+          "size_bytes": 1366161,
+          "width": 1200,
+          "height": 630,
+          "format": "png",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "813d65f841e3c22981146f80b909a572fa25212e57d176f4cac71a2bf27cf6ef"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 2450130,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1731,
+        "height": 909,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "page sharing metadata"
+      "intended_use": "page sharing metadata",
+      "actual_source_file": "Website Assets/AudioFileForPhone_SM.png"
     },
     {
       "slot_id": "audiofileforphone-icon",
@@ -1260,9 +1967,9 @@
       },
       "aspect_ratio": "1:1",
       "expected_filename_stem": "audiofileforphone-icon-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "PS Visuals/AudioFileForPhone.png",
-      "source_sha256": null,
+      "source_sha256": "5336cbcbbf351fb39534d7a387d479925c123452ef940d1e1cfe6a76b7713ebb",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1281,19 +1988,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/audiofileforphone-icon-v01-96.webp",
+          "sha256": "96212b1db1c5169d192516d68318544d2338a9525f66a4128c8247c262e65354",
+          "size_bytes": 4764,
+          "width": 96,
+          "height": 96,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "5336cbcbbf351fb39534d7a387d479925c123452ef940d1e1cfe6a76b7713ebb"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1700571,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "tool interface icon"
+      "intended_use": "tool interface icon",
+      "actual_source_file": "PS Visuals/AudioFileForPhone.png"
     },
     {
       "slot_id": "site-icon",
@@ -1305,9 +2033,9 @@
         "height": 1024
       },
       "expected_filename_stem": "site-icon-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/Website_icon.png",
-      "source_sha256": null,
+      "source_sha256": "d55a363f157d37afa0eea75d984d56e6db734e2b0d1b78312c3022526a5e25be",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1326,19 +2054,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/site-icon-v01-512.png",
+          "sha256": "ea47e471ce4fab52da1c8ecadb416453994b49fe25e9ad9f3914200b00a77941",
+          "size_bytes": 206764,
+          "width": 512,
+          "height": 512,
+          "format": "png",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "d55a363f157d37afa0eea75d984d56e6db734e2b0d1b78312c3022526a5e25be"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1537033,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "bit_depth": 8,
+        "color_type": 6,
+        "alpha_channel_or_transparency_chunk": true,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "WordPress site icon"
+      "intended_use": "WordPress site icon",
+      "actual_source_file": "Website Assets/Website_icon.png"
     },
     {
       "slot_id": "site-social",
@@ -1350,9 +2099,9 @@
         "height": 630
       },
       "expected_filename_stem": "site-social-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/Website_SM.png",
-      "source_sha256": null,
+      "source_sha256": "66f69e39687868e0ae88b8f531f90bf577011be8c603aedd179230d206f38e1a",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1371,19 +2120,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/site-social-v01-1200.png",
+          "sha256": "eeb2f5b38d3ec05c902aa9a27523573a6da220d17ba704a21b4e5ebddf14f2c6",
+          "size_bytes": 1707999,
+          "width": 1200,
+          "height": 631,
+          "format": "png",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "66f69e39687868e0ae88b8f531f90bf577011be8c603aedd179230d206f38e1a"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 3195508,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1730,
+        "height": 909,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "page sharing metadata"
+      "intended_use": "page sharing metadata",
+      "actual_source_file": "Website Assets/Website_SM.png"
     },
     {
       "slot_id": "site-background-desktop",
@@ -1395,9 +2165,9 @@
         "height": 1440
       },
       "expected_filename_stem": "site-background-desktop-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/Website_background.png",
-      "source_sha256": null,
+      "source_sha256": "0c7725255fd89e9449b41c8a229304d350f8e673c37d83a299d4c366021b179f",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1416,19 +2186,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/site-background-desktop-v01-1440.webp",
+          "sha256": "be462d611f4789599e6d921f0df1edb50c3f91cf1e5822318dbe97463887a9f6",
+          "size_bytes": 70086,
+          "width": 1440,
+          "height": 810,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "0c7725255fd89e9449b41c8a229304d350f8e673c37d83a299d4c366021b179f"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1893207,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1672,
+        "height": 941,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "responsive site background"
+      "intended_use": "responsive site background",
+      "actual_source_file": "Website Assets/Website_background.png"
     },
     {
       "slot_id": "site-background-mobile",
@@ -1440,9 +2231,9 @@
         "height": 1920
       },
       "expected_filename_stem": "site-background-mobile-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/Mobile_background.png",
-      "source_sha256": null,
+      "source_sha256": "6fc3e822e595b134d9838249417b2394ea45ff0a45e1a328386b5fce0534e1bd",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1461,19 +2252,40 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/site-background-mobile-v01-780.webp",
+          "sha256": "5d517bcf0a3e02f8b52f06d903f501bbec31d48133206e5ab6e23d6533e4662a",
+          "size_bytes": 67724,
+          "width": 780,
+          "height": 1386,
+          "format": "webp",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "6fc3e822e595b134d9838249417b2394ea45ff0a45e1a328386b5fce0534e1bd"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 1905855,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 941,
+        "height": 1672,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": false,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "responsive site background"
+      "intended_use": "responsive site background",
+      "actual_source_file": "Website Assets/Mobile_background.png"
     },
     {
       "slot_id": "winbooksplit-application-icon",
@@ -1483,9 +2295,9 @@
       "recommended_master_size": null,
       "aspect_ratio": null,
       "expected_filename_stem": "winbooksplit-application-icon-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "inventoried_ancillary_not_used",
       "source_file": "PS Visuals/WinBookSplit.ico",
-      "source_sha256": null,
+      "source_sha256": "0d7df83ea710192bf568e3347af4551640058407e121a03f5d50d627e548dc42",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1505,18 +2317,60 @@
         "focal_point_percent": null
       },
       "derivatives": [],
-      "alt_text": null,
+      "alt_text": "",
       "expected_source_bytes": 370070,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "ICO",
+        "embedded_images": [
+          {
+            "width": 256,
+            "height": 256,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 48,
+            "height": 48,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          }
+        ],
+        "inspection_limit": "Directory bounds and embedded headers checked; render/visual checks remain required."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "retain inventory; not the site favicon"
+      "intended_use": "retain inventory; not the site favicon",
+      "actual_source_file": "PS Visuals/WinBookSplit.ico"
     },
     {
       "slot_id": "winbooksplit-poster",
@@ -1526,9 +2380,9 @@
       "recommended_master_size": null,
       "aspect_ratio": null,
       "expected_filename_stem": "winbooksplit-poster-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "inventoried_ancillary_not_used",
       "source_file": "PS Visuals/WinBookSplit_poster.png",
-      "source_sha256": null,
+      "source_sha256": "1982dd3719ba781a8cccf00453b8e1b394b914396b68e6e4de979a0e75db0bb6",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1548,18 +2402,28 @@
         "focal_point_percent": null
       },
       "derivatives": [],
-      "alt_text": null,
+      "alt_text": "",
       "expected_source_bytes": 2281371,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "optional promotional media; do not invent a gallery"
+      "intended_use": "optional promotional media; do not invent a gallery",
+      "actual_source_file": "PS Visuals/WinBookSplit_poster.png"
     },
     {
       "slot_id": "winpdfmerger-application-icon",
@@ -1569,9 +2433,9 @@
       "recommended_master_size": null,
       "aspect_ratio": null,
       "expected_filename_stem": "winpdfmerger-application-icon-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "inventoried_ancillary_not_used",
       "source_file": "PS Visuals/WinPDFMerger.ico",
-      "source_sha256": null,
+      "source_sha256": "7f9e41421fe2f4af052b189359c9d534cddea1eb61f9914be7e0602cb84d4776",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1591,18 +2455,60 @@
         "focal_point_percent": null
       },
       "derivatives": [],
-      "alt_text": null,
+      "alt_text": "",
       "expected_source_bytes": 370070,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "ICO",
+        "embedded_images": [
+          {
+            "width": 256,
+            "height": 256,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 48,
+            "height": 48,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          }
+        ],
+        "inspection_limit": "Directory bounds and embedded headers checked; render/visual checks remain required."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "retain inventory; not the site favicon"
+      "intended_use": "retain inventory; not the site favicon",
+      "actual_source_file": "PS Visuals/WinPDFMerger.ico"
     },
     {
       "slot_id": "winpdfmerger-poster",
@@ -1612,9 +2518,9 @@
       "recommended_master_size": null,
       "aspect_ratio": null,
       "expected_filename_stem": "winpdfmerger-poster-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "inventoried_ancillary_not_used",
       "source_file": "PS Visuals/WinPDFMerger_poster.png",
-      "source_sha256": null,
+      "source_sha256": "8ffd9cb8a6f1bb4ca63ff46f00279dc57aa3871cbe9f946635438ec9522a2e28",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1634,18 +2540,28 @@
         "focal_point_percent": null
       },
       "derivatives": [],
-      "alt_text": null,
+      "alt_text": "",
       "expected_source_bytes": 2094288,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "optional promotional media; do not invent a gallery"
+      "intended_use": "optional promotional media; do not invent a gallery",
+      "actual_source_file": "PS Visuals/WinPDFMerger_poster.png"
     },
     {
       "slot_id": "winvidcompress-application-icon",
@@ -1655,9 +2571,9 @@
       "recommended_master_size": null,
       "aspect_ratio": null,
       "expected_filename_stem": "winvidcompress-application-icon-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "inventoried_ancillary_not_used",
       "source_file": "PS Visuals/WinVidCompress.ico",
-      "source_sha256": null,
+      "source_sha256": "e9d626ba279028812bd3f47524b50545988a873314ba61a7adf7e0e6eb8c2f95",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1677,18 +2593,60 @@
         "focal_point_percent": null
       },
       "derivatives": [],
-      "alt_text": null,
+      "alt_text": "",
       "expected_source_bytes": 370070,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "ICO",
+        "embedded_images": [
+          {
+            "width": 256,
+            "height": 256,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 48,
+            "height": 48,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          }
+        ],
+        "inspection_limit": "Directory bounds and embedded headers checked; render/visual checks remain required."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "retain inventory; not the site favicon"
+      "intended_use": "retain inventory; not the site favicon",
+      "actual_source_file": "PS Visuals/WinVidCompress.ico"
     },
     {
       "slot_id": "winvidcompress-poster",
@@ -1698,9 +2656,9 @@
       "recommended_master_size": null,
       "aspect_ratio": null,
       "expected_filename_stem": "winvidcompress-poster-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "inventoried_ancillary_not_used",
       "source_file": "PS Visuals/WinVidCompress_poster.png",
-      "source_sha256": null,
+      "source_sha256": "37ca8d3c1638d46e4d61272a7b1e4b09cbda2434a2ca7b0f84142f7acc4ad024",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1720,18 +2678,28 @@
         "focal_point_percent": null
       },
       "derivatives": [],
-      "alt_text": null,
+      "alt_text": "",
       "expected_source_bytes": 2039034,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "optional promotional media; do not invent a gallery"
+      "intended_use": "optional promotional media; do not invent a gallery",
+      "actual_source_file": "PS Visuals/WinVidCompress_poster.png"
     },
     {
       "slot_id": "universalpodcastdownloader-application-icon",
@@ -1741,9 +2709,9 @@
       "recommended_master_size": null,
       "aspect_ratio": null,
       "expected_filename_stem": "universalpodcastdownloader-application-icon-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "inventoried_ancillary_not_used",
       "source_file": "PS Visuals/UniversalPodcastDownloader.ico",
-      "source_sha256": null,
+      "source_sha256": "c7e58192c6b9518f1ca88c85a1886256c53fcf9c46fa92c215b6ef5a578b7b15",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1763,18 +2731,60 @@
         "focal_point_percent": null
       },
       "derivatives": [],
-      "alt_text": null,
+      "alt_text": "",
       "expected_source_bytes": 370070,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "ICO",
+        "embedded_images": [
+          {
+            "width": 256,
+            "height": 256,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 48,
+            "height": 48,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          }
+        ],
+        "inspection_limit": "Directory bounds and embedded headers checked; render/visual checks remain required."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "retain inventory; not the site favicon"
+      "intended_use": "retain inventory; not the site favicon",
+      "actual_source_file": "PS Visuals/UniversalPodcastDownloader.ico"
     },
     {
       "slot_id": "universalpodcastdownloader-poster",
@@ -1784,9 +2794,9 @@
       "recommended_master_size": null,
       "aspect_ratio": null,
       "expected_filename_stem": "universalpodcastdownloader-poster-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "inventoried_ancillary_not_used",
       "source_file": "PS Visuals/UniversalPodcastDownloader_poster.png",
-      "source_sha256": null,
+      "source_sha256": "532f613d034d149baa3d9f4d3b5b7d5c3be3d75cdfa63531d97ffcd725cd9f9a",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1806,18 +2816,28 @@
         "focal_point_percent": null
       },
       "derivatives": [],
-      "alt_text": null,
+      "alt_text": "",
       "expected_source_bytes": 2053800,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "optional promotional media; do not invent a gallery"
+      "intended_use": "optional promotional media; do not invent a gallery",
+      "actual_source_file": "PS Visuals/UniversalPodcastDownloader_poster.png"
     },
     {
       "slot_id": "winaudioclean-application-icon",
@@ -1827,9 +2847,9 @@
       "recommended_master_size": null,
       "aspect_ratio": null,
       "expected_filename_stem": "winaudioclean-application-icon-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "inventoried_ancillary_not_used",
       "source_file": "PS Visuals/WinAudioClean.ico",
-      "source_sha256": null,
+      "source_sha256": "679e0685edf1ea9e8c1623e4d1020b4de5f839827f83440c2ba9b7162a5d3130",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1849,18 +2869,60 @@
         "focal_point_percent": null
       },
       "derivatives": [],
-      "alt_text": null,
+      "alt_text": "",
       "expected_source_bytes": 370070,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "ICO",
+        "embedded_images": [
+          {
+            "width": 256,
+            "height": 256,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 48,
+            "height": 48,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          }
+        ],
+        "inspection_limit": "Directory bounds and embedded headers checked; render/visual checks remain required."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "retain inventory; not the site favicon"
+      "intended_use": "retain inventory; not the site favicon",
+      "actual_source_file": "PS Visuals/WinAudioClean.ico"
     },
     {
       "slot_id": "winaudioclean-poster",
@@ -1870,9 +2932,9 @@
       "recommended_master_size": null,
       "aspect_ratio": null,
       "expected_filename_stem": "winaudioclean-poster-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "inventoried_ancillary_not_used",
       "source_file": "PS Visuals/WinAudioClean_poster.png",
-      "source_sha256": null,
+      "source_sha256": "f100a546bca6c3b46a5472f14ef7060e4d6626e5a31b76684288d759ee92328f",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1892,18 +2954,28 @@
         "focal_point_percent": null
       },
       "derivatives": [],
-      "alt_text": null,
+      "alt_text": "",
       "expected_source_bytes": 1977575,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "optional promotional media; do not invent a gallery"
+      "intended_use": "optional promotional media; do not invent a gallery",
+      "actual_source_file": "PS Visuals/WinAudioClean_poster.png"
     },
     {
       "slot_id": "winimagenormalizer-application-icon",
@@ -1913,9 +2985,9 @@
       "recommended_master_size": null,
       "aspect_ratio": null,
       "expected_filename_stem": "winimagenormalizer-application-icon-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "inventoried_ancillary_not_used",
       "source_file": "PS Visuals/WinImageNormalizer.ico",
-      "source_sha256": null,
+      "source_sha256": "4c2bdee255af2c5123343638e4419ba64d134dfd2d606de382231f3de266d88e",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1935,18 +3007,60 @@
         "focal_point_percent": null
       },
       "derivatives": [],
-      "alt_text": null,
+      "alt_text": "",
       "expected_source_bytes": 370070,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "ICO",
+        "embedded_images": [
+          {
+            "width": 256,
+            "height": 256,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 48,
+            "height": 48,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          }
+        ],
+        "inspection_limit": "Directory bounds and embedded headers checked; render/visual checks remain required."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "retain inventory; not the site favicon"
+      "intended_use": "retain inventory; not the site favicon",
+      "actual_source_file": "PS Visuals/WinImageNormalizer.ico"
     },
     {
       "slot_id": "winimagenormalizer-poster",
@@ -1956,9 +3070,9 @@
       "recommended_master_size": null,
       "aspect_ratio": null,
       "expected_filename_stem": "winimagenormalizer-poster-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "inventoried_ancillary_not_used",
       "source_file": "PS Visuals/WinImageNormalizer_poster.png",
-      "source_sha256": null,
+      "source_sha256": "0f7e044883557fb24592724fbc19f0466ea1024879166a82b785f9e0127950aa",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -1978,18 +3092,28 @@
         "focal_point_percent": null
       },
       "derivatives": [],
-      "alt_text": null,
+      "alt_text": "",
       "expected_source_bytes": 1951470,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "optional promotional media; do not invent a gallery"
+      "intended_use": "optional promotional media; do not invent a gallery",
+      "actual_source_file": "PS Visuals/WinImageNormalizer_poster.png"
     },
     {
       "slot_id": "audiofileforphone-application-icon",
@@ -1999,9 +3123,9 @@
       "recommended_master_size": null,
       "aspect_ratio": null,
       "expected_filename_stem": "audiofileforphone-application-icon-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "inventoried_ancillary_not_used",
       "source_file": "PS Visuals/AudioFileForPhone.ico",
-      "source_sha256": null,
+      "source_sha256": "dfa4c59bb4dae90fc96df6a640a0efebbe9abb71ba3e0538d1930b86d5fa9976",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -2021,18 +3145,60 @@
         "focal_point_percent": null
       },
       "derivatives": [],
-      "alt_text": null,
+      "alt_text": "",
       "expected_source_bytes": 370070,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "ICO",
+        "embedded_images": [
+          {
+            "width": 256,
+            "height": 256,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 48,
+            "height": 48,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          }
+        ],
+        "inspection_limit": "Directory bounds and embedded headers checked; render/visual checks remain required."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "retain inventory; not the site favicon"
+      "intended_use": "retain inventory; not the site favicon",
+      "actual_source_file": "PS Visuals/AudioFileForPhone.ico"
     },
     {
       "slot_id": "audiofileforphone-poster",
@@ -2042,9 +3208,9 @@
       "recommended_master_size": null,
       "aspect_ratio": null,
       "expected_filename_stem": "audiofileforphone-poster-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "inventoried_ancillary_not_used",
       "source_file": "PS Visuals/AudioFileForPhone_poster.png",
-      "source_sha256": null,
+      "source_sha256": "0735c4dfef64efe622e180d767f76d947d8fc455415d13e48c1c058b7bab8b81",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -2064,18 +3230,28 @@
         "focal_point_percent": null
       },
       "derivatives": [],
-      "alt_text": null,
+      "alt_text": "",
       "expected_source_bytes": 1886321,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "bit_depth": 8,
+        "color_type": 2,
+        "alpha_channel_or_transparency_chunk": false,
+        "color_profile_chunks": [],
+        "inspection_limit": "Chunk structure/CRCs only; pixels, actual visible transparency and identity require visual inspection."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "optional promotional media; do not invent a gallery"
+      "intended_use": "optional promotional media; do not invent a gallery",
+      "actual_source_file": "PS Visuals/AudioFileForPhone_poster.png"
     },
     {
       "slot_id": "site-favicon",
@@ -2084,9 +3260,9 @@
       "required_for_launch": true,
       "recommended_master_size": null,
       "expected_filename_stem": "site-favicon-v01",
-      "status": "owner_listed_pending_local_inspection",
+      "status": "approved_derivatives_integrated",
       "source_file": "Website Assets/Website_icon.ico",
-      "source_sha256": null,
+      "source_sha256": "c6ed7d2d5e0c7a16169d3df98d6157fc3fe855fdddcabaf3c9ef31b22e2e7f76",
       "rights": {
         "creator_or_source": "Owner-supplied website-project artwork",
         "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
@@ -2105,19 +3281,72 @@
         "approved_rectangle_px": null,
         "focal_point_percent": null
       },
-      "derivatives": [],
-      "alt_text": null,
+      "derivatives": [
+        {
+          "path": "assets/approved/site-favicon-v01-64.ico",
+          "sha256": "63d4bd399aaaf0b4d58d50ed0bb1ea6f412fd6cae8fa23d64e539cae51201668",
+          "size_bytes": 8288,
+          "width": 64,
+          "height": 64,
+          "format": "ico",
+          "transform": "proportional resize; no crop, generation, retouching or redesign",
+          "source_sha256": "c6ed7d2d5e0c7a16169d3df98d6157fc3fe855fdddcabaf3c9ef31b22e2e7f76"
+        }
+      ],
+      "alt_text": "",
       "expected_source_bytes": 370070,
       "source_aliases": [],
       "inventory_required": true,
       "source_root": "owner_asset_parent",
-      "actual_metadata": null,
+      "actual_metadata": {
+        "format": "ICO",
+        "embedded_images": [
+          {
+            "width": 256,
+            "height": 256,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 128,
+            "height": 128,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 64,
+            "height": 64,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 48,
+            "height": 48,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 32,
+            "height": 32,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          },
+          {
+            "width": 16,
+            "height": 16,
+            "bit_depth": 32,
+            "encoding": "DIB"
+          }
+        ],
+        "inspection_limit": "Directory bounds and embedded headers checked; render/visual checks remain required."
+      },
       "alpha_expectation": true,
       "verification": {
-        "status": "not_run",
-        "evidence": null
+        "status": "technical_verified_visual_review_recorded",
+        "evidence": "evidence/asset-review.md"
       },
-      "intended_use": "browser favicon"
+      "intended_use": "browser favicon",
+      "actual_source_file": "Website Assets/Website_icon.ico"
     }
   ],
   "core_slot_count": 23,

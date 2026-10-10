@@ -13,3 +13,5 @@ Updated 2026-10-10. Implementation checkpoint 1: foundation.
 Next: visual intake, reproducible local WordPress, editable theme/import, scoped cleanup. IONOS access and missing tool releases block launch, not local implementation.
 
 Commit and remote checkpoint IDs are recorded in Git history and evidence/checkpoints.json as later checkpoints verify their predecessors. No live completion or final release is claimed.
+
+Checkpoint 2: 47 source files visually reviewed; 33 selected slots encoded into 47 proportional, alpha-preserving derivatives. Source/derivative hashes verified. Theme installed/activated on disposable WordPress 7.1.3/PHP 8.3.35 with local-only official SQLite adapter; PHP syntax clean. Five runtime release packages have verified public ZIP/checksum evidence. Source facts corrected; two missing releases remain blockers. Existing apex final response URI is https://anti-commercial.media/; preserve current routing pending hosting/cutover review. Importer behavior and browser checks are next; no final launch claim.

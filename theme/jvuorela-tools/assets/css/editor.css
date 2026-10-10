@@ -1,0 +1,3 @@
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+@import url('site.css');
+.editor-styles-wrapper{background:#101820;color:#edf0f2;font-family:system-ui,sans-serif;padding:1rem}.editor-styles-wrapper:before{display:none}.editor-styles-wrapper .tool-card h3 a:after{display:none}.editor-styles-wrapper .wp-block{max-width:1180px}.editor-styles-wrapper .tool-art{max-width:420px}.editor-styles-wrapper .block-editor-block-list__layout{min-width:0}

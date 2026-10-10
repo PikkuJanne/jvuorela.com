@@ -1,204 +1,350 @@
 {
   "schema_version": 1,
-  "evidence_scope": "GitHub API release listings, not download or executable verification",
+  "evidence_scope": "Exact public v1.0.0 release/tag metadata, unauthenticated page access, runtime ZIP download/hash/checksum comparisons, and tagged/current README factual review. No tool execution; final owner copy approval remains pending.",
   "records": [
     {
       "tool_id": "winbooksplit",
       "repo": "PikkuJanne/WinBookSplit",
       "expected_tag": "v1.0.0",
-      "observed_at": "2026-10-09",
+      "observed_at": "2026-10-10T17:51:00Z",
       "observed_status": "not_published",
       "release_page_url": null,
       "assets": [],
       "launch_verification": {
-        "status": "not_run",
-        "checked_at": null,
+        "status": "blocked_missing_release",
+        "checked_at": "2026-10-10T17:51:00Z",
         "tag_commit": null,
         "runtime_asset_name": null,
         "runtime_sha256": null,
         "checksum_matches": null,
         "release_is_stable": null,
         "copy_matches_release": null,
-        "evidence_path": null
+        "evidence_path": "evidence/release-verification.json",
+        "verification_scope": "Public release/tag, downloaded archive byte integrity and README factual copy review; application execution not performed.",
+        "copy_approval": "owner_review_pending"
+      },
+      "published_at": null,
+      "public_checks": {
+        "unauthenticated_api_http_status": 404,
+        "unauthenticated_release_page_http_status": 404,
+        "repository_public": true,
+        "draft": null,
+        "prerelease": null
       }
     },
     {
       "tool_id": "winpdfmerger",
       "repo": "PikkuJanne/WinPDFMerger",
       "expected_tag": "v1.0.0",
-      "observed_at": "2026-10-09",
-      "observed_status": "not_published",
-      "release_page_url": null,
-      "assets": [],
+      "observed_at": "2026-10-10T17:51:00Z",
+      "observed_status": "published",
+      "release_page_url": "https://github.com/PikkuJanne/WinPDFMerger/releases/tag/v1.0.0",
+      "assets": [
+        {
+          "id": 626907022,
+          "name": "SHA256SUMS.txt",
+          "url": "https://github.com/PikkuJanne/WinPDFMerger/releases/download/v1.0.0/SHA256SUMS.txt",
+          "size_bytes": 90,
+          "download_count_at_check": 4,
+          "api_digest": "sha256:d39084cb335c56bb99fa51424ec5aed2d95179f3c44974c81a68a8d3bf1e01ca",
+          "state": "uploaded",
+          "content_type": "text/plain; charset=utf-8"
+        },
+        {
+          "id": 626907023,
+          "name": "WinPDFMerger-v1.0.0.zip",
+          "url": "https://github.com/PikkuJanne/WinPDFMerger/releases/download/v1.0.0/WinPDFMerger-v1.0.0.zip",
+          "size_bytes": 193669,
+          "download_count_at_check": 4,
+          "api_digest": "sha256:2b95e90cc3eb3d47b5619710acd1b6cf551769e90ac89813a1dbf0c899c63fc2",
+          "state": "uploaded",
+          "content_type": "application/zip"
+        }
+      ],
       "launch_verification": {
-        "status": "not_run",
-        "checked_at": null,
-        "tag_commit": null,
-        "runtime_asset_name": null,
-        "runtime_sha256": null,
-        "checksum_matches": null,
-        "release_is_stable": null,
-        "copy_matches_release": null,
-        "evidence_path": null
+        "status": "passed",
+        "checked_at": "2026-10-10T17:51:00Z",
+        "tag_commit": "95e0a19e6cc5fc01cd4bec4ac15f989f9830840a",
+        "runtime_asset_name": "WinPDFMerger-v1.0.0.zip",
+        "runtime_sha256": "2b95e90cc3eb3d47b5619710acd1b6cf551769e90ac89813a1dbf0c899c63fc2",
+        "checksum_matches": true,
+        "release_is_stable": true,
+        "copy_matches_release": true,
+        "evidence_path": "evidence/release-verification.json",
+        "verification_scope": "Public release/tag, downloaded archive byte integrity and README factual copy review; application execution not performed.",
+        "copy_approval": "owner_review_pending"
+      },
+      "published_at": "2026-10-10T07:12:01Z",
+      "public_checks": {
+        "unauthenticated_api_http_status": 200,
+        "unauthenticated_release_page_http_status": 200,
+        "repository_public": true,
+        "draft": false,
+        "prerelease": false
       }
     },
     {
       "tool_id": "winvidcompress",
       "repo": "PikkuJanne/WinVidCompress",
       "expected_tag": "v1.0.0",
-      "observed_at": "2026-10-09",
+      "observed_at": "2026-10-10T17:51:00Z",
       "observed_status": "published",
       "release_page_url": "https://github.com/PikkuJanne/WinVidCompress/releases/tag/v1.0.0",
       "assets": [
         {
+          "id": 622181867,
           "name": "WinVidCompress-1.0.0.zip",
           "url": "https://github.com/PikkuJanne/WinVidCompress/releases/download/v1.0.0/WinVidCompress-1.0.0.zip",
-          "size_bytes": 250197
+          "size_bytes": 250197,
+          "download_count_at_check": 2,
+          "api_digest": "sha256:5c26d993e482204f80b81f10b8833315ac40c2c8d800b5bdaa7424567298b858",
+          "state": "uploaded",
+          "content_type": "application/zip"
         },
         {
+          "id": 622181866,
           "name": "WinVidCompress-1.0.0.zip.sha256",
           "url": "https://github.com/PikkuJanne/WinVidCompress/releases/download/v1.0.0/WinVidCompress-1.0.0.zip.sha256",
-          "size_bytes": 91
+          "size_bytes": 91,
+          "download_count_at_check": 2,
+          "api_digest": "sha256:50b84ed5d0e868aac2850689ed7574c1901372873bc95d57ad92bc6b9260c884",
+          "state": "uploaded",
+          "content_type": "application/octet-stream"
         }
       ],
       "launch_verification": {
-        "status": "not_run",
-        "checked_at": null,
-        "tag_commit": null,
-        "runtime_asset_name": null,
-        "runtime_sha256": null,
-        "checksum_matches": null,
-        "release_is_stable": null,
-        "copy_matches_release": null,
-        "evidence_path": null
+        "status": "passed",
+        "checked_at": "2026-10-10T17:51:00Z",
+        "tag_commit": "06e803d8bfb56df0fd48cd5e073439f3ea93a4fd",
+        "runtime_asset_name": "WinVidCompress-1.0.0.zip",
+        "runtime_sha256": "5c26d993e482204f80b81f10b8833315ac40c2c8d800b5bdaa7424567298b858",
+        "checksum_matches": true,
+        "release_is_stable": true,
+        "copy_matches_release": true,
+        "evidence_path": "evidence/release-verification.json",
+        "verification_scope": "Public release/tag, downloaded archive byte integrity and README factual copy review; application execution not performed.",
+        "copy_approval": "owner_review_pending"
+      },
+      "published_at": "2026-10-08T15:15:15Z",
+      "public_checks": {
+        "unauthenticated_api_http_status": 200,
+        "unauthenticated_release_page_http_status": 200,
+        "repository_public": true,
+        "draft": false,
+        "prerelease": false
       }
     },
     {
       "tool_id": "universalpodcastdownloader",
       "repo": "PikkuJanne/UniversalPodcastDownloader",
       "expected_tag": "v1.0.0",
-      "observed_at": "2026-10-09",
+      "observed_at": "2026-10-10T17:51:02Z",
       "observed_status": "published",
       "release_page_url": "https://github.com/PikkuJanne/UniversalPodcastDownloader/releases/tag/v1.0.0",
       "assets": [
         {
+          "id": 620735987,
           "name": "manifest.json",
           "url": "https://github.com/PikkuJanne/UniversalPodcastDownloader/releases/download/v1.0.0/manifest.json",
-          "size_bytes": 4787
+          "size_bytes": 4787,
+          "download_count_at_check": 3,
+          "api_digest": "sha256:8c1fa75d10bdf261bdbd1f6413c21a9d6a950023e121907b5fffa576b5bc3f5f",
+          "state": "uploaded",
+          "content_type": "application/json"
         },
         {
+          "id": 620735986,
           "name": "SHA256SUMS",
           "url": "https://github.com/PikkuJanne/UniversalPodcastDownloader/releases/download/v1.0.0/SHA256SUMS",
-          "size_bytes": 183
+          "size_bytes": 183,
+          "download_count_at_check": 3,
+          "api_digest": "sha256:b6e92dd3dcf94aee226514af70b56b272b167b9d8de94efaf6aab2fbf162e081",
+          "state": "uploaded",
+          "content_type": "application/octet-stream"
         },
         {
+          "id": 620735988,
           "name": "UniversalPodcastDownloader-1.0.0.zip",
           "url": "https://github.com/PikkuJanne/UniversalPodcastDownloader/releases/download/v1.0.0/UniversalPodcastDownloader-1.0.0.zip",
-          "size_bytes": 6212904
+          "size_bytes": 6212904,
+          "download_count_at_check": 3,
+          "api_digest": "sha256:2781e69bc3c2b5da6579a6e04c3d13def36371bfb1582a7b154b3e57d067e7b9",
+          "state": "uploaded",
+          "content_type": "application/zip"
         }
       ],
       "launch_verification": {
-        "status": "not_run",
-        "checked_at": null,
-        "tag_commit": null,
-        "runtime_asset_name": null,
-        "runtime_sha256": null,
-        "checksum_matches": null,
-        "release_is_stable": null,
-        "copy_matches_release": null,
-        "evidence_path": null
+        "status": "passed",
+        "checked_at": "2026-10-10T17:51:02Z",
+        "tag_commit": "6df1e357fe12890a5bed285ac5560a97c8905575",
+        "runtime_asset_name": "UniversalPodcastDownloader-1.0.0.zip",
+        "runtime_sha256": "2781e69bc3c2b5da6579a6e04c3d13def36371bfb1582a7b154b3e57d067e7b9",
+        "checksum_matches": true,
+        "release_is_stable": true,
+        "copy_matches_release": true,
+        "evidence_path": "evidence/release-verification.json",
+        "verification_scope": "Public release/tag, downloaded archive byte integrity and README factual copy review; application execution not performed.",
+        "copy_approval": "owner_review_pending"
+      },
+      "published_at": "2026-10-08T04:40:50Z",
+      "public_checks": {
+        "unauthenticated_api_http_status": 200,
+        "unauthenticated_release_page_http_status": 200,
+        "repository_public": true,
+        "draft": false,
+        "prerelease": false
       }
     },
     {
       "tool_id": "winaudioclean",
       "repo": "PikkuJanne/WinAudioClean",
       "expected_tag": "v1.0.0",
-      "observed_at": "2026-10-09",
+      "observed_at": "2026-10-10T17:51:04Z",
       "observed_status": "published",
       "release_page_url": "https://github.com/PikkuJanne/WinAudioClean/releases/tag/v1.0.0",
       "assets": [
         {
+          "id": 618899167,
           "name": "WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.provenance.json",
           "url": "https://github.com/PikkuJanne/WinAudioClean/releases/download/v1.0.0/WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.provenance.json",
-          "size_bytes": 2560
+          "size_bytes": 2560,
+          "download_count_at_check": 1,
+          "api_digest": "sha256:e92fad4f62d7a1b36a577a9717caa1b278dafa5ff7d2f4e0ba37abe99a4ea8c0",
+          "state": "uploaded",
+          "content_type": "application/json"
         },
         {
+          "id": 618899168,
           "name": "WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.sha256",
           "url": "https://github.com/PikkuJanne/WinAudioClean/releases/download/v1.0.0/WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.sha256",
-          "size_bytes": 113
+          "size_bytes": 113,
+          "download_count_at_check": 1,
+          "api_digest": "sha256:14c6935658a1c6eb3160b429509d1c44f4581a5233bdaebe014dd58194aa115a",
+          "state": "uploaded",
+          "content_type": "application/octet-stream"
         },
         {
+          "id": 618899169,
           "name": "WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.zip",
           "url": "https://github.com/PikkuJanne/WinAudioClean/releases/download/v1.0.0/WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.zip",
-          "size_bytes": 443971
+          "size_bytes": 443971,
+          "download_count_at_check": 1,
+          "api_digest": "sha256:d418a721b6ce8494e3a0233f4b8502120f90d2c17ad7c3e34aa539899abe8a46",
+          "state": "uploaded",
+          "content_type": "application/zip"
         }
       ],
       "launch_verification": {
-        "status": "not_run",
-        "checked_at": null,
-        "tag_commit": null,
-        "runtime_asset_name": null,
-        "runtime_sha256": null,
-        "checksum_matches": null,
-        "release_is_stable": null,
-        "copy_matches_release": null,
-        "evidence_path": null
+        "status": "passed",
+        "checked_at": "2026-10-10T17:51:04Z",
+        "tag_commit": "6dcf1bf56bc474b2c42353ed3779205468f1237c",
+        "runtime_asset_name": "WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.zip",
+        "runtime_sha256": "d418a721b6ce8494e3a0233f4b8502120f90d2c17ad7c3e34aa539899abe8a46",
+        "checksum_matches": true,
+        "release_is_stable": true,
+        "copy_matches_release": true,
+        "evidence_path": "evidence/release-verification.json",
+        "verification_scope": "Public release/tag, downloaded archive byte integrity and README factual copy review; application execution not performed.",
+        "copy_approval": "owner_review_pending"
+      },
+      "published_at": "2026-10-07T14:14:20Z",
+      "public_checks": {
+        "unauthenticated_api_http_status": 200,
+        "unauthenticated_release_page_http_status": 200,
+        "repository_public": true,
+        "draft": false,
+        "prerelease": false
       }
     },
     {
       "tool_id": "winimagenormalizer",
       "repo": "PikkuJanne/WinImgNormalizer",
       "expected_tag": "v1.0.0",
-      "observed_at": "2026-10-09",
+      "observed_at": "2026-10-10T17:51:05Z",
       "observed_status": "published",
       "release_page_url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/tag/v1.0.0",
       "assets": [
         {
+          "id": 617739199,
           "name": "build-provenance.json",
           "url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/download/v1.0.0/build-provenance.json",
-          "size_bytes": 763
+          "size_bytes": 763,
+          "download_count_at_check": 3,
+          "api_digest": "sha256:901598504d3bb60cdfa4a236873a07d3a7287cb8ff6b3c715b202b39865cefae",
+          "state": "uploaded",
+          "content_type": "application/json"
         },
         {
+          "id": 617739201,
           "name": "SHA256SUMS.txt",
           "url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/download/v1.0.0/SHA256SUMS.txt",
-          "size_bytes": 190
+          "size_bytes": 190,
+          "download_count_at_check": 3,
+          "api_digest": "sha256:2257dbcd00707a93f3e811c9d3ff0eafb59a2e65bb756c440e152f1642540497",
+          "state": "uploaded",
+          "content_type": "text/plain; charset=utf-8"
         },
         {
+          "id": 617739200,
           "name": "WinImgNormalizer-1.0.0-portable.zip",
           "url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/download/v1.0.0/WinImgNormalizer-1.0.0-portable.zip",
-          "size_bytes": 184659
+          "size_bytes": 184659,
+          "download_count_at_check": 5,
+          "api_digest": "sha256:251828028e144759c919645f423fde08641cabf42e04db7024d7ad17da4ba14d",
+          "state": "uploaded",
+          "content_type": "application/zip"
         }
       ],
       "launch_verification": {
-        "status": "not_run",
-        "checked_at": null,
-        "tag_commit": null,
-        "runtime_asset_name": null,
-        "runtime_sha256": null,
-        "checksum_matches": null,
-        "release_is_stable": null,
-        "copy_matches_release": null,
-        "evidence_path": null
+        "status": "passed",
+        "checked_at": "2026-10-10T17:51:05Z",
+        "tag_commit": "8edbcbaeb3425ec3a52eeafde212c32553755af1",
+        "runtime_asset_name": "WinImgNormalizer-1.0.0-portable.zip",
+        "runtime_sha256": "251828028e144759c919645f423fde08641cabf42e04db7024d7ad17da4ba14d",
+        "checksum_matches": true,
+        "release_is_stable": true,
+        "copy_matches_release": true,
+        "evidence_path": "evidence/release-verification.json",
+        "verification_scope": "Public release/tag, downloaded archive byte integrity and README factual copy review; application execution not performed.",
+        "copy_approval": "owner_review_pending"
+      },
+      "published_at": "2026-10-07T05:56:49Z",
+      "public_checks": {
+        "unauthenticated_api_http_status": 200,
+        "unauthenticated_release_page_http_status": 200,
+        "repository_public": true,
+        "draft": false,
+        "prerelease": false
       }
     },
     {
       "tool_id": "audiofileforphone",
       "repo": "PikkuJanne/AudioFileForPhone",
       "expected_tag": "v1.0.0",
-      "observed_at": "2026-10-09",
+      "observed_at": "2026-10-10T17:51:07Z",
       "observed_status": "not_published",
       "release_page_url": null,
       "assets": [],
       "launch_verification": {
-        "status": "not_run",
-        "checked_at": null,
+        "status": "blocked_missing_release",
+        "checked_at": "2026-10-10T17:51:07Z",
         "tag_commit": null,
         "runtime_asset_name": null,
         "runtime_sha256": null,
         "checksum_matches": null,
         "release_is_stable": null,
         "copy_matches_release": null,
-        "evidence_path": null
+        "evidence_path": "evidence/release-verification.json",
+        "verification_scope": "Public release/tag, downloaded archive byte integrity and README factual copy review; application execution not performed.",
+        "copy_approval": "owner_review_pending"
+      },
+      "published_at": null,
+      "public_checks": {
+        "unauthenticated_api_http_status": 404,
+        "unauthenticated_release_page_http_status": 404,
+        "repository_public": true,
+        "draft": null,
+        "prerelease": null
       }
     }
   ]

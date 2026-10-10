@@ -17,9 +17,9 @@
         "Use manual selections when bookmarks are unavailable.",
         "Keep chapter files ordered with readable names."
       ],
-      "requirements": "Windows 10/11; Windows PowerShell 5.1 or PowerShell 7+; Python 3 with pypdf. Calibre is needed for EPUB/AZW3 conversion, not ordinary PDF splitting.",
-      "quick_start": "Extract the complete final release, install the dependencies, then drag a supported book onto `WinBookSplit.bat`. Choose bookmark level or manual mode.",
-      "output_and_limits": "The current README describes chapter PDFs and a log in a new Documents folder, preserving the source. Conversion can alter layout or bookmarks; damaged/encrypted files can prevent extraction. No OCR feature is documented.",
+      "requirements": "Windows 11 x64; Windows PowerShell 5.1 or tested PowerShell 7.6.5; x64 CPython 3.14.8 with pypdf 6.19.0 using the documented pinned setup. EPUB/AZW3 conversion requires Calibre 9.15.0. Windows 10 is unverified.",
+      "quick_start": "Keep the full tool package together and follow the pinned dependency setup on GitHub. Drop one PDF, EPUB or AZW3 file onto `WinBookSplit.bat`, choose a bookmark level or manual mode, then review and confirm the chapter plan.",
+      "output_and_limits": "A fresh chapter-PDF folder preserves the source; local diagnostics record the run. Encrypted PDFs, interactive forms, signatures and detected active or embedded-document features are rejected. Ebook conversion can change layout and bookmarks. Manual splits use physical PDF page numbers. No OCR is documented.",
       "launch_version": "1.0.0",
       "launcher": "WinBookSplit.bat",
       "repo_url": "https://github.com/PikkuJanne/WinBookSplit",
@@ -35,7 +35,17 @@
         "poster": "winbooksplit-poster",
         "application_icon": "winbooksplit-application-icon"
       },
-      "editorial_note": "No public release found. Current-main copy is provisional; verify dependency versions, manual-selection syntax and output behavior against final v1.0.0."
+      "editorial_note": "Checked current main on 2026-10-10: application remains 1.0.0-dev, no public release or v1.0.0 tag found. Requirements and input policy have changed since the bundle. Recheck all visitor facts against the eventual final release; preview download remains pending.",
+      "facts_review": {
+        "checked_at": "2026-10-10T17:51:00Z",
+        "source_ref": "main",
+        "tag_commit": null,
+        "readme_sha256": "4b7d8ee2e392316371fbe394dc689e2b4686510ab58d7e94bda2aeaaefdbab5d",
+        "release_facts_verified": false,
+        "owner_copy_approval": "pending",
+        "evidence_path": "evidence/release-facts.md",
+        "source_commit": "cc81212de7c4ba563fbbdad9747cdbd0b48fbf5d"
+      }
     },
     {
       "id": "winpdfmerger",
@@ -52,12 +62,12 @@
         "Keep a local log of the merge."
       ],
       "requirements": "Windows 11 x64; Windows PowerShell 5.1 for the BAT launcher. Direct PowerShell 7.6.6 x64 invocation is documented as tested. PDFtk Server is required; Ghostscript is optional. Windows 10, ARM and live UNC shares remain unvalidated.",
-      "quick_start": "Extract the full package, including `src/WinPDFMerge.Helpers.ps1`. Drag exactly one source folder onto `WinPDFMerge.bat`; use PowerShell for named options.",
-      "output_and_limits": "Validated master PDF, optional `_email.pdf`, and log. Email output is published only when valid and smaller. Sources are not scanned recursively. Email rewriting can lose detail/features; signature validity and universal PDF feature retention are not guaranteed.",
+      "quick_start": "Extract the complete v1.0.0 ZIP, keeping `VERSION` and `src/WinPDFMerge.Helpers.ps1` with the launchers. Install PDFtk, then drop exactly one source folder onto `WinPDFMerge.bat`. Default output is beside the scripts; use PowerShell named options for a separate existing output folder.",
+      "output_and_limits": "A validated master PDF, an optional smaller `_email.pdf`, and a local log. Only visible top-level PDFs are scanned. Sources and existing outputs remain intact. Email rewriting can lose detail or features; neither output guarantees valid signatures or universal PDF feature retention.",
       "launch_version": "1.0.0",
       "launcher": "WinPDFMerge.bat",
       "repo_url": "https://github.com/PikkuJanne/WinPDFMerger",
-      "documentation_url": "https://github.com/PikkuJanne/WinPDFMerger/blob/main/README.md",
+      "documentation_url": "https://github.com/PikkuJanne/WinPDFMerger/blob/v1.0.0/README.md",
       "license": "MIT",
       "primary_button_label": "Download v1.0.0",
       "release_record_id": "winpdfmerger",
@@ -69,7 +79,17 @@
         "poster": "winpdfmerger-poster",
         "application_icon": "winpdfmerger-application-icon"
       },
-      "editorial_note": "No public release found. Verify final package and launcher acceptance before launch."
+      "editorial_note": "Public stable v1.0.0 was published 2026-10-10 and its runtime ZIP/hash verified. Tagged README and release notes retain dated prepublication statements; use the verified release page for current publication status. Launcher remains WinPDFMerge.bat.",
+      "facts_review": {
+        "checked_at": "2026-10-10T17:51:00Z",
+        "source_ref": "v1.0.0",
+        "tag_commit": "95e0a19e6cc5fc01cd4bec4ac15f989f9830840a",
+        "readme_sha256": "6fb3bfa326c215ef99f152309a12768c967527782e796f60983f9f9f2005a097",
+        "release_facts_verified": true,
+        "owner_copy_approval": "pending",
+        "evidence_path": "evidence/release-facts.md",
+        "source_commit": "95e0a19e6cc5fc01cd4bec4ac15f989f9830840a"
+      }
     },
     {
       "id": "winvidcompress",
@@ -103,7 +123,17 @@
         "poster": "winvidcompress-poster",
         "application_icon": "winvidcompress-application-icon"
       },
-      "editorial_note": "Public v1.0.0 exists; README still gives source-ZIP/preparation wording. Website should use the release route below."
+      "editorial_note": "Public stable v1.0.0 and runtime ZIP/hash verified on 2026-10-10. Tagged README retains source-ZIP/preparation wording; website primary download uses the packaged release route.",
+      "facts_review": {
+        "checked_at": "2026-10-10T17:51:00Z",
+        "source_ref": "v1.0.0",
+        "tag_commit": "06e803d8bfb56df0fd48cd5e073439f3ea93a4fd",
+        "readme_sha256": "33164b6379c772a27e10a6de7e7c79147a0ebb27eb4e0dc95b78761a1136b32e",
+        "release_facts_verified": true,
+        "owner_copy_approval": "pending",
+        "evidence_path": "evidence/release-facts.md",
+        "source_commit": "06e803d8bfb56df0fd48cd5e073439f3ea93a4fd"
+      }
     },
     {
       "id": "universalpodcastdownloader",
@@ -137,7 +167,17 @@
         "poster": "universalpodcastdownloader-poster",
         "application_icon": "universalpodcastdownloader-application-icon"
       },
-      "editorial_note": "Public v1.0.0 exists. Software licensing does not grant rights to podcast recordings."
+      "editorial_note": "Public stable v1.0.0 and runtime ZIP/hash verified on 2026-10-10. Tagged README matches factual draft. Software licensing does not grant rights to podcast recordings.",
+      "facts_review": {
+        "checked_at": "2026-10-10T17:51:02Z",
+        "source_ref": "v1.0.0",
+        "tag_commit": "6df1e357fe12890a5bed285ac5560a97c8905575",
+        "readme_sha256": "0c52c17f7607c0d664e6adafa68f301243827bee91a612588daad884755d8342",
+        "release_facts_verified": true,
+        "owner_copy_approval": "pending",
+        "evidence_path": "evidence/release-facts.md",
+        "source_commit": "6df1e357fe12890a5bed285ac5560a97c8905575"
+      }
     },
     {
       "id": "winaudioclean",
@@ -171,7 +211,17 @@
         "poster": "winaudioclean-poster",
         "application_icon": "winaudioclean-application-icon"
       },
-      "editorial_note": "Public v1.0.0 exists; old internal “2.3” wording is not the public version label."
+      "editorial_note": "Public stable v1.0.0 and runtime ZIP/hash verified on 2026-10-10. Tagged README matches factual draft. Earlier internal version 2.3 is not the public application version; listening remains necessary.",
+      "facts_review": {
+        "checked_at": "2026-10-10T17:51:04Z",
+        "source_ref": "v1.0.0",
+        "tag_commit": "6dcf1bf56bc474b2c42353ed3779205468f1237c",
+        "readme_sha256": "689d08143024a69977e0dbda2202e07c3b3bc42c57929e6e1fe65a4cbe666ca3",
+        "release_facts_verified": true,
+        "owner_copy_approval": "pending",
+        "evidence_path": "evidence/release-facts.md",
+        "source_commit": "6dcf1bf56bc474b2c42353ed3779205468f1237c"
+      }
     },
     {
       "id": "winimagenormalizer",
@@ -205,7 +255,17 @@
         "poster": "winimagenormalizer-poster",
         "application_icon": "winimagenormalizer-application-icon"
       },
-      "editorial_note": "Public v1.0.0 exists; packaged/tagged documentation retains preparation-time “unreleased” wording, acknowledged by current README."
+      "editorial_note": "Public stable v1.0.0 and runtime ZIP/hash verified on 2026-10-10. Tagged/package documentation retains preparation-time unreleased wording, explained by current README and release notes. Display name differs from repository/launcher name.",
+      "facts_review": {
+        "checked_at": "2026-10-10T17:51:05Z",
+        "source_ref": "v1.0.0",
+        "tag_commit": "8edbcbaeb3425ec3a52eeafde212c32553755af1",
+        "readme_sha256": "fc770316922d7c31b8a6e383980996dfbfde0e350d4f15f1f5d402fd57ef9c32",
+        "release_facts_verified": true,
+        "owner_copy_approval": "pending",
+        "evidence_path": "evidence/release-facts.md",
+        "source_commit": "8edbcbaeb3425ec3a52eeafde212c32553755af1"
+      }
     },
     {
       "id": "audiofileforphone",
@@ -239,7 +299,17 @@
         "poster": "audiofileforphone-poster",
         "application_icon": "audiofileforphone-application-icon"
       },
-      "editorial_note": "No public release found. Current-main copy is provisional; recheck final formats, defaults and output behavior."
+      "editorial_note": "No public release or v1.0.0 tag found on 2026-10-10. Current-main README confirms the draft workflow but gives no exact minimum PowerShell/FFmpeg versions. Recheck requirements, formats/defaults and output behavior against the eventual final release; preview download remains pending.",
+      "facts_review": {
+        "checked_at": "2026-10-10T17:51:07Z",
+        "source_ref": "main",
+        "tag_commit": null,
+        "readme_sha256": "176d2fdc9c06a5ee3765a0a91c8d719bfcef35deadd320c6e421fb884102916d",
+        "release_facts_verified": false,
+        "owner_copy_approval": "pending",
+        "evidence_path": "evidence/release-facts.md",
+        "source_commit": "2bf1ea1921ab33633b978bd384bbbf098648ceed"
+      }
     }
   ]
 }

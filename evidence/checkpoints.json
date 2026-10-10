@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/PikkuJanne/jvuorela.com",
+  "branch": "main",
+  "checkpoints": [
+    {"id": "foundation", "date": "2026-10-10", "commit": "36c92d1", "push": "origin/main synchronized", "evidence": "evidence/foundation.md"}
+  ]
+}
