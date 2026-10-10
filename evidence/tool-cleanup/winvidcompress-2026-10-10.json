@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-10-10T17:49:52.994793+00:00",
+  "tool_id": "winvidcompress",
+  "repo_url": "https://github.com/PikkuJanne/WinVidCompress",
+  "actual_remote": "git@github.com:PikkuJanne/WinVidCompress.git",
+  "visibility": "PUBLIC",
+  "default_branch": "main",
+  "inspected_commit": "8c0d5ca320726e310c8bd9977500144c61b28eee",
+  "live_default_branch_commit": "8c0d5ca320726e310c8bd9977500144c61b28eee",
+  "status": "no_confirmed_obsolete_candidates",
+  "isolated_clone_used": true,
+  "working_tree_clean": true,
+  "tracked_file_count": 307,
+  "candidates": [
+    {
+      "path": "WinVidCompress_variant.ico",
+      "classification": "active runtime/application icon",
+      "reason": "Existing application shortcut icon family retained; no evidence of obsolete website-only purpose.",
+      "git_blob_sha1": "3acc46fc70921f802f0c03e6e355252665c12089",
+      "sha256": "e4b5462ffdfe3618586e6df12b03c1230104ee8344fe4133fba3d3c009fe1066",
+      "size_bytes": 18529,
+      "text_references_excluding_frozen_evidence": [],
+      "introduction_commit_and_subject": "2b85cc11e283c2d8139078836ba3d1ffc4f7617e Add files via upload",
+      "planned_action": "keep",
+      "outcome": "unchanged",
+      "reuse_for_website_allowed": false
+    },
+    {
+      "path": "WinVidCompress_icon_variant.png",
+      "classification": "active runtime/application icon",
+      "reason": "PNG companion of the application shortcut icon family retained; not proven website-only.",
+      "git_blob_sha1": "b46188de4a51e139cf1546d812b5048d17b3dcd4",
+      "sha256": "26668c8d59384a5fcb1adf894fba7ae5f9c75c84355a3a527dda1046f69445cd",
+      "size_bytes": 11007,
+      "text_references_excluding_frozen_evidence": [],
+      "introduction_commit_and_subject": "2b85cc11e283c2d8139078836ba3d1ffc4f7617e Add files via upload",
+      "planned_action": "keep",
+      "outcome": "unchanged",
+      "reuse_for_website_allowed": false
+    },
+    {
+      "path": "WinVidCompress_poster.png",
+      "classification": "owner_resolved_keep",
+      "reason": "No tracked textual reference found. Introduction says Poster added :). Exclusion from the tool package does not by itself prove obsolete website-only purpose.",
+      "git_blob_sha1": "16634f49359d64f040b54118e682008018340382",
+      "sha256": "b9a8a87a34780c2e241a98ef7f67968495bedbff5cf42c971234952a5e3e68d9",
+      "size_bytes": 1769258,
+      "text_references_excluding_frozen_evidence": [],
+      "introduction_commit_and_subject": "7456b2356a47082844de0e3fef3e78b69568bb3d Poster added :)",
+      "planned_action": "keep",
+      "outcome": "unchanged",
+      "reuse_for_website_allowed": false,
+      "owner_resolution": {
+        "date": "2026-10-10",
+        "decision": "The owner explicitly instructed retaining this specifically named poster after the audit identified its provenance as ambiguous.",
+        "effect": "Preserve in the tool repository; forbidden as a website artwork source."
+      }
+    },
+    {
+      "path": "website-content/screenshots/menu.png",
+      "classification": "active documentation/shared",
+      "reason": "Current product.json, DEMONSTRATIONS.md and WebsiteContent tests identify a genuine owner-supplied menu capture. Published content validation requires an image. Deletion would break useful documented/tested content.",
+      "git_blob_sha1": "52aafbf6acd951a70e7aa2bec8b5bec2c13850f4",
+      "sha256": "894538401cbe2dc7d109cfb8bb2385cbbcb6558f48a815e8b0d261c3495896ba",
+      "size_bytes": 26316,
+      "text_references_excluding_frozen_evidence": [
+        "website-content/DEMONSTRATIONS.md:3:The [actual menu image](screenshots/menu.png) was supplied by the owner on 2026-10-08 after launching the isolated demo. It shows the real application, not a recreated console, mock interface or generated picture. Its manifest in `product.json` identifies the exact source, capture method, checksum and crop. A public demo output directory and isolated APPDATA keep personal preferences and paths out of the image. The copied PS1/BAT bytes are the unchanged tracked scripts from main `b2582bd24b7efaa896b51d468c3679ee83bcb909`.",
+        "website-content/product.json:67:      \"file\": \"screenshots/menu.png\","
+      ],
+      "introduction_commit_and_subject": "2f6315f32cd1abdc461f85a7e4555bbb905b3709 docs: add verified owner menu capture for WVC-M5-04",
+      "planned_action": "keep",
+      "outcome": "unchanged",
+      "reuse_for_website_allowed": false
+    },
+    {
+      "path": "website-content/README.md",
+      "classification": "active documentation/shared",
+      "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+      "git_blob_sha1": "add2436a4d99fd8b2f88b85760dc591f88b73443",
+      "sha256": "e50c80f499dc8ce2e6bc8593d93f48b7727041da170dd4260bc148640b505315",
+      "planned_action": "keep",
+      "outcome": "unchanged"
+    },
+    {
+      "path": "website-content/DEMONSTRATIONS.md",
+      "classification": "active documentation/shared",
+      "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+      "git_blob_sha1": "dabf152c82460bf07b832f1c728793ca057f1ceb",
+      "sha256": "8bd92381acc6a3602f3c916f71d1108fd38ef84bf4c73b113247dc6b7d637574",
+      "planned_action": "keep",
+      "outcome": "unchanged"
+    },
+    {
+      "path": "website-content/product.json",
+      "classification": "active documentation/shared",
+      "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+      "git_blob_sha1": "aa32e7e18f15fef83e3b370eefacc87837720e78",
+      "sha256": "b33db5ef09ba5a7bff4139e3bd588f482b1d01403824f035c12274eceead3abb",
+      "planned_action": "keep",
+      "outcome": "unchanged"
+    },
+    {
+      "path": "website-content/product.schema.json",
+      "classification": "active documentation/shared",
+      "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+      "git_blob_sha1": "3478f875d5b56db2e77a2a81d687efd6e94a8839",
+      "sha256": "8ebbfc32963188aaa0fa53c76b0dcf511b1a4b08558b43bd26f4514e663d0977",
+      "planned_action": "keep",
+      "outcome": "unchanged"
+    },
+    {
+      "path": "website-content/examples/synthetic-default.json",
+      "classification": "active documentation/shared",
+      "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+      "git_blob_sha1": "244990388a74b0bc58bd45682c0d754f5acebdf5",
+      "sha256": "0eeed1c63cc0f675baffc6d02687449cbd191426fa85dcf5272c3d9cc082fdef",
+      "planned_action": "keep",
+      "outcome": "unchanged"
+    },
+    {
+      "path": "docs/releases/WEBSITE_CONTENT.md",
+      "classification": "active documentation/shared",
+      "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+      "git_blob_sha1": "554d9bbed8184334fd5105ea83ea69c89c7b9ba7",
+      "sha256": "72e1adb96a5bd43c340fd55a873c1b13ab538d4517d4cda72211404aa41e4c47",
+      "planned_action": "keep",
+      "outcome": "unchanged"
+    },
+    {
+      "path": "docs/codex-winvidcompress/WEBSITE_HANDOFF.md",
+      "classification": "active documentation/shared",
+      "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+      "git_blob_sha1": "00dab8257f02c147759dcfbe0688da5d256cc0c8",
+      "sha256": "e88228a42b1ab52c953f755948aef31617de5250b5beb8092b31aa3ed70b2ab0",
+      "planned_action": "keep",
+      "outcome": "unchanged"
+    },
+    {
+      "path": "docs/codex-winvidcompress/templates/website-product-draft.json",
+      "classification": "active documentation/shared",
+      "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+      "git_blob_sha1": "41088df2a4b290b362c51f874955ef19cb4b867b",
+      "sha256": "afd4e7cd712d0ef9142c653a4bea30353630ff9f482aa924ff997afb4b79f027",
+      "planned_action": "keep",
+      "outcome": "unchanged"
+    }
+  ],
+  "protected_files": [
+    "WinVidCompress_variant.ico",
+    "WinVidCompress_icon_variant.png",
+    "website-content/screenshots/menu.png",
+    "website-content/README.md",
+    "website-content/DEMONSTRATIONS.md",
+    "website-content/product.json",
+    "website-content/product.schema.json",
+    "website-content/examples/synthetic-default.json",
+    "docs/releases/WEBSITE_CONTENT.md",
+    "docs/codex-winvidcompress/WEBSITE_HANDOFF.md",
+    "docs/codex-winvidcompress/templates/website-product-draft.json",
+    "WinVidCompress_poster.png"
+  ],
+  "confirmed_obsolete_paths": [],
+  "removed_paths": [],
+  "stale_direct_references_updated": [],
+  "cleanup_branch": null,
+  "pull_request_url": null,
+  "merged_commit": null,
+  "release_verification": {
+    "id": 406971113,
+    "tag_name": "v1.0.0",
+    "html_url": "https://github.com/PikkuJanne/WinVidCompress/releases/tag/v1.0.0",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-10-08T15:15:15Z",
+    "public_stable_verified": true,
+    "anonymous_release_page_http_status": 200,
+    "tag_object": "06e803d8bfb56df0fd48cd5e073439f3ea93a4fd",
+    "tag_commit": "06e803d8bfb56df0fd48cd5e073439f3ea93a4fd",
+    "assets": [
+      {
+        "id": 622181867,
+        "name": "WinVidCompress-1.0.0.zip",
+        "size": 250197,
+        "digest": "sha256:5c26d993e482204f80b81f10b8833315ac40c2c8d800b5bdaa7424567298b858",
+        "browser_download_url": "https://github.com/PikkuJanne/WinVidCompress/releases/download/v1.0.0/WinVidCompress-1.0.0.zip",
+        "state": "uploaded"
+      },
+      {
+        "id": 622181866,
+        "name": "WinVidCompress-1.0.0.zip.sha256",
+        "size": 91,
+        "digest": "sha256:50b84ed5d0e868aac2850689ed7574c1901372873bc95d57ad92bc6b9260c884",
+        "browser_download_url": "https://github.com/PikkuJanne/WinVidCompress/releases/download/v1.0.0/WinVidCompress-1.0.0.zip.sha256",
+        "state": "uploaded"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "isolated checkout is clean",
+      "result": "pass"
+    },
+    {
+      "name": "inspected HEAD equals independently queried default branch",
+      "result": "pass"
+    },
+    {
+      "name": "all classified paths exist in inspected tracked tree",
+      "result": "pass"
+    },
+    {
+      "name": "tracked filenames and text references reviewed without rendering/importing artwork",
+      "result": "pass"
+    },
+    {
+      "name": "no tool, packaging, release, tag or history mutation",
+      "result": "pass"
+    }
+  ],
+  "ambiguities": [],
+  "limits": [
+    "No tool artwork was rendered, imported, copied into the website, hotlinked or used as a creative reference.",
+    "No obsolete website-only file was conclusively established from tracked filenames, text references and introduction subjects.",
+    "No source changes were made, so runtime tests were not rerun and no tool PR was created.",
+    "Existing release asset hashes above are API-reported facts; this audit did not download or execute tool packages.",
+    "Ordinary history and published release assets remain unchanged and excluded as website artwork sources."
+  ],
+  "verification_evidence": "evidence/tool-cleanup/winvidcompress-2026-10-10.md",
+  "owner_resolution_date": "2026-10-10"
+}

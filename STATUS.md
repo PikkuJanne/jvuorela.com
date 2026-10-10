@@ -1,17 +1,19 @@
 # Implementation status
 
-Updated 2026-10-10. Implementation checkpoint 1: foundation.
+Updated 2026-10-10. Website version 0.1.0; tested local deployment candidate in progress. Public remote: https://github.com/PikkuJanne/jvuorela.com.git, branch main.
 
-- T00: inspected workspace; no existing Git repository or implemented theme. Original bundle and both supplied artwork folders preserved. Version 2 copied unchanged into docs/build-handoff-v2; operational instructions/data copied to root.
-- T24: authenticated GitHub identity PikkuJanne; account repository inventory contained no intended website repository. Verified proposed name absent; created PUBLIC PikkuJanne/jvuorela.com. Remote: https://github.com/PikkuJanne/jvuorela.com.git; branch main.
-- Asset intake: all 47 mapped sources structurally valid; expected byte sizes match; no warnings. Visual inspection and derivative integration pending. Private intake excluded from Git.
-- Handoff validator PASS. Unit suite 27 cases: 26 passed, one Windows symlink-capability skip. Run with Python UTF-8 mode; default cp1252 caused two fixture-read errors, corrected by documented invocation without altering original handoff.
-- Initial live release verification finds WinBookSplit and AudioFileForPhone v1.0.0 absent. Five other stable releases found; package verification underway.
-- IONOS admin/account capabilities and owner legal/contact details requested. Existing public apex responds HTTP 200 Apache; current site inventory pending. No public changes made.
-- Tool cleanup audit proceeding in isolated clones; precise classification required before removal.
+The owner has deferred IONOS installation, hosting checks and live deployment to a separate session. This handoff completes with the tested local candidate, public GitHub source/packages and installation/backup/rollback instructions. **Ready for deployment** is the intended handoff status; no live website acceptance is claimed.
 
-Next: visual intake, reproducible local WordPress, editable theme/import, scoped cleanup. IONOS access and missing tool releases block launch, not local implementation.
+- Preserved the original workspace, immutable FINAL v2 bundle in docs/build-handoff-v2 and both owner master folders. No existing implementation was discarded. Passing foundation and artwork/theme checkpoints are already pushed.
+- Inspected all 47 supplied sources structurally and visually; 33 selected slots become 47 traced, proportional derivatives. Originals unchanged; no tool-repository artwork was used. Native Media Library content plus a lightweight GPL-2.0-or-later theme and 11 portable draft Pages are implemented.
+- Actual local runtime: PHP 8.3.35, WordPress 7.1.3, WP-CLI 2.12.0, local-only SQLite adapter 3.1.0. No presentation plugin, page builder, runtime tool execution, live GitHub API, external font or theme JavaScript.
+- 37 real importer assertions pass: read-only plans, draft-only creation, idempotence, field/media/configuration conflict protection and unrelated-data preservation. An Editor account saved tagline/benefit/requirement/button edits, reloaded, reinstalled the exact development theme ZIP and retained all four edits, then restored the fixture copy.
+- Signed-out Chrome tests pass 50 route/viewport cases at 320/390/768/1024/1440 with JavaScript disabled, true404, one H1, no overflow, seven canonical cards, responsive artwork, metadata and no third-party requests. Cross-browser measurements/review and packaged backup rehearsal are being finalized. Screenshot evidence covers every tool at 390/1440.
+- Five public stable tool v1.0.0 runtime ZIPs/checksum sidecars verified. WinBookSplit and AudioFileForPhone have no release/tag; no fake download buttons or manufactured releases. This blocks future public launch, not the owner-scoped local handoff.
+- Final owner contact/legal wording and actual hosting privacy facts are missing. Support seed Pages are explicit drafts; only disposable local copies are published for QA. Final factual copy review remains a future launch prerequisite.
+- All seven tool repositories audited. Owner explicitly retains five posters. Confirmed obsolete website-only assets in WinAudioClean and WinImgNormalizer have narrow PRs; normal hosted checks/default-branch verification are pending. Application icons/runtime behavior/releases/tags/history remain protected.
+- Deterministic theme/content-media packages, pinned read-only CI and public clean-clone instructions are implemented. Clean candidate publication and fresh installation/backup restoration are next.
 
-Commit and remote checkpoint IDs are recorded in Git history and evidence/checkpoints.json as later checkpoints verify their predecessors. No live completion or final release is claimed.
+Existing public apex currently ends at https://anti-commercial.media/; preserve its routing until the separate hosting session resolves it. No hosting changes have been made. The final website v1.0.0 remains deferred until actual live acceptance; current GitHub publication is an explicitly authorized preview candidate.
 
-Checkpoint 2: 47 source files visually reviewed; 33 selected slots encoded into 47 proportional, alpha-preserving derivatives. Source/derivative hashes verified. Theme installed/activated on disposable WordPress 7.1.3/PHP 8.3.35 with local-only official SQLite adapter; PHP syntax clean. Five runtime release packages have verified public ZIP/checksum evidence. Source facts corrected; two missing releases remain blockers. Existing apex final response URI is https://anti-commercial.media/; preserve current routing pending hosting/cutover review. Importer behavior and browser checks are next; no final launch claim.
+See TASKS.json for completed/local/deferred work and evidence/checkpoints.json for synchronized source identities. Evidence records failures/recoveries and test limits; planning-bundle validation is not runtime acceptance.

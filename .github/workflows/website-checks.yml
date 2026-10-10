@@ -1,0 +1,151 @@
+# SPDX-License-Identifier: GPL-2.0-or-later
+name: Website checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  source-and-packages:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4; upstream tag resolved 2026-10-10
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5; upstream tag resolved 2026-10-10
+        with:
+          python-version: '3.12'
+      - name: Runtime versions and source/provenance checks
+        run: |
+          python --version
+          git --version
+          python scripts/check-source.py
+      - name: Immutable v2 handoff validation
+        working-directory: docs/build-handoff-v2
+        run: |
+          python -X utf8 tools/validate_bundle.py
+          python -X utf8 -m unittest discover -s tools -p 'test_*.py'
+      - name: Public inputs reproduce portable editable Pages
+        run: |
+          python scripts/generate-content.py
+          git diff --exit-code -- content/pages.json
+      - name: Reproducible clean checkpoint packages
+        run: |
+          test -z "$(git status --porcelain)"
+          python scripts/package.py --release --expected-commit "$(git rev-parse HEAD)" --output build/first
+          python scripts/package.py --release --expected-commit "$(git rev-parse HEAD)" --output build/second
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, json, zipfile
+          first, second = Path('build/first'), Path('build/second')
+          names = ['artifacts.json', 'SHA256SUMS'] + sorted(p.name for p in first.glob('*.zip'))
+          assert all((first/n).read_bytes() == (second/n).read_bytes() for n in names), 'Packages differ'
+          index = json.loads((first/'artifacts.json').read_text())
+          assert index['source']['dirty'] is False
+          for artifact in index['artifacts']:
+              data = (first/artifact['name']).read_bytes()
+              assert hashlib.sha256(data).hexdigest() == artifact['sha256']
+              with zipfile.ZipFile(first/artifact['name']) as archive:
+                  roots = {name.split('/')[0] for name in archive.namelist()}
+                  assert len(roots) == 1
+                  assert all(entry.date_time == (1980,1,1,0,0,0) for entry in archive.infolist())
+                  assert all(entry.compress_type == zipfile.ZIP_STORED for entry in archive.infolist())
+          print('Byte-identical public packages, normalized ZIP metadata and matching artifact hashes')
+          PY
+          cd build/first
+          sha256sum -c SHA256SUMS
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4; upstream tag resolved 2026-10-10
+        with:
+          name: website-preview-packages
+          path: build/first/
+          if-no-files-found: error
+          retention-days: 14
+
+  wordpress-behavior:
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - wordpress: '6.9.10'
+            wordpress_sha256: 4f18b9e25bd253b0c39009eafb651911e8de29465d6f62397369ff75a36fdb0e
+          - wordpress: '7.1.3'
+            wordpress_sha256: eb58a90ed55147f90f7bd55d0d3334960a69b7e8a4cc142c8ddfea8965218227
+    env:
+      JVT_WP_VERSION: ${{ matrix.wordpress }}
+      JVT_WP_SHA256: ${{ matrix.wordpress_sha256 }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Ubuntu PHP and required local test extensions
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y php-cli php-sqlite3 php-gd php-mbstring php-xml php-curl php-zip
+          php --version
+          php -r 'echo "SQLite ", SQLite3::version()["versionString"], PHP_EOL; if (!extension_loaded("pdo_sqlite")) { exit(1); }'
+      - name: PHP runtime syntax
+        run: |
+          find theme scripts tests -name '*.php' -print0 | xargs -0 -n1 php -l
+      - name: Checksum-pinned disposable WordPress and tools
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, io, os, shutil, urllib.request, zipfile
+          runtime = Path(os.environ['RUNNER_TEMP']) / 'jvt-runtime'
+          runtime.mkdir()
+          downloads = [
+              ('wordpress.zip', 'https://downloads.wordpress.org/release/wordpress-' + os.environ['JVT_WP_VERSION'] + '.zip', os.environ['JVT_WP_SHA256']),
+              ('sqlite.zip', 'https://downloads.wordpress.org/plugin/sqlite-database-integration.3.1.0.zip', 'e260e3ada78676f1c0f4e09eb9ebcb9ecce4d4b85f0c6e5a70fb9a93f5b9847f'),
+              ('wp-cli.phar', 'https://github.com/wp-cli/wp-cli/releases/download/v2.12.0/wp-cli-2.12.0.phar', 'ce34ddd838f7351d6759068d09793f26755463b4a4610a5a5c0a97b68220d85c')
+          ]
+          for name, url, expected in downloads:
+              data = urllib.request.urlopen(url, timeout=90).read()
+              assert hashlib.sha256(data).hexdigest() == expected, 'Download checksum mismatch: ' + name
+              (runtime/name).write_bytes(data)
+          with zipfile.ZipFile(runtime/'wordpress.zip') as archive:
+              assert all(not n.startswith('/') and '..' not in Path(n).parts for n in archive.namelist())
+              archive.extractall(runtime)
+          wordpress = runtime/'wordpress'
+          with zipfile.ZipFile(runtime/'sqlite.zip') as archive:
+              assert all(not n.startswith('/') and '..' not in Path(n).parts for n in archive.namelist())
+              archive.extractall(wordpress/'wp-content/plugins')
+          shutil.copy2(wordpress/'wp-content/plugins/sqlite-database-integration/db.copy', wordpress/'wp-content/db.php')
+          shutil.copytree(Path('theme/jvuorela-tools'), wordpress/'wp-content/themes/jvuorela-tools')
+          with open(os.environ['GITHUB_ENV'], 'a') as environment:
+              environment.write('JVT_WP_ROOT=' + str(wordpress) + '\n')
+              environment.write('JVT_WP_CLI=' + str(runtime/'wp-cli.phar') + '\n')
+              environment.write('JVT_CI_DATABASE=' + str(runtime/'wordpress.sqlite') + '\n')
+          print('Pinned official downloads verified; local test adapter is outside website packages')
+          PY
+      - name: Install loopback-only disposable instance
+        run: |
+          php "$JVT_WP_CLI" --info
+          php "$JVT_WP_CLI" --path="$JVT_WP_ROOT" config create --dbname=unused --dbuser=unused --skip-check --extra-php <<'PHP'
+          define('DB_PATH', getenv('JVT_CI_DATABASE'));
+          define('WP_DEBUG', true);
+          define('WP_DEBUG_LOG', true);
+          define('WP_DEBUG_DISPLAY', false);
+          PHP
+          ci_password="$(python -c 'import secrets; print(secrets.token_urlsafe(32))')"
+          php "$JVT_WP_CLI" --path="$JVT_WP_ROOT" core install --url=http://127.0.0.1:8088 --title='Disposable website CI' --admin_user=ci-administrator --admin_password="$ci_password" --admin_email=ci@example.invalid --skip-email
+          unset ci_password
+          php "$JVT_WP_CLI" --path="$JVT_WP_ROOT" theme activate jvuorela-tools
+          php "$JVT_WP_CLI" --path="$JVT_WP_ROOT" option update blog_public 0
+          php "$JVT_WP_CLI" --path="$JVT_WP_ROOT" option update permalink_structure '/%postname%/'
+          php "$JVT_WP_CLI" --path="$JVT_WP_ROOT" core version
+      - name: Real core-block importer and edit/conflict survival
+        run: |
+          php "$JVT_WP_CLI" --path="$JVT_WP_ROOT" --user=1 eval-file tests/importer.php

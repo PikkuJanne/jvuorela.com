@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-10-10T17:49:46.099734+00:00",
+  "tool_id": "winbooksplit",
+  "repo_url": "https://github.com/PikkuJanne/WinBookSplit",
+  "actual_remote": "git@github.com:PikkuJanne/WinBookSplit.git",
+  "visibility": "PUBLIC",
+  "default_branch": "main",
+  "inspected_commit": "cc81212de7c4ba563fbbdad9747cdbd0b48fbf5d",
+  "live_default_branch_commit": "cc81212de7c4ba563fbbdad9747cdbd0b48fbf5d",
+  "status": "no_confirmed_obsolete_candidates",
+  "isolated_clone_used": true,
+  "working_tree_clean": true,
+  "tracked_file_count": 283,
+  "candidates": [
+    {
+      "path": "WinBookSplit_icon.ico",
+      "classification": "active runtime/application icon",
+      "reason": "Application icon family retained. The current package prerequisite checker requires this exact ICO; historical baseline and evidence preserve artwork.",
+      "git_blob_sha1": "fc57139965435f3ace0dc76d450e403a70adb8b8",
+      "sha256": "01a2c8f1ff14d3473c0d794dddc16a6c2fd899247f0d1534421a4f8776b44196",
+      "size_bytes": 21645,
+      "text_references_excluding_frozen_evidence": [
+        "docs/codex-v1.0.0/BASELINE.json:27:      \"path\": \"WinBookSplit_icon.ico\",",
+        "tools/ci/check_package_inputs.py:27:    \"README.md\", \"LICENSE\", \"WinBookSplit_icon.ico\", \"docs/PDF_POLICY.md\","
+      ],
+      "introduction_commit_and_subject": "08a7df439a472c66236c6b5df5dc855c4c277476 First commit",
+      "planned_action": "keep",
+      "outcome": "unchanged",
+      "reuse_for_website_allowed": false
+    },
+    {
+      "path": "WinBookSplit_icon.png",
+      "classification": "active runtime/application icon",
+      "reason": "PNG companion of the existing application icon; baseline identifies and preserves it. No evidence classifies it as obsolete website-only material.",
+      "git_blob_sha1": "910453b85c4a814168f9ce0ee8a28fa857983603",
+      "sha256": "df68b594e45dced01f0b2eab0af23e7601e1c4ea42d023cd28d1b82d2a375159",
+      "size_bytes": 10426,
+      "text_references_excluding_frozen_evidence": [
+        "docs/codex-v1.0.0/BASELINE.json:31:      \"path\": \"WinBookSplit_icon.png\","
+      ],
+      "introduction_commit_and_subject": "08a7df439a472c66236c6b5df5dc855c4c277476 First commit",
+      "planned_action": "keep",
+      "outcome": "unchanged",
+      "reuse_for_website_allowed": false
+    },
+    {
+      "path": "WinBookSplit_poster.png",
+      "classification": "owner_resolved_keep",
+      "reason": "Only baseline/historical hash references found; introduction was First commit. No current runtime or packaging reference was found, but no text establishes obsolete website-only provenance. Filename, lack of references and age do not authorize deletion.",
+      "git_blob_sha1": "3461d3bb810fb4cc8a82f6ba1e7590244fb876fb",
+      "sha256": "e05a5cb155a7b06124fcc9afaa43e7f5402f5b204bab679c4c6072a195abcbaa",
+      "size_bytes": 6941344,
+      "text_references_excluding_frozen_evidence": [
+        "docs/codex-v1.0.0/BASELINE.json:35:      \"path\": \"WinBookSplit_poster.png\","
+      ],
+      "introduction_commit_and_subject": "08a7df439a472c66236c6b5df5dc855c4c277476 First commit",
+      "planned_action": "keep",
+      "outcome": "unchanged",
+      "reuse_for_website_allowed": false,
+      "owner_resolution": {
+        "date": "2026-10-10",
+        "decision": "The owner explicitly instructed retaining this specifically named poster after the audit identified its provenance as ambiguous.",
+        "effect": "Preserve in the tool repository; forbidden as a website artwork source."
+      }
+    }
+  ],
+  "protected_files": [
+    "WinBookSplit_icon.ico",
+    "WinBookSplit_icon.png",
+    "WinBookSplit_poster.png"
+  ],
+  "confirmed_obsolete_paths": [],
+  "removed_paths": [],
+  "stale_direct_references_updated": [],
+  "cleanup_branch": null,
+  "pull_request_url": null,
+  "merged_commit": null,
+  "release_verification": {
+    "tag_name": "v1.0.0",
+    "html_url": "https://github.com/PikkuJanne/WinBookSplit/releases/tag/v1.0.0",
+    "public_stable_verified": false,
+    "api_http_status": 404,
+    "anonymous_release_page_http_status": 404,
+    "tag_object": null,
+    "reason": "No v1.0.0 release or tag observed; source STATUS and README still describe work in progress/development version."
+  },
+  "checks": [
+    {
+      "name": "isolated checkout is clean",
+      "result": "pass"
+    },
+    {
+      "name": "inspected HEAD equals independently queried default branch",
+      "result": "pass"
+    },
+    {
+      "name": "all classified paths exist in inspected tracked tree",
+      "result": "pass"
+    },
+    {
+      "name": "tracked filenames and text references reviewed without rendering/importing artwork",
+      "result": "pass"
+    },
+    {
+      "name": "no tool, packaging, release, tag or history mutation",
+      "result": "pass"
+    }
+  ],
+  "ambiguities": [],
+  "limits": [
+    "No tool artwork was rendered, imported, copied into the website, hotlinked or used as a creative reference.",
+    "No obsolete website-only file was conclusively established from tracked filenames, text references and introduction subjects.",
+    "No source changes were made, so runtime tests were not rerun and no tool PR was created.",
+    "Existing release asset hashes above are API-reported facts; this audit did not download or execute tool packages.",
+    "Ordinary history and published release assets remain unchanged and excluded as website artwork sources."
+  ],
+  "verification_evidence": "evidence/tool-cleanup/winbooksplit-2026-10-10.md",
+  "owner_resolution_date": "2026-10-10"
+}

@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-10-10T18:08:41.923366+00:00",
+  "scope": "Development-only content/media importer, exporter and native settings/menu initialization on disposable loopback WordPress",
+  "tested_working_tree_base_commit": "367c8d3d8b88442579969cd2601e88e02f0f3620",
+  "tested_source_sha256": {
+    "scripts/import-content.php": "a326a4d41d8c0d69d04542ad3ce18b059818cc8c57b5fbe29e4b0373e26577b1",
+    "scripts/export-content.php": "a9557481c79e8669fcbbb54195da1fd95e29518b92ce6de537c4761756f7f7e7",
+    "tests/importer.php": "59b39ae32a1cec2846a846f76dcfb9fad7d2443771e9ccab7dd139b444ebf020",
+    "docs/CONTENT_IMPORT.md": "9e5a64a6cff1e8e6270f76b4a5ef98179950e9dc691e2d924ef39b0c70e03894"
+  },
+  "environment": {
+    "php": "8.3.35",
+    "wordpress": "7.1.3",
+    "database_adapter": "SQLite Database Integration 3.1.0 (local development only)",
+    "target": "loopback private development installation",
+    "wp_cli_user": "explicit local administrator"
+  },
+  "command": "php wp-cli.phar eval-file tests/importer.php --path=DISPOSABLE_LOOPBACK_WORDPRESS --user=ADMIN",
+  "result": "pass",
+  "exit_code": 0,
+  "passed": 37,
+  "failed": 0,
+  "cases": [
+    "first plan describes drafts/media without writes",
+    "plan leaves real database table counts unchanged",
+    "explicit apply creates only fixture drafts and media",
+    "traced ICO stays a theme runtime file without bypassing upload MIME security",
+    "normal draft/media import leaves all existing options unchanged",
+    "normal importer never publishes pages",
+    "social slot resolves to native attachment metadata",
+    "attachment token becomes numeric core image ID",
+    "approved image URL replaces portable content tokens",
+    "intended Home token uses root URL before explicit fixture front-page configuration",
+    "cross-page URL resolves after all drafts are allocated",
+    "draft Page token uses its intended native slug permalink instead of a query-ID link",
+    "native page template is stored explicitly",
+    "uploaded original equals traced public derivative bytes",
+    "WordPress generated sizes remain proportional without crops",
+    "unchanged apply is idempotent",
+    "idempotent apply creates no duplicate pages media or metadata",
+    "edited benefit requirement and button URL survive rerun with field-level conflict",
+    "editor tagline survives read-only plan",
+    "edited post_title is detected and preserved",
+    "edited post_excerpt is detected and preserved",
+    "edited post_status is detected and preserved",
+    "edited post_name is detected and preserved",
+    "edited page template is detected and preserved",
+    "edited social attachment is detected and preserved",
+    "changed source seed cannot replace an existing page",
+    "unmarked slug collision is preserved and reported",
+    "duplicate stable markers fail closed",
+    "edited Media Library alternative text is preserved",
+    "malformed tokens fail validation before database writes",
+    "normal importer preserves unrelated options pages and users",
+    "separate configuration plan refuses a missing front page without writes",
+    "explicit configuration selects draft Home without publishing it",
+    "explicit configuration sets native icon and primary footer menus",
+    "configuration rerun is idempotent",
+    "owner Reading setting edit is retained as configuration conflict",
+    "owner menu edit survives configuration rerun"
+  ],
+  "recovery_plan": {
+    "result": "pass",
+    "action": "plan",
+    "writes": false,
+    "conflicts": 0,
+    "missing_drafts": 11,
+    "preserved_unchanged_media": 32,
+    "validated_theme_runtime_favicon": 1
+  },
+  "export_probe": {
+    "result": "pass",
+    "schema_version": 1,
+    "read_only": true,
+    "project_pages": 0,
+    "project_media": 0,
+    "timing": "Before the actual site import"
+  },
+  "prior_failures": [
+    {
+      "operation": "Initial configuration idempotence test",
+      "result": "fail",
+      "reason": "Resolved Home URL changed after configuring the static front page; configuration intent fingerprint incorrectly included environment-resolved URLs.",
+      "fix": "Hash portable configuration intent; then rerun the full suite successfully. Initial assertion counting also used a local eval-file variable and was corrected to shared test state."
+    },
+    {
+      "operation": "Actual 33-slot import attempted by parent agent",
+      "result": "fail",
+      "reason": "WordPress refused the ICO favicon MIME type after 32 valid attachments had been uploaded and before Page creation.",
+      "fix": "Validate the traced ICO as a theme runtime file without uploading or changing MIME policy; use the PNG site-icon attachment for native WordPress settings. A subsequent independent plan preserves all 32 attachments and safely proposes 11 drafts.",
+      "source": "Parent operation report plus independently observed current stable markers/recovery plan; no successful retry is claimed here."
+    }
+  ],
+  "other_checks": {
+    "php_lint": "pass for all three PHP scripts",
+    "export_json": "valid read-only schema returned",
+    "scope": "No theme runtime seeding or presentation plugin; crop-disabling filters exist only during importer uploads and are removed in finally."
+  },
+  "cleanup": "Allocated fixture page/attachment/menu IDs removed; one exact fixture option removed; complete prior configuration state, Reading/icon values and menu locations restored. Actual Page content and existing menu objects were not edited by this subagent.",
+  "limits": [
+    "This is local PHP/WordPress/SQLite evidence, not IONOS/MySQL or browser/editor UI evidence.",
+    "Source hashes bind the actual tested files; this record does not claim a future commit or CI pass.",
+    "The exporter snapshot is private review data, not a public database backup or automatic overwrite input.",
+    "Actual full-site setup, editorial/candidate corrections and local publication are recorded separately by the parent agent; this suite alters only disposable fixture content and temporarily scoped settings, restoring the prior settings completely."
+  ],
+  "previous_passing_checkpoints": [
+    {
+      "observed_at_utc": "2026-10-10T18:02:15.333124+00:00",
+      "passed": 36,
+      "tested_working_tree_base_commit": "367c8d3d8b88442579969cd2601e88e02f0f3620",
+      "tested_source_sha256": {
+        "scripts/import-content.php": "2ec3097b8c78c287906b5eca57244f71a574af60416d7554d8da27b4e2f3ad71",
+        "scripts/export-content.php": "a9557481c79e8669fcbbb54195da1fd95e29518b92ce6de537c4761756f7f7e7",
+        "tests/importer.php": "d5d5d798860281c1a1223142ee3af536bc096821d48df28b6ad09587007a6eef",
+        "docs/CONTENT_IMPORT.md": "3c7e198ed584749519177b6bee7402b0cdad90ea910dd5ad01a74ffb45731afd"
+      }
+    }
+  ],
+  "draft_link_regression": {
+    "before_fix_read_only_observation": {
+      "published_home_query_card_links": 7
+    },
+    "cause": "WordPress get_permalink() uses query-ID links for drafts, even with pretty permalinks configured.",
+    "fix": "Use the native get_page_link(id, false, true) sample Page API for intended draft slug URLs; intended static Home still maps to the root. Plain-permalink installations retain native plain URLs.",
+    "runtime_result": "Fixture remains draft; its ordinary permalink reproduces query-ID behavior while the imported cross-page href contains its intended slug and no query-ID token.",
+    "actual_page_content_changed_by_subagent": false,
+    "actual_candidate_link_correction": "Parent separately backed up and deliberately corrected the local candidate Home links."
+  },
+  "post_cleanup_preservation_probe": {
+    "result": "pass",
+    "read_only": true,
+    "actual_project_pages": 11,
+    "actual_project_attachments": 32,
+    "home_remains_published": true,
+    "static_front_page_restored": true,
+    "complete_configuration_baseline_restored": true,
+    "remaining_query_card_links": 0,
+    "note": "Zero remaining old links follows the parent\u2019s deliberate candidate correction; the fixture suite itself did not edit actual Page content."
+  }
+}

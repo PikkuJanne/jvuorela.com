@@ -9,93 +9,1045 @@
     {
       "tool_id": "winbooksplit",
       "repo_url": "https://github.com/PikkuJanne/WinBookSplit",
-      "default_branch": null,
-      "inspected_commit": null,
-      "status": "not_inspected",
-      "candidates": [],
-      "protected_files": [],
+      "default_branch": "main",
+      "inspected_commit": "cc81212de7c4ba563fbbdad9747cdbd0b48fbf5d",
+      "status": "no_confirmed_obsolete_candidates",
+      "candidates": [
+        {
+          "path": "WinBookSplit_icon.ico",
+          "classification": "active runtime/application icon",
+          "reason": "Application icon family retained. The current package prerequisite checker requires this exact ICO; historical baseline and evidence preserve artwork.",
+          "git_blob_sha1": "fc57139965435f3ace0dc76d450e403a70adb8b8",
+          "sha256": "01a2c8f1ff14d3473c0d794dddc16a6c2fd899247f0d1534421a4f8776b44196",
+          "size_bytes": 21645,
+          "text_references_excluding_frozen_evidence": [
+            "docs/codex-v1.0.0/BASELINE.json:27:      \"path\": \"WinBookSplit_icon.ico\",",
+            "tools/ci/check_package_inputs.py:27:    \"README.md\", \"LICENSE\", \"WinBookSplit_icon.ico\", \"docs/PDF_POLICY.md\","
+          ],
+          "introduction_commit_and_subject": "08a7df439a472c66236c6b5df5dc855c4c277476 First commit",
+          "planned_action": "keep",
+          "outcome": "unchanged",
+          "reuse_for_website_allowed": false
+        },
+        {
+          "path": "WinBookSplit_icon.png",
+          "classification": "active runtime/application icon",
+          "reason": "PNG companion of the existing application icon; baseline identifies and preserves it. No evidence classifies it as obsolete website-only material.",
+          "git_blob_sha1": "910453b85c4a814168f9ce0ee8a28fa857983603",
+          "sha256": "df68b594e45dced01f0b2eab0af23e7601e1c4ea42d023cd28d1b82d2a375159",
+          "size_bytes": 10426,
+          "text_references_excluding_frozen_evidence": [
+            "docs/codex-v1.0.0/BASELINE.json:31:      \"path\": \"WinBookSplit_icon.png\","
+          ],
+          "introduction_commit_and_subject": "08a7df439a472c66236c6b5df5dc855c4c277476 First commit",
+          "planned_action": "keep",
+          "outcome": "unchanged",
+          "reuse_for_website_allowed": false
+        },
+        {
+          "path": "WinBookSplit_poster.png",
+          "classification": "owner_resolved_keep",
+          "reason": "Only baseline/historical hash references found; introduction was First commit. No current runtime or packaging reference was found, but no text establishes obsolete website-only provenance. Filename, lack of references and age do not authorize deletion.",
+          "git_blob_sha1": "3461d3bb810fb4cc8a82f6ba1e7590244fb876fb",
+          "sha256": "e05a5cb155a7b06124fcc9afaa43e7f5402f5b204bab679c4c6072a195abcbaa",
+          "size_bytes": 6941344,
+          "text_references_excluding_frozen_evidence": [
+            "docs/codex-v1.0.0/BASELINE.json:35:      \"path\": \"WinBookSplit_poster.png\","
+          ],
+          "introduction_commit_and_subject": "08a7df439a472c66236c6b5df5dc855c4c277476 First commit",
+          "planned_action": "keep",
+          "outcome": "unchanged",
+          "reuse_for_website_allowed": false,
+          "owner_resolution": {
+            "date": "2026-10-10",
+            "decision": "The owner explicitly instructed retaining this specifically named poster after the audit identified its provenance as ambiguous.",
+            "effect": "Preserve in the tool repository; forbidden as a website artwork source."
+          }
+        }
+      ],
+      "protected_files": [
+        "WinBookSplit_icon.ico",
+        "WinBookSplit_icon.png",
+        "WinBookSplit_poster.png"
+      ],
       "cleanup_branch": null,
       "pull_request_url": null,
       "merged_commit": null,
-      "verification_evidence": null
+      "verification_evidence": [
+        "evidence/tool-cleanup/winbooksplit-2026-10-10.json",
+        "evidence/tool-cleanup/winbooksplit-2026-10-10.md"
+      ],
+      "observed_at": "2026-10-10T17:49:46.099734+00:00",
+      "ambiguities": []
     },
     {
       "tool_id": "winpdfmerger",
       "repo_url": "https://github.com/PikkuJanne/WinPDFMerger",
-      "default_branch": null,
-      "inspected_commit": null,
-      "status": "not_inspected",
-      "candidates": [],
-      "protected_files": [],
+      "default_branch": "main",
+      "inspected_commit": "e2c4676c826cbfadd0e7190175336437e5739052",
+      "status": "no_confirmed_obsolete_candidates",
+      "candidates": [
+        {
+          "path": "WinPDFMerge.ico",
+          "classification": "active runtime/application icon",
+          "reason": "Introduced in a commit described as Icon for shortcut of the .bat file. Preserve the application shortcut icon.",
+          "git_blob_sha1": "bcf626f1685055b03e18d508c5dec3abfe068c7c",
+          "sha256": "a341d50a022161a3f0e669185328b9ff9629b2f4e8948014cdd0ed51998f9bbb",
+          "size_bytes": 24780,
+          "text_references_excluding_frozen_evidence": [
+            "docs/codex/BASELINE.json:34:        \"file\": \"WinPDFMerge.ico\","
+          ],
+          "introduction_commit_and_subject": "a0ecf5469b0b88c16949871b2928d76f9d8eae8d Icon for shortcut of the .bat file",
+          "planned_action": "keep",
+          "outcome": "unchanged",
+          "reuse_for_website_allowed": false
+        },
+        {
+          "path": "WinPDFMerge_icon.png",
+          "classification": "active runtime/application icon",
+          "reason": "PNG companion introduced with the application shortcut icon; not proven website-only.",
+          "git_blob_sha1": "69e45875bfe513168911e621ac19b2fa681a6b6e",
+          "sha256": "365ec34dff8c410c50c316552b29ac6f6d47b40011037a4e17fe681a9dd871e9",
+          "size_bytes": 11028,
+          "text_references_excluding_frozen_evidence": [
+            "docs/codex/BASELINE.json:42:        \"file\": \"WinPDFMerge_icon.png\","
+          ],
+          "introduction_commit_and_subject": "a0ecf5469b0b88c16949871b2928d76f9d8eae8d Icon for shortcut of the .bat file",
+          "planned_action": "keep",
+          "outcome": "unchanged",
+          "reuse_for_website_allowed": false
+        },
+        {
+          "path": "WinPDFMerge_poster.png",
+          "classification": "owner_resolved_keep",
+          "reason": "Only baseline reference found outside frozen evidence. Introduction says Poster added :). It is outside the release payload, but no textual evidence establishes obsolete website-only provenance.",
+          "git_blob_sha1": "c4e51142b99973349013d940e927587f3046a6de",
+          "sha256": "612edb108f71978135035594c94e97d2e3459fdfe67dbbdc3b1b4c9b849b025d",
+          "size_bytes": 2088745,
+          "text_references_excluding_frozen_evidence": [
+            "docs/codex/BASELINE.json:46:        \"file\": \"WinPDFMerge_poster.png\","
+          ],
+          "introduction_commit_and_subject": "4926abc022b9b048dab2dda03650b755ef7ff875 Poster added :)",
+          "planned_action": "keep",
+          "outcome": "unchanged",
+          "reuse_for_website_allowed": false,
+          "owner_resolution": {
+            "date": "2026-10-10",
+            "decision": "The owner explicitly instructed retaining this specifically named poster after the audit identified its provenance as ambiguous.",
+            "effect": "Preserve in the tool repository; forbidden as a website artwork source."
+          }
+        }
+      ],
+      "protected_files": [
+        "WinPDFMerge.ico",
+        "WinPDFMerge_icon.png",
+        "WinPDFMerge_poster.png"
+      ],
       "cleanup_branch": null,
       "pull_request_url": null,
       "merged_commit": null,
-      "verification_evidence": null
+      "verification_evidence": [
+        "evidence/tool-cleanup/winpdfmerger-2026-10-10.json",
+        "evidence/tool-cleanup/winpdfmerger-2026-10-10.md"
+      ],
+      "observed_at": "2026-10-10T17:49:49.132922+00:00",
+      "ambiguities": []
     },
     {
       "tool_id": "winvidcompress",
       "repo_url": "https://github.com/PikkuJanne/WinVidCompress",
-      "default_branch": null,
-      "inspected_commit": null,
-      "status": "not_inspected",
-      "candidates": [],
-      "protected_files": [],
+      "default_branch": "main",
+      "inspected_commit": "8c0d5ca320726e310c8bd9977500144c61b28eee",
+      "status": "no_confirmed_obsolete_candidates",
+      "candidates": [
+        {
+          "path": "WinVidCompress_variant.ico",
+          "classification": "active runtime/application icon",
+          "reason": "Existing application shortcut icon family retained; no evidence of obsolete website-only purpose.",
+          "git_blob_sha1": "3acc46fc70921f802f0c03e6e355252665c12089",
+          "sha256": "e4b5462ffdfe3618586e6df12b03c1230104ee8344fe4133fba3d3c009fe1066",
+          "size_bytes": 18529,
+          "text_references_excluding_frozen_evidence": [],
+          "introduction_commit_and_subject": "2b85cc11e283c2d8139078836ba3d1ffc4f7617e Add files via upload",
+          "planned_action": "keep",
+          "outcome": "unchanged",
+          "reuse_for_website_allowed": false
+        },
+        {
+          "path": "WinVidCompress_icon_variant.png",
+          "classification": "active runtime/application icon",
+          "reason": "PNG companion of the application shortcut icon family retained; not proven website-only.",
+          "git_blob_sha1": "b46188de4a51e139cf1546d812b5048d17b3dcd4",
+          "sha256": "26668c8d59384a5fcb1adf894fba7ae5f9c75c84355a3a527dda1046f69445cd",
+          "size_bytes": 11007,
+          "text_references_excluding_frozen_evidence": [],
+          "introduction_commit_and_subject": "2b85cc11e283c2d8139078836ba3d1ffc4f7617e Add files via upload",
+          "planned_action": "keep",
+          "outcome": "unchanged",
+          "reuse_for_website_allowed": false
+        },
+        {
+          "path": "WinVidCompress_poster.png",
+          "classification": "owner_resolved_keep",
+          "reason": "No tracked textual reference found. Introduction says Poster added :). Exclusion from the tool package does not by itself prove obsolete website-only purpose.",
+          "git_blob_sha1": "16634f49359d64f040b54118e682008018340382",
+          "sha256": "b9a8a87a34780c2e241a98ef7f67968495bedbff5cf42c971234952a5e3e68d9",
+          "size_bytes": 1769258,
+          "text_references_excluding_frozen_evidence": [],
+          "introduction_commit_and_subject": "7456b2356a47082844de0e3fef3e78b69568bb3d Poster added :)",
+          "planned_action": "keep",
+          "outcome": "unchanged",
+          "reuse_for_website_allowed": false,
+          "owner_resolution": {
+            "date": "2026-10-10",
+            "decision": "The owner explicitly instructed retaining this specifically named poster after the audit identified its provenance as ambiguous.",
+            "effect": "Preserve in the tool repository; forbidden as a website artwork source."
+          }
+        },
+        {
+          "path": "website-content/screenshots/menu.png",
+          "classification": "active documentation/shared",
+          "reason": "Current product.json, DEMONSTRATIONS.md and WebsiteContent tests identify a genuine owner-supplied menu capture. Published content validation requires an image. Deletion would break useful documented/tested content.",
+          "git_blob_sha1": "52aafbf6acd951a70e7aa2bec8b5bec2c13850f4",
+          "sha256": "894538401cbe2dc7d109cfb8bb2385cbbcb6558f48a815e8b0d261c3495896ba",
+          "size_bytes": 26316,
+          "text_references_excluding_frozen_evidence": [
+            "website-content/DEMONSTRATIONS.md:3:The [actual menu image](screenshots/menu.png) was supplied by the owner on 2026-10-08 after launching the isolated demo. It shows the real application, not a recreated console, mock interface or generated picture. Its manifest in `product.json` identifies the exact source, capture method, checksum and crop. A public demo output directory and isolated APPDATA keep personal preferences and paths out of the image. The copied PS1/BAT bytes are the unchanged tracked scripts from main `b2582bd24b7efaa896b51d468c3679ee83bcb909`.",
+            "website-content/product.json:67:      \"file\": \"screenshots/menu.png\","
+          ],
+          "introduction_commit_and_subject": "2f6315f32cd1abdc461f85a7e4555bbb905b3709 docs: add verified owner menu capture for WVC-M5-04",
+          "planned_action": "keep",
+          "outcome": "unchanged",
+          "reuse_for_website_allowed": false
+        },
+        {
+          "path": "website-content/README.md",
+          "classification": "active documentation/shared",
+          "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+          "git_blob_sha1": "add2436a4d99fd8b2f88b85760dc591f88b73443",
+          "sha256": "e50c80f499dc8ce2e6bc8593d93f48b7727041da170dd4260bc148640b505315",
+          "planned_action": "keep",
+          "outcome": "unchanged"
+        },
+        {
+          "path": "website-content/DEMONSTRATIONS.md",
+          "classification": "active documentation/shared",
+          "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+          "git_blob_sha1": "dabf152c82460bf07b832f1c728793ca057f1ceb",
+          "sha256": "8bd92381acc6a3602f3c916f71d1108fd38ef84bf4c73b113247dc6b7d637574",
+          "planned_action": "keep",
+          "outcome": "unchanged"
+        },
+        {
+          "path": "website-content/product.json",
+          "classification": "active documentation/shared",
+          "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+          "git_blob_sha1": "aa32e7e18f15fef83e3b370eefacc87837720e78",
+          "sha256": "b33db5ef09ba5a7bff4139e3bd588f482b1d01403824f035c12274eceead3abb",
+          "planned_action": "keep",
+          "outcome": "unchanged"
+        },
+        {
+          "path": "website-content/product.schema.json",
+          "classification": "active documentation/shared",
+          "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+          "git_blob_sha1": "3478f875d5b56db2e77a2a81d687efd6e94a8839",
+          "sha256": "8ebbfc32963188aaa0fa53c76b0dcf511b1a4b08558b43bd26f4514e663d0977",
+          "planned_action": "keep",
+          "outcome": "unchanged"
+        },
+        {
+          "path": "website-content/examples/synthetic-default.json",
+          "classification": "active documentation/shared",
+          "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+          "git_blob_sha1": "244990388a74b0bc58bd45682c0d754f5acebdf5",
+          "sha256": "0eeed1c63cc0f675baffc6d02687449cbd191426fa85dcf5272c3d9cc082fdef",
+          "planned_action": "keep",
+          "outcome": "unchanged"
+        },
+        {
+          "path": "docs/releases/WEBSITE_CONTENT.md",
+          "classification": "active documentation/shared",
+          "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+          "git_blob_sha1": "554d9bbed8184334fd5105ea83ea69c89c7b9ba7",
+          "sha256": "72e1adb96a5bd43c340fd55a873c1b13ab538d4517d4cda72211404aa41e4c47",
+          "planned_action": "keep",
+          "outcome": "unchanged"
+        },
+        {
+          "path": "docs/codex-winvidcompress/WEBSITE_HANDOFF.md",
+          "classification": "active documentation/shared",
+          "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+          "git_blob_sha1": "00dab8257f02c147759dcfbe0688da5d256cc0c8",
+          "sha256": "e88228a42b1ab52c953f755948aef31617de5250b5beb8092b31aa3ed70b2ab0",
+          "planned_action": "keep",
+          "outcome": "unchanged"
+        },
+        {
+          "path": "docs/codex-winvidcompress/templates/website-product-draft.json",
+          "classification": "active documentation/shared",
+          "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+          "git_blob_sha1": "41088df2a4b290b362c51f874955ef19cb4b867b",
+          "sha256": "afd4e7cd712d0ef9142c653a4bea30353630ff9f482aa924ff997afb4b79f027",
+          "planned_action": "keep",
+          "outcome": "unchanged"
+        }
+      ],
+      "protected_files": [
+        "WinVidCompress_variant.ico",
+        "WinVidCompress_icon_variant.png",
+        "website-content/screenshots/menu.png",
+        "website-content/README.md",
+        "website-content/DEMONSTRATIONS.md",
+        "website-content/product.json",
+        "website-content/product.schema.json",
+        "website-content/examples/synthetic-default.json",
+        "docs/releases/WEBSITE_CONTENT.md",
+        "docs/codex-winvidcompress/WEBSITE_HANDOFF.md",
+        "docs/codex-winvidcompress/templates/website-product-draft.json",
+        "WinVidCompress_poster.png"
+      ],
       "cleanup_branch": null,
       "pull_request_url": null,
       "merged_commit": null,
-      "verification_evidence": null
+      "verification_evidence": [
+        "evidence/tool-cleanup/winvidcompress-2026-10-10.json",
+        "evidence/tool-cleanup/winvidcompress-2026-10-10.md"
+      ],
+      "observed_at": "2026-10-10T17:49:52.994793+00:00",
+      "ambiguities": []
     },
     {
       "tool_id": "universalpodcastdownloader",
       "repo_url": "https://github.com/PikkuJanne/UniversalPodcastDownloader",
-      "default_branch": null,
-      "inspected_commit": null,
-      "status": "not_inspected",
-      "candidates": [],
-      "protected_files": [],
+      "default_branch": "main",
+      "inspected_commit": "6df1e357fe12890a5bed285ac5560a97c8905575",
+      "status": "verified_no_obsolete_candidates",
+      "candidates": [
+        {
+          "path": "UniversalPodcastDownloader.ico",
+          "classification": "active runtime/application icon",
+          "reason": "Exact current 36-file release payload allowlist, build/candidate scripts and ReleasePackage integration tests require it. Preserve application artwork.",
+          "git_blob_sha1": "8e4ad59ccda46392e8f8179bf6e40f6525a45fb1",
+          "sha256": "facab3e36fdfe54a85fe6369562b94ee9b7a95e7fd75aac0d8b5bad6b3f2d890",
+          "size_bytes": 21640,
+          "text_references_excluding_frozen_evidence": [
+            "docs/codex/BASELINE.json:26:      \"path\": \"UniversalPodcastDownloader.ico\",",
+            "scripts/Build-Release.ps1:167:        'UniversalPodcastDownloader.ico', 'UniversalPodcastDownloader.ps1', 'UniversalPodcastDownloader_icon.png', 'UniversalPodcastDownloader_poster.png')",
+            "scripts/Prepare-ReleaseCandidate.ps1:64:        'UniversalPodcastDownloader.ico', 'UniversalPodcastDownloader.ps1', 'UniversalPodcastDownloader_icon.png', 'UniversalPodcastDownloader_poster.png')",
+            "tests/Integration/ReleasePackage.Tests.ps1:109:            'CHANGELOG.md', 'RELEASE.md', 'UniversalPodcastDownloader.ico', 'UniversalPodcastDownloader_icon.png',",
+            "tools/release-package.json:13:    \"UniversalPodcastDownloader.ico\","
+          ],
+          "introduction_commit_and_subject": "8a0cae0c5af25c0953d0bb569800ecadc6978102 First, and maybe last commit :)",
+          "planned_action": "keep",
+          "outcome": "unchanged",
+          "reuse_for_website_allowed": false
+        },
+        {
+          "path": "UniversalPodcastDownloader_icon.png",
+          "classification": "active documentation/shared",
+          "reason": "Exact current 36-file release payload allowlist, build/candidate scripts and ReleasePackage integration tests require it. Preserve shared shipped artwork.",
+          "git_blob_sha1": "7260ddd08203ae20d06c3e3868f5d3b7c06099d3",
+          "sha256": "76e306338450b582af1d2fa2884fd002baae5cd32343215f079f4c6ee5b1a3d9",
+          "size_bytes": 10750,
+          "text_references_excluding_frozen_evidence": [
+            "docs/codex/BASELINE.json:36:      \"path\": \"UniversalPodcastDownloader_icon.png\",",
+            "scripts/Build-Release.ps1:167:        'UniversalPodcastDownloader.ico', 'UniversalPodcastDownloader.ps1', 'UniversalPodcastDownloader_icon.png', 'UniversalPodcastDownloader_poster.png')",
+            "scripts/Prepare-ReleaseCandidate.ps1:64:        'UniversalPodcastDownloader.ico', 'UniversalPodcastDownloader.ps1', 'UniversalPodcastDownloader_icon.png', 'UniversalPodcastDownloader_poster.png')",
+            "tests/Integration/ReleasePackage.Tests.ps1:109:            'CHANGELOG.md', 'RELEASE.md', 'UniversalPodcastDownloader.ico', 'UniversalPodcastDownloader_icon.png',",
+            "tools/release-package.json:15:    \"UniversalPodcastDownloader_icon.png\","
+          ],
+          "introduction_commit_and_subject": "8a0cae0c5af25c0953d0bb569800ecadc6978102 First, and maybe last commit :)",
+          "planned_action": "keep",
+          "outcome": "unchanged",
+          "reuse_for_website_allowed": false
+        },
+        {
+          "path": "UniversalPodcastDownloader_poster.png",
+          "classification": "active documentation/shared",
+          "reason": "Exact current 36-file release payload allowlist, build/candidate scripts and ReleasePackage integration tests require it. Deleting would change tool packaging. It is not a confirmed obsolete website-only file.",
+          "git_blob_sha1": "ef4201b9334964d2f8da653727eca3e16caa1dfd",
+          "sha256": "43e44eb430d63411ecc6a332a8e66ea7c86e6e886ab27734e00b11343c431de3",
+          "size_bytes": 6097149,
+          "text_references_excluding_frozen_evidence": [
+            "docs/codex/BASELINE.json:41:      \"path\": \"UniversalPodcastDownloader_poster.png\",",
+            "scripts/Build-Release.ps1:167:        'UniversalPodcastDownloader.ico', 'UniversalPodcastDownloader.ps1', 'UniversalPodcastDownloader_icon.png', 'UniversalPodcastDownloader_poster.png')",
+            "scripts/Prepare-ReleaseCandidate.ps1:64:        'UniversalPodcastDownloader.ico', 'UniversalPodcastDownloader.ps1', 'UniversalPodcastDownloader_icon.png', 'UniversalPodcastDownloader_poster.png')",
+            "tests/Integration/ReleasePackage.Tests.ps1:110:            'UniversalPodcastDownloader_poster.png') + @(Get-ChildItem -LiteralPath (Join-Path $sourceRoot 'src') -File -Filter '*.ps1' | ForEach-Object { 'src/' + $_.Name })",
+            "tools/release-package.json:16:    \"UniversalPodcastDownloader_poster.png\","
+          ],
+          "introduction_commit_and_subject": "2ac82614493be7196c9ebee116f23fec07368b50 Poster added :)",
+          "planned_action": "keep",
+          "outcome": "unchanged",
+          "reuse_for_website_allowed": false
+        },
+        {
+          "path": "docs/website/PRODUCT_PAGE.md",
+          "classification": "active documentation/shared",
+          "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+          "git_blob_sha1": "e2d2787257e5a87bfea1ec7d3965c78dbd829fc6",
+          "sha256": "74bed6ae9665bac1532ac6d88f3e417f1c2ffbf3c8ff42ce28cddb839f8178d0",
+          "planned_action": "keep",
+          "outcome": "unchanged"
+        },
+        {
+          "path": "docs/website/README.md",
+          "classification": "active documentation/shared",
+          "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+          "git_blob_sha1": "ceeaa644a6d3a70064e18c4ad91cbcf8c40471f3",
+          "sha256": "4cd8526c0fd67769c6f5ed7fc77ad2f0759abad5dc9e06e34d615cde1bc9aff2",
+          "planned_action": "keep",
+          "outcome": "unchanged"
+        },
+        {
+          "path": "docs/website/SCREENSHOT_CAPTURE.md",
+          "classification": "active documentation/shared",
+          "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+          "git_blob_sha1": "2b6159d647b26a7c78b80a692ef00ebb7512b7e7",
+          "sha256": "dcc594859fdab491c89b667b724e9d345c682d70e6c4ab6ee4fa9bfb93813f26",
+          "planned_action": "keep",
+          "outcome": "unchanged"
+        },
+        {
+          "path": "docs/website/version.example.json",
+          "classification": "active documentation/shared",
+          "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+          "git_blob_sha1": "7261919a22e4cec1cac93e31674b3200553b6c88",
+          "sha256": "255030e78319ec3153155126c88e0ad8597159cf0ee0969fcad54d299140efd4",
+          "planned_action": "keep",
+          "outcome": "unchanged"
+        },
+        {
+          "path": "docs/codex/RELEASE_AND_WEBSITE.md",
+          "classification": "active documentation/shared",
+          "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+          "git_blob_sha1": "86163951304536af706e920775f6ac385b539316",
+          "sha256": "2977af30ece1802911c7dcf8863f553df5e3363e8b533271abe57fca147f1771",
+          "planned_action": "keep",
+          "outcome": "unchanged"
+        }
+      ],
+      "protected_files": [
+        "UniversalPodcastDownloader.ico",
+        "UniversalPodcastDownloader_icon.png",
+        "UniversalPodcastDownloader_poster.png",
+        "docs/website/PRODUCT_PAGE.md",
+        "docs/website/README.md",
+        "docs/website/SCREENSHOT_CAPTURE.md",
+        "docs/website/version.example.json",
+        "docs/codex/RELEASE_AND_WEBSITE.md"
+      ],
       "cleanup_branch": null,
       "pull_request_url": null,
       "merged_commit": null,
-      "verification_evidence": null
+      "verification_evidence": [
+        "evidence/tool-cleanup/universalpodcastdownloader-2026-10-10.json",
+        "evidence/tool-cleanup/universalpodcastdownloader-2026-10-10.md"
+      ],
+      "observed_at": "2026-10-10T17:49:56.530609+00:00",
+      "ambiguities": []
     },
     {
       "tool_id": "winaudioclean",
       "repo_url": "https://github.com/PikkuJanne/WinAudioClean",
-      "default_branch": null,
-      "inspected_commit": null,
-      "status": "not_inspected",
-      "candidates": [],
-      "protected_files": [],
-      "cleanup_branch": null,
-      "pull_request_url": null,
+      "default_branch": "main",
+      "inspected_commit": "75fed6188f5c5dde13029ebc9426fc210d44d52f",
+      "status": "pull_request_pending_checks",
+      "candidates": [
+        {
+          "path": "website/LICENSE",
+          "blob_sha": "d8cca2639474e791c0aaa4d77aac79d8c8900359",
+          "sha256": "714ffa7a21614e637d7dbb17a2e86e4575d7ecd2b6d36b5b67ab3fdcc4193477",
+          "bytes": 1070,
+          "classification": "confirmed_obsolete_website_only",
+          "action": "remove_current_tree",
+          "reason": "website/README.md explicitly describes portable presentation intended to be copied into future multi-tool website; final v2 owner plan replaces that presentation. Application never consumes this package. Dedicated website checker/test exist only to guard that retired presentation.",
+          "references": [
+            "website/README.md",
+            "scripts/Test-Website.py",
+            "docs/codex/winaudioclean/COVERAGE.json",
+            "docs/codex/winaudioclean/RECONSTRUCTION.md"
+          ]
+        },
+        {
+          "path": "website/README.md",
+          "blob_sha": "6c6d820176918cdc5f6ca9d0e98e755ee6e3302a",
+          "sha256": "a42d8e21dacd2c7d06a641698f0b8028904c35efd7340354c741b319d244e4d4",
+          "bytes": 5009,
+          "classification": "confirmed_obsolete_website_only",
+          "action": "remove_current_tree",
+          "reason": "website/README.md explicitly describes portable presentation intended to be copied into future multi-tool website; final v2 owner plan replaces that presentation. Application never consumes this package. Dedicated website checker/test exist only to guard that retired presentation.",
+          "references": [
+            "website/README.md",
+            "scripts/Test-Website.py",
+            "docs/codex/winaudioclean/COVERAGE.json",
+            "docs/codex/winaudioclean/RECONSTRUCTION.md"
+          ]
+        },
+        {
+          "path": "website/WinAudioClean_icon.png",
+          "blob_sha": "fbe0fd186b04977c1db86dcf96da92b782ec02da",
+          "sha256": "b77eaf6f8c0b1fdc083d743bfd76c47be97ac4a698b86c604f5f36a98132f6ee",
+          "bytes": 12146,
+          "classification": "confirmed_obsolete_website_only",
+          "action": "remove_current_tree",
+          "reason": "website/README.md explicitly describes portable presentation intended to be copied into future multi-tool website; final v2 owner plan replaces that presentation. Application never consumes this package. Dedicated website checker/test exist only to guard that retired presentation.",
+          "references": [
+            "website/README.md",
+            "scripts/Test-Website.py",
+            "docs/codex/winaudioclean/COVERAGE.json",
+            "docs/codex/winaudioclean/RECONSTRUCTION.md"
+          ]
+        },
+        {
+          "path": "website/app.js",
+          "blob_sha": "733c870cc5f816ebc79b54c761a65293395b0022",
+          "sha256": "35daefb5e1f2d009a60c29e611ecbcceffa7756b848b474c6c852a7994fe8eff",
+          "bytes": 9516,
+          "classification": "confirmed_obsolete_website_only",
+          "action": "remove_current_tree",
+          "reason": "website/README.md explicitly describes portable presentation intended to be copied into future multi-tool website; final v2 owner plan replaces that presentation. Application never consumes this package. Dedicated website checker/test exist only to guard that retired presentation.",
+          "references": [
+            "website/README.md",
+            "scripts/Test-Website.py",
+            "docs/codex/winaudioclean/COVERAGE.json",
+            "docs/codex/winaudioclean/RECONSTRUCTION.md"
+          ]
+        },
+        {
+          "path": "website/assets.json",
+          "blob_sha": "f857a624da3ec4bb74882d0e254d2b3453feef26",
+          "sha256": "59460fc5d530f67b2e235ba984f196d10cb5fdb6b8e4a2dd4fe459f0f79c8989",
+          "bytes": 827,
+          "classification": "confirmed_obsolete_website_only",
+          "action": "remove_current_tree",
+          "reason": "website/README.md explicitly describes portable presentation intended to be copied into future multi-tool website; final v2 owner plan replaces that presentation. Application never consumes this package. Dedicated website checker/test exist only to guard that retired presentation.",
+          "references": [
+            "website/README.md",
+            "scripts/Test-Website.py",
+            "docs/codex/winaudioclean/COVERAGE.json",
+            "docs/codex/winaudioclean/RECONSTRUCTION.md"
+          ]
+        },
+        {
+          "path": "website/index.html",
+          "blob_sha": "16473a7ec7dba488ee47b93aec1a0c2bd83e2e45",
+          "sha256": "350502f48765c9f0f61ae983c09017df41e4b2eab74afc336c1820d4cbaf6eb6",
+          "bytes": 11621,
+          "classification": "confirmed_obsolete_website_only",
+          "action": "remove_current_tree",
+          "reason": "website/README.md explicitly describes portable presentation intended to be copied into future multi-tool website; final v2 owner plan replaces that presentation. Application never consumes this package. Dedicated website checker/test exist only to guard that retired presentation.",
+          "references": [
+            "website/README.md",
+            "scripts/Test-Website.py",
+            "docs/codex/winaudioclean/COVERAGE.json",
+            "docs/codex/winaudioclean/RECONSTRUCTION.md"
+          ]
+        },
+        {
+          "path": "website/release.json",
+          "blob_sha": "dc8d9cf6114c87fc7ed5ff2ba613e711657e1534",
+          "sha256": "37300b19824e8d7ff5b54676b21fbb0d47cdd075149e3ba246e0e46b7b8d0fdb",
+          "bytes": 1340,
+          "classification": "confirmed_obsolete_website_only",
+          "action": "remove_current_tree",
+          "reason": "website/README.md explicitly describes portable presentation intended to be copied into future multi-tool website; final v2 owner plan replaces that presentation. Application never consumes this package. Dedicated website checker/test exist only to guard that retired presentation.",
+          "references": [
+            "website/README.md",
+            "scripts/Test-Website.py",
+            "docs/codex/winaudioclean/COVERAGE.json",
+            "docs/codex/winaudioclean/RECONSTRUCTION.md"
+          ]
+        },
+        {
+          "path": "website/release.schema.json",
+          "blob_sha": "58f4453ad302e8f2b9ae4f6158420c7ae8b4f947",
+          "sha256": "24d6c5923d7a698c59dc15ee829a9166baafc93b351c4ba0f6a8d1eab8123a53",
+          "bytes": 3336,
+          "classification": "confirmed_obsolete_website_only",
+          "action": "remove_current_tree",
+          "reason": "website/README.md explicitly describes portable presentation intended to be copied into future multi-tool website; final v2 owner plan replaces that presentation. Application never consumes this package. Dedicated website checker/test exist only to guard that retired presentation.",
+          "references": [
+            "website/README.md",
+            "scripts/Test-Website.py",
+            "docs/codex/winaudioclean/COVERAGE.json",
+            "docs/codex/winaudioclean/RECONSTRUCTION.md"
+          ]
+        },
+        {
+          "path": "website/styles.css",
+          "blob_sha": "525058171caa75a979446763f1904cdd299efbbf",
+          "sha256": "02ef52b68dea7bdfdccb1909820e5f7918a5d8cd2795d712232f9d1509eed158",
+          "bytes": 14403,
+          "classification": "confirmed_obsolete_website_only",
+          "action": "remove_current_tree",
+          "reason": "website/README.md explicitly describes portable presentation intended to be copied into future multi-tool website; final v2 owner plan replaces that presentation. Application never consumes this package. Dedicated website checker/test exist only to guard that retired presentation.",
+          "references": [
+            "website/README.md",
+            "scripts/Test-Website.py",
+            "docs/codex/winaudioclean/COVERAGE.json",
+            "docs/codex/winaudioclean/RECONSTRUCTION.md"
+          ]
+        },
+        {
+          "path": "scripts/Test-Website.py",
+          "blob_sha": "b4df967bf2a4d3b9fe329cb5d20bac57ab1832ec",
+          "sha256": "bed32027ff1e57c12d440dc98dac67c84cdca7b9d70257fd045b118a37f55a18",
+          "bytes": 16577,
+          "classification": "confirmed_obsolete_website_only",
+          "action": "remove_current_tree",
+          "reason": "website/README.md explicitly describes portable presentation intended to be copied into future multi-tool website; final v2 owner plan replaces that presentation. Application never consumes this package. Dedicated website checker/test exist only to guard that retired presentation.",
+          "references": [
+            "website/README.md",
+            "scripts/Test-Website.py",
+            "docs/codex/winaudioclean/COVERAGE.json",
+            "docs/codex/winaudioclean/RECONSTRUCTION.md"
+          ]
+        },
+        {
+          "path": "docs/codex/winaudioclean/tests/test_website.py",
+          "blob_sha": "f3412d0cdc763e6e58516e77f42577179141c494",
+          "sha256": "8bb01dc4f2e374613ceb0b422a3adb87dfcf30388b79ebe9aa37dc44c33c2a04",
+          "bytes": 11731,
+          "classification": "confirmed_obsolete_website_only",
+          "action": "remove_current_tree",
+          "reason": "website/README.md explicitly describes portable presentation intended to be copied into future multi-tool website; final v2 owner plan replaces that presentation. Application never consumes this package. Dedicated website checker/test exist only to guard that retired presentation.",
+          "references": [
+            "website/README.md",
+            "scripts/Test-Website.py",
+            "docs/codex/winaudioclean/COVERAGE.json",
+            "docs/codex/winaudioclean/RECONSTRUCTION.md"
+          ]
+        },
+        {
+          "path": "WinAudioClean_poster.png",
+          "blob_sha": "f33a1fe72b929288fc32f337bb62b301b0be9587",
+          "sha256": "3a5f8b1d61b32e1c492f7eef8ad2032a24bc8de61b98f6814631123d973d6cb5",
+          "bytes": 6947178,
+          "classification": "owner_resolved_keep",
+          "action": "preserve",
+          "reason": "Owner explicitly instructed retaining this exact poster on 10 October 2026; the tool-repository asset remains excluded as a website source.",
+          "references": [
+            "Historical BASELINE/evidence only; no runtime, packaging or current README reference."
+          ],
+          "owner_decision_date": "2026-10-10"
+        }
+      ],
+      "protected_files": [
+        {
+          "path": "WinAudioClean.ico",
+          "blob_sha": "6005ab943ed246647d34f459dee8bf81fc17e5a0",
+          "sha256": "438dd08b6509f91dbed800f281aa89de7582cc2270e5e5a684d78c570d53f501",
+          "bytes": 30763,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "438dd08b6509f91dbed800f281aa89de7582cc2270e5e5a684d78c570d53f501",
+          "current_index_blob_sha": "6005ab943ed246647d34f459dee8bf81fc17e5a0",
+          "working_bytes_equal_to_git_blob": true,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "WinAudioClean_icon.png",
+          "blob_sha": "fbe0fd186b04977c1db86dcf96da92b782ec02da",
+          "sha256": "b77eaf6f8c0b1fdc083d743bfd76c47be97ac4a698b86c604f5f36a98132f6ee",
+          "bytes": 12146,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "b77eaf6f8c0b1fdc083d743bfd76c47be97ac4a698b86c604f5f36a98132f6ee",
+          "current_index_blob_sha": "fbe0fd186b04977c1db86dcf96da92b782ec02da",
+          "working_bytes_equal_to_git_blob": true,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "WinAudioClean.ps1",
+          "blob_sha": "86d8a75d651a131d6590d869e419d5f0afbe12df",
+          "sha256": "4e94aef6014dedebac0ab291717b0a5ec21454af34284bece0379f0ae15da70b",
+          "bytes": 156051,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "4e94aef6014dedebac0ab291717b0a5ec21454af34284bece0379f0ae15da70b",
+          "current_index_blob_sha": "86d8a75d651a131d6590d869e419d5f0afbe12df",
+          "working_bytes_equal_to_git_blob": true,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "WinAudioClean.Batch.ps1",
+          "blob_sha": "f60eeefd24b6929a803c3a0a0f69dd059e3b59f0",
+          "sha256": "d54b32dac27a98d4e16ed0a81127e72657a07b0fffa6fd7eaa44e6081ab03ce7",
+          "bytes": 19634,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "7fac3b1277aab43c34424ed59779c61fc470f5c9a31e5cd68faa72d68425e4ba",
+          "current_index_blob_sha": "f60eeefd24b6929a803c3a0a0f69dd059e3b59f0",
+          "working_bytes_equal_to_git_blob": false,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "WinAudioClean.IO.ps1",
+          "blob_sha": "9c7d049d31e79f06b8e4db1d505822bbb4fab576",
+          "sha256": "fcc9f6b69ddb97e20f06242e9a14d2cd02df194c598806d360e0d85627278e46",
+          "bytes": 26826,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "ef987f752945d12334fe03c4ef5f5696a1920874c4f2a153625668ec911143c0",
+          "current_index_blob_sha": "9c7d049d31e79f06b8e4db1d505822bbb4fab576",
+          "working_bytes_equal_to_git_blob": false,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "WinAudioClean.Launcher.ps1",
+          "blob_sha": "5b487a0702375f5f358a0325048406bbfd96a688",
+          "sha256": "76ecbd33bc94f892f77c3e6a39ce92a53d23512bd4f0b5180c35db4f03219026",
+          "bytes": 14397,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "0fac0e13664dcf6d0017f5636e97f6f6968b813a672e3ab48a9ae68701d94fa5",
+          "current_index_blob_sha": "5b487a0702375f5f358a0325048406bbfd96a688",
+          "working_bytes_equal_to_git_blob": false,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "WinAudioClean.Output.ps1",
+          "blob_sha": "f50818b1508425f64968a2f6f82bf5d7084f745a",
+          "sha256": "44f87bdb049ed3bede6e680c9a76281926af64329f39ad3ccc829553357f2bb4",
+          "bytes": 11184,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "8ebdfc688bc012a98dcc03d9f64b3910a9d3a01b1fef7440fd4ee98af33ac7a4",
+          "current_index_blob_sha": "f50818b1508425f64968a2f6f82bf5d7084f745a",
+          "working_bytes_equal_to_git_blob": false,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "WinAudioClean.Preview.ps1",
+          "blob_sha": "7a9ef98328370ca239198db4b13fca058d3486aa",
+          "sha256": "35ef94276eac5aa65c35932846affa1bd4639726904639a6028136df2865d4d4",
+          "bytes": 46367,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "c8aad4c392db0347e58671c80cc8bb16d35fd5703196333a81f90a119e5b0e9b",
+          "current_index_blob_sha": "7a9ef98328370ca239198db4b13fca058d3486aa",
+          "working_bytes_equal_to_git_blob": false,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "WinAudioClean.Queue.ps1",
+          "blob_sha": "b4585579b3a0e55c4a9d6f54dde6a5edcd1c5dd4",
+          "sha256": "54d943fe1bf71a260941e13f7dc5266d3e7149de0742b2826474cab25b7c61f8",
+          "bytes": 14069,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "957b14abc7a375d8fba3cdf3637ce324242587e3dd427a3524e1ae74524af0c0",
+          "current_index_blob_sha": "b4585579b3a0e55c4a9d6f54dde6a5edcd1c5dd4",
+          "working_bytes_equal_to_git_blob": false,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "WinAudioClean.Settings.ps1",
+          "blob_sha": "83a630d7f3a0b9eb171efbc4a5219768457893ce",
+          "sha256": "a42f51ed6155aeb9525b337255fc541f06fea56a1baf8de57168c0a1e8a55755",
+          "bytes": 28208,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "cc74220c3641d69bad788d221f8ada98da8df36e692f0f853bdafc24608aceea",
+          "current_index_blob_sha": "83a630d7f3a0b9eb171efbc4a5219768457893ce",
+          "working_bytes_equal_to_git_blob": false,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "WinAudioClean.bat",
+          "blob_sha": "3b536f2a7f94e186075fbd10735c713377a29495",
+          "sha256": "6e27f9ad0ca277c7952f159f1ec398d6a9ea0c3fa5f9d935fb39c47c1d71935b",
+          "bytes": 3621,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "6e27f9ad0ca277c7952f159f1ec398d6a9ea0c3fa5f9d935fb39c47c1d71935b",
+          "current_index_blob_sha": "3b536f2a7f94e186075fbd10735c713377a29495",
+          "working_bytes_equal_to_git_blob": true,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "scripts/Build-Release.ps1",
+          "blob_sha": "2d116ec2aa7e80f371ea5e30405b9ced37df3bcb",
+          "sha256": "11873e7ddd1ddc2ea65f161f259ade42fe0419ddfbddb168cd80949cb8114036",
+          "bytes": 16660,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "a015e0e28f611261c19b764cf2e4348db283a0b1ec5c116257ae87d89987d792",
+          "current_index_blob_sha": "2d116ec2aa7e80f371ea5e30405b9ced37df3bcb",
+          "working_bytes_equal_to_git_blob": false,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "scripts/Test-ReleasePackage.py",
+          "blob_sha": "8c92a8010298f61a2ed460220c3dbac3f3fa632c",
+          "sha256": "15df36f2a99c0eba5ba205b8ca201f22b71cff3931fdc56cd679c499e84e88ff",
+          "bytes": 34478,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "2f246627e2d53ccd9cb156a2f3bc099a4b282f8c18717422023e653d1b2178b3",
+          "current_index_blob_sha": "8c92a8010298f61a2ed460220c3dbac3f3fa632c",
+          "working_bytes_equal_to_git_blob": false,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        }
+      ],
+      "cleanup_branch": "codex/remove-obsolete-website-20261010",
+      "pull_request_url": "https://github.com/PikkuJanne/WinAudioClean/pull/10",
       "merged_commit": null,
-      "verification_evidence": null
+      "verification_evidence": [
+        "evidence/tool-cleanup/winaudioclean.json",
+        "evidence/tool-cleanup/winaudioclean.md"
+      ],
+      "observed_at": "2026-10-10",
+      "ambiguities": []
     },
     {
       "tool_id": "winimagenormalizer",
       "repo_url": "https://github.com/PikkuJanne/WinImgNormalizer",
-      "default_branch": null,
-      "inspected_commit": null,
-      "status": "not_inspected",
-      "candidates": [],
-      "protected_files": [],
-      "cleanup_branch": null,
-      "pull_request_url": null,
+      "default_branch": "main",
+      "inspected_commit": "e5376d41879a2e4ffb5da5e607bfb634f1598621",
+      "status": "pull_request_pending_checks",
+      "candidates": [
+        {
+          "path": "WinImgNormalizer_poster.png",
+          "blob_sha": "89a874807f72112b4acc1730d943314ec12379fd",
+          "sha256": "99b1cd73450e725a5cce26a00ecdb6e660166ff8b5b9f75896882cfe7825d926",
+          "bytes": 2397241,
+          "classification": "confirmed_obsolete_website_only",
+          "action": "remove_current_tree",
+          "reason": "docs/website/metadata.json labels this poster historical_reference_only/display:false; INTEGRATION.md identifies legacy faux terminal/progress and outdated hard-cap text, explicitly excluding it from current presentation; no application or package consumer.",
+          "references": [
+            "docs/website/metadata.json",
+            "docs/website/INTEGRATION.md",
+            "tools/website/Test-WebsiteHandoff.ps1",
+            "tests/Website.Tests.ps1",
+            "tests/Compatibility.Tests.ps1",
+            "tests/Invoke-Tests.ps1",
+            "tests/Export-TestEvidence.ps1"
+          ]
+        }
+      ],
+      "protected_files": [
+        {
+          "path": "WinImgNormalizer_icon_variant.png",
+          "blob_sha": "e7a19683259ed855407f8e0d5cef326f0c789b8c",
+          "sha256": "479f819325df22004e38f42183ff1d1e2351f753abed935a59357fed7da750f9",
+          "bytes": 11141,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "479f819325df22004e38f42183ff1d1e2351f753abed935a59357fed7da750f9",
+          "current_index_blob_sha": "e7a19683259ed855407f8e0d5cef326f0c789b8c",
+          "working_bytes_equal_to_git_blob": true,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "WinImgNormalizer_variant.ico",
+          "blob_sha": "963ee47d33fcf457b309dd50f493d3c4545b36ed",
+          "sha256": "78ef6c01d0b466e72e3bad4fe83bb12b57a74c2f245a1274a559857d35374e79",
+          "bytes": 22917,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "78ef6c01d0b466e72e3bad4fe83bb12b57a74c2f245a1274a559857d35374e79",
+          "current_index_blob_sha": "963ee47d33fcf457b309dd50f493d3c4545b36ed",
+          "working_bytes_equal_to_git_blob": true,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "WinImgNormalizer.ps1",
+          "blob_sha": "6569c29eb6ea72e9e89b1769b27a815301a6ed41",
+          "sha256": "6545e02db60910c23b6f009ea8c77e5ee6bd41cec589c7ff940b2ac198579e2e",
+          "bytes": 155113,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "282b3f6f4929948fc4fb691af6bf687c0ee8821371f5ad7529eba7717c66c383",
+          "current_index_blob_sha": "6569c29eb6ea72e9e89b1769b27a815301a6ed41",
+          "working_bytes_equal_to_git_blob": false,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "WinImgNormalizer.bat",
+          "blob_sha": "9ce2bca5b18bfb3388a9eed10aef397ba3084d54",
+          "sha256": "b8191e959851f5aa17aa4034b16bb6a19c830e22121cce882213bf14b50e1e83",
+          "bytes": 1669,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "b8191e959851f5aa17aa4034b16bb6a19c830e22121cce882213bf14b50e1e83",
+          "current_index_blob_sha": "9ce2bca5b18bfb3388a9eed10aef397ba3084d54",
+          "working_bytes_equal_to_git_blob": true,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "tools/release/Build-Release.ps1",
+          "blob_sha": "3a519ae561ac1e7df28d7f77f341e02290bf8740",
+          "sha256": "8a744ea4d96fc560a31d41a9f3f2698793ecdf0ba62dec71e87ce830d42a555c",
+          "bytes": 11159,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "863e68f5c075ceaabdc98da4158cde25cc5b96820b2d6cb41dd2ab816ea6474a",
+          "current_index_blob_sha": "3a519ae561ac1e7df28d7f77f341e02290bf8740",
+          "working_bytes_equal_to_git_blob": false,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "tools/release/Update-ReleaseMetadata.ps1",
+          "blob_sha": "16611977cde1fb2a5f80badcd706237bf2b1b0b7",
+          "sha256": "d201895e7a4729e5230a4ff088bf0c620d609368219f7ab8948802008aeaeb0f",
+          "bytes": 12097,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "0fa029a4aab523a1142ebb278ffdcab327b8a738941aac6384d5005a53adfd1a",
+          "current_index_blob_sha": "16611977cde1fb2a5f80badcd706237bf2b1b0b7",
+          "working_bytes_equal_to_git_blob": false,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "release-metadata.json",
+          "blob_sha": "82d1b6293cf4ee8d9514036f919cf875bcf337ee",
+          "sha256": "7afb68fbe7ce291ff48101af55e456792cd83b005ecf77c21d064c7cec71d9f3",
+          "bytes": 762,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "7afb68fbe7ce291ff48101af55e456792cd83b005ecf77c21d064c7cec71d9f3",
+          "current_index_blob_sha": "82d1b6293cf4ee8d9514036f919cf875bcf337ee",
+          "working_bytes_equal_to_git_blob": true,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        }
+      ],
+      "cleanup_branch": "codex/remove-obsolete-website-artwork-20261010",
+      "pull_request_url": "https://github.com/PikkuJanne/WinImgNormalizer/pull/29",
       "merged_commit": null,
-      "verification_evidence": null
+      "verification_evidence": [
+        "evidence/tool-cleanup/winimagenormalizer.json",
+        "evidence/tool-cleanup/winimagenormalizer.md"
+      ],
+      "observed_at": "2026-10-10",
+      "ambiguities": []
     },
     {
       "tool_id": "audiofileforphone",
       "repo_url": "https://github.com/PikkuJanne/AudioFileForPhone",
-      "default_branch": null,
-      "inspected_commit": null,
-      "status": "not_inspected",
-      "candidates": [],
-      "protected_files": [],
+      "default_branch": "main",
+      "inspected_commit": "2bf1ea1921ab33633b978bd384bbbf098648ceed",
+      "status": "verified_no_confirmed_obsolete_candidates",
+      "candidates": [
+        {
+          "path": "AudioFileForPhone_poster.png",
+          "blob_sha": "6c932c3427a13419b1fc2a0269253bd8b948fd37",
+          "sha256": "8ef1ed263e7bb6e4d6fa63ed4401f2e42fe6e76b5ac431a73ec69e5fd15e8442",
+          "bytes": 7011504,
+          "classification": "owner_resolved_keep",
+          "action": "preserve",
+          "reason": "Owner explicitly instructed retaining AudioFileForPhone_poster.png on 10 October 2026. No cleanup or website reuse is authorized for this retained tool asset.",
+          "references": [
+            "No tracked text reference in README, launcher, application or integration test."
+          ],
+          "owner_decision_date": "2026-10-10"
+        }
+      ],
+      "protected_files": [
+        {
+          "path": "AudioFileForPhone_icon.png",
+          "blob_sha": "b09725d9d2c3b306083d62568dc26a9f2bcd7970",
+          "sha256": "26a2095d9fe9bdbe52a6b727de67ecaeb7f59910d1eed4bd7ee9d58906e22bb4",
+          "bytes": 10307,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "26a2095d9fe9bdbe52a6b727de67ecaeb7f59910d1eed4bd7ee9d58906e22bb4",
+          "current_index_blob_sha": "b09725d9d2c3b306083d62568dc26a9f2bcd7970",
+          "working_bytes_equal_to_git_blob": true,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "AudioFileForPhone_icon.ico",
+          "blob_sha": "4a2e6fd71f256580bcbd288821066f14c03356e8",
+          "sha256": "32ab3d7c50ed738640d5283d8c1db2b1b29314fb4abcb885b2b09a807ea48df1",
+          "bytes": 19765,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "32ab3d7c50ed738640d5283d8c1db2b1b29314fb4abcb885b2b09a807ea48df1",
+          "current_index_blob_sha": "4a2e6fd71f256580bcbd288821066f14c03356e8",
+          "working_bytes_equal_to_git_blob": true,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "AudioFileForPhone.ps1",
+          "blob_sha": "06d049536ffe1e2a979856df8b67bae8b31b6dd6",
+          "sha256": "d30eb7280baff82089536797abd4ca20dec203d7e47807a5f13d0ed2fa4d0a88",
+          "bytes": 29141,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "d30eb7280baff82089536797abd4ca20dec203d7e47807a5f13d0ed2fa4d0a88",
+          "current_index_blob_sha": "06d049536ffe1e2a979856df8b67bae8b31b6dd6",
+          "working_bytes_equal_to_git_blob": true,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "AudioFileForPhone.bat",
+          "blob_sha": "00cbf63a11b705bb5deda1fc72db17ab71c0f467",
+          "sha256": "247ace8866b5672907cf1e91c7fa03f06f78a099fe3278aea109f9581a8aac25",
+          "bytes": 823,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "247ace8866b5672907cf1e91c7fa03f06f78a099fe3278aea109f9581a8aac25",
+          "current_index_blob_sha": "00cbf63a11b705bb5deda1fc72db17ab71c0f467",
+          "working_bytes_equal_to_git_blob": true,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        },
+        {
+          "path": "tests/Test-AudioFileForPhone.ps1",
+          "blob_sha": "b14fc1cf74f849be87666ecae66c3bb7fcfd2c25",
+          "sha256": "95f2a1738d1f7743cb07a1a80e6a4d8b1f0dc82796334016d82c27be8ae4d86d",
+          "bytes": 13465,
+          "classification": "active_runtime_or_shared_application_branding",
+          "action": "preserve",
+          "working_file_sha256": "4f5e101babc50235d89393a6410f49fe8ce4531c61c1ed6a093fcc92b013e4f1",
+          "current_index_blob_sha": "b14fc1cf74f849be87666ecae66c3bb7fcfd2c25",
+          "working_bytes_equal_to_git_blob": false,
+          "checkout_eol_normalization_only": true,
+          "unchanged": true
+        }
+      ],
       "cleanup_branch": null,
       "pull_request_url": null,
       "merged_commit": null,
-      "verification_evidence": null
+      "verification_evidence": [
+        "evidence/tool-cleanup/audiofileforphone.json",
+        "evidence/tool-cleanup/audiofileforphone.md"
+      ],
+      "observed_at": "2026-10-10",
+      "ambiguities": []
     }
-  ]
+  ],
+  "owner_retained_posters": [
+    "WinBookSplit_poster.png",
+    "WinPDFMerge_poster.png",
+    "WinVidCompress_poster.png",
+    "WinAudioClean_poster.png",
+    "AudioFileForPhone_poster.png"
+  ],
+  "owner_decision_date": "2026-10-10"
 }

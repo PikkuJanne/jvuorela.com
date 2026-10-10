@@ -4,9 +4,10 @@
     "todo",
     "in_progress",
     "blocked",
-    "done"
+    "done",
+    "deferred"
   ],
-  "instructions": "Use actual evidence; continue around blockers; commit and push passing checkpoints to PUBLIC GitHub. IONOS public cutover needs concrete launch authorization. Approved supplied assets only; scoped tool cleanup is included.",
+  "instructions": "Use actual evidence; synchronize passing checkpoints to PUBLIC GitHub. Owner follow-up defers IONOS/hosting/live deployment to a separate session; this handoff completes with a tested local candidate, public source and deployment/rollback packages. Preserve original live-launch prerequisites and approved-asset/tool-cleanup policies.",
   "tasks": [
     {
       "id": "T00",
@@ -40,11 +41,13 @@
       "acceptance_ids": [
         "A01"
       ],
-      "status": "in_progress",
+      "status": "done",
       "evidence": [
-        "docs/LOCAL_SETUP.md"
+        "docs/LOCAL_SETUP.md",
+        "docs/DEPLOYMENT_HANDOFF.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "disposition": "Local environment selected; hosting inventory deferred by owner."
     },
     {
       "id": "T02",
@@ -59,11 +62,13 @@
       "acceptance_ids": [
         "A02"
       ],
-      "status": "in_progress",
+      "status": "done",
       "evidence": [
-        "docs/LOCAL_SETUP.md"
+        "docs/LOCAL_SETUP.md",
+        "scripts/setup-local.ps1"
       ],
-      "blocker": null
+      "blocker": null,
+      "disposition": "Reproducible pinned local setup; fresh packaged rehearsal pending under T12."
     },
     {
       "id": "T03",
@@ -78,11 +83,13 @@
       "acceptance_ids": [
         "A03"
       ],
-      "status": "in_progress",
+      "status": "done",
       "evidence": [
-        "docs/LOCAL_SETUP.md"
+        "evidence/browser-runtime.json",
+        "evidence/editor-blocks.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "disposition": "Installable core-block theme activated on real local WordPress."
     },
     {
       "id": "T04",
@@ -99,11 +106,13 @@
         "A04",
         "A05"
       ],
-      "status": "in_progress",
+      "status": "done",
       "evidence": [
-        "docs/LOCAL_SETUP.md"
+        "evidence/importer-runtime-2026-10-10.md",
+        "evidence/editor-blocks.json"
       ],
-      "blocker": null
+      "blocker": null,
+      "disposition": "37 real importer assertions and Editor save/update survival passed."
     },
     {
       "id": "T05",
@@ -119,9 +128,13 @@
       "acceptance_ids": [
         "A06"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "done",
+      "evidence": [
+        "evidence/browser-runtime.json",
+        "content/pages.json"
+      ],
+      "blocker": null,
+      "disposition": "Seven cards, native menus and real internal routes tested."
     },
     {
       "id": "T06",
@@ -137,9 +150,13 @@
       "acceptance_ids": [
         "A07"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "done",
+      "evidence": [
+        "evidence/browser-runtime.json",
+        "evidence/editor-blocks.json"
+      ],
+      "blocker": null,
+      "disposition": "Seven editable native tool Pages with one H1 and shared presentation template."
     },
     {
       "id": "T07",
@@ -158,9 +175,13 @@
         "A08",
         "A09"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "done",
+      "evidence": [
+        "evidence/asset-review.md",
+        "evidence/browser-runtime.json"
+      ],
+      "blocker": null,
+      "disposition": "Supplied asset slots, draft support routes and actual HTTP404 tested."
     },
     {
       "id": "T08",
@@ -176,9 +197,13 @@
       "acceptance_ids": [
         "A10"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "in_progress",
+      "evidence": [
+        "evidence/editor-blocks.json",
+        "content/COPY_REVIEW.md"
+      ],
+      "blocker": null,
+      "disposition": "Editorial behavior passed; final owner wording review belongs to future launch."
     },
     {
       "id": "T09",
@@ -194,9 +219,12 @@
         "A11",
         "A12"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "done",
+      "evidence": [
+        "evidence/browser-runtime.json"
+      ],
+      "blocker": null,
+      "disposition": "Canonical/description/social image, responsive/no-JS/reduced-motion/skip-link baseline passed."
     },
     {
       "id": "T10",
@@ -214,9 +242,13 @@
         "A13",
         "A14"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "in_progress",
+      "evidence": [
+        "evidence/browser-runtime.json",
+        "evidence/importer-runtime-2026-10-10.md"
+      ],
+      "blocker": null,
+      "disposition": "Independent review findings being fixed and rechecked before freeze."
     },
     {
       "id": "T11",
@@ -232,9 +264,14 @@
         "A15",
         "A16"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "in_progress",
+      "evidence": [
+        "docs/BUILD.md",
+        "docs/CONTENT_IMPORT.md",
+        "docs/DEPLOYMENT_HANDOFF.md"
+      ],
+      "blocker": null,
+      "disposition": "Deterministic development packages built; clean public clone/artifact check pending."
     },
     {
       "id": "T12",
@@ -249,9 +286,12 @@
       "acceptance_ids": [
         "A17"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "in_progress",
+      "evidence": [
+        "docs/DEPLOYMENT_HANDOFF.md"
+      ],
+      "blocker": null,
+      "disposition": "Fresh package installation and private backup/restore rehearsal underway."
     },
     {
       "id": "T13",
@@ -268,9 +308,13 @@
       "acceptance_ids": [
         "A18"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "deferred",
+      "evidence": [
+        "DECISIONS.md",
+        "docs/DEPLOYMENT_HANDOFF.md"
+      ],
+      "blocker": null,
+      "disposition": "Owner explicitly deferred hosted preview, final live-launch freeze/cutover and live acceptance/final website v1.0.0 to a separate deployment session. Current local/public preview handoff is T29."
     },
     {
       "id": "T14",
@@ -287,9 +331,12 @@
       "acceptance_ids": [
         "A19"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "in_progress",
+      "evidence": [
+        "evidence/screenshots"
+      ],
+      "blocker": null,
+      "disposition": "All seven portraits/avatar sets visually reviewed at 390 and1440; actual box/transfer measurement underway."
     },
     {
       "id": "T15",
@@ -306,9 +353,13 @@
         "A20",
         "A21"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "done",
+      "evidence": [
+        "evidence/asset-review.md",
+        "assets/manifest.json"
+      ],
+      "blocker": null,
+      "disposition": "Supplied pilot character/avatar integrated proportionally without crop/redesign."
     },
     {
       "id": "T16",
@@ -323,9 +374,13 @@
       "acceptance_ids": [
         "A22"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "done",
+      "evidence": [
+        "evidence/asset-review.md",
+        "evidence/screenshots"
+      ],
+      "blocker": null,
+      "disposition": "All seven supplied character/avatar sets integrated and visually checked."
     },
     {
       "id": "T17",
@@ -342,9 +397,13 @@
         "A23",
         "A24"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "done",
+      "evidence": [
+        "assets/manifest.json",
+        "evidence/browser-runtime.json"
+      ],
+      "blocker": null,
+      "disposition": "Traced background/favicon/native icon/social derivatives integrated; no external font or theme JS."
     },
     {
       "id": "T18",
@@ -362,9 +421,13 @@
         "A25",
         "A26"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "blocked",
+      "evidence": [
+        "evidence/release-verification.json",
+        "evidence/release-facts.md"
+      ],
+      "blocker": "WinBookSplit and AudioFileForPhone have no public stable v1.0.0 release/tag; future launch gate.",
+      "disposition": "WinBookSplit and AudioFileForPhone have no public stable v1.0.0 release/tag; future launch gate."
     },
     {
       "id": "T19",
@@ -381,9 +444,13 @@
         "A27",
         "A28"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "blocked",
+      "evidence": [
+        "docs/CONTENT_IMPORT.md",
+        "content/COPY_REVIEW.md"
+      ],
+      "blocker": "Final owner contact/legal wording and observed hosting privacy facts are not supplied; future launch gate.",
+      "disposition": "Final owner contact/legal wording and observed hosting privacy facts are not supplied; future launch gate."
     },
     {
       "id": "T20",
@@ -406,9 +473,13 @@
         "A29",
         "A30"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "deferred",
+      "evidence": [
+        "DECISIONS.md",
+        "docs/DEPLOYMENT_HANDOFF.md"
+      ],
+      "blocker": null,
+      "disposition": "Owner explicitly deferred hosted preview, final live-launch freeze/cutover and live acceptance/final website v1.0.0 to a separate deployment session. Current local/public preview handoff is T29."
     },
     {
       "id": "T21",
@@ -424,9 +495,13 @@
       "acceptance_ids": [
         "A31"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "deferred",
+      "evidence": [
+        "DECISIONS.md",
+        "docs/DEPLOYMENT_HANDOFF.md"
+      ],
+      "blocker": null,
+      "disposition": "Owner explicitly deferred hosted preview, final live-launch freeze/cutover and live acceptance/final website v1.0.0 to a separate deployment session. Current local/public preview handoff is T29."
     },
     {
       "id": "T22",
@@ -443,9 +518,13 @@
         "A32",
         "A33"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "deferred",
+      "evidence": [
+        "DECISIONS.md",
+        "docs/DEPLOYMENT_HANDOFF.md"
+      ],
+      "blocker": null,
+      "disposition": "Owner explicitly deferred hosted preview, final live-launch freeze/cutover and live acceptance/final website v1.0.0 to a separate deployment session. Current local/public preview handoff is T29."
     },
     {
       "id": "T23",
@@ -466,9 +545,13 @@
       "acceptance_ids": [
         "A34"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "deferred",
+      "evidence": [
+        "DECISIONS.md",
+        "docs/DEPLOYMENT_HANDOFF.md"
+      ],
+      "blocker": null,
+      "disposition": "Owner explicitly deferred hosted preview, final live-launch freeze/cutover and live acceptance/final website v1.0.0 to a separate deployment session. Current local/public preview handoff is T29."
     },
     {
       "id": "T24",
@@ -527,11 +610,12 @@
       "acceptance_ids": [
         "A39"
       ],
-      "status": "in_progress",
+      "status": "done",
       "evidence": [
-        "docs/LOCAL_SETUP.md"
+        "evidence/tool-cleanup"
       ],
-      "blocker": null
+      "blocker": null,
+      "disposition": "All seven exact repositories audited; five ambiguous posters explicitly retained by owner."
     },
     {
       "id": "T27",
@@ -549,9 +633,12 @@
         "A40",
         "A41"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "in_progress",
+      "evidence": [
+        "evidence/tool-cleanup"
+      ],
+      "blocker": null,
+      "disposition": "Two confirmed obsolete-asset PRs awaiting ordinary hosted checks/default-branch verification; other five repositories need no removal."
     },
     {
       "id": "T28",
@@ -571,9 +658,39 @@
         "A42",
         "A43"
       ],
-      "status": "todo",
-      "evidence": [],
-      "blocker": null
+      "status": "in_progress",
+      "evidence": [
+        "LICENSE_SCOPE.md",
+        "ARTWORK_LICENSE.md",
+        "THIRD_PARTY_NOTICES.md",
+        "docs/BUILD.md"
+      ],
+      "blocker": null,
+      "disposition": "License/provenance/source checks pass; first hosted CI/clean public clone pending."
+    },
+    {
+      "id": "T29",
+      "milestone": "M6",
+      "title": "Publish tested local deployment candidate and complete owner-scoped handoff",
+      "depends_on": [
+        "T11",
+        "T12",
+        "T27",
+        "T28"
+      ],
+      "specifications": [
+        "DECISIONS.md",
+        "docs/BUILD.md",
+        "docs/DEPLOYMENT_HANDOFF.md"
+      ],
+      "acceptance_ids": [],
+      "status": "in_progress",
+      "evidence": [
+        "evidence/browser-runtime.json",
+        "evidence/editor-blocks.json"
+      ],
+      "blocker": null,
+      "disposition": "Owner follow-up scope: ready for deployment; never claim live site. Preserve separate future launch gates."
     }
   ]
 }

@@ -2,6 +2,19 @@
   "repository": "https://github.com/PikkuJanne/jvuorela.com",
   "branch": "main",
   "checkpoints": [
-    {"id": "foundation", "date": "2026-10-10", "commit": "36c92d1", "push": "origin/main synchronized", "evidence": "evidence/foundation.md"}
+    {
+      "id": "foundation",
+      "date": "2026-10-10",
+      "commit": "36c92d1",
+      "push": "origin/main synchronized",
+      "evidence": "evidence/foundation.md"
+    },
+    {
+      "id": "artwork-theme-foundation",
+      "date": "2026-10-10",
+      "commit": "367c8d3d8b88442579969cd2601e88e02f0f3620",
+      "push": "origin/main synchronized",
+      "evidence": "evidence/asset-review.md"
+    }
   ]
 }

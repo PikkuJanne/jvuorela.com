@@ -32,7 +32,9 @@ def group(content, cls):
 def image(slot, cls, dims):
     width, height = dims
     # Attachment ID is an unquoted numeric token, resolved before WordPress parses the block.
-    return '<!-- wp:image {"id":{{attachment:'+slot+'}},"sizeSlug":"full","linkDestination":"none","className":"'+cls+'"} --><figure class="wp-block-image size-full '+cls+'"><img src="{{asset:'+slot+'}}" alt="" class="wp-image-{{attachment:'+slot+'}}" width="'+str(width)+'" height="'+str(height)+'"/></figure><!-- /wp:image -->\n'
+    # Core image save markup has no intrinsic dimension attributes without editor sizing.
+    # WordPress adds actual attachment dimensions and responsive sources when rendering.
+    return '<!-- wp:image {"id":{{attachment:'+slot+'}},"sizeSlug":"full","linkDestination":"none","className":"'+cls+'"} --><figure class="wp-block-image size-full '+cls+'"><img src="{{asset:'+slot+'}}" alt="" class="wp-image-{{attachment:'+slot+'}}"/></figure><!-- /wp:image -->\n'
 
 
 def button(label, url, outline=False):
@@ -72,9 +74,10 @@ def main():
                     v = r.get('launch_verification', {})
                     if v.get('status') == 'passed' and v.get('checksum_matches') and v.get('release_is_stable'):
                         url = r.get('release_page_url')
-        actions = button(t['primary_button_label'], url) if url else paragraph('Release link pending', 'release-pending')
+        pending = '' if url else paragraph('Release link pending', 'release-pending')
+        actions = button(t['primary_button_label'], url) if url else ''
         actions += button('Source & instructions', t['documentation_url'], True)
-        copy = art(t['asset_slots']['icon'], 'tool-icon') + paragraph(t['tagline'], 'tagline') + paragraph(t['description'], 'description') + block('buttons', '<div class="wp-block-buttons">'+actions+'</div>')
+        copy = art(t['asset_slots']['icon'], 'tool-icon') + paragraph(t['tagline'], 'tagline') + paragraph(t['description'], 'description') + pending + block('buttons', '<div class="wp-block-buttons">'+actions+'</div>')
         content = group(group(copy,'tool-copy') + art(t['asset_slots']['hero'], 'tool-art'), 'tool-hero')
         items = ''.join(block('list-item', '<li>'+text(s)+'</li>') for s in t['benefits'])
         content += group(heading('What it does')+block('list','<ul class="wp-block-list">'+items+'</ul>'), 'tool-section tool-benefits')

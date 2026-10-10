@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "tool_id": "audiofileforphone",
+  "repo_url": "https://github.com/PikkuJanne/AudioFileForPhone",
+  "default_branch": "main",
+  "inspected_commit": "2bf1ea1921ab33633b978bd384bbbf098648ceed",
+  "inspected_on": "2026-10-10",
+  "initial_worktree_clean": true,
+  "isolated_clone": true,
+  "status": "verified_no_confirmed_obsolete_candidates",
+  "classification_method": "Tracked paths and text references only; image pixels were never inspected, copied into the website, or used as design references.",
+  "candidates": [
+    {
+      "path": "AudioFileForPhone_poster.png",
+      "blob_sha": "6c932c3427a13419b1fc2a0269253bd8b948fd37",
+      "sha256": "8ef1ed263e7bb6e4d6fa63ed4401f2e42fe6e76b5ac431a73ec69e5fd15e8442",
+      "bytes": 7011504,
+      "classification": "owner_resolved_keep",
+      "action": "preserve",
+      "reason": "Owner explicitly instructed retaining AudioFileForPhone_poster.png on 10 October 2026. No cleanup or website reuse is authorized for this retained tool asset.",
+      "references": [
+        "No tracked text reference in README, launcher, application or integration test."
+      ],
+      "owner_decision_date": "2026-10-10"
+    }
+  ],
+  "protected_files": [
+    {
+      "path": "AudioFileForPhone_icon.png",
+      "blob_sha": "b09725d9d2c3b306083d62568dc26a9f2bcd7970",
+      "sha256": "26a2095d9fe9bdbe52a6b727de67ecaeb7f59910d1eed4bd7ee9d58906e22bb4",
+      "bytes": 10307,
+      "classification": "active_runtime_or_shared_application_branding",
+      "action": "preserve",
+      "working_file_sha256": "26a2095d9fe9bdbe52a6b727de67ecaeb7f59910d1eed4bd7ee9d58906e22bb4",
+      "current_index_blob_sha": "b09725d9d2c3b306083d62568dc26a9f2bcd7970",
+      "working_bytes_equal_to_git_blob": true,
+      "checkout_eol_normalization_only": true,
+      "unchanged": true
+    },
+    {
+      "path": "AudioFileForPhone_icon.ico",
+      "blob_sha": "4a2e6fd71f256580bcbd288821066f14c03356e8",
+      "sha256": "32ab3d7c50ed738640d5283d8c1db2b1b29314fb4abcb885b2b09a807ea48df1",
+      "bytes": 19765,
+      "classification": "active_runtime_or_shared_application_branding",
+      "action": "preserve",
+      "working_file_sha256": "32ab3d7c50ed738640d5283d8c1db2b1b29314fb4abcb885b2b09a807ea48df1",
+      "current_index_blob_sha": "4a2e6fd71f256580bcbd288821066f14c03356e8",
+      "working_bytes_equal_to_git_blob": true,
+      "checkout_eol_normalization_only": true,
+      "unchanged": true
+    },
+    {
+      "path": "AudioFileForPhone.ps1",
+      "blob_sha": "06d049536ffe1e2a979856df8b67bae8b31b6dd6",
+      "sha256": "d30eb7280baff82089536797abd4ca20dec203d7e47807a5f13d0ed2fa4d0a88",
+      "bytes": 29141,
+      "classification": "active_runtime_or_shared_application_branding",
+      "action": "preserve",
+      "working_file_sha256": "d30eb7280baff82089536797abd4ca20dec203d7e47807a5f13d0ed2fa4d0a88",
+      "current_index_blob_sha": "06d049536ffe1e2a979856df8b67bae8b31b6dd6",
+      "working_bytes_equal_to_git_blob": true,
+      "checkout_eol_normalization_only": true,
+      "unchanged": true
+    },
+    {
+      "path": "AudioFileForPhone.bat",
+      "blob_sha": "00cbf63a11b705bb5deda1fc72db17ab71c0f467",
+      "sha256": "247ace8866b5672907cf1e91c7fa03f06f78a099fe3278aea109f9581a8aac25",
+      "bytes": 823,
+      "classification": "active_runtime_or_shared_application_branding",
+      "action": "preserve",
+      "working_file_sha256": "247ace8866b5672907cf1e91c7fa03f06f78a099fe3278aea109f9581a8aac25",
+      "current_index_blob_sha": "00cbf63a11b705bb5deda1fc72db17ab71c0f467",
+      "working_bytes_equal_to_git_blob": true,
+      "checkout_eol_normalization_only": true,
+      "unchanged": true
+    },
+    {
+      "path": "tests/Test-AudioFileForPhone.ps1",
+      "blob_sha": "b14fc1cf74f849be87666ecae66c3bb7fcfd2c25",
+      "sha256": "95f2a1738d1f7743cb07a1a80e6a4d8b1f0dc82796334016d82c27be8ae4d86d",
+      "bytes": 13465,
+      "classification": "active_runtime_or_shared_application_branding",
+      "action": "preserve",
+      "working_file_sha256": "4f5e101babc50235d89393a6410f49fe8ce4531c61c1ed6a093fcc92b013e4f1",
+      "current_index_blob_sha": "b14fc1cf74f849be87666ecae66c3bb7fcfd2c25",
+      "working_bytes_equal_to_git_blob": false,
+      "checkout_eol_normalization_only": true,
+      "unchanged": true
+    }
+  ],
+  "cleanup_branch": null,
+  "pull_request_url": null,
+  "merged_commit": null,
+  "verification_evidence": "evidence/tool-cleanup/audiofileforphone.md",
+  "history_and_releases_unchanged": true,
+  "approval_scope": "Owner 10 October 2026 authorized confirmed obsolete website-only removal and normal checked PR workflow; ambiguous/shared/runtime files retained.",
+  "repository_protection_observation": {
+    "branch_protection": "main endpoint returned HTTP 404 Branch not protected",
+    "rulesets": "empty"
+  },
+  "checks": [
+    {
+      "command": "git ls-files plus tracked README, runtime, launcher and tests reference search",
+      "result": "passed",
+      "scope": "No active website-only asset consumer or stale direct reference found."
+    },
+    {
+      "command": "git status --short and exact live main remote SHA comparison",
+      "result": "passed"
+    },
+    {
+      "command": "protected image/icon and runtime canonical Git blob comparison",
+      "result": "passed"
+    }
+  ],
+  "release_observation": {
+    "v1.0.0": "absent",
+    "command": "gh release view v1.0.0",
+    "result": "release not found"
+  },
+  "latest_observed_at_utc": "2026-10-10T18:04:38.074123+00:00",
+  "default_branch_verification": {
+    "commit": "2bf1ea1921ab33633b978bd384bbbf098648ceed",
+    "matches_live_remote": true,
+    "worktree_clean": true,
+    "tracked_visual_files": [
+      "AudioFileForPhone_icon.ico",
+      "AudioFileForPhone_icon.png",
+      "AudioFileForPhone_poster.png"
+    ],
+    "obsolete_website_material_removed": [],
+    "reason": "Application/shared PNG/ICO preserved; poster explicitly retained by owner. No website directory, preliminary page design, stale direct artwork reference or other visual candidate in tracked tree."
+  }
+}

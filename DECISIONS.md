@@ -26,3 +26,9 @@ Latest owner instructions govern. This v2 bundle replaces conflicting v1/asset-a
 ## Necessary inputs
 
 Discover existing repo/workspace, GitHub authentication and source-folder locations at M0. Missing hosting access blocks hosted checks only. Missing public contact/privacy details block final supporting pages. Artwork creation is not an open input. Missing files are delivery issues, not permission to source substitutes. The website's launch decision follows the concrete candidate review.
+
+## Owner follow-up — 10 October 2026
+
+D19: The owner will handle IONOS deployment separately with ChatGPT. No hosting access/admin URL is needed here. Finish a tested local candidate, public GitHub source, final theme ZIP/content-media setup, installation and backup/rollback instructions. Hosting/live acceptance is deferred to that session. Describe the local handoff as ready for deployment, never live. Existing seven-release and final legal/content launch requirements are recorded as prerequisites for that session.
+
+D20: Keep the five tool-repository posters explicitly named in the owner reply: WinBookSplit_poster.png, WinPDFMerge_poster.png, WinVidCompress_poster.png, WinAudioClean_poster.png and AudioFileForPhone_poster.png. This resolves their classification ambiguity without authorizing their use as website sources. Other confirmed obsolete website-only cleanup continues within D16.

@@ -1,0 +1,122 @@
+{
+  "checked_at": "2026-10-10T18:10:40.777Z",
+  "browser": "154.0.8037.98",
+  "role": "editor",
+  "post": "WinPDFMerger",
+  "core_blocks": [
+    {
+      "name": "core/group",
+      "isValid": true
+    },
+    {
+      "name": "core/group",
+      "isValid": true
+    },
+    {
+      "name": "core/image",
+      "isValid": true
+    },
+    {
+      "name": "core/paragraph",
+      "isValid": true
+    },
+    {
+      "name": "core/paragraph",
+      "isValid": true
+    },
+    {
+      "name": "core/buttons",
+      "isValid": true
+    },
+    {
+      "name": "core/button",
+      "isValid": true
+    },
+    {
+      "name": "core/button",
+      "isValid": true
+    },
+    {
+      "name": "core/image",
+      "isValid": true
+    },
+    {
+      "name": "core/group",
+      "isValid": true
+    },
+    {
+      "name": "core/heading",
+      "isValid": true
+    },
+    {
+      "name": "core/list",
+      "isValid": true
+    },
+    {
+      "name": "core/list-item",
+      "isValid": true
+    },
+    {
+      "name": "core/list-item",
+      "isValid": true
+    },
+    {
+      "name": "core/list-item",
+      "isValid": true
+    },
+    {
+      "name": "core/group",
+      "isValid": true
+    },
+    {
+      "name": "core/heading",
+      "isValid": true
+    },
+    {
+      "name": "core/paragraph",
+      "isValid": true
+    },
+    {
+      "name": "core/group",
+      "isValid": true
+    },
+    {
+      "name": "core/heading",
+      "isValid": true
+    },
+    {
+      "name": "core/paragraph",
+      "isValid": true
+    },
+    {
+      "name": "core/group",
+      "isValid": true
+    },
+    {
+      "name": "core/heading",
+      "isValid": true
+    },
+    {
+      "name": "core/paragraph",
+      "isValid": true
+    },
+    {
+      "name": "core/paragraph",
+      "isValid": true
+    }
+  ],
+  "all_valid": true,
+  "edited_fields": [
+    "tagline",
+    "benefit",
+    "requirement",
+    "download URL"
+  ],
+  "native_save_and_reload": true,
+  "signed_out_frontend_matches": true,
+  "theme_zip_reinstall_preserves_edits": true,
+  "reviewed_copy_restored": true,
+  "limits": [
+    "Local disposable WordPress only; production editor not accessed"
+  ]
+}

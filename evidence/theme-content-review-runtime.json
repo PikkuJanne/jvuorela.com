@@ -1,0 +1,20 @@
+{
+  "passes": 7,
+  "cases": [
+    "editable 404 Page renders native dynamic title/excerpt blocks in its own context",
+    "404 rendering restores every original WordPress post context global",
+    "fresh export includes the current edited native site wording",
+    "fresh export includes current native menu assignments",
+    "fresh export includes actual current menu entries and URLs",
+    "fresh current configuration is distinct from its unchanged import baseline",
+    "review fixture cleans up its allocated menu and restores all targeted native settings"
+  ],
+  "php": "8.3.35",
+  "wordpress": "7.1.3",
+  "cleanup": "No existing Page or Media Library writes; allocated fixture menu deleted; original settings, locations and post context restored.",
+  "failure": null,
+  "recorded_at_utc": "2026-10-10 18:16:31 UTC",
+  "scope": "Focused local theme/export review; not hosted launch acceptance",
+  "command": "wp --path=private/wordpress --user=1 eval-file tests/theme-content-review.php",
+  "public_safe": "No native identifiers, private wording, credentials or database paths are included."
+}

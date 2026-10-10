@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-10-10T17:49:49.132922+00:00",
+  "tool_id": "winpdfmerger",
+  "repo_url": "https://github.com/PikkuJanne/WinPDFMerger",
+  "actual_remote": "git@github.com:PikkuJanne/WinPDFMerger.git",
+  "visibility": "PUBLIC",
+  "default_branch": "main",
+  "inspected_commit": "e2c4676c826cbfadd0e7190175336437e5739052",
+  "live_default_branch_commit": "e2c4676c826cbfadd0e7190175336437e5739052",
+  "status": "no_confirmed_obsolete_candidates",
+  "isolated_clone_used": true,
+  "working_tree_clean": true,
+  "tracked_file_count": 12818,
+  "candidates": [
+    {
+      "path": "WinPDFMerge.ico",
+      "classification": "active runtime/application icon",
+      "reason": "Introduced in a commit described as Icon for shortcut of the .bat file. Preserve the application shortcut icon.",
+      "git_blob_sha1": "bcf626f1685055b03e18d508c5dec3abfe068c7c",
+      "sha256": "a341d50a022161a3f0e669185328b9ff9629b2f4e8948014cdd0ed51998f9bbb",
+      "size_bytes": 24780,
+      "text_references_excluding_frozen_evidence": [
+        "docs/codex/BASELINE.json:34:        \"file\": \"WinPDFMerge.ico\","
+      ],
+      "introduction_commit_and_subject": "a0ecf5469b0b88c16949871b2928d76f9d8eae8d Icon for shortcut of the .bat file",
+      "planned_action": "keep",
+      "outcome": "unchanged",
+      "reuse_for_website_allowed": false
+    },
+    {
+      "path": "WinPDFMerge_icon.png",
+      "classification": "active runtime/application icon",
+      "reason": "PNG companion introduced with the application shortcut icon; not proven website-only.",
+      "git_blob_sha1": "69e45875bfe513168911e621ac19b2fa681a6b6e",
+      "sha256": "365ec34dff8c410c50c316552b29ac6f6d47b40011037a4e17fe681a9dd871e9",
+      "size_bytes": 11028,
+      "text_references_excluding_frozen_evidence": [
+        "docs/codex/BASELINE.json:42:        \"file\": \"WinPDFMerge_icon.png\","
+      ],
+      "introduction_commit_and_subject": "a0ecf5469b0b88c16949871b2928d76f9d8eae8d Icon for shortcut of the .bat file",
+      "planned_action": "keep",
+      "outcome": "unchanged",
+      "reuse_for_website_allowed": false
+    },
+    {
+      "path": "WinPDFMerge_poster.png",
+      "classification": "owner_resolved_keep",
+      "reason": "Only baseline reference found outside frozen evidence. Introduction says Poster added :). It is outside the release payload, but no textual evidence establishes obsolete website-only provenance.",
+      "git_blob_sha1": "c4e51142b99973349013d940e927587f3046a6de",
+      "sha256": "612edb108f71978135035594c94e97d2e3459fdfe67dbbdc3b1b4c9b849b025d",
+      "size_bytes": 2088745,
+      "text_references_excluding_frozen_evidence": [
+        "docs/codex/BASELINE.json:46:        \"file\": \"WinPDFMerge_poster.png\","
+      ],
+      "introduction_commit_and_subject": "4926abc022b9b048dab2dda03650b755ef7ff875 Poster added :)",
+      "planned_action": "keep",
+      "outcome": "unchanged",
+      "reuse_for_website_allowed": false,
+      "owner_resolution": {
+        "date": "2026-10-10",
+        "decision": "The owner explicitly instructed retaining this specifically named poster after the audit identified its provenance as ambiguous.",
+        "effect": "Preserve in the tool repository; forbidden as a website artwork source."
+      }
+    }
+  ],
+  "protected_files": [
+    "WinPDFMerge.ico",
+    "WinPDFMerge_icon.png",
+    "WinPDFMerge_poster.png"
+  ],
+  "confirmed_obsolete_paths": [],
+  "removed_paths": [],
+  "stale_direct_references_updated": [],
+  "cleanup_branch": null,
+  "pull_request_url": null,
+  "merged_commit": null,
+  "release_verification": {
+    "id": 408603768,
+    "tag_name": "v1.0.0",
+    "html_url": "https://github.com/PikkuJanne/WinPDFMerger/releases/tag/v1.0.0",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-10-10T07:12:01Z",
+    "public_stable_verified": true,
+    "anonymous_release_page_http_status": 200,
+    "tag_object": "7818645de07b902ad8f2b815e90ee1d74d2724d6",
+    "tag_commit": "95e0a19e6cc5fc01cd4bec4ac15f989f9830840a",
+    "assets": [
+      {
+        "id": 626907022,
+        "name": "SHA256SUMS.txt",
+        "size": 90,
+        "digest": "sha256:d39084cb335c56bb99fa51424ec5aed2d95179f3c44974c81a68a8d3bf1e01ca",
+        "browser_download_url": "https://github.com/PikkuJanne/WinPDFMerger/releases/download/v1.0.0/SHA256SUMS.txt",
+        "state": "uploaded"
+      },
+      {
+        "id": 626907023,
+        "name": "WinPDFMerger-v1.0.0.zip",
+        "size": 193669,
+        "digest": "sha256:2b95e90cc3eb3d47b5619710acd1b6cf551769e90ac89813a1dbf0c899c63fc2",
+        "browser_download_url": "https://github.com/PikkuJanne/WinPDFMerger/releases/download/v1.0.0/WinPDFMerger-v1.0.0.zip",
+        "state": "uploaded"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "isolated checkout is clean",
+      "result": "pass"
+    },
+    {
+      "name": "inspected HEAD equals independently queried default branch",
+      "result": "pass"
+    },
+    {
+      "name": "all classified paths exist in inspected tracked tree",
+      "result": "pass"
+    },
+    {
+      "name": "tracked filenames and text references reviewed without rendering/importing artwork",
+      "result": "pass"
+    },
+    {
+      "name": "no tool, packaging, release, tag or history mutation",
+      "result": "pass"
+    }
+  ],
+  "ambiguities": [],
+  "limits": [
+    "No tool artwork was rendered, imported, copied into the website, hotlinked or used as a creative reference.",
+    "No obsolete website-only file was conclusively established from tracked filenames, text references and introduction subjects.",
+    "No source changes were made, so runtime tests were not rerun and no tool PR was created.",
+    "Existing release asset hashes above are API-reported facts; this audit did not download or execute tool packages.",
+    "Ordinary history and published release assets remain unchanged and excluded as website artwork sources."
+  ],
+  "verification_evidence": "evidence/tool-cleanup/winpdfmerger-2026-10-10.md",
+  "owner_resolution_date": "2026-10-10"
+}

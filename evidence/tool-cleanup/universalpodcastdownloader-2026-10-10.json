@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-10-10T17:49:56.530609+00:00",
+  "tool_id": "universalpodcastdownloader",
+  "repo_url": "https://github.com/PikkuJanne/UniversalPodcastDownloader",
+  "actual_remote": "git@github.com:PikkuJanne/UniversalPodcastDownloader.git",
+  "visibility": "PUBLIC",
+  "default_branch": "main",
+  "inspected_commit": "6df1e357fe12890a5bed285ac5560a97c8905575",
+  "live_default_branch_commit": "6df1e357fe12890a5bed285ac5560a97c8905575",
+  "status": "verified_no_obsolete_candidates",
+  "isolated_clone_used": true,
+  "working_tree_clean": true,
+  "tracked_file_count": 268,
+  "candidates": [
+    {
+      "path": "UniversalPodcastDownloader.ico",
+      "classification": "active runtime/application icon",
+      "reason": "Exact current 36-file release payload allowlist, build/candidate scripts and ReleasePackage integration tests require it. Preserve application artwork.",
+      "git_blob_sha1": "8e4ad59ccda46392e8f8179bf6e40f6525a45fb1",
+      "sha256": "facab3e36fdfe54a85fe6369562b94ee9b7a95e7fd75aac0d8b5bad6b3f2d890",
+      "size_bytes": 21640,
+      "text_references_excluding_frozen_evidence": [
+        "docs/codex/BASELINE.json:26:      \"path\": \"UniversalPodcastDownloader.ico\",",
+        "scripts/Build-Release.ps1:167:        'UniversalPodcastDownloader.ico', 'UniversalPodcastDownloader.ps1', 'UniversalPodcastDownloader_icon.png', 'UniversalPodcastDownloader_poster.png')",
+        "scripts/Prepare-ReleaseCandidate.ps1:64:        'UniversalPodcastDownloader.ico', 'UniversalPodcastDownloader.ps1', 'UniversalPodcastDownloader_icon.png', 'UniversalPodcastDownloader_poster.png')",
+        "tests/Integration/ReleasePackage.Tests.ps1:109:            'CHANGELOG.md', 'RELEASE.md', 'UniversalPodcastDownloader.ico', 'UniversalPodcastDownloader_icon.png',",
+        "tools/release-package.json:13:    \"UniversalPodcastDownloader.ico\","
+      ],
+      "introduction_commit_and_subject": "8a0cae0c5af25c0953d0bb569800ecadc6978102 First, and maybe last commit :)",
+      "planned_action": "keep",
+      "outcome": "unchanged",
+      "reuse_for_website_allowed": false
+    },
+    {
+      "path": "UniversalPodcastDownloader_icon.png",
+      "classification": "active documentation/shared",
+      "reason": "Exact current 36-file release payload allowlist, build/candidate scripts and ReleasePackage integration tests require it. Preserve shared shipped artwork.",
+      "git_blob_sha1": "7260ddd08203ae20d06c3e3868f5d3b7c06099d3",
+      "sha256": "76e306338450b582af1d2fa2884fd002baae5cd32343215f079f4c6ee5b1a3d9",
+      "size_bytes": 10750,
+      "text_references_excluding_frozen_evidence": [
+        "docs/codex/BASELINE.json:36:      \"path\": \"UniversalPodcastDownloader_icon.png\",",
+        "scripts/Build-Release.ps1:167:        'UniversalPodcastDownloader.ico', 'UniversalPodcastDownloader.ps1', 'UniversalPodcastDownloader_icon.png', 'UniversalPodcastDownloader_poster.png')",
+        "scripts/Prepare-ReleaseCandidate.ps1:64:        'UniversalPodcastDownloader.ico', 'UniversalPodcastDownloader.ps1', 'UniversalPodcastDownloader_icon.png', 'UniversalPodcastDownloader_poster.png')",
+        "tests/Integration/ReleasePackage.Tests.ps1:109:            'CHANGELOG.md', 'RELEASE.md', 'UniversalPodcastDownloader.ico', 'UniversalPodcastDownloader_icon.png',",
+        "tools/release-package.json:15:    \"UniversalPodcastDownloader_icon.png\","
+      ],
+      "introduction_commit_and_subject": "8a0cae0c5af25c0953d0bb569800ecadc6978102 First, and maybe last commit :)",
+      "planned_action": "keep",
+      "outcome": "unchanged",
+      "reuse_for_website_allowed": false
+    },
+    {
+      "path": "UniversalPodcastDownloader_poster.png",
+      "classification": "active documentation/shared",
+      "reason": "Exact current 36-file release payload allowlist, build/candidate scripts and ReleasePackage integration tests require it. Deleting would change tool packaging. It is not a confirmed obsolete website-only file.",
+      "git_blob_sha1": "ef4201b9334964d2f8da653727eca3e16caa1dfd",
+      "sha256": "43e44eb430d63411ecc6a332a8e66ea7c86e6e886ab27734e00b11343c431de3",
+      "size_bytes": 6097149,
+      "text_references_excluding_frozen_evidence": [
+        "docs/codex/BASELINE.json:41:      \"path\": \"UniversalPodcastDownloader_poster.png\",",
+        "scripts/Build-Release.ps1:167:        'UniversalPodcastDownloader.ico', 'UniversalPodcastDownloader.ps1', 'UniversalPodcastDownloader_icon.png', 'UniversalPodcastDownloader_poster.png')",
+        "scripts/Prepare-ReleaseCandidate.ps1:64:        'UniversalPodcastDownloader.ico', 'UniversalPodcastDownloader.ps1', 'UniversalPodcastDownloader_icon.png', 'UniversalPodcastDownloader_poster.png')",
+        "tests/Integration/ReleasePackage.Tests.ps1:110:            'UniversalPodcastDownloader_poster.png') + @(Get-ChildItem -LiteralPath (Join-Path $sourceRoot 'src') -File -Filter '*.ps1' | ForEach-Object { 'src/' + $_.Name })",
+        "tools/release-package.json:16:    \"UniversalPodcastDownloader_poster.png\","
+      ],
+      "introduction_commit_and_subject": "2ac82614493be7196c9ebee116f23fec07368b50 Poster added :)",
+      "planned_action": "keep",
+      "outcome": "unchanged",
+      "reuse_for_website_allowed": false
+    },
+    {
+      "path": "docs/website/PRODUCT_PAGE.md",
+      "classification": "active documentation/shared",
+      "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+      "git_blob_sha1": "e2d2787257e5a87bfea1ec7d3965c78dbd829fc6",
+      "sha256": "74bed6ae9665bac1532ac6d88f3e417f1c2ffbf3c8ff42ce28cddb839f8178d0",
+      "planned_action": "keep",
+      "outcome": "unchanged"
+    },
+    {
+      "path": "docs/website/README.md",
+      "classification": "active documentation/shared",
+      "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+      "git_blob_sha1": "ceeaa644a6d3a70064e18c4ad91cbcf8c40471f3",
+      "sha256": "4cd8526c0fd67769c6f5ed7fc77ad2f0759abad5dc9e06e34d615cde1bc9aff2",
+      "planned_action": "keep",
+      "outcome": "unchanged"
+    },
+    {
+      "path": "docs/website/SCREENSHOT_CAPTURE.md",
+      "classification": "active documentation/shared",
+      "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+      "git_blob_sha1": "2b6159d647b26a7c78b80a692ef00ebb7512b7e7",
+      "sha256": "dcc594859fdab491c89b667b724e9d345c682d70e6c4ab6ee4fa9bfb93813f26",
+      "planned_action": "keep",
+      "outcome": "unchanged"
+    },
+    {
+      "path": "docs/website/version.example.json",
+      "classification": "active documentation/shared",
+      "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+      "git_blob_sha1": "7261919a22e4cec1cac93e31674b3200553b6c88",
+      "sha256": "255030e78319ec3153155126c88e0ad8597159cf0ee0969fcad54d299140efd4",
+      "planned_action": "keep",
+      "outcome": "unchanged"
+    },
+    {
+      "path": "docs/codex/RELEASE_AND_WEBSITE.md",
+      "classification": "active documentation/shared",
+      "reason": "Retained useful portable product/release/capture documentation or metadata; no evidence establishes that it is obsolete. Its text is not artwork authorization for the new website.",
+      "git_blob_sha1": "86163951304536af706e920775f6ac385b539316",
+      "sha256": "2977af30ece1802911c7dcf8863f553df5e3363e8b533271abe57fca147f1771",
+      "planned_action": "keep",
+      "outcome": "unchanged"
+    }
+  ],
+  "protected_files": [
+    "UniversalPodcastDownloader.ico",
+    "UniversalPodcastDownloader_icon.png",
+    "UniversalPodcastDownloader_poster.png",
+    "docs/website/PRODUCT_PAGE.md",
+    "docs/website/README.md",
+    "docs/website/SCREENSHOT_CAPTURE.md",
+    "docs/website/version.example.json",
+    "docs/codex/RELEASE_AND_WEBSITE.md"
+  ],
+  "confirmed_obsolete_paths": [],
+  "removed_paths": [],
+  "stale_direct_references_updated": [],
+  "cleanup_branch": null,
+  "pull_request_url": null,
+  "merged_commit": null,
+  "release_verification": {
+    "id": 406417139,
+    "tag_name": "v1.0.0",
+    "html_url": "https://github.com/PikkuJanne/UniversalPodcastDownloader/releases/tag/v1.0.0",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-10-08T04:40:50Z",
+    "public_stable_verified": true,
+    "anonymous_release_page_http_status": 200,
+    "tag_object": "7357f52e4ebc4cd0dbbef4378d5f9205c93afe43",
+    "tag_commit": "6df1e357fe12890a5bed285ac5560a97c8905575",
+    "assets": [
+      {
+        "id": 620735987,
+        "name": "manifest.json",
+        "size": 4787,
+        "digest": "sha256:8c1fa75d10bdf261bdbd1f6413c21a9d6a950023e121907b5fffa576b5bc3f5f",
+        "browser_download_url": "https://github.com/PikkuJanne/UniversalPodcastDownloader/releases/download/v1.0.0/manifest.json",
+        "state": "uploaded"
+      },
+      {
+        "id": 620735986,
+        "name": "SHA256SUMS",
+        "size": 183,
+        "digest": "sha256:b6e92dd3dcf94aee226514af70b56b272b167b9d8de94efaf6aab2fbf162e081",
+        "browser_download_url": "https://github.com/PikkuJanne/UniversalPodcastDownloader/releases/download/v1.0.0/SHA256SUMS",
+        "state": "uploaded"
+      },
+      {
+        "id": 620735988,
+        "name": "UniversalPodcastDownloader-1.0.0.zip",
+        "size": 6212904,
+        "digest": "sha256:2781e69bc3c2b5da6579a6e04c3d13def36371bfb1582a7b154b3e57d067e7b9",
+        "browser_download_url": "https://github.com/PikkuJanne/UniversalPodcastDownloader/releases/download/v1.0.0/UniversalPodcastDownloader-1.0.0.zip",
+        "state": "uploaded"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "isolated checkout is clean",
+      "result": "pass"
+    },
+    {
+      "name": "inspected HEAD equals independently queried default branch",
+      "result": "pass"
+    },
+    {
+      "name": "all classified paths exist in inspected tracked tree",
+      "result": "pass"
+    },
+    {
+      "name": "tracked filenames and text references reviewed without rendering/importing artwork",
+      "result": "pass"
+    },
+    {
+      "name": "no tool, packaging, release, tag or history mutation",
+      "result": "pass"
+    }
+  ],
+  "ambiguities": [],
+  "limits": [
+    "No tool artwork was rendered, imported, copied into the website, hotlinked or used as a creative reference.",
+    "No obsolete website-only file was conclusively established from tracked filenames, text references and introduction subjects.",
+    "No source changes were made, so runtime tests were not rerun and no tool PR was created.",
+    "Existing release asset hashes above are API-reported facts; this audit did not download or execute tool packages.",
+    "Ordinary history and published release assets remain unchanged and excluded as website artwork sources."
+  ],
+  "verification_evidence": "evidence/tool-cleanup/universalpodcastdownloader-2026-10-10.md"
+}

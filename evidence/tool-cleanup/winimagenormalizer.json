@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "tool_id": "winimagenormalizer",
+  "repo_url": "https://github.com/PikkuJanne/WinImgNormalizer",
+  "default_branch": "main",
+  "inspected_commit": "e5376d41879a2e4ffb5da5e607bfb634f1598621",
+  "inspected_on": "2026-10-10",
+  "initial_worktree_clean": true,
+  "isolated_clone": true,
+  "status": "pull_request_pending_checks",
+  "classification_method": "Tracked paths and text references only; image pixels were never inspected, copied into the website, or used as design references.",
+  "candidates": [
+    {
+      "path": "WinImgNormalizer_poster.png",
+      "blob_sha": "89a874807f72112b4acc1730d943314ec12379fd",
+      "sha256": "99b1cd73450e725a5cce26a00ecdb6e660166ff8b5b9f75896882cfe7825d926",
+      "bytes": 2397241,
+      "classification": "confirmed_obsolete_website_only",
+      "action": "remove_current_tree",
+      "reason": "docs/website/metadata.json labels this poster historical_reference_only/display:false; INTEGRATION.md identifies legacy faux terminal/progress and outdated hard-cap text, explicitly excluding it from current presentation; no application or package consumer.",
+      "references": [
+        "docs/website/metadata.json",
+        "docs/website/INTEGRATION.md",
+        "tools/website/Test-WebsiteHandoff.ps1",
+        "tests/Website.Tests.ps1",
+        "tests/Compatibility.Tests.ps1",
+        "tests/Invoke-Tests.ps1",
+        "tests/Export-TestEvidence.ps1"
+      ]
+    }
+  ],
+  "protected_files": [
+    {
+      "path": "WinImgNormalizer_icon_variant.png",
+      "blob_sha": "e7a19683259ed855407f8e0d5cef326f0c789b8c",
+      "sha256": "479f819325df22004e38f42183ff1d1e2351f753abed935a59357fed7da750f9",
+      "bytes": 11141,
+      "classification": "active_runtime_or_shared_application_branding",
+      "action": "preserve",
+      "working_file_sha256": "479f819325df22004e38f42183ff1d1e2351f753abed935a59357fed7da750f9",
+      "current_index_blob_sha": "e7a19683259ed855407f8e0d5cef326f0c789b8c",
+      "working_bytes_equal_to_git_blob": true,
+      "checkout_eol_normalization_only": true,
+      "unchanged": true
+    },
+    {
+      "path": "WinImgNormalizer_variant.ico",
+      "blob_sha": "963ee47d33fcf457b309dd50f493d3c4545b36ed",
+      "sha256": "78ef6c01d0b466e72e3bad4fe83bb12b57a74c2f245a1274a559857d35374e79",
+      "bytes": 22917,
+      "classification": "active_runtime_or_shared_application_branding",
+      "action": "preserve",
+      "working_file_sha256": "78ef6c01d0b466e72e3bad4fe83bb12b57a74c2f245a1274a559857d35374e79",
+      "current_index_blob_sha": "963ee47d33fcf457b309dd50f493d3c4545b36ed",
+      "working_bytes_equal_to_git_blob": true,
+      "checkout_eol_normalization_only": true,
+      "unchanged": true
+    },
+    {
+      "path": "WinImgNormalizer.ps1",
+      "blob_sha": "6569c29eb6ea72e9e89b1769b27a815301a6ed41",
+      "sha256": "6545e02db60910c23b6f009ea8c77e5ee6bd41cec589c7ff940b2ac198579e2e",
+      "bytes": 155113,
+      "classification": "active_runtime_or_shared_application_branding",
+      "action": "preserve",
+      "working_file_sha256": "282b3f6f4929948fc4fb691af6bf687c0ee8821371f5ad7529eba7717c66c383",
+      "current_index_blob_sha": "6569c29eb6ea72e9e89b1769b27a815301a6ed41",
+      "working_bytes_equal_to_git_blob": false,
+      "checkout_eol_normalization_only": true,
+      "unchanged": true
+    },
+    {
+      "path": "WinImgNormalizer.bat",
+      "blob_sha": "9ce2bca5b18bfb3388a9eed10aef397ba3084d54",
+      "sha256": "b8191e959851f5aa17aa4034b16bb6a19c830e22121cce882213bf14b50e1e83",
+      "bytes": 1669,
+      "classification": "active_runtime_or_shared_application_branding",
+      "action": "preserve",
+      "working_file_sha256": "b8191e959851f5aa17aa4034b16bb6a19c830e22121cce882213bf14b50e1e83",
+      "current_index_blob_sha": "9ce2bca5b18bfb3388a9eed10aef397ba3084d54",
+      "working_bytes_equal_to_git_blob": true,
+      "checkout_eol_normalization_only": true,
+      "unchanged": true
+    },
+    {
+      "path": "tools/release/Build-Release.ps1",
+      "blob_sha": "3a519ae561ac1e7df28d7f77f341e02290bf8740",
+      "sha256": "8a744ea4d96fc560a31d41a9f3f2698793ecdf0ba62dec71e87ce830d42a555c",
+      "bytes": 11159,
+      "classification": "active_runtime_or_shared_application_branding",
+      "action": "preserve",
+      "working_file_sha256": "863e68f5c075ceaabdc98da4158cde25cc5b96820b2d6cb41dd2ab816ea6474a",
+      "current_index_blob_sha": "3a519ae561ac1e7df28d7f77f341e02290bf8740",
+      "working_bytes_equal_to_git_blob": false,
+      "checkout_eol_normalization_only": true,
+      "unchanged": true
+    },
+    {
+      "path": "tools/release/Update-ReleaseMetadata.ps1",
+      "blob_sha": "16611977cde1fb2a5f80badcd706237bf2b1b0b7",
+      "sha256": "d201895e7a4729e5230a4ff088bf0c620d609368219f7ab8948802008aeaeb0f",
+      "bytes": 12097,
+      "classification": "active_runtime_or_shared_application_branding",
+      "action": "preserve",
+      "working_file_sha256": "0fa029a4aab523a1142ebb278ffdcab327b8a738941aac6384d5005a53adfd1a",
+      "current_index_blob_sha": "16611977cde1fb2a5f80badcd706237bf2b1b0b7",
+      "working_bytes_equal_to_git_blob": false,
+      "checkout_eol_normalization_only": true,
+      "unchanged": true
+    },
+    {
+      "path": "release-metadata.json",
+      "blob_sha": "82d1b6293cf4ee8d9514036f919cf875bcf337ee",
+      "sha256": "7afb68fbe7ce291ff48101af55e456792cd83b005ecf77c21d064c7cec71d9f3",
+      "bytes": 762,
+      "classification": "active_runtime_or_shared_application_branding",
+      "action": "preserve",
+      "working_file_sha256": "7afb68fbe7ce291ff48101af55e456792cd83b005ecf77c21d064c7cec71d9f3",
+      "current_index_blob_sha": "82d1b6293cf4ee8d9514036f919cf875bcf337ee",
+      "working_bytes_equal_to_git_blob": true,
+      "checkout_eol_normalization_only": true,
+      "unchanged": true
+    }
+  ],
+  "cleanup_branch": "codex/remove-obsolete-website-artwork-20261010",
+  "pull_request_url": "https://github.com/PikkuJanne/WinImgNormalizer/pull/29",
+  "merged_commit": null,
+  "verification_evidence": "evidence/tool-cleanup/winimagenormalizer.md",
+  "history_and_releases_unchanged": true,
+  "approval_scope": "Owner 10 October 2026 authorized confirmed obsolete website-only removal and normal checked PR workflow; ambiguous/shared/runtime files retained.",
+  "repository_protection_observation": {
+    "branch_protection": "main endpoint returned HTTP 404 Branch not protected",
+    "rulesets": "empty for WinAudioClean/WinImgNormalizer; not queried for AudioFileForPhone"
+  },
+  "checks": [
+    {
+      "command": "git diff --check",
+      "result": "passed"
+    },
+    {
+      "command": "protected code/icon/package-source comparison",
+      "result": "passed",
+      "scope": "Canonical Git blobs retained; Windows checkout EOL normalization recorded separately."
+    },
+    {
+      "command": "Test-WebsiteHandoff.ps1",
+      "result": "passed",
+      "hosts": [
+        "Windows PowerShell 5.1",
+        "PowerShell 7.6.5"
+      ],
+      "retained_artwork_entries": 2
+    },
+    {
+      "command": "Update-ReleaseMetadata.ps1 -Check",
+      "result": "passed",
+      "hosts": [
+        "Windows PowerShell 5.1",
+        "PowerShell 7.6.5"
+      ]
+    },
+    {
+      "command": "python -B tools/codex-winimg/handoff.py plan --repo .",
+      "result": "passed",
+      "tasks": 28,
+      "cases": 75
+    },
+    {
+      "command": "Final isolated Packaging.Tests.ps1 on both actual hosts",
+      "result": "passed",
+      "tested_commit": "204a3381ee561d32b85781dd753b127e3addab3c",
+      "tests_per_host": 26,
+      "skipped": 0,
+      "scope": "Actual clean portable package, source/manifest/checksum/provenance, extracted BAT/PS1 and verified ImageMagick synthetic processing; long-path failures resolved with shorter isolated checkout."
+    },
+    {
+      "command": "Website.Tests.ps1 and Compatibility.Tests.ps1 within actual 174-case aggregate on both hosts",
+      "result": "passed_for_affected_suites",
+      "tests_per_host": 148,
+      "scope": "All three aggregate failures belonged to unchanged Packaging suite path limits; 26/26 Packaging separately passes on each host. Recorded code/icon/package source bindings remain unchanged at current candidate."
+    }
+  ],
+  "release_observation": {
+    "v1.0.0": "public_stable_present",
+    "url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/tag/v1.0.0",
+    "draft": false,
+    "prerelease": false
+  },
+  "cleanup_commit": "204a3381ee561d32b85781dd753b127e3addab3c",
+  "latest_observed_at_utc": "2026-10-10T18:09:06.483389+00:00",
+  "pull_request": {
+    "baseRefOid": "e5376d41879a2e4ffb5da5e607bfb634f1598621",
+    "headRefOid": "204a3381ee561d32b85781dd753b127e3addab3c",
+    "isDraft": false,
+    "mergeCommit": null,
+    "mergeStateStatus": "UNSTABLE",
+    "mergedAt": null,
+    "reviewDecision": "",
+    "state": "OPEN",
+    "url": "https://github.com/PikkuJanne/WinImgNormalizer/pull/29"
+  },
+  "workflow_runs": [
+    {
+      "conclusion": "",
+      "databaseId": 38073858508,
+      "event": "pull_request",
+      "headSha": "204a3381ee561d32b85781dd753b127e3addab3c",
+      "status": "in_progress",
+      "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/38073858508"
+    },
+    {
+      "conclusion": "",
+      "databaseId": 38073835244,
+      "event": "push",
+      "headSha": "204a3381ee561d32b85781dd753b127e3addab3c",
+      "status": "in_progress",
+      "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/38073835244"
+    },
+    {
+      "conclusion": "failure",
+      "databaseId": 38073814165,
+      "event": "push",
+      "headSha": "d264b102caa0037098a7359a087bd08781489974",
+      "status": "completed",
+      "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/38073814165"
+    }
+  ],
+  "local_test_runs": [
+    {
+      "result": "Failed",
+      "powershell_version": "7.6.5",
+      "powershell_edition": "Core",
+      "os_version": "10.0.26300",
+      "architecture_bits": 64,
+      "culture": "fi-FI",
+      "total_count": 174,
+      "passed_count": 170,
+      "failed_count": 4,
+      "skipped_count": 0,
+      "not_run_count": 0,
+      "failed_blocks_count": 0,
+      "failed_containers_count": 1,
+      "failed_tests": [
+        "T073 framework-neutral website preparation and metadata boundary.rejects changed asset display instead of treating it as an approved capture",
+        "M4-T02 portable release content and revision refusal.T069 includes exactly the seven approved Git inputs and generated manifest with canonical bytes",
+        "M4-T02 checksum and reproducibility evidence.T071 binds the exact unsigned asset and builder to the clean recorded revision",
+        "M4-T02 exact clean extracted portable entry points.T070 extracts only approved root files into a fresh directory with spaces"
+      ],
+      "exit_code": 1,
+      "infrastructure_error": null,
+      "label": "original-long-path-ps7",
+      "source_bindings_unchanged": false,
+      "limit": "Existing long disposable Git fixture exceeds Windows path limit. Original run also included now-corrected removed-poster index and in-progress source hash change; preserved as failures, not passes."
+    },
+    {
+      "result": "Failed",
+      "powershell_version": "7.6.5",
+      "powershell_edition": "Core",
+      "os_version": "10.0.26300",
+      "architecture_bits": 64,
+      "culture": "fi-FI",
+      "total_count": 174,
+      "passed_count": 171,
+      "failed_count": 3,
+      "skipped_count": 0,
+      "not_run_count": 0,
+      "failed_blocks_count": 0,
+      "failed_containers_count": 0,
+      "failed_tests": [
+        "M4-T02 portable release content and revision refusal.T069 includes exactly the seven approved Git inputs and generated manifest with canonical bytes",
+        "M4-T02 checksum and reproducibility evidence.T071 binds the exact unsigned asset and builder to the clean recorded revision",
+        "M4-T02 exact clean extracted portable entry points.T070 extracts only approved root files into a fresh directory with spaces"
+      ],
+      "exit_code": 1,
+      "infrastructure_error": null,
+      "label": "final-long-path-ps7",
+      "source_bindings_unchanged": true,
+      "limit": "Existing long disposable Git fixture exceeds Windows path limit. Original run also included now-corrected removed-poster index and in-progress source hash change; preserved as failures, not passes."
+    },
+    {
+      "result": "Failed",
+      "powershell_version": "5.1.26100.9444",
+      "powershell_edition": "Desktop",
+      "os_version": "10.0.26300",
+      "architecture_bits": 64,
+      "culture": "fi-FI",
+      "total_count": 174,
+      "passed_count": 171,
+      "failed_count": 3,
+      "skipped_count": 0,
+      "not_run_count": 0,
+      "failed_blocks_count": 0,
+      "failed_containers_count": 0,
+      "failed_tests": [
+        "M4-T02 portable release content and revision refusal.T069 includes exactly the seven approved Git inputs and generated manifest with canonical bytes",
+        "M4-T02 checksum and reproducibility evidence.T071 binds the exact unsigned asset and builder to the clean recorded revision",
+        "M4-T02 exact clean extracted portable entry points.T070 extracts only approved root files into a fresh directory with spaces"
+      ],
+      "exit_code": 1,
+      "infrastructure_error": null,
+      "label": "final-long-path-ps51",
+      "source_bindings_unchanged": true,
+      "limit": "Existing long disposable Git fixture exceeds Windows path limit. Original run also included now-corrected removed-poster index and in-progress source hash change; preserved as failures, not passes."
+    },
+    {
+      "result": "Failed",
+      "powershell_version": "7.6.5",
+      "powershell_edition": "Core",
+      "os_version": "10.0.26300",
+      "architecture_bits": 64,
+      "culture": "fi-FI",
+      "total_count": 174,
+      "passed_count": 172,
+      "failed_count": 2,
+      "skipped_count": 0,
+      "not_run_count": 0,
+      "failed_blocks_count": 0,
+      "failed_containers_count": 0,
+      "failed_tests": [
+        "M4-T02 portable release content and revision refusal.T069 includes exactly the seven approved Git inputs and generated manifest with canonical bytes",
+        "M4-T02 exact clean extracted portable entry points.T070 extracts only approved root files into a fresh directory with spaces"
+      ],
+      "exit_code": 1,
+      "infrastructure_error": null,
+      "label": "short-path-ps7",
+      "source_bindings_unchanged": true
+    },
+    {
+      "result": "Failed",
+      "powershell_version": "5.1.26100.9444",
+      "powershell_edition": "Desktop",
+      "os_version": "10.0.26300",
+      "architecture_bits": 64,
+      "culture": "fi-FI",
+      "total_count": 26,
+      "passed_count": 24,
+      "failed_count": 2,
+      "skipped_count": 0,
+      "not_run_count": 0,
+      "failed_blocks_count": 0,
+      "failed_containers_count": 0,
+      "failed_tests": [
+        "M4-T02 portable release content and revision refusal.T069 includes exactly the seven approved Git inputs and generated manifest with canonical bytes",
+        "M4-T02 exact clean extracted portable entry points.T070 extracts only approved root files into a fresh directory with spaces"
+      ],
+      "exit_code": 1,
+      "infrastructure_error": null,
+      "label": "short-path-packaging-ps51",
+      "source_bindings_unchanged": true
+    },
+    {
+      "result": "Passed",
+      "powershell_version": "7.6.5",
+      "powershell_edition": "Core",
+      "os_version": "10.0.26300",
+      "architecture_bits": 64,
+      "culture": "fi-FI",
+      "total_count": 26,
+      "passed_count": 26,
+      "failed_count": 0,
+      "skipped_count": 0,
+      "not_run_count": 0,
+      "failed_blocks_count": 0,
+      "failed_containers_count": 0,
+      "failed_tests": [],
+      "exit_code": 0,
+      "infrastructure_error": null,
+      "label": "final-shortest-package-ps7",
+      "source_bindings_unchanged": true
+    },
+    {
+      "result": "Passed",
+      "powershell_version": "5.1.26100.9444",
+      "powershell_edition": "Desktop",
+      "os_version": "10.0.26300",
+      "architecture_bits": 64,
+      "culture": "fi-FI",
+      "total_count": 26,
+      "passed_count": 26,
+      "failed_count": 0,
+      "skipped_count": 0,
+      "not_run_count": 0,
+      "failed_blocks_count": 0,
+      "failed_containers_count": 0,
+      "failed_tests": [],
+      "exit_code": 0,
+      "infrastructure_error": null,
+      "label": "final-shortest-package-ps51",
+      "source_bindings_unchanged": true
+    }
+  ],
+  "interim_failed_checkpoint": {
+    "commit": "d264b102caa0037098a7359a087bd08781489974",
+    "cause": "A git add pathspec named the already staged removed file; shell continued with deletion-only commit. Ordinary follow-up 204a338 completed the reference changes. Failed interim CI retained; no force-push/rewrite."
+  }
+}
