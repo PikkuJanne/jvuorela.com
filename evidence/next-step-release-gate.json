@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-10T19:10:41.127658+00:00",
+  "source_commit": "c855aaae9bf892068070906ed87bf4ffe9e731f1",
+  "scope": "Unauthenticated exact v1.0.0 release and tag API recheck only. No archive download, tool execution, artwork access or hosting changes. Prior full verification is preserved.",
+  "records": [
+    {
+      "repo": "PikkuJanne/WinBookSplit",
+      "release": {
+        "http_status": 404
+      },
+      "tag": {
+        "http_status": 404
+      }
+    },
+    {
+      "repo": "PikkuJanne/AudioFileForPhone",
+      "release": {
+        "http_status": 404
+      },
+      "tag": {
+        "http_status": 404
+      }
+    }
+  ]
+}

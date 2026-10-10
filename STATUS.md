@@ -20,3 +20,5 @@ The owner has deferred IONOS installation, hosting checks and live cutover to a 
 The existing apex was observed ending at `https://anti-commercial.media/`; preserve its routing until the separate hosting session resolves it. No hosting changes were made. Hosting inventory, protected preview, hosted backup/rollback validation, any still-missing cutover authorization and signed-out live acceptance remain deferred.
 
 See [TASKS.json](TASKS.json) and [the evidence index](evidence/README.md). Evidence preserves failed attempts, corrections and environment limits; planning-bundle validation is distinct from runtime acceptance.
+
+Continuation handover: [NEXT_STEP.md](docs/NEXT_STEP.md) gives the owner review and separate deployment sequence. A fresh unauthenticated exact release/tag recheck still returns HTTP 404 for WinBookSplit and AudioFileForPhone; [receipt](evidence/next-step-release-gate.json). The fixed tested v0.1.1 packages remain the deployment candidate.

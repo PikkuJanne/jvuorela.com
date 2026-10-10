@@ -445,7 +445,8 @@
       "status": "blocked",
       "evidence": [
         "evidence/release-verification.json",
-        "evidence/release-facts.md"
+        "evidence/release-facts.md",
+        "evidence/next-step-release-gate.json"
       ],
       "blocker": "WinBookSplit and AudioFileForPhone have no public stable v1.0.0 release/tag; future launch gate.",
       "disposition": "WinBookSplit and AudioFileForPhone have no public stable v1.0.0 release/tag; future launch gate."
@@ -727,7 +728,8 @@
         "evidence/releases/v0.1.0.json",
         "evidence/manual-templates.json",
         "content/PAGE_TEMPLATES.md",
-        "evidence/github-ci.json"
+        "evidence/github-ci.json",
+        "docs/NEXT_STEP.md"
       ],
       "blocker": null,
       "disposition": "Owner-scoped local handoff complete: public verified v0.1.1 at exact clean source 14cb3a924a1c1337ab7fcca9060bd4ed8003e801 is ready for deployment. Exact ZIP rehearsal, native 404/Editor save-reinstall, eleven manual templates/228 valid blocks and protected cleanup outcomes passed. Initial v0.1.0 remains immutable. Future release/Privacy/hosting/live gates remain blocked or explicitly deferred."

@@ -23,6 +23,7 @@ The tested local preview [v0.1.1](https://github.com/PikkuJanne/jvuorela.com/rel
 | Three passing public GitHub CI jobs; 37 importer and 20 native 404/export assertions on each of WordPress 6.9.10/7.1.3 | [CI result](github-ci.json), [actual candidate run](https://github.com/PikkuJanne/jvuorela.com/actions/runs/38077421861) |
 | Public clean clone and cross-platform package comparison | [earlier checkpoint mismatch/correction](public-build-checkpoint.json), [final byte-identical comparison](candidate-release.json) |
 | Five stable checksummed releases/two absent releases | [release facts](release-facts.md), [anonymous verification](release-verification.json) |
+| Continuation check of the two missing exact v1.0.0 releases/tags; API-only scope | [next-step receipt](next-step-release-gate.json), [next-step handover](../docs/NEXT_STEP.md) |
 | Seven tool audits, retained posters, scoped removals | [cleanup manifest](../repositories/tool-cleanup.json), [individual receipts](tool-cleanup/) |
 
 All four anonymous v0.1.1 release downloads match the exact tested artifacts, two Windows clean builds and Linux CI. Use its release ZIPs or check out `v0.1.1`/the full source commit to reproduce them; later receipt/docs commits on `main` do not replace that identity. The initial v0.1.0 tag, ZIPs and archived verification remain fixed and do not contain the new selector/templates.
