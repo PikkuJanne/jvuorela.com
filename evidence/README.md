@@ -2,7 +2,7 @@
 
 SPDX-License-Identifier: GPL-2.0-or-later
 
-The tested initial local preview [v0.1.0](https://github.com/PikkuJanne/jvuorela.com/releases/tag/v0.1.0) is public at exact source `0f8a50b6ba6bfb39ef97e7d7a976108a9e33c738`. A corrected v0.1.1 candidate is in progress for native 404 Page selection during manual UI setup; final local readiness awaits its tests/publication. The owner has deferred hosting/live cutover. These are actual local/public-source results, with environments, limits and failed attempts preserved. A planning validator is distinct from runtime acceptance.
+The tested local preview [v0.1.1](https://github.com/PikkuJanne/jvuorela.com/releases/tag/v0.1.1) is public and ready for deployment at exact clean source `14cb3a924a1c1337ab7fcca9060bd4ed8003e801`. Native 404 Page selection and decoded no-WP-CLI templates are included. The owner has deferred hosting/live cutover. These are actual local/public-source results, with environments, limits and failed attempts preserved. A planning validator is distinct from runtime acceptance.
 
 | Scope | Evidence |
 |---|---|
@@ -13,17 +13,18 @@ The tested initial local preview [v0.1.0](https://github.com/PikkuJanne/jvuorela
 | Real WordPress importer/edit/conflict preservation | [37 assertions](importer-runtime-2026-10-10.md) |
 | Native Editor save/reload/theme reinstall | [Editor result](editor-blocks.json), [screenshot](screenshots/editor-winpdfmerger.png) |
 | All eleven native Pages, 228 valid core blocks, exact owner Impressum | [read-only editor UI validation](editor-pages.json); Editor on ordinary Pages, administrator on WordPress's restricted Privacy policy Page |
-| Native 404 Reading selector, public/draft/password safeguards, dynamic Page context and fresh option/menu export | [20 focused corrected-source checks](theme-content-review-runtime.json); prior seven-check baseline and assertion correction retained |
-| Actual native Reading save, unmarked 404 Page, signed-out HTTP 404/legal links and theme ZIP reinstall | [settings UI result](settings-404.json); dirty development candidate explicitly provisional until clean acceptance |
+| Native 404 Reading selector, public/draft/password safeguards, dynamic Page context and fresh option/menu export | [20 focused development checks](theme-content-review-runtime.json), repeated on each exact-source CI WordPress version; prior baseline/failures retained |
+| Actual native Reading save, unmarked 404 Page, signed-out HTTP 404/legal links and exact clean theme ZIP reinstall | [settings UI result](settings-404.json) |
+| Eleven decoded templates from the exact clean setup ZIP; 228 valid core blocks, zero Page writes | [manual template acceptance](manual-templates.json), [portable template guide](../content/PAGE_TEMPLATES.md) |
 | Fresh pinned setup/rerun and bootstrap correction | [setup result](local-setup-runtime.json) |
 | Signed-out Home/seven tools/support/404, site-wide Impressum link | [50 Chrome cases](browser-runtime.json), [screenshots](screenshots/) |
-| Edge/Firefox, full artwork boxes, responsive files, mobile lab observations | [measurements](artwork-layout-measurements.md), [raw results](layout-performance.json) |
+| Earlier Edge/Firefox, full artwork boxes, responsive files, mobile lab observations; correction leaves presentation/artwork unchanged | [measurements](artwork-layout-measurements.md), [raw results](layout-performance.json) |
 | Exact released ZIP installation/private backup/fault/restore, 74 checks | [rehearsal summary](deployment-rehearsal.md), [package hashes/checks](deployment-rehearsal.json) |
-| Three passing public GitHub CI jobs; 37 importer assertions on each of WordPress 6.9.10/7.1.3 | [CI result](github-ci.json), [actual candidate run](https://github.com/PikkuJanne/jvuorela.com/actions/runs/38076065026) |
+| Three passing public GitHub CI jobs; 37 importer and 20 native 404/export assertions on each of WordPress 6.9.10/7.1.3 | [CI result](github-ci.json), [actual candidate run](https://github.com/PikkuJanne/jvuorela.com/actions/runs/38077421861) |
 | Public clean clone and cross-platform package comparison | [earlier checkpoint mismatch/correction](public-build-checkpoint.json), [final byte-identical comparison](candidate-release.json) |
 | Five stable checksummed releases/two absent releases | [release facts](release-facts.md), [anonymous verification](release-verification.json) |
 | Seven tool audits, retained posters, scoped removals | [cleanup manifest](../repositories/tool-cleanup.json), [individual receipts](tool-cleanup/) |
 
-All four anonymous v0.1.0 release downloads match its exact tested artifacts, two Windows clean builds and Linux CI. The tag remains fixed; later corrections/receipt/docs commits on `main` do not replace its source or ZIPs. Use those release ZIPs or check out that tag/full commit to reproduce the initial preview. Replacement acceptance evidence will identify v0.1.1 explicitly.
+All four anonymous v0.1.1 release downloads match the exact tested artifacts, two Windows clean builds and Linux CI. Use its release ZIPs or check out `v0.1.1`/the full source commit to reproduce them; later receipt/docs commits on `main` do not replace that identity. The initial v0.1.0 tag, ZIPs and archived verification remain fixed and do not contain the new selector/templates.
 
-Public evidence excludes development credentials, database dumps, native IDs, original masters and private backup locations. The owner explicitly supplied the public Impressum contact details; that Page is intentional publication content. Final Privacy wording, two missing tool releases and actual hosted/live acceptance remain separate launch gates. Safari was unavailable; native headless zoom did not change the viewport, and mobile performance results are loopback lab observations. See [deployment/rollback instructions](../docs/DEPLOYMENT_HANDOFF.md).
+Public evidence excludes development credentials, database dumps, native IDs, original masters and private backup locations. The owner explicitly supplied the public Impressum contact details; that Page is intentional publication content. Final Privacy wording, two missing tool releases and actual hosted/live acceptance remain separate launch gates. Earlier layout/lab measurements predate the manual setup correction; Safari was unavailable, native headless zoom did not change the viewport, and mobile performance results are loopback lab observations. See [deployment/rollback instructions](../docs/DEPLOYMENT_HANDOFF.md).

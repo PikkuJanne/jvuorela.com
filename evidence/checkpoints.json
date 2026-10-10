@@ -46,6 +46,25 @@
         "evidence/editor-pages.json",
         "evidence/local-setup-runtime.json"
       ]
+    },
+    {
+      "id": "complete-native-manual-setup-clean-deployment-candidate",
+      "date": "2026-10-10",
+      "commit": "14cb3a924a1c1337ab7fcca9060bd4ed8003e801",
+      "push": "origin/main and annotated v0.1.1 tag synchronized",
+      "ci_result": "success",
+      "ci_url": "https://github.com/PikkuJanne/jvuorela.com/actions/runs/38077421861",
+      "release_url": "https://github.com/PikkuJanne/jvuorela.com/releases/tag/v0.1.1",
+      "public_release_verified_anonymously": true,
+      "status": "ready for deployment; hosting/live acceptance deferred",
+      "evidence": [
+        "evidence/candidate-release.json",
+        "evidence/deployment-rehearsal.json",
+        "evidence/settings-404.json",
+        "evidence/editor-blocks.json",
+        "evidence/manual-templates.json",
+        "evidence/tool-cleanup/"
+      ]
     }
   ]
 }

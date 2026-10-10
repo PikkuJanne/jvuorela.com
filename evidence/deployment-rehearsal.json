@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "observed_at_utc": "2026-10-10T18:31:14.4018355Z",
+  "observed_at_utc": "2026-10-10T18:51:26.1864919Z",
   "result": "pass",
   "harness_sha256": "b29857e403c61de80493316a8e6943ebf65f11af7785d6a5a66001c55299e2eb",
   "environment": {
-    "wp_cli": "2.12.0",
-    "target": "new isolated loopback installation",
     "sqlite_adapter": "3.1.0",
+    "target": "new isolated loopback installation",
+    "wp_cli": "2.12.0",
     "php": "8.3.35",
     "wordpress": "7.1.3"
   },
@@ -16,11 +16,11 @@
       "result": "pass"
     },
     {
-      "name": "artifact checksum jvuorela-tools-0.1.0.zip",
+      "name": "artifact checksum jvuorela-tools-0.1.1.zip",
       "result": "pass"
     },
     {
-      "name": "artifact checksum jvuorela-tools-content-media-0.1.0.zip",
+      "name": "artifact checksum jvuorela-tools-content-media-0.1.1.zip",
       "result": "pass"
     },
     {
@@ -160,7 +160,7 @@
       "result": "pass"
     },
     {
-      "name": "private backup readable and byte-identical for theme",
+      "name": "private backup readable and byte-identical for uploads",
       "result": "pass"
     },
     {
@@ -168,7 +168,7 @@
       "result": "pass"
     },
     {
-      "name": "private backup readable and byte-identical for uploads",
+      "name": "private backup readable and byte-identical for theme",
       "result": "pass"
     },
     {
@@ -176,7 +176,7 @@
       "result": "pass"
     },
     {
-      "name": "restored stopped-server tree equals backup for theme",
+      "name": "restored stopped-server tree equals backup for uploads",
       "result": "pass"
     },
     {
@@ -184,7 +184,7 @@
       "result": "pass"
     },
     {
-      "name": "restored stopped-server tree equals backup for uploads",
+      "name": "restored stopped-server tree equals backup for theme",
       "result": "pass"
     },
     {
@@ -375,56 +375,83 @@
           "size_bytes": 14375895
         }
       ]
+    },
+    {
+      "result": "pass",
+      "passed_checks": 74,
+      "failure_phase": null,
+      "source": {
+        "commit": "0f8a50b6ba6bfb39ef97e7d7a976108a9e33c738",
+        "dirty": false,
+        "remote": "https://github.com/PikkuJanne/jvuorela.com.git"
+      },
+      "packages": [
+        {
+          "entry_count": 23,
+          "input_tree_sha256": "5c582cb1425c3c2e1e8475b305db441b596f48932d6556987790cfe8f39f26ad",
+          "name": "jvuorela-tools-0.1.0.zip",
+          "sha256": "742a83724afd0090855e18fbeb65c71b2627152c0c586b5b4ab88be2553d0f6d",
+          "size_bytes": 197065
+        },
+        {
+          "entry_count": 72,
+          "input_tree_sha256": "e9f118470644e9201e684dd3bc5df6a15ab72027b09bee122233889f471cf72b",
+          "name": "jvuorela-tools-content-media-0.1.0.zip",
+          "sha256": "a941072ec620a53459c9f0801e0d67474cfc1cb836881f645c97948013a91375",
+          "size_bytes": 14388483
+        }
+      ],
+      "observed_at_utc": "2026-10-10T18:31:14.4018355Z"
     }
   ],
   "packages": [
     {
       "entry_count": 23,
-      "input_tree_sha256": "5c582cb1425c3c2e1e8475b305db441b596f48932d6556987790cfe8f39f26ad",
-      "name": "jvuorela-tools-0.1.0.zip",
-      "sha256": "742a83724afd0090855e18fbeb65c71b2627152c0c586b5b4ab88be2553d0f6d",
-      "size_bytes": 197065
+      "input_tree_sha256": "87d858858d867a646863cdabb5ff19f8b9d227a84c19d4587e68300aac68ec26",
+      "name": "jvuorela-tools-0.1.1.zip",
+      "sha256": "363d428fef32eddb0b1fb80ab27c703df0da27a3e07204f68b2987f8b1b42d8f",
+      "size_bytes": 198918
     },
     {
-      "entry_count": 72,
-      "input_tree_sha256": "e9f118470644e9201e684dd3bc5df6a15ab72027b09bee122233889f471cf72b",
-      "name": "jvuorela-tools-content-media-0.1.0.zip",
-      "sha256": "a941072ec620a53459c9f0801e0d67474cfc1cb836881f645c97948013a91375",
-      "size_bytes": 14388483
+      "entry_count": 84,
+      "input_tree_sha256": "26063b5b71ece4b51935b1c118bd7cc6227cd4afa750cc8425b7134c2df6c6f2",
+      "name": "jvuorela-tools-content-media-0.1.1.zip",
+      "sha256": "38e8bf69be4da498cf60667348eb43349fb0e7d7dc98ac932e9b7ece42573675",
+      "size_bytes": 14440372
     }
   ],
   "source": {
-    "commit": "0f8a50b6ba6bfb39ef97e7d7a976108a9e33c738",
+    "commit": "14cb3a924a1c1337ab7fcca9060bd4ed8003e801",
     "dirty": false,
     "remote": "https://github.com/PikkuJanne/jvuorela.com.git"
   },
-  "website_version": "0.1.0",
+  "website_version": "0.1.1",
   "package_is_provisional": false,
   "backup_restore": {
-    "scope": "Only the freshly allocated rehearsal database/uploads/theme/config; originals and primary instance preserved.",
-    "database_tree": {
-      "sha256": "d6373c4321aa8a69ba1f17b52985e6f284d78853aebdf437cbe418552a338992",
-      "files": 7
+    "result": "pass",
+    "uploads_tree": {
+      "files": 123,
+      "sha256": "056474ed2f5daa12a678685b2d21f17400b20b0a35e73c62db1f034f35334653"
+    },
+    "theme_tree": {
+      "files": 23,
+      "sha256": "a63a877276b5faa9bb008956b4b88179f4f8926f0ed98f2c6f24f4d613e7e409"
     },
     "server_stopped_for_copy": true,
-    "uploads_tree": {
-      "sha256": "b48c0ab46aea4f691c1ca787fcc36d3824da6a683e37a1a44803687a9a490ee5",
-      "files": 123
-    },
+    "scope": "Only the freshly allocated rehearsal database/uploads/theme/config; originals and primary instance preserved.",
     "configuration_sha256": "60ea989cb4f943fed97c6beab0e09b23af80ee675b4752359efb8d74cb3aa671",
-    "result": "pass",
-    "theme_tree": {
-      "sha256": "bd5be7ed8c85eac256e9edac9dc81e791b482ea20d619efb8bf0255437d89186",
-      "files": 23
+    "database_tree": {
+      "files": 7,
+      "sha256": "b85eacefe0025a08b9103aae47b5d50fc50e304598154738f0b6b3b362417a81"
     }
   },
   "native_pages": 11,
   "native_media": 32,
   "signed_out_routes": 11,
   "native_proportional_images": {
+    "characters_480": 7,
     "metadata_and_actual_dimensions_verified": true,
-    "avatars_360": 7,
     "signed_out_generated_bytes_verified": true,
-    "characters_480": 7
+    "avatars_360": 7
   }
 }

@@ -90,7 +90,7 @@
         "evidence/editor-pages.json"
       ],
       "blocker": null,
-      "disposition": "Installable core-block theme activated on real WordPress; initial v0.1.0 ZIP editor/reinstall passed. Native manual 404 selection is being completed for the corrected candidate."
+      "disposition": "Installable native core-block theme tested on real WordPress; clean v0.1.1 ZIP reinstall preserves editorial content and native manual 404 selection."
     },
     {
       "id": "T04",
@@ -112,7 +112,9 @@
         "evidence/importer-runtime-2026-10-10.md",
         "evidence/editor-blocks.json",
         "evidence/editor-pages.json",
-        "evidence/github-ci.json"
+        "evidence/github-ci.json",
+        "evidence/manual-templates.json",
+        "content/PAGE_TEMPLATES.md"
       ],
       "blocker": null,
       "disposition": "37 real importer assertions and Editor save/update survival passed; all eleven Pages contain 228 valid core blocks. Configured Privacy policy Page was validated separately as administrator under native WordPress capabilities."
@@ -255,7 +257,7 @@
         "evidence/importer-runtime-2026-10-10.md"
       ],
       "blocker": null,
-      "disposition": "Independent review fixed dynamic 404 context/fresh settings-menu exports; corrected native Reading selector now passes 20 focused real WordPress checks, with earlier baseline/failures preserved."
+      "disposition": "Independent review fixed dynamic 404 context/fresh settings-menu exports. Native Reading selector and safeguards pass 20 focused assertions on each exact-source CI WordPress version; earlier failures and baseline retained."
     },
     {
       "id": "T11",
@@ -271,7 +273,7 @@
         "A15",
         "A16"
       ],
-      "status": "in_progress",
+      "status": "done",
       "evidence": [
         "docs/BUILD.md",
         "docs/CONTENT_IMPORT.md",
@@ -281,10 +283,12 @@
         "evidence/deployment-rehearsal.json",
         "evidence/settings-404.json",
         "evidence/theme-content-review-runtime.json",
-        "evidence/releases/v0.1.0.json"
+        "evidence/releases/v0.1.0.json",
+        "evidence/manual-templates.json",
+        "content/PAGE_TEMPLATES.md"
       ],
       "blocker": null,
-      "disposition": "Initial v0.1.0 packages are public, clean and reproducible. Corrected v0.1.1 packages with native manual 404 Page selection await exact clean build/rehearsal/publication; existing tag/ZIPs remain fixed."
+      "disposition": "Public clean v0.1.1 theme/setup ZIPs from 14cb3a924a1c1337ab7fcca9060bd4ed8003e801 verified anonymously against exact tested dist, two Windows clean builds and Linux CI. Setup includes eleven source-matched decoded HTML templates plus complete native no-WP-CLI runbooks; initial v0.1.0 remains fixed."
     },
     {
       "id": "T12",
@@ -299,14 +303,14 @@
       "acceptance_ids": [
         "A17"
       ],
-      "status": "in_progress",
+      "status": "done",
       "evidence": [
         "docs/DEPLOYMENT_HANDOFF.md",
         "evidence/deployment-rehearsal.json",
         "evidence/deployment-rehearsal.md"
       ],
       "blocker": null,
-      "disposition": "Exact clean initial v0.1.0 packages passed 74 local installation/private backup/fault/restore checks. Corrected candidate requires fresh exact-package acceptance; hosted restoration remains deferred."
+      "disposition": "Exact clean v0.1.1 packages passed 74 local installation/private backup/fault/restore checks with zero PHP diagnostics; source/package identity recorded. Actual hosted backup/restore remains deferred."
     },
     {
       "id": "T13",
@@ -680,7 +684,7 @@
         "A42",
         "A43"
       ],
-      "status": "in_progress",
+      "status": "done",
       "evidence": [
         "LICENSE_SCOPE.md",
         "ARTWORK_LICENSE.md",
@@ -691,7 +695,7 @@
         "evidence/public-build-checkpoint.json"
       ],
       "blocker": null,
-      "disposition": "Licensing/provenance/source checks pass. Initial v0.1.0 source passed all three public CI jobs and anonymous artifact comparison across two clean Windows builds/Linux. Corrected v0.1.1 CI and exact public package comparison remain pending."
+      "disposition": "License/provenance/source checks pass with separate artwork/third-party terms. All three public v0.1.1 CI jobs passed; WordPress 6.9.10/7.1.3 each passed 37 importer plus 20 native 404/export assertions. Anonymous public artifacts are byte-identical to two Windows clean builds and Linux CI."
     },
     {
       "id": "T29",
@@ -709,7 +713,7 @@
         "docs/DEPLOYMENT_HANDOFF.md"
       ],
       "acceptance_ids": [],
-      "status": "in_progress",
+      "status": "done",
       "evidence": [
         "evidence/browser-runtime.json",
         "evidence/editor-blocks.json",
@@ -720,10 +724,13 @@
         "evidence/deployment-rehearsal.json",
         "evidence/settings-404.json",
         "evidence/theme-content-review-runtime.json",
-        "evidence/releases/v0.1.0.json"
+        "evidence/releases/v0.1.0.json",
+        "evidence/manual-templates.json",
+        "content/PAGE_TEMPLATES.md",
+        "evidence/github-ci.json"
       ],
       "blocker": null,
-      "disposition": "Initial immutable v0.1.0 preview is published and verified. A native no-WP-CLI 404 setup gap is being corrected for v0.1.1 before final local ready-for-deployment handoff. Preserve separate future launch gates; hosting/live acceptance is deferred."
+      "disposition": "Owner-scoped local handoff complete: public verified v0.1.1 at exact clean source 14cb3a924a1c1337ab7fcca9060bd4ed8003e801 is ready for deployment. Exact ZIP rehearsal, native 404/Editor save-reinstall, eleven manual templates/228 valid blocks and protected cleanup outcomes passed. Initial v0.1.0 remains immutable. Future release/Privacy/hosting/live gates remain blocked or explicitly deferred."
     }
   ]
 }

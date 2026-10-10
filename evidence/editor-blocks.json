@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-10T18:31:31.790Z",
+  "checked_at": "2026-10-10T18:51:54.901Z",
   "browser": "154.0.8037.98",
   "role": "editor",
   "post": "WinPDFMerger",
@@ -115,9 +115,9 @@
   "native_save_and_reload": true,
   "signed_out_frontend_matches": true,
   "theme_zip_reinstall_preserves_edits": true,
-  "theme_zip_sha256": "742a83724afd0090855e18fbeb65c71b2627152c0c586b5b4ab88be2553d0f6d",
+  "theme_zip_sha256": "363d428fef32eddb0b1fb80ab27c703df0da27a3e07204f68b2987f8b1b42d8f",
   "package_source": {
-    "commit": "0f8a50b6ba6bfb39ef97e7d7a976108a9e33c738",
+    "commit": "14cb3a924a1c1337ab7fcca9060bd4ed8003e801",
     "dirty": false,
     "remote": "https://github.com/PikkuJanne/jvuorela.com.git"
   },

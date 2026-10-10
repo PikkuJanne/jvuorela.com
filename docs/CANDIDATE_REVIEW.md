@@ -1,25 +1,27 @@
-# Tested initial preview and candidate correction
+# Tested deployment candidate v0.1.1
 
 SPDX-License-Identifier: GPL-2.0-or-later
 
-Reviewed 2026-10-10. The tested initial preview is publicly available at [v0.1.0](https://github.com/PikkuJanne/jvuorela.com/releases/tag/v0.1.0). A corrected **v0.1.1 candidate is in progress**: review identified that manual UI setup needed a native published-Page selector for editable 404 copy. Final local readiness awaits testing/publication of that replacement. IONOS installation, hosting checks and live cutover are deferred to the owner's separate deployment session. These are GitHub previews; final website v1.0.0 remains reserved for its accepted live source.
+Reviewed 2026-10-10. **Ready for deployment:** the tested local preview [v0.1.1](https://github.com/PikkuJanne/jvuorela.com/releases/tag/v0.1.1) is public with exact source and reproducible packages. IONOS installation, hosting checks and live cutover are deferred to the owner's separate deployment session. This is a GitHub prerelease; final website v1.0.0 remains reserved for its accepted live source.
 
-The v0.1.0 tag and downloads stay immutable. The identity/hashes and acceptance results below describe that initial preview. Replacement source, hashes and tests will be recorded only after actual verification. The implemented correction has [20 passing focused real WordPress checks](../evidence/theme-content-review-runtime.json) on the reviewed development source. [Actual native Reading form save, signed-out unmarked 404 Page/legal links and development ZIP reinstall](../evidence/settings-404.json) also pass; the dirty development ZIP is provisional and clean-package/release acceptance remains pending. Current handoff runbooks supplement the frozen package instructions with native 404 selection, decoded `page-templates/*.html` editor input and explicit permalink/routing checks. Resolve all portable tokens in a text editor before native code-editor paste; use numeric attachment IDs and actual public native URLs, never draft-preview nonces.
+The corrected candidate adds native 404 Page selection and decoded `page-templates/*.html` for setup without WP-CLI. All twenty focused checks pass on each exact-source CI WordPress version, and native Reading save/signed-out 404/exact clean ZIP reinstall pass. Runbooks cover permalink/routing checks and resolving all template tokens in a text editor before native code-editor paste; use numeric attachment IDs and actual public native URLs, never draft-preview nonces.
+
+The initial [v0.1.0 preview](https://github.com/PikkuJanne/jvuorela.com/releases/tag/v0.1.0), source `0f8a50b6ba6bfb39ef97e7d7a976108a9e33c738` and downloads remain fixed. It does not include the native selector/decoded templates. Its [publication verification](../evidence/releases/v0.1.0.json), [Editor survival](../evidence/releases/v0.1.0-editor-blocks.json) and [rehearsal](../evidence/releases/v0.1.0-deployment-rehearsal.json) are archived independently.
 
 ## Exact candidate and installation entry
 
-Public source/remote: `https://github.com/PikkuJanne/jvuorela.com.git`. The fixed `v0.1.0` tag resolves to clean source [`0f8a50b6ba6bfb39ef97e7d7a976108a9e33c738`](https://github.com/PikkuJanne/jvuorela.com/tree/0f8a50b6ba6bfb39ef97e7d7a976108a9e33c738). The release is public, non-draft and marked prerelease. [Archived anonymous verification](../evidence/releases/v0.1.0.json) confirms its downloads and tagged source files without GitHub credentials.
+Public source/remote: `https://github.com/PikkuJanne/jvuorela.com.git`. The fixed `v0.1.1` tag resolves to clean source [`14cb3a924a1c1337ab7fcca9060bd4ed8003e801`](https://github.com/PikkuJanne/jvuorela.com/tree/14cb3a924a1c1337ab7fcca9060bd4ed8003e801). The release is public, non-draft and marked prerelease. [Anonymous verification](../evidence/candidate-release.json) confirms all four downloads and nine tagged source files without GitHub credentials.
 
-Download both ZIPs, `SHA256SUMS` and `artifacts.json` from [the release](https://github.com/PikkuJanne/jvuorela.com/releases/tag/v0.1.0); verify hashes before installation. The theme ZIP contains one `jvuorela-tools/` root. The separate setup ZIP contains one `jvuorela-tools-setup/` root with eleven portable draft Pages, approved derivatives and the content/setup/deployment runbooks. No credentials, databases, private masters, WordPress core or local SQLite adapter are shipped.
+Download both ZIPs, `SHA256SUMS` and `artifacts.json` from [the release](https://github.com/PikkuJanne/jvuorela.com/releases/tag/v0.1.1); verify hashes before installation. The theme ZIP contains 23 entries under one `jvuorela-tools/` root. The separate setup ZIP contains 84 entries under one `jvuorela-tools-setup/` root: eleven portable draft Pages, eleven decoded HTML templates plus their README, approved derivatives and the content/setup/deployment runbooks. No credentials, databases, private masters, WordPress core or local SQLite adapter are shipped.
 
 | Artifact | Bytes | SHA-256 |
 |---|---:|---|
-| `jvuorela-tools-0.1.0.zip` | 197,065 | `742a83724afd0090855e18fbeb65c71b2627152c0c586b5b4ab88be2553d0f6d` |
-| `jvuorela-tools-content-media-0.1.0.zip` | 14,388,483 | `a941072ec620a53459c9f0801e0d67474cfc1cb836881f645c97948013a91375` |
-| `artifacts.json` | 1,465 | `e4a3c01a9317215dd1ac3698da6d7693e2ca631bbfb93ea25544d207d4e2dbc5` |
-| `SHA256SUMS` | 277 | `6de5294f143e5b373a3c0f68763bc9b04eeeae9eecf46d8ebb22d532afb1d196` |
+| `jvuorela-tools-0.1.1.zip` | 198,918 | `363d428fef32eddb0b1fb80ab27c703df0da27a3e07204f68b2987f8b1b42d8f` |
+| `jvuorela-tools-content-media-0.1.1.zip` | 14,440,372 | `38e8bf69be4da498cf60667348eb43349fb0e7d7dc98ac932e9b7ece42573675` |
+| `artifacts.json` | 1,465 | `c139c5f1635f3b6a53301542333af4127d76d81725d64f4464cc8a51a6cff36e` |
+| `SHA256SUMS` | 277 | `faca172c8005e17278019075287369372b83c69a95f56c6066bdf8c8558265df` |
 
-Use [DEPLOYMENT_HANDOFF.md](DEPLOYMENT_HANDOFF.md) for host inventory, protected preview, installation, private backups and rollback. Its tested release version is [available at the fixed tag](https://github.com/PikkuJanne/jvuorela.com/blob/v0.1.0/docs/DEPLOYMENT_HANDOFF.md) and inside the setup ZIP. Use [CONTENT_IMPORT.md](CONTENT_IMPORT.md) for planning and reviewed draft creation; ordinary theme updates install code and preserve native editor content.
+Use [DEPLOYMENT_HANDOFF.md](DEPLOYMENT_HANDOFF.md) for host inventory, protected preview, installation, private backups and rollback. Its tested release version is [available at the fixed v0.1.1 tag](https://github.com/PikkuJanne/jvuorela.com/blob/v0.1.1/docs/DEPLOYMENT_HANDOFF.md) and inside the setup ZIP. Use [CONTENT_IMPORT.md](CONTENT_IMPORT.md) and [the portable template guide](../content/PAGE_TEMPLATES.md) for reviewed native setup; ordinary theme updates install code and preserve editor content. Current receipt/docs on `main` supplement frozen instructions without replacing their release identity.
 
 Before content setup, inventory existing permalink/rewrite rules and domain routing. On the protected preview, verify the supported native permalink structure and actual rewrite behavior/true HTTP 404, or deliberately preserve existing query-link behavior. Resolve/import internal links against the resulting native URLs and preserve existing hosted routes. The corrected candidate exposes **Settings → Reading → Page for missing addresses (404)** to select a published public Page without a Page password or importer metadata. Its optional setting preserves imported/default fallback and never changes Page status; see the current runbooks for the complete UI procedure.
 
@@ -28,9 +30,9 @@ Receipt/docs commits on `main` intentionally follow the release freeze. Rebuildi
 ```sh
 git clone https://github.com/PikkuJanne/jvuorela.com.git
 cd jvuorela.com
-git checkout v0.1.0
+git checkout v0.1.1
 python scripts/check-source.py
-python scripts/package.py --release --expected-commit 0f8a50b6ba6bfb39ef97e7d7a976108a9e33c738 --output dist
+python scripts/package.py --release --expected-commit 14cb3a924a1c1337ab7fcca9060bd4ed8003e801 --output dist
 ```
 
 Python 3.12 or newer and Git suffice. Builds use committed derivatives; private artwork masters are unnecessary. [BUILD.md](BUILD.md) explains deterministic timestamps, entry order, permissions, checksums and source identity.
@@ -39,20 +41,22 @@ Python 3.12 or newer and Git suffice. Builds use committed derivatives; private 
 
 | Behavior | Actual evidence |
 |---|---|
-| Exact ZIP installation, 11 draft Pages/32 media records, native configuration, signed-out routes, private backup, controlled fault and restore | [74 passing initial-release checks](../evidence/releases/v0.1.0-deployment-rehearsal.json) |
-| Native Editor saves four content fields, reloads, exact released theme ZIP reinstall preserves all four, reviewed copy restored | [Initial-release Editor survival result](../evidence/releases/v0.1.0-editor-blocks.json) |
-| All 11 Pages contain 228 valid core blocks; no saves during full editor review | [Read-only editor UI result](../evidence/editor-pages.json) |
-| Real importer planning, draft-only writes, idempotence, content/media/configuration conflicts and unrelated-data preservation | [37 assertions](../evidence/importer-runtime-2026-10-10.md) and the [initial release CI observation](../evidence/releases/v0.1.0.json) |
-| Public clean builds and downloads reproduce all four artifacts exactly | [Two Windows clean builds, Linux CI and anonymous downloads](../evidence/releases/v0.1.0.json) |
-| Public source/package job and real WordPress 6.9.10/7.1.3 behavior jobs pass | [All three CI jobs](https://github.com/PikkuJanne/jvuorela.com/actions/runs/38076065026), actual PHP 8.3.6, SQLite engine 3.45.1/local adapter 3.1.0, 37 importer assertions per WordPress version |
-| Signed-out Chrome, no JavaScript, five widths, true HTTP 404, one H1, no overflow, responsive artwork, metadata and no third-party requests | [50 route/viewport cases](../evidence/browser-runtime.json) |
-| Edge/Firefox layout, keyboard focus, equivalent 200% reflow, complete portrait/avatar boxes and mobile observations | [20 cases per browser and measurement limits](../evidence/artwork-layout-measurements.md), [raw results](../evidence/layout-performance.json) |
-| Initial dynamic 404 blocks receive native Page context; fresh exports preserve observed options/menus | [Prior seven-check baseline](../evidence/theme-content-review-runtime.json); the same file records the later 20-check native-selector correction separately |
+| Exact v0.1.1 ZIP installation, 11 draft Pages/32 media records, native configuration, signed-out routes, private backup, controlled fault and restore | [74 passing checks, zero PHP diagnostics](../evidence/deployment-rehearsal.json), [rehearsal summary](../evidence/deployment-rehearsal.md) |
+| Native Editor saves four content fields, reloads, exact released theme ZIP reinstall preserves all four, reviewed copy restored | [Exact v0.1.1 Editor survival result](../evidence/editor-blocks.json) |
+| All eleven packaged HTML templates match portable source and resolve to 228 valid registered core blocks; zero Page writes | [Exact clean setup-ZIP acceptance](../evidence/manual-templates.json) |
+| Native managed Page UI review, including exact owner Impressum, Editor on ordinary Pages and administrator on restricted Privacy Page | [Read-only eleven-Page editor result](../evidence/editor-pages.json); content unchanged by the selector correction |
+| Actual native Reading save selects an unmarked Page, signed-out missing route stays HTTP 404 with legal links, setting/copy survive exact clean ZIP reinstall | [Native 404 UI result](../evidence/settings-404.json) |
+| Real importer planning, draft-only writes, idempotence, content/media/configuration conflicts and unrelated-data preservation | [37 assertions](../evidence/importer-runtime-2026-10-10.md), repeated on both exact-source [CI WordPress versions](../evidence/github-ci.json) |
+| Public clean builds and downloads reproduce all four artifacts exactly | [Two Windows clean builds, Linux CI and anonymous downloads](../evidence/candidate-release.json) |
+| Public source/package job and real WordPress 6.9.10/7.1.3 behavior jobs pass | [All three CI jobs](https://github.com/PikkuJanne/jvuorela.com/actions/runs/38077421861), actual PHP 8.3.6, SQLite engine 3.45.1/local adapter 3.1.0, 37 importer plus 20 native 404/export assertions per WordPress version |
+| Earlier signed-out Chrome, no JavaScript, five widths, true HTTP 404, one H1, no overflow, responsive artwork, metadata and no third-party requests | [50 route/viewport cases](../evidence/browser-runtime.json); presentation/artwork unchanged by correction |
+| Earlier Edge/Firefox layout, keyboard focus, equivalent 200% reflow, complete portrait/avatar boxes and mobile observations | [20 cases per browser and measurement limits](../evidence/artwork-layout-measurements.md), [raw results](../evidence/layout-performance.json) |
+| Native 404 selector/publication safeguards, dynamic Page context and fresh configuration/menu export | [20 focused development-source checks](../evidence/theme-content-review-runtime.json), repeated on each clean-source CI WordPress version; prior seven-check baseline/failed assertions retained |
 | Pinned Windows setup initializes a fresh isolated installation and reruns without altering database/users/credentials | [Setup result and recorded bootstrap correction](../evidence/local-setup-runtime.json) |
 
 The local rehearsal/editor runtime used PHP 8.3.35, WordPress 7.1.3 and WP-CLI 2.12.0. The development SQLite adapter is local only. Ordinary Pages were reviewed as Editor; WordPress's configured Privacy policy Page requires the native privacy-management capability and was reviewed separately as administrator. Roles, capabilities and Page content were not changed by the read-only review.
 
-Safari was unavailable on Windows. Headless native zoom did not change the viewport, so equivalent 200% reflow is the recorded result. Mobile performance measurements are throttled loopback lab observations, not field data or IONOS performance scores. Local testing does not establish the host's MySQL/MariaDB behavior, routing, editor permissions, backups or HTTPS/cache behavior.
+The browser layout/lab measurements predate the manual setup correction; presentation/artwork are unchanged. Safari was unavailable on Windows. Headless native zoom did not change the viewport, so equivalent 200% reflow is the recorded result. Mobile measurements are throttled loopback lab observations, not field data or IONOS performance scores. Local testing does not establish the host's MySQL/MariaDB behavior, routing, editor permissions, backups or HTTPS/cache behavior.
 
 ## Content, artwork and remaining launch gates
 

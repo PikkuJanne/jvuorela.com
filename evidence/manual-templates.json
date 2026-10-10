@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-10T18:49:28.418Z",
+  "checked_at": "2026-10-10T18:51:55.544Z",
   "scope": "Packaged manual-setup HTML parsed read-only by registered Gutenberg core blocks on disposable local WordPress",
   "native_save_invoked": false,
   "editor_dispatch_invoked": false,
@@ -274,18 +274,19 @@
     "Local block parsing does not establish hosted editor or IONOS acceptance"
   ],
   "setup_zip_name": "jvuorela-tools-content-media-0.1.1.zip",
-  "setup_zip_sha256": "112692b114153f213e2aac1812a1c7849d0f4313edd5462d3b81b5aeac9a0a2b",
+  "setup_zip_sha256": "38e8bf69be4da498cf60667348eb43349fb0e7d7dc98ac932e9b7ece42573675",
   "package_source": {
-    "commit": "0f8a50b6ba6bfb39ef97e7d7a976108a9e33c738",
-    "dirty": true,
+    "commit": "14cb3a924a1c1337ab7fcca9060bd4ed8003e801",
+    "dirty": false,
     "remote": "https://github.com/PikkuJanne/jvuorela.com.git"
   },
-  "source_dirty": true,
-  "provisional": true,
-  "acceptance": "provisional_dirty_development_package",
+  "source_dirty": false,
+  "provisional": false,
+  "acceptance": "tested_clean_package_candidate",
   "package_identity_verified": true,
   "all_template_bytes_match_portable_pages": true,
   "template_readme_included": true,
+  "wordpress_version": "7.1.3",
   "editor_account_role_verified": true,
   "native_page_content_unchanged": true,
   "loaded_editor_content_unchanged": true,
