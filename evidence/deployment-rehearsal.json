@@ -1,199 +1,311 @@
 {
   "schema_version": 1,
-  "observed_at_utc": "2026-10-10T18:20:30.280066Z",
+  "observed_at_utc": "2026-10-10T18:31:14.4018355Z",
   "result": "pass",
-  "harness_sha256": "c2f2d4289251e2a0ce40b5102ac4bd552feafd2705ba480fcb11489f50a29e72",
+  "harness_sha256": "b29857e403c61de80493316a8e6943ebf65f11af7785d6a5a66001c55299e2eb",
   "environment": {
     "wp_cli": "2.12.0",
-    "wordpress": "7.1.3",
-    "php": "8.3.35",
     "target": "new isolated loopback installation",
-    "sqlite_adapter": "3.1.0"
+    "sqlite_adapter": "3.1.0",
+    "php": "8.3.35",
+    "wordpress": "7.1.3"
   },
   "checks": [
     {
-      "result": "pass",
-      "name": "official pinned existing runtime downloads verified"
+      "name": "official pinned existing runtime downloads verified",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "artifact checksum jvuorela-tools-0.1.0.zip"
+      "name": "artifact checksum jvuorela-tools-0.1.0.zip",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "artifact checksum jvuorela-tools-content-media-0.1.0.zip"
+      "name": "artifact checksum jvuorela-tools-content-media-0.1.0.zip",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "every installed theme file equals its exact theme ZIP entry"
+      "name": "every installed theme file equals its exact theme ZIP entry",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "portable package initial plan is read-only and conflict-free for 11 missing drafts"
+      "name": "portable package initial plan is read-only and conflict-free for 11 missing drafts",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "portable package imports 11 drafts and 32 native attachments plus theme favicon"
+      "name": "portable package imports 11 drafts and 32 native attachments plus theme favicon",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "portable package rerun preserves all drafts/media without duplication"
+      "name": "portable package rerun preserves all drafts/media without duplication",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "explicit native front privacy icon and menus configured without Page publication"
+      "name": "explicit native front privacy icon and menus configured without Page publication",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "all 11 native project Pages remain drafts after import and configuration"
+      "name": "all 11 native project Pages remain drafts after import and configuration",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "fresh native Pages and media have no unresolved tokens or missing dimensions"
+      "name": "fresh native Pages and media have no unresolved tokens or missing dimensions",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "separate loopback server and signed-out login endpoint ready"
+      "name": "seven character480 and seven avatar360 native sizes are proportional and attachment-specific",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route home HTTP 200"
+      "name": "separate loopback server and signed-out login endpoint ready",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route winbooksplit HTTP 200"
+      "name": "signed-out route home HTTP 200",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route winpdfmerger HTTP 200"
+      "name": "canonical Impressum and Privacy footer links on home",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route winvidcompress HTTP 200"
+      "name": "signed-out route winbooksplit HTTP 200",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route universalpodcastdownloader HTTP 200"
+      "name": "canonical Impressum and Privacy footer links on winbooksplit",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route winaudioclean HTTP 200"
+      "name": "signed-out route winpdfmerger HTTP 200",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route winimagenormalizer HTTP 200"
+      "name": "canonical Impressum and Privacy footer links on winpdfmerger",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route audiofileforphone HTTP 200"
+      "name": "signed-out route winvidcompress HTTP 200",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route impressum HTTP 200"
+      "name": "canonical Impressum and Privacy footer links on winvidcompress",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route privacy HTTP 200"
+      "name": "signed-out route universalpodcastdownloader HTTP 200",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route missing-route HTTP 404"
+      "name": "canonical Impressum and Privacy footer links on universalpodcastdownloader",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "all 32 native media originals serve exact approved derivative bytes signed out"
+      "name": "signed-out route winaudioclean HTTP 200",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "private backup readable and byte-identical for theme"
+      "name": "canonical Impressum and Privacy footer links on winaudioclean",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "private backup readable and byte-identical for uploads"
+      "name": "signed-out route winimagenormalizer HTTP 200",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "private backup readable and byte-identical for database"
+      "name": "canonical Impressum and Privacy footer links on winimagenormalizer",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "intentional fresh-fixture database media and theme faults differ from backup"
+      "name": "signed-out route audiofileforphone HTTP 200",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "restored stopped-server tree equals backup for theme"
+      "name": "canonical Impressum and Privacy footer links on audiofileforphone",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "restored stopped-server tree equals backup for uploads"
+      "name": "signed-out route impressum HTTP 200",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "restored stopped-server tree equals backup for database"
+      "name": "canonical Impressum and Privacy footer links on impressum",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "restored private configuration is byte-identical"
+      "name": "signed-out Impressum renders supplied owner text and mailto email",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "restored authoritative Page fields equal the pre-backup editorial snapshot"
+      "name": "signed-out route privacy HTTP 200",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "separate loopback server and signed-out login endpoint ready"
+      "name": "canonical Impressum and Privacy footer links on privacy",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route home HTTP 200"
+      "name": "signed-out route missing-route HTTP 404",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route winbooksplit HTTP 200"
+      "name": "canonical Impressum and Privacy footer links on missing-route",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route winpdfmerger HTTP 200"
+      "name": "all 32 native media originals serve exact approved derivative bytes signed out",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route winvidcompress HTTP 200"
+      "name": "all 14 proportional native character480 and avatar360 files serve signed out",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route universalpodcastdownloader HTTP 200"
+      "name": "private backup readable and byte-identical for theme",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route winaudioclean HTTP 200"
+      "name": "private backup readable and byte-identical for database",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route winimagenormalizer HTTP 200"
+      "name": "private backup readable and byte-identical for uploads",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route audiofileforphone HTTP 200"
+      "name": "intentional fresh-fixture database media and theme faults differ from backup",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route impressum HTTP 200"
+      "name": "restored stopped-server tree equals backup for theme",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route privacy HTTP 200"
+      "name": "restored stopped-server tree equals backup for database",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "signed-out route missing-route HTTP 404"
+      "name": "restored stopped-server tree equals backup for uploads",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "all 32 native media originals serve exact approved derivative bytes signed out"
+      "name": "restored private configuration is byte-identical",
+      "result": "pass"
     },
     {
-      "result": "pass",
-      "name": "all restored signed-out HTML pages equal pre-backup rendered bodies"
+      "name": "restored authoritative Page fields equal the pre-backup editorial snapshot",
+      "result": "pass"
+    },
+    {
+      "name": "restored proportional native image metadata and attachment-specific files remain intact",
+      "result": "pass"
+    },
+    {
+      "name": "separate loopback server and signed-out login endpoint ready",
+      "result": "pass"
+    },
+    {
+      "name": "signed-out route home HTTP 200",
+      "result": "pass"
+    },
+    {
+      "name": "canonical Impressum and Privacy footer links on home",
+      "result": "pass"
+    },
+    {
+      "name": "signed-out route winbooksplit HTTP 200",
+      "result": "pass"
+    },
+    {
+      "name": "canonical Impressum and Privacy footer links on winbooksplit",
+      "result": "pass"
+    },
+    {
+      "name": "signed-out route winpdfmerger HTTP 200",
+      "result": "pass"
+    },
+    {
+      "name": "canonical Impressum and Privacy footer links on winpdfmerger",
+      "result": "pass"
+    },
+    {
+      "name": "signed-out route winvidcompress HTTP 200",
+      "result": "pass"
+    },
+    {
+      "name": "canonical Impressum and Privacy footer links on winvidcompress",
+      "result": "pass"
+    },
+    {
+      "name": "signed-out route universalpodcastdownloader HTTP 200",
+      "result": "pass"
+    },
+    {
+      "name": "canonical Impressum and Privacy footer links on universalpodcastdownloader",
+      "result": "pass"
+    },
+    {
+      "name": "signed-out route winaudioclean HTTP 200",
+      "result": "pass"
+    },
+    {
+      "name": "canonical Impressum and Privacy footer links on winaudioclean",
+      "result": "pass"
+    },
+    {
+      "name": "signed-out route winimagenormalizer HTTP 200",
+      "result": "pass"
+    },
+    {
+      "name": "canonical Impressum and Privacy footer links on winimagenormalizer",
+      "result": "pass"
+    },
+    {
+      "name": "signed-out route audiofileforphone HTTP 200",
+      "result": "pass"
+    },
+    {
+      "name": "canonical Impressum and Privacy footer links on audiofileforphone",
+      "result": "pass"
+    },
+    {
+      "name": "signed-out route impressum HTTP 200",
+      "result": "pass"
+    },
+    {
+      "name": "canonical Impressum and Privacy footer links on impressum",
+      "result": "pass"
+    },
+    {
+      "name": "signed-out Impressum renders supplied owner text and mailto email",
+      "result": "pass"
+    },
+    {
+      "name": "signed-out route privacy HTTP 200",
+      "result": "pass"
+    },
+    {
+      "name": "canonical Impressum and Privacy footer links on privacy",
+      "result": "pass"
+    },
+    {
+      "name": "signed-out route missing-route HTTP 404",
+      "result": "pass"
+    },
+    {
+      "name": "canonical Impressum and Privacy footer links on missing-route",
+      "result": "pass"
+    },
+    {
+      "name": "all 32 native media originals serve exact approved derivative bytes signed out",
+      "result": "pass"
+    },
+    {
+      "name": "all 14 proportional native character480 and avatar360 files serve signed out",
+      "result": "pass"
+    },
+    {
+      "name": "all restored signed-out HTML pages equal pre-backup rendered bodies",
+      "result": "pass"
     }
   ],
   "primary_instance_mutation_commands": 0,
@@ -236,50 +348,83 @@
         "dirty": true,
         "remote": "https://github.com/PikkuJanne/jvuorela.com.git"
       }
+    },
+    {
+      "passed_checks": 46,
+      "failure_phase": null,
+      "source": {
+        "commit": "367c8d3d8b88442579969cd2601e88e02f0f3620",
+        "dirty": true,
+        "remote": "https://github.com/PikkuJanne/jvuorela.com.git"
+      },
+      "result": "pass",
+      "observed_at_utc": "2026-10-10T18:20:30.280066Z",
+      "packages": [
+        {
+          "entry_count": 23,
+          "input_tree_sha256": "3263408ef25b610b88d6343a36fbc06f9d772d2ade90b758cdd750303046f98e",
+          "name": "jvuorela-tools-0.1.0.zip",
+          "sha256": "3515d3155b95c56c6485d351ec120a79f969969900b50620f950fa94ff75a0e1",
+          "size_bytes": 194970
+        },
+        {
+          "entry_count": 70,
+          "input_tree_sha256": "755cc644063170e578114658e1d1e327ab62227a4671938cda29c132e5f8b335",
+          "name": "jvuorela-tools-content-media-0.1.0.zip",
+          "sha256": "274097dacc17c5ba18ace93f1c4ef8fcf1f2cf1d551efae56292666e9e636ffc",
+          "size_bytes": 14375895
+        }
+      ]
     }
   ],
   "packages": [
     {
       "entry_count": 23,
-      "input_tree_sha256": "3263408ef25b610b88d6343a36fbc06f9d772d2ade90b758cdd750303046f98e",
+      "input_tree_sha256": "5c582cb1425c3c2e1e8475b305db441b596f48932d6556987790cfe8f39f26ad",
       "name": "jvuorela-tools-0.1.0.zip",
-      "sha256": "3515d3155b95c56c6485d351ec120a79f969969900b50620f950fa94ff75a0e1",
-      "size_bytes": 194970
+      "sha256": "742a83724afd0090855e18fbeb65c71b2627152c0c586b5b4ab88be2553d0f6d",
+      "size_bytes": 197065
     },
     {
-      "entry_count": 70,
-      "input_tree_sha256": "755cc644063170e578114658e1d1e327ab62227a4671938cda29c132e5f8b335",
+      "entry_count": 72,
+      "input_tree_sha256": "e9f118470644e9201e684dd3bc5df6a15ab72027b09bee122233889f471cf72b",
       "name": "jvuorela-tools-content-media-0.1.0.zip",
-      "sha256": "274097dacc17c5ba18ace93f1c4ef8fcf1f2cf1d551efae56292666e9e636ffc",
-      "size_bytes": 14375895
+      "sha256": "a941072ec620a53459c9f0801e0d67474cfc1cb836881f645c97948013a91375",
+      "size_bytes": 14388483
     }
   ],
   "source": {
-    "commit": "367c8d3d8b88442579969cd2601e88e02f0f3620",
-    "dirty": true,
+    "commit": "0f8a50b6ba6bfb39ef97e7d7a976108a9e33c738",
+    "dirty": false,
     "remote": "https://github.com/PikkuJanne/jvuorela.com.git"
   },
   "website_version": "0.1.0",
-  "package_is_provisional": true,
+  "package_is_provisional": false,
   "backup_restore": {
-    "server_stopped_for_copy": true,
-    "configuration_sha256": "60ea989cb4f943fed97c6beab0e09b23af80ee675b4752359efb8d74cb3aa671",
-    "uploads_tree": {
-      "sha256": "985476bbcb9d56c39b13a8cd629d4c0b270850be13d1694b5bef9112f1443cc9",
-      "files": 109
-    },
-    "result": "pass",
     "scope": "Only the freshly allocated rehearsal database/uploads/theme/config; originals and primary instance preserved.",
     "database_tree": {
-      "sha256": "4952fc9697444e89bda0427ead24f141c574fb3b6dc314267e33d56d1e8e81c3",
+      "sha256": "d6373c4321aa8a69ba1f17b52985e6f284d78853aebdf437cbe418552a338992",
       "files": 7
     },
+    "server_stopped_for_copy": true,
+    "uploads_tree": {
+      "sha256": "b48c0ab46aea4f691c1ca787fcc36d3824da6a683e37a1a44803687a9a490ee5",
+      "files": 123
+    },
+    "configuration_sha256": "60ea989cb4f943fed97c6beab0e09b23af80ee675b4752359efb8d74cb3aa671",
+    "result": "pass",
     "theme_tree": {
-      "sha256": "57ff0d3bbe6fbfa2806c3852fede1fd8b000cc1d71b2105466b50269a633f738",
+      "sha256": "bd5be7ed8c85eac256e9edac9dc81e791b482ea20d619efb8bf0255437d89186",
       "files": 23
     }
   },
   "native_pages": 11,
   "native_media": 32,
-  "signed_out_routes": 11
+  "signed_out_routes": 11,
+  "native_proportional_images": {
+    "metadata_and_actual_dimensions_verified": true,
+    "avatars_360": 7,
+    "signed_out_generated_bytes_verified": true,
+    "characters_480": 7
+  }
 }

@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-10T18:47:36.600Z",
+  "scope": "Native Settings Reading form on disposable local WordPress; not hosted acceptance",
+  "page_save_for_existing_content": false,
+  "fixture_has_import_marker": false,
+  "tests": [
+    "Administrator selects an unmarked Page and saves the native Reading form with core nonce/capability protection",
+    "Signed-out JavaScript-disabled missing route remains HTTP404 and uses the selected native title/content with separate Impressum/Privacy links",
+    "Native selected Page and editable content survive reinstall/activation of the exact candidate theme ZIP"
+  ],
+  "status": "PASS",
+  "theme_zip_sha256": "b8c427a5af4d543d0576f14b2f28fb728669f4b182ae7b92a25a3c48a4bd8331",
+  "package_source": {
+    "commit": "0f8a50b6ba6bfb39ef97e7d7a976108a9e33c738",
+    "dirty": true,
+    "remote": "https://github.com/PikkuJanne/jvuorela.com.git"
+  },
+  "browser": "154.0.8037.98",
+  "fixture_cleanup": "Only the allocated Page deleted; original selector restored exactly; no existing Page or Media content modified"
+}

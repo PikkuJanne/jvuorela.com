@@ -1,20 +1,64 @@
 {
-  "passes": 7,
+  "passes": 20,
   "cases": [
+    "404 selection uses the native Reading settings group and integer validation without a public REST write path",
+    "unset explicit selection retains the unique published imported 404 Page",
     "editable 404 Page renders native dynamic title/excerpt blocks in its own context",
     "404 rendering restores every original WordPress post context global",
+    "an unmarked public published Page can be selected through the standard settings sanitizer",
+    "draft non-Page missing malformed and negative selections resolve only to zero",
+    "password-protected Page content cannot become publicly visible through the 404 selector",
+    "explicit unmarked selection takes precedence without changing Page publication",
+    "native Reading selector displays the chosen Page and excludes draft or protected choices",
+    "registering theme settings again preserves the existing operator selection",
+    "manually selected Page renders editable content and dynamic blocks with its own context",
+    "selected 404 Page rendering restores every surrounding post context global",
+    "a selection later changed to draft is preserved while rendering falls back safely to imported content",
     "fresh export includes the current edited native site wording",
     "fresh export includes current native menu assignments",
     "fresh export includes actual current menu entries and URLs",
     "fresh current configuration is distinct from its unchanged import baseline",
-    "review fixture cleans up its allocated menu and restores all targeted native settings"
+    "fresh export includes the current native 404 Page selection without changing import baselines",
+    "review fixture cleans up its allocated menu and restores all targeted native settings",
+    "review fixtures restore the exact original 404 option and globals and delete only allocated Pages/posts"
   ],
   "php": "8.3.35",
   "wordpress": "7.1.3",
-  "cleanup": "No existing Page or Media Library writes; allocated fixture menu deleted; original settings, locations and post context restored.",
+  "cleanup": "No existing Page or Media Library writes; only allocated fixture Pages/posts/menu deleted; original settings, locations, 404 option and post context restored.",
   "failure": null,
-  "recorded_at_utc": "2026-10-10 18:16:31 UTC",
-  "scope": "Focused local theme/export review; not hosted launch acceptance",
+  "recorded_at_utc": "2026-10-10T18:47:01.7723828Z",
+  "scope": "Focused local native 404 selector/template/export review; not hosted launch acceptance",
   "command": "wp --path=private/wordpress --user=1 eval-file tests/theme-content-review.php",
-  "public_safe": "No native identifiers, private wording, credentials or database paths are included."
+  "public_safe": "No native identifiers, private wording, credentials or database paths are included.",
+  "source": {
+    "base_commit": "0f8a50b6ba6bfb39ef97e7d7a976108a9e33c738",
+    "files": {
+      "scripts/export-content.php": "fa54f682914c41838ba25cc7860c829d599ce3fd77c73b359afc23b5aa2dbb02",
+      "tests/theme-content-review.php": "adf18388783a969e0d59b8149bd2952dda62bb46a9255640b6235cfe490cc68a",
+      "theme/jvuorela-tools/functions.php": "f4f886e391e252f3bd0f65fdb605788e9ac54fb60f8980e251e5eec07205a02f",
+      "theme/jvuorela-tools/404.php": "b46c78d40fe4ece7cc36cc49a1db6cca3380e29d3693173251e07dc3d9befa82"
+    },
+    "dirty": true
+  },
+  "runtime_theme_bytes_match_reviewed_source": true,
+  "previous_passing_checkpoints": [
+    {
+      "passes": 7,
+      "wordpress": "7.1.3",
+      "php": "8.3.35",
+      "recorded_at_utc": "2026-10-10 18:16:31 UTC",
+      "scope": "Focused local theme/export review; not hosted launch acceptance"
+    }
+  ],
+  "failed_attempts": [
+    {
+      "attempts": 2,
+      "resolution": "Use native WP_HTML_Tag_Processor to check field/option attributes independently of serialization quote style. No production selector change was required.",
+      "diagnosis": "Actual native dropdown selected the public Page and excluded draft/password-protected fixtures. WordPress emitted single-quoted select attributes; the test assumed double quotes.",
+      "passes_before_failure": 8,
+      "cleanup": "Both attempts ran fixture cleanup; the succeeding full suite verifies exact original option/global restoration and deletion of only its own Pages/posts/menu.",
+      "failure": "Failed: native Reading selector displays the chosen Page and excludes draft or protected choices",
+      "environment": "PHP 8.3.35 / WordPress 7.1.3"
+    }
+  ]
 }

@@ -1,0 +1,300 @@
+{
+  "checked_at": "2026-10-10T18:49:28.418Z",
+  "scope": "Packaged manual-setup HTML parsed read-only by registered Gutenberg core blocks on disposable local WordPress",
+  "native_save_invoked": false,
+  "editor_dispatch_invoked": false,
+  "cases": [
+    {
+      "page": "home",
+      "portable_template_sha256": "4e464861cee7fd91daed3e4b559833901032461eb94dbef8b657d86e0c1fb008",
+      "token_counts": {
+        "attachment": 14,
+        "asset": 7,
+        "page": 7
+      },
+      "no_unresolved_tokens": true,
+      "block_count": 44,
+      "all_blocks_core": true,
+      "all_blocks_registered": true,
+      "all_blocks_valid": true,
+      "all_image_ids_numeric_and_mapped": true,
+      "block_types": {
+        "core/button": 1,
+        "core/buttons": 1,
+        "core/group": 10,
+        "core/heading": 8,
+        "core/image": 7,
+        "core/paragraph": 17
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "winbooksplit",
+      "portable_template_sha256": "8197bcefbd285aff3ba856aed361cd28e403f6c824e96f169a4524d6d010f3dd",
+      "token_counts": {
+        "attachment": 4,
+        "asset": 2,
+        "page": 1
+      },
+      "no_unresolved_tokens": true,
+      "block_count": 25,
+      "all_blocks_core": true,
+      "all_blocks_registered": true,
+      "all_blocks_valid": true,
+      "all_image_ids_numeric_and_mapped": true,
+      "block_types": {
+        "core/button": 1,
+        "core/buttons": 1,
+        "core/group": 6,
+        "core/heading": 4,
+        "core/image": 2,
+        "core/list": 1,
+        "core/list-item": 3,
+        "core/paragraph": 7
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "winpdfmerger",
+      "portable_template_sha256": "c4bb39e7f5f77a79e31446b6c4e425a5b74ab23d8458c567d0cabd91f5e6449f",
+      "token_counts": {
+        "attachment": 4,
+        "asset": 2,
+        "page": 1
+      },
+      "no_unresolved_tokens": true,
+      "block_count": 25,
+      "all_blocks_core": true,
+      "all_blocks_registered": true,
+      "all_blocks_valid": true,
+      "all_image_ids_numeric_and_mapped": true,
+      "block_types": {
+        "core/button": 2,
+        "core/buttons": 1,
+        "core/group": 6,
+        "core/heading": 4,
+        "core/image": 2,
+        "core/list": 1,
+        "core/list-item": 3,
+        "core/paragraph": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "winvidcompress",
+      "portable_template_sha256": "14dc2da66e1c9b202555a2a6ff10eb030399d193e78c3311a3bc53b0217cb5b4",
+      "token_counts": {
+        "attachment": 4,
+        "asset": 2,
+        "page": 1
+      },
+      "no_unresolved_tokens": true,
+      "block_count": 25,
+      "all_blocks_core": true,
+      "all_blocks_registered": true,
+      "all_blocks_valid": true,
+      "all_image_ids_numeric_and_mapped": true,
+      "block_types": {
+        "core/button": 2,
+        "core/buttons": 1,
+        "core/group": 6,
+        "core/heading": 4,
+        "core/image": 2,
+        "core/list": 1,
+        "core/list-item": 3,
+        "core/paragraph": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "universalpodcastdownloader",
+      "portable_template_sha256": "fd30c94d068c964ca18a520a1e6a80a90b3a1318fe4d9d85f86eafe0cae3ad08",
+      "token_counts": {
+        "attachment": 4,
+        "asset": 2,
+        "page": 1
+      },
+      "no_unresolved_tokens": true,
+      "block_count": 25,
+      "all_blocks_core": true,
+      "all_blocks_registered": true,
+      "all_blocks_valid": true,
+      "all_image_ids_numeric_and_mapped": true,
+      "block_types": {
+        "core/button": 2,
+        "core/buttons": 1,
+        "core/group": 6,
+        "core/heading": 4,
+        "core/image": 2,
+        "core/list": 1,
+        "core/list-item": 3,
+        "core/paragraph": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "winaudioclean",
+      "portable_template_sha256": "2c26f2b14aaf2ecab97a31b3667f997bc34bf35ff0bbc1fe10175ceb0d122429",
+      "token_counts": {
+        "attachment": 4,
+        "asset": 2,
+        "page": 1
+      },
+      "no_unresolved_tokens": true,
+      "block_count": 25,
+      "all_blocks_core": true,
+      "all_blocks_registered": true,
+      "all_blocks_valid": true,
+      "all_image_ids_numeric_and_mapped": true,
+      "block_types": {
+        "core/button": 2,
+        "core/buttons": 1,
+        "core/group": 6,
+        "core/heading": 4,
+        "core/image": 2,
+        "core/list": 1,
+        "core/list-item": 3,
+        "core/paragraph": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "winimagenormalizer",
+      "portable_template_sha256": "db274fe6b6d526adaf8279e8994d92e70668fe483d8c66dc0a97de8dd58aa507",
+      "token_counts": {
+        "attachment": 4,
+        "asset": 2,
+        "page": 1
+      },
+      "no_unresolved_tokens": true,
+      "block_count": 25,
+      "all_blocks_core": true,
+      "all_blocks_registered": true,
+      "all_blocks_valid": true,
+      "all_image_ids_numeric_and_mapped": true,
+      "block_types": {
+        "core/button": 2,
+        "core/buttons": 1,
+        "core/group": 6,
+        "core/heading": 4,
+        "core/image": 2,
+        "core/list": 1,
+        "core/list-item": 3,
+        "core/paragraph": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "audiofileforphone",
+      "portable_template_sha256": "ab1bd5fb095ebc90336c3fe0867697aeb1305aa34b1dddfe24e70610088be4ff",
+      "token_counts": {
+        "attachment": 4,
+        "asset": 2,
+        "page": 1
+      },
+      "no_unresolved_tokens": true,
+      "block_count": 25,
+      "all_blocks_core": true,
+      "all_blocks_registered": true,
+      "all_blocks_valid": true,
+      "all_image_ids_numeric_and_mapped": true,
+      "block_types": {
+        "core/button": 1,
+        "core/buttons": 1,
+        "core/group": 6,
+        "core/heading": 4,
+        "core/image": 2,
+        "core/list": 1,
+        "core/list-item": 3,
+        "core/paragraph": 7
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "impressum",
+      "portable_template_sha256": "2fcaaf820bfe8c3465003c2e89532f040b3e0fdaf61967e24cf73716ae70ef13",
+      "token_counts": {
+        "attachment": 0,
+        "asset": 0,
+        "page": 0
+      },
+      "no_unresolved_tokens": true,
+      "block_count": 6,
+      "all_blocks_core": true,
+      "all_blocks_registered": true,
+      "all_blocks_valid": true,
+      "all_image_ids_numeric_and_mapped": true,
+      "block_types": {
+        "core/heading": 2,
+        "core/paragraph": 4
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "privacy",
+      "portable_template_sha256": "d903d4593c2ebe11a9970db1cbc9889c48071083d70455fb2b91b40d3e1b1c33",
+      "token_counts": {
+        "attachment": 0,
+        "asset": 0,
+        "page": 0
+      },
+      "no_unresolved_tokens": true,
+      "block_count": 1,
+      "all_blocks_core": true,
+      "all_blocks_registered": true,
+      "all_blocks_valid": true,
+      "all_image_ids_numeric_and_mapped": true,
+      "block_types": {
+        "core/paragraph": 1
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "not-found",
+      "portable_template_sha256": "37dafade1e8c9c03545558774171026b29f2b28c6060d1918fc5be1b105356ec",
+      "token_counts": {
+        "attachment": 0,
+        "asset": 0,
+        "page": 1
+      },
+      "no_unresolved_tokens": true,
+      "block_count": 2,
+      "all_blocks_core": true,
+      "all_blocks_registered": true,
+      "all_blocks_valid": true,
+      "all_image_ids_numeric_and_mapped": true,
+      "block_types": {
+        "core/paragraph": 2
+      },
+      "status": "PASS"
+    }
+  ],
+  "limits": [
+    "No Page paste, content edit, save or publication was performed",
+    "Local block parsing does not establish hosted editor or IONOS acceptance"
+  ],
+  "setup_zip_name": "jvuorela-tools-content-media-0.1.1.zip",
+  "setup_zip_sha256": "112692b114153f213e2aac1812a1c7849d0f4313edd5462d3b81b5aeac9a0a2b",
+  "package_source": {
+    "commit": "0f8a50b6ba6bfb39ef97e7d7a976108a9e33c738",
+    "dirty": true,
+    "remote": "https://github.com/PikkuJanne/jvuorela.com.git"
+  },
+  "source_dirty": true,
+  "provisional": true,
+  "acceptance": "provisional_dirty_development_package",
+  "package_identity_verified": true,
+  "all_template_bytes_match_portable_pages": true,
+  "template_readme_included": true,
+  "editor_account_role_verified": true,
+  "native_page_content_unchanged": true,
+  "loaded_editor_content_unchanged": true,
+  "permalink_resolution": "Read-only native WP-CLI get_permalink for all eleven Pages",
+  "pages_checked": 11,
+  "blocks_checked": 228,
+  "all_eleven_valid": true,
+  "page_mutation_requests": 0,
+  "external_requests_blocked": 3,
+  "browser": "154.0.8037.98",
+  "status": "PASS"
+}

@@ -2,7 +2,7 @@
 
 SPDX-License-Identifier: GPL-2.0-or-later
 
-The current website version is **0.1.0, a preview**. This handoff prepares a tested local technical candidate, public source and deployment packages. The owner has deferred IONOS deployment to a separate session; hosting access is not required to finish this local handoff. Building a ZIP or passing CI does not establish a live site. The final website v1.0.0 must remain tied to its actually accepted and deployed source commit. Two tool releases, final Privacy content, hosted checks and launch review remain separate public-launch gates.
+The current website version is **0.1.1, a preview**. This handoff prepares a tested local technical candidate, public source and deployment packages. The owner has deferred IONOS deployment to a separate session; hosting access is not required to finish this local handoff. Building a ZIP or passing CI does not establish a live site. The final website v1.0.0 must remain tied to its actually accepted and deployed source commit. Two tool releases, final Privacy content, hosted checks and launch review remain separate public-launch gates.
 
 ## Build from a public clone
 
@@ -24,8 +24,8 @@ For active development, omit `--release` and `--expected-commit`. `BUILD.json` a
 
 At the current version, `dist/` contains:
 
-- `jvuorela-tools-0.1.0.zip`: one `jvuorela-tools/` root, runtime theme files and traced background derivatives, GNU GPL text, license scope, separate artwork/third-party notices, runtime image provenance and build identity. No importer, handoff bundle, WordPress core, database adapter, development account or media masters are inside the theme.
-- `jvuorela-tools-content-media-0.1.0.zip`: one `jvuorela-tools-setup/` root, eleven portable draft Page records, public factual source records, complete asset manifest/approved derivatives, import/export development scripts and setup/editing/deployment runbooks, including the backup and rollback procedure in `docs/DEPLOYMENT_HANDOFF.md`. Stable slot IDs and portable tokens are deliberate; actual WordPress attachment/page IDs and URLs are resolved at explicit import time. A raw hosted export is never selected automatically.
+- `jvuorela-tools-0.1.1.zip`: one `jvuorela-tools/` root, runtime theme files and traced background derivatives, GNU GPL text, license scope, separate artwork/third-party notices, runtime image provenance and build identity. No importer, handoff bundle, WordPress core, database adapter, development account or media masters are inside the theme.
+- `jvuorela-tools-content-media-0.1.1.zip`: one `jvuorela-tools-setup/` root, eleven portable draft Page records, public factual source records, complete asset manifest/approved derivatives, import/export development scripts and setup/editing/deployment runbooks, including the backup and rollback procedure in `docs/DEPLOYMENT_HANDOFF.md`. Stable slot IDs and portable tokens are deliberate; actual WordPress attachment/page IDs and URLs are resolved at explicit import time. A raw hosted export is never selected automatically.
 - `artifacts.json`: version/mode, source commit/dirty state, validation counts, archive SHA-256/byte sizes and input-tree digests.
 - `SHA256SUMS`: checksums for both ZIPs and `artifacts.json`.
 

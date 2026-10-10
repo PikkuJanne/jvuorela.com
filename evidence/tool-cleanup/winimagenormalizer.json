@@ -187,7 +187,7 @@
     "prerelease": false
   },
   "cleanup_commit": "204a3381ee561d32b85781dd753b127e3addab3c",
-  "latest_observed_at_utc": "2026-10-10T18:24:52.972001+00:00",
+  "latest_observed_at_utc": "2026-10-10T18:43:50.857484+00:00",
   "pull_request": {
     "baseRefOid": "e5376d41879a2e4ffb5da5e607bfb634f1598621",
     "headRefOid": "204a3381ee561d32b85781dd753b127e3addab3c",
@@ -396,7 +396,7 @@
     "cause": "A git add pathspec named the already staged removed file; shell continued with deletion-only commit. Ordinary follow-up 204a338 completed the reference changes. Failed interim CI retained; no force-push/rewrite."
   },
   "default_branch_verification": {
-    "observed_at_utc": "2026-10-10T18:24:57.047308+00:00",
+    "observed_at_utc": "2026-10-10T18:43:54.882407+00:00",
     "local_branch": "main",
     "local_commit": "f5977ae6a425aaa2ff274dfa306d79738499c77f",
     "live_remote_commit": "f5977ae6a425aaa2ff274dfa306d79738499c77f",
@@ -432,11 +432,11 @@
   },
   "default_branch_workflow_runs": [
     {
-      "conclusion": "",
+      "conclusion": "success",
       "databaseId": 38075407907,
       "event": "push",
       "headSha": "f5977ae6a425aaa2ff274dfa306d79738499c77f",
-      "status": "in_progress",
+      "status": "completed",
       "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/38075407907"
     },
     {
@@ -447,5 +447,71 @@
       "status": "completed",
       "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/37586505285"
     }
-  ]
+  ],
+  "default_branch_ci": {
+    "headSha": "f5977ae6a425aaa2ff274dfa306d79738499c77f",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/38075407907",
+    "event": "push",
+    "database_id": 38075407907,
+    "jobs": [
+      {
+        "name": "pwsh on Windows Server 2025",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/38075407907/job/114281225623",
+        "startedAt": "2026-10-10T18:20:55Z",
+        "completedAt": "2026-10-10T18:38:44Z"
+      },
+      {
+        "name": "powershell on Windows Server 2025",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/38075407907/job/114281225843",
+        "startedAt": "2026-10-10T18:20:55Z",
+        "completedAt": "2026-10-10T18:42:56Z"
+      }
+    ],
+    "observed_at_utc": "2026-10-10T18:44:20.023115+00:00"
+  },
+  "release_preservation_receipt": {
+    "url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/tag/v1.0.0",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-10-07T05:56:49Z",
+    "live_v1_tag_refs": {
+      "refs/tags/v1.0.0": "8edbcbaeb3425ec3a52eeafde212c32553755af1"
+    },
+    "existing_main_remains_ancestor": true,
+    "assets": [
+      {
+        "name": "build-provenance.json",
+        "size": 763,
+        "digest": "sha256:901598504d3bb60cdfa4a236873a07d3a7287cb8ff6b3c715b202b39865cefae",
+        "url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/download/v1.0.0/build-provenance.json",
+        "state": "uploaded",
+        "createdAt": "2026-10-07T05:56:24Z",
+        "updatedAt": "2026-10-07T05:56:24Z"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "size": 190,
+        "digest": "sha256:2257dbcd00707a93f3e811c9d3ff0eafb59a2e65bb756c440e152f1642540497",
+        "url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/download/v1.0.0/SHA256SUMS.txt",
+        "state": "uploaded",
+        "createdAt": "2026-10-07T05:56:24Z",
+        "updatedAt": "2026-10-07T05:56:24Z"
+      },
+      {
+        "name": "WinImgNormalizer-1.0.0-portable.zip",
+        "size": 184659,
+        "digest": "sha256:251828028e144759c919645f423fde08641cabf42e04db7024d7ad17da4ba14d",
+        "url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/download/v1.0.0/WinImgNormalizer-1.0.0-portable.zip",
+        "state": "uploaded",
+        "createdAt": "2026-10-07T05:56:24Z",
+        "updatedAt": "2026-10-07T05:56:24Z"
+      }
+    ]
+  }
 }

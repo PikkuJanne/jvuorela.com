@@ -86,10 +86,11 @@
       "status": "done",
       "evidence": [
         "evidence/browser-runtime.json",
-        "evidence/editor-blocks.json"
+        "evidence/editor-blocks.json",
+        "evidence/editor-pages.json"
       ],
       "blocker": null,
-      "disposition": "Installable core-block theme activated on real local WordPress."
+      "disposition": "Installable core-block theme activated on real WordPress; initial v0.1.0 ZIP editor/reinstall passed. Native manual 404 selection is being completed for the corrected candidate."
     },
     {
       "id": "T04",
@@ -109,10 +110,12 @@
       "status": "done",
       "evidence": [
         "evidence/importer-runtime-2026-10-10.md",
-        "evidence/editor-blocks.json"
+        "evidence/editor-blocks.json",
+        "evidence/editor-pages.json",
+        "evidence/github-ci.json"
       ],
       "blocker": null,
-      "disposition": "37 real importer assertions and Editor save/update survival passed."
+      "disposition": "37 real importer assertions and Editor save/update survival passed; all eleven Pages contain 228 valid core blocks. Configured Privacy policy Page was validated separately as administrator under native WordPress capabilities."
     },
     {
       "id": "T05",
@@ -202,10 +205,11 @@
         "evidence/editor-blocks.json",
         "evidence/release-facts.md",
         "content/tools.json",
-        "content/impressum.html"
+        "content/impressum.html",
+        "evidence/editor-pages.json"
       ],
       "blocker": null,
-      "disposition": "Native Editor workflow passed; draft copy refined against observed source/release facts. Final owner copy/Privacy acceptance remains T19."
+      "disposition": "Native Editor workflow passed and exact owner Impressum verified in six core blocks. Draft tool copy refined against observed source/release facts; final owner copy/Privacy acceptance remains T19."
     },
     {
       "id": "T09",
@@ -251,7 +255,7 @@
         "evidence/importer-runtime-2026-10-10.md"
       ],
       "blocker": null,
-      "disposition": "Independent review fixed dynamic 404 context and fresh menu/settings exports; seven focused real WordPress checks pass."
+      "disposition": "Independent review fixed dynamic 404 context/fresh settings-menu exports; corrected native Reading selector now passes 20 focused real WordPress checks, with earlier baseline/failures preserved."
     },
     {
       "id": "T11",
@@ -271,10 +275,16 @@
       "evidence": [
         "docs/BUILD.md",
         "docs/CONTENT_IMPORT.md",
-        "docs/DEPLOYMENT_HANDOFF.md"
+        "docs/DEPLOYMENT_HANDOFF.md",
+        "docs/CANDIDATE_REVIEW.md",
+        "evidence/candidate-release.json",
+        "evidence/deployment-rehearsal.json",
+        "evidence/settings-404.json",
+        "evidence/theme-content-review-runtime.json",
+        "evidence/releases/v0.1.0.json"
       ],
       "blocker": null,
-      "disposition": "Deterministic development packages built; clean public clone/artifact check pending."
+      "disposition": "Initial v0.1.0 packages are public, clean and reproducible. Corrected v0.1.1 packages with native manual 404 Page selection await exact clean build/rehearsal/publication; existing tag/ZIPs remain fixed."
     },
     {
       "id": "T12",
@@ -291,10 +301,12 @@
       ],
       "status": "in_progress",
       "evidence": [
-        "docs/DEPLOYMENT_HANDOFF.md"
+        "docs/DEPLOYMENT_HANDOFF.md",
+        "evidence/deployment-rehearsal.json",
+        "evidence/deployment-rehearsal.md"
       ],
       "blocker": null,
-      "disposition": "Fresh package installation and private backup/restore rehearsal underway."
+      "disposition": "Exact clean initial v0.1.0 packages passed 74 local installation/private backup/fault/restore checks. Corrected candidate requires fresh exact-package acceptance; hosted restoration remains deferred."
     },
     {
       "id": "T13",
@@ -453,10 +465,12 @@
       "evidence": [
         "content/impressum.html",
         "docs/CONTENT_IMPORT.md",
-        "content/COPY_REVIEW.md"
+        "content/COPY_REVIEW.md",
+        "evidence/editor-pages.json",
+        "docs/CANDIDATE_REVIEW.md"
       ],
       "blocker": "Owner supplied the final Impressum wording; Privacy and final tool-copy/hosting privacy review remain future launch prerequisites.",
-      "disposition": "Impressum exact owner wording received 2026-10-10 and integrated into native blocks; Privacy stays a separate document/Page."
+      "disposition": "Exact owner Impressum received 2026-10-10, integrated as six native core blocks and site-wide footer link; Privacy remains a separate Page with its own native capability restriction. Final Privacy/factual copy/hosting review is a future launch gate."
     },
     {
       "id": "T20",
@@ -639,14 +653,14 @@
         "A40",
         "A41"
       ],
-      "status": "in_progress",
+      "status": "done",
       "evidence": [
         "repositories/tool-cleanup.json",
         "evidence/tool-cleanup/winaudioclean.json",
         "evidence/tool-cleanup/winimagenormalizer.json"
       ],
       "blocker": null,
-      "disposition": "Both scoped PRs merged after passing candidate CI; freshly fetched default trees/local checks verified. Final main CI observation being recorded."
+      "disposition": "Both narrow cleanup PRs merged; freshly fetched default trees/local checks preserve protected code/icons and published releases/tags/history. Final default-branch CI passed all four WinAudioClean and both WinImgNormalizer jobs; exact allowlists/outcomes are in the receipts."
     },
     {
       "id": "T28",
@@ -671,10 +685,13 @@
         "LICENSE_SCOPE.md",
         "ARTWORK_LICENSE.md",
         "THIRD_PARTY_NOTICES.md",
-        "docs/BUILD.md"
+        "docs/BUILD.md",
+        "evidence/github-ci.json",
+        "evidence/candidate-release.json",
+        "evidence/public-build-checkpoint.json"
       ],
       "blocker": null,
-      "disposition": "License/provenance/source checks pass; first hosted CI/clean public clone pending."
+      "disposition": "Licensing/provenance/source checks pass. Initial v0.1.0 source passed all three public CI jobs and anonymous artifact comparison across two clean Windows builds/Linux. Corrected v0.1.1 CI and exact public package comparison remain pending."
     },
     {
       "id": "T29",
@@ -695,10 +712,18 @@
       "status": "in_progress",
       "evidence": [
         "evidence/browser-runtime.json",
-        "evidence/editor-blocks.json"
+        "evidence/editor-blocks.json",
+        "docs/CANDIDATE_REVIEW.md",
+        "docs/DEPLOYMENT_HANDOFF.md",
+        "evidence/candidate-release.json",
+        "evidence/editor-pages.json",
+        "evidence/deployment-rehearsal.json",
+        "evidence/settings-404.json",
+        "evidence/theme-content-review-runtime.json",
+        "evidence/releases/v0.1.0.json"
       ],
       "blocker": null,
-      "disposition": "Owner follow-up scope: ready for deployment; never claim live site. Preserve separate future launch gates."
+      "disposition": "Initial immutable v0.1.0 preview is published and verified. A native no-WP-CLI 404 setup gap is being corrected for v0.1.1 before final local ready-for-deployment handoff. Preserve separate future launch gates; hosting/live acceptance is deferred."
     }
   ]
 }

@@ -1,0 +1,128 @@
+{
+  "checked_at": "2026-10-10T18:31:31.790Z",
+  "browser": "154.0.8037.98",
+  "role": "editor",
+  "post": "WinPDFMerger",
+  "core_blocks": [
+    {
+      "name": "core/group",
+      "isValid": true
+    },
+    {
+      "name": "core/group",
+      "isValid": true
+    },
+    {
+      "name": "core/image",
+      "isValid": true
+    },
+    {
+      "name": "core/paragraph",
+      "isValid": true
+    },
+    {
+      "name": "core/paragraph",
+      "isValid": true
+    },
+    {
+      "name": "core/buttons",
+      "isValid": true
+    },
+    {
+      "name": "core/button",
+      "isValid": true
+    },
+    {
+      "name": "core/button",
+      "isValid": true
+    },
+    {
+      "name": "core/image",
+      "isValid": true
+    },
+    {
+      "name": "core/group",
+      "isValid": true
+    },
+    {
+      "name": "core/heading",
+      "isValid": true
+    },
+    {
+      "name": "core/list",
+      "isValid": true
+    },
+    {
+      "name": "core/list-item",
+      "isValid": true
+    },
+    {
+      "name": "core/list-item",
+      "isValid": true
+    },
+    {
+      "name": "core/list-item",
+      "isValid": true
+    },
+    {
+      "name": "core/group",
+      "isValid": true
+    },
+    {
+      "name": "core/heading",
+      "isValid": true
+    },
+    {
+      "name": "core/paragraph",
+      "isValid": true
+    },
+    {
+      "name": "core/group",
+      "isValid": true
+    },
+    {
+      "name": "core/heading",
+      "isValid": true
+    },
+    {
+      "name": "core/paragraph",
+      "isValid": true
+    },
+    {
+      "name": "core/group",
+      "isValid": true
+    },
+    {
+      "name": "core/heading",
+      "isValid": true
+    },
+    {
+      "name": "core/paragraph",
+      "isValid": true
+    },
+    {
+      "name": "core/paragraph",
+      "isValid": true
+    }
+  ],
+  "all_valid": true,
+  "edited_fields": [
+    "tagline",
+    "benefit",
+    "requirement",
+    "download URL"
+  ],
+  "native_save_and_reload": true,
+  "signed_out_frontend_matches": true,
+  "theme_zip_reinstall_preserves_edits": true,
+  "theme_zip_sha256": "742a83724afd0090855e18fbeb65c71b2627152c0c586b5b4ab88be2553d0f6d",
+  "package_source": {
+    "commit": "0f8a50b6ba6bfb39ef97e7d7a976108a9e33c738",
+    "dirty": false,
+    "remote": "https://github.com/PikkuJanne/jvuorela.com.git"
+  },
+  "reviewed_copy_restored": true,
+  "limits": [
+    "Local disposable WordPress only; production editor not accessed"
+  ]
+}

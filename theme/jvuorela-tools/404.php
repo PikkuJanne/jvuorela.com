@@ -1,9 +1,9 @@
 <?php /** SPDX-License-Identifier: GPL-2.0-or-later */ get_header(); ?>
 <main id="main-content" class="shell not-found"><p class="eyebrow">404</p>
 <?php
-$copy = get_posts(['post_type'=>'page', 'post_status'=>'publish', 'meta_key'=>'_jvt_content_id', 'meta_value'=>'not-found', 'numberposts'=>2]);
-if (count($copy) === 1) {
-    echo '<h1>' . esc_html($copy[0]->post_title) . '</h1>';
+$jvt_404_copy = jvt_404_content_page();
+if ($jvt_404_copy) {
+    echo '<h1>' . esc_html($jvt_404_copy->post_title) . '</h1>';
     // Native dynamic blocks need this editable Page's context. Preserve the
     // surrounding 404 query context rather than replacing the main query.
     $jvt_previous_context = [];
@@ -11,9 +11,9 @@ if (count($copy) === 1) {
         $jvt_previous_context[$jvt_context_key] = ['exists' => array_key_exists($jvt_context_key, $GLOBALS), 'value' => $GLOBALS[$jvt_context_key] ?? null];
     }
     try {
-        $GLOBALS['post'] = $copy[0];
-        setup_postdata($copy[0]);
-        echo apply_filters('the_content', $copy[0]->post_content);
+        $GLOBALS['post'] = $jvt_404_copy;
+        setup_postdata($jvt_404_copy);
+        echo apply_filters('the_content', $jvt_404_copy->post_content);
     } finally {
         foreach ($jvt_previous_context as $jvt_context_key => $jvt_previous_value) {
             if ($jvt_previous_value['exists']) {

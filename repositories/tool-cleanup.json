@@ -899,10 +899,10 @@
         "evidence/tool-cleanup/winaudioclean.json",
         "evidence/tool-cleanup/winaudioclean.md"
       ],
-      "observed_at": "2026-10-10",
+      "observed_at": "2026-10-10T18:43:45.133876+00:00",
       "ambiguities": [],
       "default_branch_verification": {
-        "observed_at_utc": "2026-10-10T18:24:52.029459+00:00",
+        "observed_at_utc": "2026-10-10T18:43:49.876936+00:00",
         "local_branch": "main",
         "local_commit": "3ce068f09d7b6618b95492b97910d4b8b06ba7d4",
         "live_remote_commit": "3ce068f09d7b6618b95492b97910d4b8b06ba7d4",
@@ -980,7 +980,108 @@
           "zip_entries": 18,
           "equal_sha256": "bd2eb7437e3028a925a6fe4b880fbe16cd19678345c027a07266c337b4b3f9d4"
         }
-      ]
+      ],
+      "default_branch_workflow_runs": [
+        {
+          "conclusion": "success",
+          "databaseId": 38075654116,
+          "event": "push",
+          "headSha": "3ce068f09d7b6618b95492b97910d4b8b06ba7d4",
+          "status": "completed",
+          "url": "https://github.com/PikkuJanne/WinAudioClean/actions/runs/38075654116"
+        },
+        {
+          "conclusion": "success",
+          "databaseId": 37638838654,
+          "event": "push",
+          "headSha": "75fed6188f5c5dde13029ebc9426fc210d44d52f",
+          "status": "completed",
+          "url": "https://github.com/PikkuJanne/WinAudioClean/actions/runs/37638838654"
+        }
+      ],
+      "default_branch_ci": {
+        "headSha": "3ce068f09d7b6618b95492b97910d4b8b06ba7d4",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/PikkuJanne/WinAudioClean/actions/runs/38075654116",
+        "event": "push",
+        "database_id": 38075654116,
+        "jobs": [
+          {
+            "name": "Windows windows-2022 / ps7",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/PikkuJanne/WinAudioClean/actions/runs/38075654116/job/114281954785",
+            "startedAt": "2026-10-10T18:24:40Z",
+            "completedAt": "2026-10-10T18:35:10Z"
+          },
+          {
+            "name": "Windows windows-2025 / ps51",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/PikkuJanne/WinAudioClean/actions/runs/38075654116/job/114281954869",
+            "startedAt": "2026-10-10T18:24:40Z",
+            "completedAt": "2026-10-10T18:41:50Z"
+          },
+          {
+            "name": "Windows windows-2022 / ps51",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/PikkuJanne/WinAudioClean/actions/runs/38075654116/job/114281954940",
+            "startedAt": "2026-10-10T18:24:42Z",
+            "completedAt": "2026-10-10T18:40:10Z"
+          },
+          {
+            "name": "Windows windows-2025 / ps7",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/PikkuJanne/WinAudioClean/actions/runs/38075654116/job/114281954957",
+            "startedAt": "2026-10-10T18:24:40Z",
+            "completedAt": "2026-10-10T18:41:06Z"
+          }
+        ],
+        "observed_at_utc": "2026-10-10T18:44:16.882940+00:00"
+      },
+      "release_preservation_receipt": {
+        "url": "https://github.com/PikkuJanne/WinAudioClean/releases/tag/v1.0.0",
+        "draft": false,
+        "prerelease": false,
+        "published_at": "2026-10-07T14:14:20Z",
+        "live_v1_tag_refs": {
+          "refs/tags/v1.0.0": "dcff6735636b89d6fdb46650f03a5c977d2679ed",
+          "refs/tags/v1.0.0^{}": "6dcf1bf56bc474b2c42353ed3779205468f1237c"
+        },
+        "existing_main_remains_ancestor": true,
+        "assets": [
+          {
+            "name": "WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.provenance.json",
+            "size": 2560,
+            "digest": "sha256:e92fad4f62d7a1b36a577a9717caa1b278dafa5ff7d2f4e0ba37abe99a4ea8c0",
+            "url": "https://github.com/PikkuJanne/WinAudioClean/releases/download/v1.0.0/WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.provenance.json",
+            "state": "uploaded",
+            "createdAt": "2026-10-07T14:14:19Z",
+            "updatedAt": "2026-10-07T14:14:19Z"
+          },
+          {
+            "name": "WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.sha256",
+            "size": 113,
+            "digest": "sha256:14c6935658a1c6eb3160b429509d1c44f4581a5233bdaebe014dd58194aa115a",
+            "url": "https://github.com/PikkuJanne/WinAudioClean/releases/download/v1.0.0/WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.sha256",
+            "state": "uploaded",
+            "createdAt": "2026-10-07T14:14:19Z",
+            "updatedAt": "2026-10-07T14:14:19Z"
+          },
+          {
+            "name": "WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.zip",
+            "size": 443971,
+            "digest": "sha256:d418a721b6ce8494e3a0233f4b8502120f90d2c17ad7c3e34aa539899abe8a46",
+            "url": "https://github.com/PikkuJanne/WinAudioClean/releases/download/v1.0.0/WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.zip",
+            "state": "uploaded",
+            "createdAt": "2026-10-07T14:14:19Z",
+            "updatedAt": "2026-10-07T14:14:19Z"
+          }
+        ]
+      }
     },
     {
       "tool_id": "winimagenormalizer",
@@ -1108,10 +1209,10 @@
         "evidence/tool-cleanup/winimagenormalizer.json",
         "evidence/tool-cleanup/winimagenormalizer.md"
       ],
-      "observed_at": "2026-10-10",
+      "observed_at": "2026-10-10T18:43:50.857484+00:00",
       "ambiguities": [],
       "default_branch_verification": {
-        "observed_at_utc": "2026-10-10T18:24:57.047308+00:00",
+        "observed_at_utc": "2026-10-10T18:43:54.882407+00:00",
         "local_branch": "main",
         "local_commit": "f5977ae6a425aaa2ff274dfa306d79738499c77f",
         "live_remote_commit": "f5977ae6a425aaa2ff274dfa306d79738499c77f",
@@ -1192,7 +1293,91 @@
           "tests_per_host": 148,
           "scope": "All three aggregate failures belonged to unchanged Packaging suite path limits; 26/26 Packaging separately passes on each host. Recorded code/icon/package source bindings remain unchanged at current candidate."
         }
-      ]
+      ],
+      "default_branch_workflow_runs": [
+        {
+          "conclusion": "success",
+          "databaseId": 38075407907,
+          "event": "push",
+          "headSha": "f5977ae6a425aaa2ff274dfa306d79738499c77f",
+          "status": "completed",
+          "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/38075407907"
+        },
+        {
+          "conclusion": "success",
+          "databaseId": 37586505285,
+          "event": "push",
+          "headSha": "e5376d41879a2e4ffb5da5e607bfb634f1598621",
+          "status": "completed",
+          "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/37586505285"
+        }
+      ],
+      "default_branch_ci": {
+        "headSha": "f5977ae6a425aaa2ff274dfa306d79738499c77f",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/38075407907",
+        "event": "push",
+        "database_id": 38075407907,
+        "jobs": [
+          {
+            "name": "pwsh on Windows Server 2025",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/38075407907/job/114281225623",
+            "startedAt": "2026-10-10T18:20:55Z",
+            "completedAt": "2026-10-10T18:38:44Z"
+          },
+          {
+            "name": "powershell on Windows Server 2025",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/38075407907/job/114281225843",
+            "startedAt": "2026-10-10T18:20:55Z",
+            "completedAt": "2026-10-10T18:42:56Z"
+          }
+        ],
+        "observed_at_utc": "2026-10-10T18:44:20.023115+00:00"
+      },
+      "release_preservation_receipt": {
+        "url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/tag/v1.0.0",
+        "draft": false,
+        "prerelease": false,
+        "published_at": "2026-10-07T05:56:49Z",
+        "live_v1_tag_refs": {
+          "refs/tags/v1.0.0": "8edbcbaeb3425ec3a52eeafde212c32553755af1"
+        },
+        "existing_main_remains_ancestor": true,
+        "assets": [
+          {
+            "name": "build-provenance.json",
+            "size": 763,
+            "digest": "sha256:901598504d3bb60cdfa4a236873a07d3a7287cb8ff6b3c715b202b39865cefae",
+            "url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/download/v1.0.0/build-provenance.json",
+            "state": "uploaded",
+            "createdAt": "2026-10-07T05:56:24Z",
+            "updatedAt": "2026-10-07T05:56:24Z"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 190,
+            "digest": "sha256:2257dbcd00707a93f3e811c9d3ff0eafb59a2e65bb756c440e152f1642540497",
+            "url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/download/v1.0.0/SHA256SUMS.txt",
+            "state": "uploaded",
+            "createdAt": "2026-10-07T05:56:24Z",
+            "updatedAt": "2026-10-07T05:56:24Z"
+          },
+          {
+            "name": "WinImgNormalizer-1.0.0-portable.zip",
+            "size": 184659,
+            "digest": "sha256:251828028e144759c919645f423fde08641cabf42e04db7024d7ad17da4ba14d",
+            "url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/download/v1.0.0/WinImgNormalizer-1.0.0-portable.zip",
+            "state": "uploaded",
+            "createdAt": "2026-10-07T05:56:24Z",
+            "updatedAt": "2026-10-07T05:56:24Z"
+          }
+        ]
+      }
     },
     {
       "tool_id": "audiofileforphone",
@@ -1289,7 +1474,7 @@
         "evidence/tool-cleanup/audiofileforphone.json",
         "evidence/tool-cleanup/audiofileforphone.md"
       ],
-      "observed_at": "2026-10-10",
+      "observed_at": "2026-10-10T18:04:38.074123+00:00",
       "ambiguities": [],
       "default_branch_verification": {
         "commit": "2bf1ea1921ab33633b978bd384bbbf098648ceed",

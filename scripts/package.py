@@ -107,7 +107,7 @@ def build(output, release=False, expected_commit=None):
     if release and (source["dirty"] or not source["commit"]):
         raise ValueError("An immutable release candidate requires an exact clean committed source tree")
     counts = validate_source(release and version == "1.0.0")
-    # 0.1.0 remains a preview even when built from a clean checkpoint.
+    # All 0.x versions remain previews even from clean checkpoints.
     mode = "preview" if not release or version.startswith("0.") else "release_candidate"
     metadata = {"schema_version": 1, "website_version": version, "mode": mode, "source": source,
                 "delivery_scope": "local technical candidate and public source handoff; IONOS deployment is deferred to a separate session",
@@ -143,6 +143,15 @@ def build(output, release=False, expected_commit=None):
     setup_files += [name for name in optional_files if (ROOT / name).is_file()]
     setup_files += sorted(derivatives)
     setup_entries = {"jvuorela-tools-setup/" + name: checked_file(ROOT / name) for name in sorted(set(setup_files))}
+    # Decoded block templates make the native admin setup route usable without
+    # a hosting CLI or copying JSON-escaped strings. Resolve native tokens
+    # before editor paste; these are the same draft blocks, not a new seed.
+    pages = json.loads((ROOT / "content/pages.json").read_text(encoding="utf-8"))["pages"]
+    for page in pages:
+        if not re.fullmatch(r"[a-z][a-z0-9-]*", page["id"]):
+            raise ValueError("Unsafe native Page template identifier")
+        setup_entries["jvuorela-tools-setup/page-templates/" + page["id"] + ".html"] = page["content"].replace("\r\n", "\n").encode("utf-8")
+    setup_entries["jvuorela-tools-setup/page-templates/README.md"] = checked_file(ROOT / "content/PAGE_TEMPLATES.md")
     setup_entries["jvuorela-tools-setup/BUILD.json"] = json_bytes({**metadata, "artifact": "content_media_setup", "content_state": "draft_seed; hosted native content remains authoritative", "inputs": inventory(setup_entries)})
 
     # Catch concurrent edits before declaring a release candidate clean.

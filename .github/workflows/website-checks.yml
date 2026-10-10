@@ -149,3 +149,6 @@ jobs:
       - name: Real core-block importer and edit/conflict survival
         run: |
           php "$JVT_WP_CLI" --path="$JVT_WP_ROOT" --user=1 eval-file tests/importer.php
+      - name: Native 404 selection and current configuration export
+        run: |
+          php "$JVT_WP_CLI" --path="$JVT_WP_ROOT" --user=1 eval-file tests/theme-content-review.php

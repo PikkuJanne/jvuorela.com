@@ -1,0 +1,236 @@
+{
+  "checked_at": "2026-10-10T18:34:08.406Z",
+  "scope": "Read-only current local native Page validation; not hosted editor acceptance",
+  "role_scope": "Editor on ordinary Pages; owner administrator on the configured Privacy policy Page",
+  "native_save_invoked": false,
+  "cases": [
+    {
+      "page": "Home",
+      "role": "editor",
+      "editor_loaded": true,
+      "all_blocks_core": true,
+      "all_blocks_valid": true,
+      "http_status": 200,
+      "block_count": 44,
+      "unsaved_changes": false,
+      "block_types": {
+        "core/button": 1,
+        "core/buttons": 1,
+        "core/group": 10,
+        "core/heading": 8,
+        "core/image": 7,
+        "core/paragraph": 17
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "WinBookSplit",
+      "role": "editor",
+      "editor_loaded": true,
+      "all_blocks_core": true,
+      "all_blocks_valid": true,
+      "http_status": 200,
+      "block_count": 25,
+      "unsaved_changes": false,
+      "block_types": {
+        "core/button": 1,
+        "core/buttons": 1,
+        "core/group": 6,
+        "core/heading": 4,
+        "core/image": 2,
+        "core/list": 1,
+        "core/list-item": 3,
+        "core/paragraph": 7
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "WinPDFMerger",
+      "role": "editor",
+      "editor_loaded": true,
+      "all_blocks_core": true,
+      "all_blocks_valid": true,
+      "http_status": 200,
+      "block_count": 25,
+      "unsaved_changes": false,
+      "block_types": {
+        "core/button": 2,
+        "core/buttons": 1,
+        "core/group": 6,
+        "core/heading": 4,
+        "core/image": 2,
+        "core/list": 1,
+        "core/list-item": 3,
+        "core/paragraph": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "WinVidCompress",
+      "role": "editor",
+      "editor_loaded": true,
+      "all_blocks_core": true,
+      "all_blocks_valid": true,
+      "http_status": 200,
+      "block_count": 25,
+      "unsaved_changes": false,
+      "block_types": {
+        "core/button": 2,
+        "core/buttons": 1,
+        "core/group": 6,
+        "core/heading": 4,
+        "core/image": 2,
+        "core/list": 1,
+        "core/list-item": 3,
+        "core/paragraph": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "UniversalPodcastDownloader",
+      "role": "editor",
+      "editor_loaded": true,
+      "all_blocks_core": true,
+      "all_blocks_valid": true,
+      "http_status": 200,
+      "block_count": 25,
+      "unsaved_changes": false,
+      "block_types": {
+        "core/button": 2,
+        "core/buttons": 1,
+        "core/group": 6,
+        "core/heading": 4,
+        "core/image": 2,
+        "core/list": 1,
+        "core/list-item": 3,
+        "core/paragraph": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "WinAudioClean",
+      "role": "editor",
+      "editor_loaded": true,
+      "all_blocks_core": true,
+      "all_blocks_valid": true,
+      "http_status": 200,
+      "block_count": 25,
+      "unsaved_changes": false,
+      "block_types": {
+        "core/button": 2,
+        "core/buttons": 1,
+        "core/group": 6,
+        "core/heading": 4,
+        "core/image": 2,
+        "core/list": 1,
+        "core/list-item": 3,
+        "core/paragraph": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "WinImageNormalizer",
+      "role": "editor",
+      "editor_loaded": true,
+      "all_blocks_core": true,
+      "all_blocks_valid": true,
+      "http_status": 200,
+      "block_count": 25,
+      "unsaved_changes": false,
+      "block_types": {
+        "core/button": 2,
+        "core/buttons": 1,
+        "core/group": 6,
+        "core/heading": 4,
+        "core/image": 2,
+        "core/list": 1,
+        "core/list-item": 3,
+        "core/paragraph": 6
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "AudioFileForPhone",
+      "role": "editor",
+      "editor_loaded": true,
+      "all_blocks_core": true,
+      "all_blocks_valid": true,
+      "http_status": 200,
+      "block_count": 25,
+      "unsaved_changes": false,
+      "block_types": {
+        "core/button": 1,
+        "core/buttons": 1,
+        "core/group": 6,
+        "core/heading": 4,
+        "core/image": 2,
+        "core/list": 1,
+        "core/list-item": 3,
+        "core/paragraph": 7
+      },
+      "status": "PASS"
+    },
+    {
+      "page": "Impressum",
+      "role": "editor",
+      "editor_loaded": true,
+      "all_blocks_core": true,
+      "all_blocks_valid": true,
+      "http_status": 200,
+      "block_count": 6,
+      "unsaved_changes": false,
+      "block_types": {
+        "core/heading": 2,
+        "core/paragraph": 4
+      },
+      "owner_approved_source_matches": true,
+      "owner_source_sha256": "8fdc40727c00a0ae61a507e503fcd2aa6e6451562502782196f10afbb98d5e91",
+      "status": "PASS"
+    },
+    {
+      "page": "Privacy",
+      "role": "administrator",
+      "editor_loaded": true,
+      "all_blocks_core": true,
+      "all_blocks_valid": true,
+      "http_status": 200,
+      "status": "PASS",
+      "editor_access": {
+        "http_status": 403,
+        "outcome": "Native WordPress privacy-policy restriction",
+        "required_capability": "manage_privacy_options",
+        "single_site_mapping": "manage_options"
+      },
+      "block_count": 1,
+      "unsaved_changes": false,
+      "block_types": {
+        "core/paragraph": 1
+      }
+    },
+    {
+      "page": "Page not found",
+      "role": "editor",
+      "editor_loaded": true,
+      "all_blocks_core": true,
+      "all_blocks_valid": true,
+      "http_status": 200,
+      "block_count": 2,
+      "unsaved_changes": false,
+      "block_types": {
+        "core/paragraph": 2
+      },
+      "status": "PASS"
+    }
+  ],
+  "limits": [
+    "Local disposable WordPress only; production editor was not accessed",
+    "Content edit/save and exact package reinstall survival are recorded separately"
+  ],
+  "browser": "154.0.8037.98",
+  "pages_checked": 11,
+  "blocks_checked": 228,
+  "all_eleven_valid": true,
+  "page_mutation_requests": 0,
+  "external_requests_blocked": 17,
+  "status": "PASS"
+}

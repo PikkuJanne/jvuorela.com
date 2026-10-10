@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-10T18:10:40.777Z",
+  "checked_at": "2026-10-10T18:31:31.790Z",
   "browser": "154.0.8037.98",
   "role": "editor",
   "post": "WinPDFMerger",
@@ -115,6 +115,12 @@
   "native_save_and_reload": true,
   "signed_out_frontend_matches": true,
   "theme_zip_reinstall_preserves_edits": true,
+  "theme_zip_sha256": "742a83724afd0090855e18fbeb65c71b2627152c0c586b5b4ab88be2553d0f6d",
+  "package_source": {
+    "commit": "0f8a50b6ba6bfb39ef97e7d7a976108a9e33c738",
+    "dirty": false,
+    "remote": "https://github.com/PikkuJanne/jvuorela.com.git"
+  },
   "reviewed_copy_restored": true,
   "limits": [
     "Local disposable WordPress only; production editor not accessed"

@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-10-10T18:38:31.209439+00:00",
+  "result": "pass",
+  "status": "ready for deployment",
+  "hosting_status": "deferred to the owner's separate deployment session; not deployed by this build",
+  "publication": {
+    "repository": "https://github.com/PikkuJanne/jvuorela.com",
+    "public": true,
+    "owner": "PikkuJanne",
+    "remote": "https://github.com/PikkuJanne/jvuorela.com.git",
+    "release_url": "https://github.com/PikkuJanne/jvuorela.com/releases/tag/v0.1.0",
+    "published_at": "2026-10-10T18:37:19Z",
+    "tag": "v0.1.0",
+    "draft": false,
+    "prerelease": true,
+    "tag_commit": "0f8a50b6ba6bfb39ef97e7d7a976108a9e33c738",
+    "source_dirty": false,
+    "verification_uses_credentials": false
+  },
+  "assets": [
+    {
+      "name": "artifacts.json",
+      "url": "https://github.com/PikkuJanne/jvuorela.com/releases/download/v0.1.0/artifacts.json",
+      "size_bytes": 1465,
+      "sha256": "e4a3c01a9317215dd1ac3698da6d7693e2ca631bbfb93ea25544d207d4e2dbc5",
+      "anonymous_http_status": 200,
+      "matches_exact_tested_dist": true,
+      "matches_linux_ci": true,
+      "matches_two_windows_clean_builds": true
+    },
+    {
+      "name": "jvuorela-tools-0.1.0.zip",
+      "url": "https://github.com/PikkuJanne/jvuorela.com/releases/download/v0.1.0/jvuorela-tools-0.1.0.zip",
+      "size_bytes": 197065,
+      "sha256": "742a83724afd0090855e18fbeb65c71b2627152c0c586b5b4ab88be2553d0f6d",
+      "anonymous_http_status": 200,
+      "matches_exact_tested_dist": true,
+      "matches_linux_ci": true,
+      "matches_two_windows_clean_builds": true
+    },
+    {
+      "name": "jvuorela-tools-content-media-0.1.0.zip",
+      "url": "https://github.com/PikkuJanne/jvuorela.com/releases/download/v0.1.0/jvuorela-tools-content-media-0.1.0.zip",
+      "size_bytes": 14388483,
+      "sha256": "a941072ec620a53459c9f0801e0d67474cfc1cb836881f645c97948013a91375",
+      "anonymous_http_status": 200,
+      "matches_exact_tested_dist": true,
+      "matches_linux_ci": true,
+      "matches_two_windows_clean_builds": true
+    },
+    {
+      "name": "SHA256SUMS",
+      "url": "https://github.com/PikkuJanne/jvuorela.com/releases/download/v0.1.0/SHA256SUMS",
+      "size_bytes": 277,
+      "sha256": "6de5294f143e5b373a3c0f68763bc9b04eeeae9eecf46d8ebb22d532afb1d196",
+      "anonymous_http_status": 200,
+      "matches_exact_tested_dist": true,
+      "matches_linux_ci": true,
+      "matches_two_windows_clean_builds": true
+    }
+  ],
+  "public_source_files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/PikkuJanne/jvuorela.com/v0.1.0/LICENSE",
+      "sha256": "b90ed8150a6d371c84b7dbaa680cd0e9893ef7c2558765e1e00930513efcfe3b",
+      "anonymous_http_status": 200,
+      "matches_tagged_git_blob": true
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "url": "https://raw.githubusercontent.com/PikkuJanne/jvuorela.com/v0.1.0/LICENSE_SCOPE.md",
+      "sha256": "d88e379486d9d3f177bdf2208bd751cc11755f7d6722de48502a9459cf771d1d",
+      "anonymous_http_status": 200,
+      "matches_tagged_git_blob": true
+    },
+    {
+      "path": "ARTWORK_LICENSE.md",
+      "url": "https://raw.githubusercontent.com/PikkuJanne/jvuorela.com/v0.1.0/ARTWORK_LICENSE.md",
+      "sha256": "3183cfa9b01fed822b237667def727021624f1f1b5d22a7e01658616f5179bd5",
+      "anonymous_http_status": 200,
+      "matches_tagged_git_blob": true
+    },
+    {
+      "path": "content/impressum.html",
+      "url": "https://raw.githubusercontent.com/PikkuJanne/jvuorela.com/v0.1.0/content/impressum.html",
+      "sha256": "2fcaaf820bfe8c3465003c2e89532f040b3e0fdaf61967e24cf73716ae70ef13",
+      "anonymous_http_status": 200,
+      "matches_tagged_git_blob": true
+    },
+    {
+      "path": "theme/jvuorela-tools/footer.php",
+      "url": "https://raw.githubusercontent.com/PikkuJanne/jvuorela.com/v0.1.0/theme/jvuorela-tools/footer.php",
+      "sha256": "bb05f0506a14786da35ca1fb380fd96ce5a6c1c2acdbe3f224ee3775ab1a41e2",
+      "anonymous_http_status": 200,
+      "matches_tagged_git_blob": true
+    },
+    {
+      "path": "docs/DEPLOYMENT_HANDOFF.md",
+      "url": "https://raw.githubusercontent.com/PikkuJanne/jvuorela.com/v0.1.0/docs/DEPLOYMENT_HANDOFF.md",
+      "sha256": "32cc726b2c8e4f6bb9d262d1d39cb30512c8b549413a2a65bd532d6e0346d3b1",
+      "anonymous_http_status": 200,
+      "matches_tagged_git_blob": true
+    }
+  ],
+  "cross_platform_reproduction": {
+    "result": "byte-identical for all four artifacts",
+    "private_masters_required": false,
+    "windows_clean_build_count": 2,
+    "linux_ci_run": "https://github.com/PikkuJanne/jvuorela.com/actions/runs/38076065026",
+    "earlier_metadata_mismatch_and_repair": "evidence/public-build-checkpoint.json"
+  },
+  "runtime_evidence": {
+    "exact_zip_install_backup_fault_restore_checks": 74,
+    "rehearsal": "evidence/deployment-rehearsal.json",
+    "native_editor_edit_reload_exact_zip_reinstall": "evidence/editor-blocks.json",
+    "all_native_pages": 11,
+    "valid_core_blocks": 228,
+    "editor_page_validation": "evidence/editor-pages.json",
+    "chrome_route_viewport_cases": 50,
+    "edge_route_viewport_cases": 20,
+    "firefox_route_viewport_cases": 20,
+    "wordpress_ci_versions": [
+      "6.9.10",
+      "7.1.3"
+    ],
+    "importer_assertions_each": 37
+  },
+  "legal_content": {
+    "impressum": "exact owner-supplied wording in six editable core blocks; native Page title and site-wide footer link",
+    "privacy": "separate draft document; final hosting-informed wording remains a launch gate",
+    "code_docs_license": "GPL-2.0-or-later",
+    "artwork_rights": "separate per-slot provenance and ARTWORK_LICENSE.md; no blanket GPL artwork sublicense"
+  },
+  "future_launch_gates": [
+    "WinBookSplit public stable v1.0.0 release/ZIP/checksum",
+    "AudioFileForPhone public stable v1.0.0 release/ZIP/checksum",
+    "Owner final Privacy and factual copy acceptance",
+    "Hosting inventory, protected preview, backup/rollback and signed-out hosted acceptance",
+    "Separate IONOS cutover and actual live acceptance"
+  ],
+  "limits": [
+    "This is a tested deployment preview v0.1.0, not the final live website v1.0.0",
+    "Local-only SQLite test adapter is not a presentation plugin and is not included in deployment ZIPs",
+    "Equivalent 200% reflow verified; headless native zoom did not change the viewport",
+    "Safari unavailable on Windows",
+    "Mobile performance is a throttled loopback lab observation, not a field or hosting score",
+    "Hosted Pages/uploads remain authoritative; no content reseed on theme activation or code update"
+  ]
+}

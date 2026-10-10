@@ -24,3 +24,5 @@ Candidate `f1d94872d11459a137c441ad3f1258564d01bb2e` is synchronized to the exac
 Runtime/application icons and published releases/tags/history remain preserved. Current-main cleanup is claimed only after a merged receipt and fresh default-branch verification.
 
 Fresh default branch is `3ce068f09d7b6618b95492b97910d4b8b06ba7d4`. The clean local main matches the live remote and merged receipt, its complete tree equals the checked candidate, the exact removal allowlist is absent and the protected Git blobs are unchanged: `merged_confirmed_cleanup`. New main CI is recorded separately in JSON from the already passing candidate checks.
+
+The new main [CI run 38075654116](https://github.com/PikkuJanne/WinAudioClean/actions/runs/38075654116) completed successfully on exact merged commit `3ce068f09d7b6618b95492b97910d4b8b06ba7d4`: 4/4 jobs passed. Published stable v1.0.0 identity and existing main ancestry were rechecked after cleanup. No cleanup blocker remains.

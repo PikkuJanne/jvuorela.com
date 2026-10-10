@@ -10,7 +10,7 @@ if (!defined('JVT_IMPORT_NO_RUN')) { define('JVT_IMPORT_NO_RUN', true); }
 require_once __DIR__ . '/import-content.php';
 function jvt_export_snapshot() {
     $current_configuration = array('options' => array(), 'locations' => get_theme_mod('nav_menu_locations', array()), 'menus' => array());
-    foreach (array('blogname', 'blogdescription', 'show_on_front', 'page_on_front', 'wp_page_for_privacy_policy', 'site_icon', 'permalink_structure', 'blog_public', 'home', 'siteurl') as $option) {
+    foreach (array('blogname', 'blogdescription', 'show_on_front', 'page_on_front', 'wp_page_for_privacy_policy', 'site_icon', 'permalink_structure', 'blog_public', 'home', 'siteurl', 'jvt_404_page') as $option) {
         $current_configuration['options'][$option] = get_option($option);
     }
     foreach (wp_get_nav_menus(array('hide_empty' => false)) as $menu) {
