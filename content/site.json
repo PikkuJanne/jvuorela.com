@@ -18,7 +18,9 @@
       "id": "impressum",
       "route": "/impressum/",
       "title": "Impressum",
-      "status": "owner_details_required"
+      "status": "owner_text_supplied",
+      "owner_review_date": "2026-10-10",
+      "source": "Exact owner wording supplied in this chat; native Page remains editable; Privacy is separate."
     },
     {
       "id": "privacy",

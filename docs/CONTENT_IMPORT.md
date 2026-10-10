@@ -63,6 +63,8 @@ To replace an image, select its Image block and choose **Replace → Media Libra
 
 Use **Appearance → Menus** to edit the primary and footer entries and assign their locations. Use **Settings → Reading** for the static Home Page and **Settings → Privacy** for the privacy Page. Set the native site icon through the WordPress site-identity/site-icon control exposed by the installed version. Legal/contact text must use the owner's confirmed details before publication.
 
+The owner supplied the exact Impressum text in `content/impressum.html`. Keep its **Impressum** link clearly visible in the site-wide footer on Home, every tool/support Page and the 404 route. Privacy is a separate document/Page with its own link; do not merge it into Impressum.
+
 For recovery, open the Page's **Revisions** in the editor, compare the relevant versions and restore the chosen revision. Review both editor and front-end output afterward. Preserve a database/uploads backup for changes beyond a Page revision, especially media replacements. Theme updates do not refresh tool facts or GitHub release links automatically; those are deliberate content edits.
 
 If IONOS has no WP-CLI access, install the tested theme ZIP normally, upload only the approved derivatives through **Media → Add New**, create Pages as drafts with the reviewed native blocks, select the Tool template where appropriate, replace portable tokens using real Media Library/page links, and set menus/settings through those same admin controls. Compare each draft with the reviewed candidate before separately authorized publication. Do not install an importer or presentation plugin as a workaround.

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-10T18:09:45.701Z",
+  "checked_at": "2026-10-10T18:25:54.758Z",
   "browser": "154.0.8037.98",
   "executable": "Chrome or Edge via explicit local executable",
   "environment": "Local WordPress 7.1.3/PHP8.3.35/SQLite3.1.0",
@@ -461,12 +461,15 @@
   "no_javascript": true,
   "reduced_motion": true,
   "keyboard_skip_link": true,
+  "impressum_owner_wording": true,
+  "impressum_link_all_routes": true,
+  "privacy_separate": true,
   "external_requests": [],
   "errors": [],
   "limits": [
     "Hosted IONOS not tested",
-    "Firefox/Safari and manual 200% zoom pending",
-    "Legal content is draft",
+    "See separate Edge/Firefox and equivalent zoom-reflow evidence; Safari unavailable",
+    "Privacy requires hosting/owner review",
     "No Lighthouse/field performance claim"
   ]
 }

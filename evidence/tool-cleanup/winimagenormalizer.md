@@ -8,6 +8,8 @@ Inspected public main `e5376d41879a2e4ffb5da5e607bfb634f1598621` on 10 October 2
 
 The adjacent JSON contains exact removed/preserved blob and SHA-256 identities, direct-reference reasoning, actual test summaries and retained failed attempts. Owner-resolved retained posters are not cleanup blockers.
 
-Candidate `204a3381ee561d32b85781dd753b127e3addab3c` is synchronized to the exact tool remote. [PR #29](https://github.com/PikkuJanne/WinImgNormalizer/pull/29) is **open**; state is `pull_request_pending_checks` at the adjacent JSON observation time.
+Candidate `204a3381ee561d32b85781dd753b127e3addab3c` is synchronized to the exact tool remote. [PR #29](https://github.com/PikkuJanne/WinImgNormalizer/pull/29) is **merged**; state is `merged_confirmed_cleanup` at the adjacent JSON observation time.
 
 Runtime/application icons and published releases/tags/history remain preserved. Current-main cleanup is claimed only after a merged receipt and fresh default-branch verification.
+
+Fresh default branch is `f5977ae6a425aaa2ff274dfa306d79738499c77f`. The clean local main matches the live remote and merged receipt, its complete tree equals the checked candidate, the exact removal allowlist is absent and the protected Git blobs are unchanged: `merged_confirmed_cleanup`. New main CI is recorded separately in JSON from the already passing candidate checks.

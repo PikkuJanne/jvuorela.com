@@ -65,10 +65,10 @@
       "status": "done",
       "evidence": [
         "docs/LOCAL_SETUP.md",
-        "scripts/setup-local.ps1"
+        "evidence/local-setup-runtime.json"
       ],
       "blocker": null,
-      "disposition": "Reproducible pinned local setup; fresh packaged rehearsal pending under T12."
+      "disposition": "Actual fresh setup/rerun verified after fixing the bootstrap false-success bug; database/user/credential fingerprints preserved."
     },
     {
       "id": "T03",
@@ -197,13 +197,15 @@
       "acceptance_ids": [
         "A10"
       ],
-      "status": "in_progress",
+      "status": "done",
       "evidence": [
         "evidence/editor-blocks.json",
-        "content/COPY_REVIEW.md"
+        "evidence/release-facts.md",
+        "content/tools.json",
+        "content/impressum.html"
       ],
       "blocker": null,
-      "disposition": "Editorial behavior passed; final owner wording review belongs to future launch."
+      "disposition": "Native Editor workflow passed; draft copy refined against observed source/release facts. Final owner copy/Privacy acceptance remains T19."
     },
     {
       "id": "T09",
@@ -242,13 +244,14 @@
         "A13",
         "A14"
       ],
-      "status": "in_progress",
+      "status": "done",
       "evidence": [
+        "evidence/theme-content-review-runtime.json",
         "evidence/browser-runtime.json",
         "evidence/importer-runtime-2026-10-10.md"
       ],
       "blocker": null,
-      "disposition": "Independent review findings being fixed and rechecked before freeze."
+      "disposition": "Independent review fixed dynamic 404 context and fresh menu/settings exports; seven focused real WordPress checks pass."
     },
     {
       "id": "T11",
@@ -331,12 +334,14 @@
       "acceptance_ids": [
         "A19"
       ],
-      "status": "in_progress",
+      "status": "done",
       "evidence": [
+        "evidence/artwork-layout-measurements.md",
+        "evidence/layout-performance.json",
         "evidence/screenshots"
       ],
       "blocker": null,
-      "disposition": "All seven portraits/avatar sets visually reviewed at 390 and1440; actual box/transfer measurement underway."
+      "disposition": "All seven portrait/avatar sets measured at390/1440 and visually checked; browser selections and documented mobile lab sizes/CLS/LCP recorded."
     },
     {
       "id": "T15",
@@ -446,11 +451,12 @@
       ],
       "status": "blocked",
       "evidence": [
+        "content/impressum.html",
         "docs/CONTENT_IMPORT.md",
         "content/COPY_REVIEW.md"
       ],
-      "blocker": "Final owner contact/legal wording and observed hosting privacy facts are not supplied; future launch gate.",
-      "disposition": "Final owner contact/legal wording and observed hosting privacy facts are not supplied; future launch gate."
+      "blocker": "Owner supplied the final Impressum wording; Privacy and final tool-copy/hosting privacy review remain future launch prerequisites.",
+      "disposition": "Impressum exact owner wording received 2026-10-10 and integrated into native blocks; Privacy stays a separate document/Page."
     },
     {
       "id": "T20",
@@ -635,10 +641,12 @@
       ],
       "status": "in_progress",
       "evidence": [
-        "evidence/tool-cleanup"
+        "repositories/tool-cleanup.json",
+        "evidence/tool-cleanup/winaudioclean.json",
+        "evidence/tool-cleanup/winimagenormalizer.json"
       ],
       "blocker": null,
-      "disposition": "Two confirmed obsolete-asset PRs awaiting ordinary hosted checks/default-branch verification; other five repositories need no removal."
+      "disposition": "Both scoped PRs merged after passing candidate CI; freshly fetched default trees/local checks verified. Final main CI observation being recorded."
     },
     {
       "id": "T28",

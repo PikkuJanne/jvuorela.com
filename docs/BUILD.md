@@ -2,7 +2,7 @@
 
 SPDX-License-Identifier: GPL-2.0-or-later
 
-The current website version is **0.1.0, a preview**. This handoff prepares a tested local technical candidate, public source and deployment packages. The owner has deferred IONOS deployment to a separate session; hosting access is not required to finish this local handoff. Building a ZIP or passing CI does not establish a live site. The final website v1.0.0 must remain tied to its actually accepted and deployed source commit. Two tool releases, owner legal/contact content, hosted checks and launch review remain separate public-launch gates.
+The current website version is **0.1.0, a preview**. This handoff prepares a tested local technical candidate, public source and deployment packages. The owner has deferred IONOS deployment to a separate session; hosting access is not required to finish this local handoff. Building a ZIP or passing CI does not establish a live site. The final website v1.0.0 must remain tied to its actually accepted and deployed source commit. Two tool releases, final Privacy content, hosted checks and launch review remain separate public-launch gates.
 
 ## Build from a public clone
 
@@ -35,7 +35,7 @@ The setup ZIP is an initialization/review deliverable. On an existing site, curr
 
 ## Determinism and checksum checks
 
-Entries are sorted by POSIX path. ZIP timestamps are fixed at 1980-01-01, permissions are ordinary 0644 files and text line endings are normalized to LF. Already optimized image bytes are stored unchanged. `ZIP_STORED` avoids compressor-version differences between Windows and Linux; no build time, absolute workstation path or random identifier enters the artifacts.
+Entries are sorted by POSIX path. ZIP timestamps are fixed at 1980-01-01, permissions are ordinary 0644 files and text line endings are normalized to LF. GitHub HTTPS remote identity includes the optional `.git` suffix consistently in build metadata, including GitHub Actions checkouts that omit it. Already optimized image bytes are stored unchanged. `ZIP_STORED` avoids compressor-version differences between Windows and Linux; no build time, absolute workstation path or random identifier enters the artifacts.
 
 Repeat a build from an unchanged source snapshot:
 

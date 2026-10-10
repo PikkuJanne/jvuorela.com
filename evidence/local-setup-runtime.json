@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "evidence_license": "GPL-2.0-or-later",
+  "recorded_at_utc": "2026-10-10 18:26:02 UTC",
+  "scope": "Isolated Windows fresh setup and rerun; not hosting or public launch acceptance",
+  "public_remote": "https://github.com/PikkuJanne/jvuorela.com.git",
+  "base_public_commit": "bfa39db806b576057e727d1bb300e1754f6c0b79",
+  "tested_source_state": "Base public commit plus the two exact local corrections identified by normalized source hashes below; correction was not committed when this evidence was recorded.",
+  "commands": [
+    "git clone https://github.com/PikkuJanne/jvuorela.com.git",
+    "git checkout --detach bfa39db806b576057e727d1bb300e1754f6c0b79",
+    "./scripts/setup-local.ps1 -Port 8090",
+    "./scripts/setup-local.ps1 -Port 8090"
+  ],
+  "original_public_setup": {
+    "status": "FAIL",
+    "cause": "Missing WP_INSTALLING let wp-load leave the fresh bootstrap before installation; subsequent failed WP-CLI actions were not checked and setup printed ready.",
+    "project_installation_completed": false
+  },
+  "corrected_setup": {
+    "status": "PASS",
+    "first_run": "Fresh empty installation from checked downloads and corrected scripts",
+    "rerun": "Existing native database bytes, every database table, users and private credential file stayed identical",
+    "existing_install_helper": "Explicit repeat installation refused with status 1; database, users and credentials remained identical"
+  },
+  "fixes": [
+    "Bootstrap first installation with WP_INSTALLING and a temporary explicit loopback WP_SITEURL.",
+    "Check actual installation and every following WP-CLI action before reporting ready.",
+    "Restore temporary password/port environment variables in finally; do not print credentials.",
+    "State that no project content was seeded or published; WordPress creates its ordinary default content."
+  ],
+  "observed_runtime": {
+    "installed": true,
+    "home": "http://127.0.0.1:8090/",
+    "siteurl": "http://127.0.0.1:8090",
+    "php": "8.3.35",
+    "wordpress": "7.1.3",
+    "active_theme": "jvuorela-tools",
+    "blog_public": "0",
+    "permalink_structure": "/%postname%/",
+    "users_count": 1,
+    "project_pages_count": 0,
+    "project_media_count": 0,
+    "core_posts_count": 3
+  },
+  "rerun_preservation": {
+    "database_sha256": true,
+    "database_tables_sha256": true,
+    "users_table_sha256": true,
+    "local_credentials_sha256": true
+  },
+  "existing_install_refusal_preservation": {
+    "database_sha256": true,
+    "database_tables_sha256": true,
+    "users_table_sha256": true,
+    "local_credentials_sha256": true
+  },
+  "normalized_source_sha256": {
+    "scripts/setup-local.ps1": "216174c41cba53e9f833b8eae29a2b115c9383c9d215d7d045c728a855350561",
+    "scripts/install-local.php": "dd14569688ff941f67d001bc038730ff3f3f61de71d96995dc379fcf968f2951"
+  },
+  "downloads": "First original test downloaded each official pinned file; second fresh correction retest reused only those ZIP/PHAR bytes, rechecked by setup's same SHA-256 checks. No database or credentials were copied between clones.",
+  "isolation": "Ignored fresh clones on port 8090; no server was started and primary port 8088 instance was untouched.",
+  "private_evidence": "Full table and before/after snapshots remain ignored. Public evidence contains preservation results and source hashes only, not credential values or table contents."
+}

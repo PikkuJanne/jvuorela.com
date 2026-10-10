@@ -29,6 +29,8 @@ const executablePath = process.env.JVT_BROWSER_PATH || 'C:/Program Files/Google/
       const broken=await page.locator('img').evaluateAll(imgs=>imgs.filter(i=>i.complete&&i.naturalWidth===0).map(i=>i.src));
       assert.deepEqual(broken,[],route+' images');
       const hashLinks=await page.locator('a[href="#"]').count(); assert.equal(hashLinks,0,'No dummy actions');
+      assert.equal(await page.locator('footer').getByRole('link',{name:'Impressum',exact:true}).getAttribute('href'),base+'/impressum/','Site-wide visible Impressum link');
+      assert.equal(await page.locator('footer').getByRole('link',{name:'Privacy',exact:true}).getAttribute('href'),base+'/privacy/','Privacy remains separate');
       if ([390,1440].includes(width)||width===1024&&['/','/winpdfmerger/'].includes(route)) {
         // Native lazy images load on actual scrolling; full-page screenshots alone do not scroll.
         for(let y=0;y<await page.evaluate(()=>document.documentElement.scrollHeight);y+=600){await page.evaluate(y=>window.scrollTo(0,y),y);await page.waitForTimeout(80);}
@@ -44,6 +46,11 @@ const executablePath = process.env.JVT_BROWSER_PATH || 'C:/Program Files/Google/
   const missing=await page.goto(base+'/this-route-does-not-exist',{waitUntil:'networkidle'});
   assert.equal(missing.status(),404,'True unknown-route 404');
   assert.match(await page.locator('h1').innerText(),/Page not found/);
+  assert.equal(await page.locator('footer').getByRole('link',{name:'Impressum',exact:true}).getAttribute('href'),base+'/impressum/');
+  await page.goto(base+'/impressum/',{waitUntil:'networkidle'});
+  assert.match(await page.locator('main').innerText(),/Angaben gemäß § 18 Abs\. 1 Medienstaatsvertrag \(MStV\)/);
+  assert.match(await page.locator('main').innerText(),/Marie-Curie-Allee 83/);
+  assert.equal(await page.getByRole('link',{name:'pikkujean@gmail.com',exact:true}).getAttribute('href'),'mailto:pikkujean@gmail.com');
   await page.goto(base+'/',{waitUntil:'networkidle'});
   assert.equal(await page.locator('.tool-card').count(),7,'Seven cards');
   for(const t of tools) assert.equal(await page.locator(`.tool-card a[href$="${t.route}"]`).count(),1,'Real card '+t.id);
@@ -66,7 +73,7 @@ const executablePath = process.env.JVT_BROWSER_PATH || 'C:/Program Files/Google/
   const external=[...requests].filter(u=>!u.startsWith(base)&&!u.startsWith('data:'));
   assert.deepEqual(external,[],'No third-party signed-out requests');
   assert.deepEqual(errors,[],'No page errors');
-  const result={checked_at:new Date().toISOString(),browser:await browser.version(),executable:'Chrome or Edge via explicit local executable',environment:'Local WordPress 7.1.3/PHP8.3.35/SQLite3.1.0',cases,unknown_route_status:404,release_links:5,missing_releases:2,no_javascript:true,reduced_motion:true,keyboard_skip_link:true,external_requests:external,errors,limits:['Hosted IONOS not tested','Firefox/Safari and manual 200% zoom pending','Legal content is draft','No Lighthouse/field performance claim']};
+  const result={checked_at:new Date().toISOString(),browser:await browser.version(),executable:'Chrome or Edge via explicit local executable',environment:'Local WordPress 7.1.3/PHP8.3.35/SQLite3.1.0',cases,unknown_route_status:404,release_links:5,missing_releases:2,no_javascript:true,reduced_motion:true,keyboard_skip_link:true,impressum_owner_wording:true,impressum_link_all_routes:true,privacy_separate:true,external_requests:external,errors,limits:['Hosted IONOS not tested','See separate Edge/Firefox and equivalent zoom-reflow evidence; Safari unavailable','Privacy requires hosting/owner review','No Lighthouse/field performance claim']};
   fs.writeFileSync(path.join(root,'evidence/browser-runtime.json'),JSON.stringify(result,null,2)+'\n');
   console.log('\nBrowser runtime checks passed:',cases.length,'route/viewport cases.');
   await browser.close();

@@ -39,10 +39,17 @@ def git(*args):
 
 
 def source_context():
+    remote = git("remote", "get-url", "origin")
+    # checkout's HTTPS URL may omit Git's optional .git suffix. Keep the
+    # public repository identity stable across GitHub CI and public clones.
+    if remote and remote.startswith("https://github.com/"):
+        remote = remote.rstrip("/")
+        if not remote.endswith(".git"):
+            remote += ".git"
     return {
         "commit": git("rev-parse", "HEAD"),
         "dirty": git("status", "--porcelain", "--untracked-files=all") != "",
-        "remote": git("remote", "get-url", "origin"),
+        "remote": remote,
     }
 
 

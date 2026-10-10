@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
 [CmdletBinding()]
-param([int]$Port = 8088)
+param([ValidateRange(1,65535)][int]$Port = 8088)
 $ErrorActionPreference = 'Stop'
 $taskRoot = Split-Path $PSScriptRoot -Parent
 Push-Location $taskRoot
@@ -45,15 +45,26 @@ log_errors=On
     & private/php/php.exe private/wp-cli.phar core is-installed --path=private/wordpress 2>$null
     if ($LASTEXITCODE) {
         $taskPassword = [Convert]::ToBase64String([Security.Cryptography.RandomNumberGenerator]::GetBytes(32))
-        $env:JVT_LOCAL_PASSWORD = $taskPassword
-        $env:JVT_LOCAL_PORT = $Port
-        & private/php/php.exe private/wp-cli.phar eval-file scripts/install-local.php --path=private/wordpress --skip-wordpress
-        if ($LASTEXITCODE) { throw 'Local WordPress install failed' }
-        Remove-Item Env:JVT_LOCAL_PASSWORD
+        $previousTaskPassword = $env:JVT_LOCAL_PASSWORD
+        $previousTaskPort = $env:JVT_LOCAL_PORT
+        try {
+            $env:JVT_LOCAL_PASSWORD = $taskPassword
+            $env:JVT_LOCAL_PORT = $Port
+            & private/php/php.exe private/wp-cli.phar eval-file scripts/install-local.php --path=private/wordpress --skip-wordpress
+            if ($LASTEXITCODE) { throw 'Local WordPress install failed' }
+        } finally {
+            if ($null -eq $previousTaskPassword) { Remove-Item Env:JVT_LOCAL_PASSWORD -ErrorAction SilentlyContinue } else { $env:JVT_LOCAL_PASSWORD = $previousTaskPassword }
+            if ($null -eq $previousTaskPort) { Remove-Item Env:JVT_LOCAL_PORT -ErrorAction SilentlyContinue } else { $env:JVT_LOCAL_PORT = $previousTaskPort }
+        }
+        & private/php/php.exe private/wp-cli.phar core is-installed --path=private/wordpress 2>$null
+        if ($LASTEXITCODE) { throw 'Local WordPress is not installed; setup cannot report ready' }
     }
     Copy-Item -LiteralPath 'theme/jvuorela-tools' -Destination 'private/wordpress/wp-content/themes' -Recurse -Force
     & private/php/php.exe private/wp-cli.phar theme activate jvuorela-tools --path=private/wordpress
+    if ($LASTEXITCODE) { throw 'Local theme activation failed' }
     & private/php/php.exe private/wp-cli.phar option update blog_public 0 --path=private/wordpress
+    if ($LASTEXITCODE) { throw 'Local preview indexing setting failed' }
     & private/php/php.exe private/wp-cli.phar option update permalink_structure '/%postname%/' --path=private/wordpress
-    Write-Output 'Local WordPress ready. No content was seeded or published. Read docs/LOCAL_SETUP.md.'
+    if ($LASTEXITCODE) { throw 'Local pretty permalink setup failed' }
+    Write-Output 'Local WordPress ready. No project content was seeded or published. Read docs/LOCAL_SETUP.md.'
 } finally { Pop-Location }

@@ -10,8 +10,22 @@ add_action('after_setup_theme', function () {
     add_theme_support('align-wide');
     add_post_type_support('page', 'excerpt');
     add_editor_style('assets/css/editor.css');
+    add_image_size('jvt-character-small', 480, 0, false);
+    add_image_size('jvt-avatar-small', 360, 0, false);
     register_nav_menus(['primary' => __('Header links', 'jvuorela-tools'), 'footer' => __('Footer links', 'jvuorela-tools')]);
 });
+// Generate only the appropriate proportional size for project character/avatar
+// uploads. Unrelated uploads do not acquire these extra theme image sizes.
+add_filter('intermediate_image_sizes_advanced', function ($sizes, $metadata, $id) {
+    $slot = (string) get_post_meta($id, '_jvt_asset_slot', true);
+    $file = basename((string) get_post_meta($id, '_wp_attached_file', true));
+    // The explicit importer assigns the slot after normal core sideloading.
+    $character = str_ends_with($slot, '-character') || preg_match('/^(?:winbooksplit|winpdfmerger|winvidcompress|universalpodcastdownloader|winaudioclean|winimagenormalizer|audiofileforphone)-character-v01-960(?:-\d+)?\.webp$/', $file);
+    $avatar = str_ends_with($slot, '-avatar') || preg_match('/^(?:winbooksplit|winpdfmerger|winvidcompress|universalpodcastdownloader|winaudioclean|winimagenormalizer|audiofileforphone)-avatar-v01-640(?:-\d+)?\.webp$/', $file);
+    if (!$character) { unset($sizes['jvt-character-small']); }
+    if (!$avatar) { unset($sizes['jvt-avatar-small']); }
+    return $sizes;
+}, 10, 3);
 add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('jvt-theme', get_template_directory_uri() . '/assets/css/site.css', [], wp_get_theme()->get('Version'));
 });

@@ -14,7 +14,7 @@ See [BUILD.md](docs/BUILD.md) for a clean-clone build and SHA-256 verification, 
 
 The theme ZIP contains presentation code only. A separate content/media ZIP contains eleven portable draft Pages, approved derivatives and the setup instructions. Page titles, taglines, benefits, requirements, buttons and support wording are native WordPress content. Home and navigation use native settings and menus. Ordinary theme updates preserve that content; the importer plans first, refuses conflicts and never publishes Pages automatically.
 
-Five tool v1.0.0 runtime packages have verified public release/checksum evidence. WinBookSplit and AudioFileForPhone still lack those releases, so their Pages display “Release link pending.” Final contact/legal wording and actual hosting acceptance are also required before a public website launch. See [release evidence](evidence/release-facts.md) and [STATUS.md](STATUS.md).
+Five tool v1.0.0 runtime packages have verified public release/checksum evidence. WinBookSplit and AudioFileForPhone still lack those releases, so their Pages display “Release link pending.” Final Privacy wording and actual hosting acceptance are also required before a public website launch. See [release evidence](evidence/release-facts.md) and [STATUS.md](STATUS.md).
 
 ## Verification
 

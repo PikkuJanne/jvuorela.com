@@ -2,7 +2,7 @@
 
 SPDX-License-Identifier: GPL-2.0-or-later
 
-The owner’s 10 October 2026 follow-up moves IONOS work to a separate deployment session. This handoff prepares a tested local candidate and public GitHub packages. **Ready for deployment** describes the installable local handoff; it does not claim a live website or permission to change current hosting. Live launch still requires seven verified v1.0.0 tool releases, final owner legal/contact wording, actual hosting acceptance and the concrete cutover decision.
+The owner’s 10 October 2026 follow-up moves IONOS work to a separate deployment session. This handoff prepares a tested local candidate and public GitHub packages. **Ready for deployment** describes the installable local handoff; it does not claim a live website or permission to change current hosting. Live launch still requires seven verified v1.0.0 tool releases, final Privacy wording, actual hosting acceptance and the concrete cutover decision.
 
 ## Package and installation
 
@@ -22,11 +22,23 @@ Before production changes, capture database, uploads, active theme and relevant 
 
 Restore the backup into a disposable environment and check at least Home, a tool Page, one image, menus and admin access. Local rehearsal evidence shows the supported procedure on the disposable site; the hosted backup itself must be tested in the separate session. Obtain the final launch decision only after this concrete candidate/backup review.
 
+## Exact-package local rehearsal
+
+After `scripts/setup-local.ps1` has cached the pinned official development runtime, run the independent rehearsal against the desired package directory:
+
+```powershell
+./scripts/rehearse-deployment.ps1 -ArtifactDirectory build/dev -Port 8089
+```
+
+Use the final clean package directory instead of `build/dev` for release acceptance. The script allocates a fresh ignored installation and refuses an occupied port. It never targets the primary local preview. It verifies the archive checksums, installs the exact theme ZIP, extracts the portable setup ZIP, imports drafts, applies native configuration and publishes only on its loopback fixture. Signed-out checks cover Home, seven tool Pages, Impressum, Privacy, a missing route and all 32 native Media Library originals.
+
+The owned server is stopped before copying database, uploads, theme and configuration to a private backup outside its web root. The rehearsal deliberately changes only its new fixture, restores those scopes and checks tree hashes, native Page fields, rendered routes and media bytes again. Private credentials, database copies and diagnostic logs stay ignored. `evidence/deployment-rehearsal.json` and `.md` contain sanitized results and exact package/source hashes. A passing dirty development package is provisional; rehearse the clean final artifacts too. This is a local procedure rehearsal, with IONOS/MySQL acceptance and the hosted backup restore reserved for the later deployment session.
+
 ## Cutover and acceptance
 
 Name each proposed production action: code upload/activation, intentional content publication, domain/HTTPS routing, cache invalidation and removal of preview protection from production only. Preserve all other domains/mail/hosted content. Check apex HTTPS and www behavior, Home, all seven tools, Impressum/Privacy, random-route HTTP404, image/social/download links, no mixed content, keyboard/mobile layouts, hosted editor save/revision and signed-out network requests.
 
-WinBookSplit and AudioFileForPhone currently lack public stable v1.0.0 releases. Their draft Pages contain “Release link pending” and no invented download. Do not launch until those releases/packages/checksums and their final README facts pass the verifier and are intentionally updated in the reviewed native Pages. Contact/legal Pages remain drafts requiring supplied final details and observed hosting privacy facts.
+WinBookSplit and AudioFileForPhone currently lack public stable v1.0.0 releases. Their draft Pages contain “Release link pending” and no invented download. Do not launch until those releases/packages/checksums and their final README facts pass the verifier and are intentionally updated in the reviewed native Pages. The exact owner-supplied Impressum is included in editable blocks; its link is in the site-wide footer. Privacy remains separate and requires final text reflecting observed hosting facts before live publication.
 
 ## Rollback
 

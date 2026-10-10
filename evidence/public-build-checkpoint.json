@@ -1,0 +1,10 @@
+{
+  "status": "SOURCE_INPUTS_PASS_METADATA_MISMATCH_REPAIRED",
+  "source_commit": "bfa39db806b576057e727d1bb300e1754f6c0b79",
+  "clone_url": "https://github.com/PikkuJanne/jvuorela.com.git",
+  "git_credentials_disabled": true,
+  "private_masters_needed": false,
+  "observation": "All actual source/runtime/media inputs match Windows clean clone versus Linux CI. BUILD.json differs only because GitHub checkout omits the optional .git suffix from the same HTTPS remote. Packaging now canonicalizes this suffix; final clean-source CI artifact byte comparison must pass before release.",
+  "ci_run": "https://github.com/PikkuJanne/jvuorela.com/actions/runs/38075219346",
+  "scope": "Implementation checkpoint; honest mismatch and corrective action. Final candidate identity/comparison recorded separately."
+}

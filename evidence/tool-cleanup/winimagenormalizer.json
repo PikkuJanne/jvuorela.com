@@ -7,7 +7,7 @@
   "inspected_on": "2026-10-10",
   "initial_worktree_clean": true,
   "isolated_clone": true,
-  "status": "pull_request_pending_checks",
+  "status": "merged_confirmed_cleanup",
   "classification_method": "Tracked paths and text references only; image pixels were never inspected, copied into the website, or used as design references.",
   "candidates": [
     {
@@ -124,7 +124,7 @@
   ],
   "cleanup_branch": "codex/remove-obsolete-website-artwork-20261010",
   "pull_request_url": "https://github.com/PikkuJanne/WinImgNormalizer/pull/29",
-  "merged_commit": null,
+  "merged_commit": "f5977ae6a425aaa2ff274dfa306d79738499c77f",
   "verification_evidence": "evidence/tool-cleanup/winimagenormalizer.md",
   "history_and_releases_unchanged": true,
   "approval_scope": "Owner 10 October 2026 authorized confirmed obsolete website-only removal and normal checked PR workflow; ambiguous/shared/runtime files retained.",
@@ -187,33 +187,35 @@
     "prerelease": false
   },
   "cleanup_commit": "204a3381ee561d32b85781dd753b127e3addab3c",
-  "latest_observed_at_utc": "2026-10-10T18:09:06.483389+00:00",
+  "latest_observed_at_utc": "2026-10-10T18:24:52.972001+00:00",
   "pull_request": {
     "baseRefOid": "e5376d41879a2e4ffb5da5e607bfb634f1598621",
     "headRefOid": "204a3381ee561d32b85781dd753b127e3addab3c",
     "isDraft": false,
-    "mergeCommit": null,
-    "mergeStateStatus": "UNSTABLE",
-    "mergedAt": null,
+    "mergeCommit": {
+      "oid": "f5977ae6a425aaa2ff274dfa306d79738499c77f"
+    },
+    "mergeStateStatus": "UNKNOWN",
+    "mergedAt": "2026-10-10T18:20:51Z",
     "reviewDecision": "",
-    "state": "OPEN",
+    "state": "MERGED",
     "url": "https://github.com/PikkuJanne/WinImgNormalizer/pull/29"
   },
   "workflow_runs": [
     {
-      "conclusion": "",
+      "conclusion": "success",
       "databaseId": 38073858508,
       "event": "pull_request",
       "headSha": "204a3381ee561d32b85781dd753b127e3addab3c",
-      "status": "in_progress",
+      "status": "completed",
       "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/38073858508"
     },
     {
-      "conclusion": "",
+      "conclusion": "success",
       "databaseId": 38073835244,
       "event": "push",
       "headSha": "204a3381ee561d32b85781dd753b127e3addab3c",
-      "status": "in_progress",
+      "status": "completed",
       "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/38073835244"
     },
     {
@@ -392,5 +394,58 @@
   "interim_failed_checkpoint": {
     "commit": "d264b102caa0037098a7359a087bd08781489974",
     "cause": "A git add pathspec named the already staged removed file; shell continued with deletion-only commit. Ordinary follow-up 204a338 completed the reference changes. Failed interim CI retained; no force-push/rewrite."
-  }
+  },
+  "default_branch_verification": {
+    "observed_at_utc": "2026-10-10T18:24:57.047308+00:00",
+    "local_branch": "main",
+    "local_commit": "f5977ae6a425aaa2ff274dfa306d79738499c77f",
+    "live_remote_commit": "f5977ae6a425aaa2ff274dfa306d79738499c77f",
+    "merged_receipt_matches": true,
+    "clean": true,
+    "tree_equals_checked_candidate": true,
+    "removed_allowlist_absent": true,
+    "protected_git_blobs_unchanged": true,
+    "post_merge_checks": [
+      {
+        "command": "Test-WebsiteHandoff.ps1",
+        "result": "passed",
+        "hosts": [
+          "Windows PowerShell 5.1",
+          "PowerShell 7.6.5"
+        ],
+        "retained_artwork_entries": 2
+      },
+      {
+        "command": "Update-ReleaseMetadata.ps1 -Check",
+        "result": "passed",
+        "hosts": [
+          "PowerShell 7.6.5"
+        ]
+      },
+      {
+        "command": "python -B tools/codex-winimg/handoff.py plan --repo .",
+        "result": "passed",
+        "tasks": 28,
+        "cases": 75
+      }
+    ]
+  },
+  "default_branch_workflow_runs": [
+    {
+      "conclusion": "",
+      "databaseId": 38075407907,
+      "event": "push",
+      "headSha": "f5977ae6a425aaa2ff274dfa306d79738499c77f",
+      "status": "in_progress",
+      "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/38075407907"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 37586505285,
+      "event": "push",
+      "headSha": "e5376d41879a2e4ffb5da5e607bfb634f1598621",
+      "status": "completed",
+      "url": "https://github.com/PikkuJanne/WinImgNormalizer/actions/runs/37586505285"
+    }
+  ]
 }

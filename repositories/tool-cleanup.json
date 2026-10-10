@@ -78,7 +78,29 @@
         "evidence/tool-cleanup/winbooksplit-2026-10-10.md"
       ],
       "observed_at": "2026-10-10T17:49:46.099734+00:00",
-      "ambiguities": []
+      "ambiguities": [],
+      "checks": [
+        {
+          "name": "isolated checkout is clean",
+          "result": "pass"
+        },
+        {
+          "name": "inspected HEAD equals independently queried default branch",
+          "result": "pass"
+        },
+        {
+          "name": "all classified paths exist in inspected tracked tree",
+          "result": "pass"
+        },
+        {
+          "name": "tracked filenames and text references reviewed without rendering/importing artwork",
+          "result": "pass"
+        },
+        {
+          "name": "no tool, packaging, release, tag or history mutation",
+          "result": "pass"
+        }
+      ]
     },
     {
       "tool_id": "winpdfmerger",
@@ -151,7 +173,29 @@
         "evidence/tool-cleanup/winpdfmerger-2026-10-10.md"
       ],
       "observed_at": "2026-10-10T17:49:49.132922+00:00",
-      "ambiguities": []
+      "ambiguities": [],
+      "checks": [
+        {
+          "name": "isolated checkout is clean",
+          "result": "pass"
+        },
+        {
+          "name": "inspected HEAD equals independently queried default branch",
+          "result": "pass"
+        },
+        {
+          "name": "all classified paths exist in inspected tracked tree",
+          "result": "pass"
+        },
+        {
+          "name": "tracked filenames and text references reviewed without rendering/importing artwork",
+          "result": "pass"
+        },
+        {
+          "name": "no tool, packaging, release, tag or history mutation",
+          "result": "pass"
+        }
+      ]
     },
     {
       "tool_id": "winvidcompress",
@@ -315,7 +359,29 @@
         "evidence/tool-cleanup/winvidcompress-2026-10-10.md"
       ],
       "observed_at": "2026-10-10T17:49:52.994793+00:00",
-      "ambiguities": []
+      "ambiguities": [],
+      "checks": [
+        {
+          "name": "isolated checkout is clean",
+          "result": "pass"
+        },
+        {
+          "name": "inspected HEAD equals independently queried default branch",
+          "result": "pass"
+        },
+        {
+          "name": "all classified paths exist in inspected tracked tree",
+          "result": "pass"
+        },
+        {
+          "name": "tracked filenames and text references reviewed without rendering/importing artwork",
+          "result": "pass"
+        },
+        {
+          "name": "no tool, packaging, release, tag or history mutation",
+          "result": "pass"
+        }
+      ]
     },
     {
       "tool_id": "universalpodcastdownloader",
@@ -445,14 +511,36 @@
         "evidence/tool-cleanup/universalpodcastdownloader-2026-10-10.md"
       ],
       "observed_at": "2026-10-10T17:49:56.530609+00:00",
-      "ambiguities": []
+      "ambiguities": [],
+      "checks": [
+        {
+          "name": "isolated checkout is clean",
+          "result": "pass"
+        },
+        {
+          "name": "inspected HEAD equals independently queried default branch",
+          "result": "pass"
+        },
+        {
+          "name": "all classified paths exist in inspected tracked tree",
+          "result": "pass"
+        },
+        {
+          "name": "tracked filenames and text references reviewed without rendering/importing artwork",
+          "result": "pass"
+        },
+        {
+          "name": "no tool, packaging, release, tag or history mutation",
+          "result": "pass"
+        }
+      ]
     },
     {
       "tool_id": "winaudioclean",
       "repo_url": "https://github.com/PikkuJanne/WinAudioClean",
       "default_branch": "main",
       "inspected_commit": "75fed6188f5c5dde13029ebc9426fc210d44d52f",
-      "status": "pull_request_pending_checks",
+      "status": "merged_confirmed_cleanup",
       "candidates": [
         {
           "path": "website/LICENSE",
@@ -806,20 +894,100 @@
       ],
       "cleanup_branch": "codex/remove-obsolete-website-20261010",
       "pull_request_url": "https://github.com/PikkuJanne/WinAudioClean/pull/10",
-      "merged_commit": null,
+      "merged_commit": "3ce068f09d7b6618b95492b97910d4b8b06ba7d4",
       "verification_evidence": [
         "evidence/tool-cleanup/winaudioclean.json",
         "evidence/tool-cleanup/winaudioclean.md"
       ],
       "observed_at": "2026-10-10",
-      "ambiguities": []
+      "ambiguities": [],
+      "default_branch_verification": {
+        "observed_at_utc": "2026-10-10T18:24:52.029459+00:00",
+        "local_branch": "main",
+        "local_commit": "3ce068f09d7b6618b95492b97910d4b8b06ba7d4",
+        "live_remote_commit": "3ce068f09d7b6618b95492b97910d4b8b06ba7d4",
+        "merged_receipt_matches": true,
+        "clean": true,
+        "tree_equals_checked_candidate": true,
+        "removed_allowlist_absent": true,
+        "protected_git_blobs_unchanged": true,
+        "post_merge_checks": [
+          {
+            "command": "python -B scripts/Test-Coverage.py --repo .",
+            "result": "passed",
+            "required_cases": 90,
+            "mapped_cases": 90,
+            "scope": "Structural traceability, not execution evidence."
+          },
+          {
+            "command": "python -B docs/codex/winaudioclean/tools/handoff.py validate-plan --plan-root docs/codex/winaudioclean",
+            "result": "passed",
+            "tasks": 30,
+            "acceptance_cases": 90
+          }
+        ]
+      },
+      "checks": [
+        {
+          "command": "git diff --check",
+          "result": "passed"
+        },
+        {
+          "command": "protected code/icon/package-source comparison",
+          "result": "passed",
+          "scope": "Canonical Git blobs retained; Windows checkout EOL normalization recorded separately."
+        },
+        {
+          "command": "python -B scripts/Test-Coverage.py --repo .",
+          "result": "passed",
+          "acceptance_cases_retained": 90
+        },
+        {
+          "command": "python -B docs/codex/winaudioclean/tools/handoff.py validate-plan --plan-root docs/codex/winaudioclean",
+          "result": "passed",
+          "tasks": 30,
+          "acceptance_cases": 90
+        },
+        {
+          "command": "python -B -m unittest discover -s docs/codex/winaudioclean/tests -p test_release_package.py -v",
+          "result": "passed",
+          "tests": 8
+        },
+        {
+          "command": "python -B -m unittest discover -s docs/codex/winaudioclean/tests -p test_version_identity.py -v",
+          "result": "passed",
+          "tests": 5
+        },
+        {
+          "command": "python -B -m unittest discover -s docs/codex/winaudioclean/tests -p test_*.py -v",
+          "result": "passed",
+          "tested_code_commit": "15d2e85dca5096475dcddf18a7dd3b7b7fa966aa",
+          "current_head_change": "Only owner poster decision documentation changed; runtime, payload and test sources identical.",
+          "tests_run": 147,
+          "skipped": 1,
+          "skip_reason": "Symlink privileges unavailable"
+        },
+        {
+          "command": "Build-Release.ps1 plus actual RECONSTRUCTION inspector snippet",
+          "result": "passed",
+          "tested_commit": "f1d94872d11459a137c441ad3f1258564d01bb2e",
+          "hosts": [
+            "Windows PowerShell 5.1",
+            "PowerShell 7.6.5"
+          ],
+          "archives": 2,
+          "payload_files": 17,
+          "zip_entries": 18,
+          "equal_sha256": "bd2eb7437e3028a925a6fe4b880fbe16cd19678345c027a07266c337b4b3f9d4"
+        }
+      ]
     },
     {
       "tool_id": "winimagenormalizer",
       "repo_url": "https://github.com/PikkuJanne/WinImgNormalizer",
       "default_branch": "main",
       "inspected_commit": "e5376d41879a2e4ffb5da5e607bfb634f1598621",
-      "status": "pull_request_pending_checks",
+      "status": "merged_confirmed_cleanup",
       "candidates": [
         {
           "path": "WinImgNormalizer_poster.png",
@@ -935,13 +1103,96 @@
       ],
       "cleanup_branch": "codex/remove-obsolete-website-artwork-20261010",
       "pull_request_url": "https://github.com/PikkuJanne/WinImgNormalizer/pull/29",
-      "merged_commit": null,
+      "merged_commit": "f5977ae6a425aaa2ff274dfa306d79738499c77f",
       "verification_evidence": [
         "evidence/tool-cleanup/winimagenormalizer.json",
         "evidence/tool-cleanup/winimagenormalizer.md"
       ],
       "observed_at": "2026-10-10",
-      "ambiguities": []
+      "ambiguities": [],
+      "default_branch_verification": {
+        "observed_at_utc": "2026-10-10T18:24:57.047308+00:00",
+        "local_branch": "main",
+        "local_commit": "f5977ae6a425aaa2ff274dfa306d79738499c77f",
+        "live_remote_commit": "f5977ae6a425aaa2ff274dfa306d79738499c77f",
+        "merged_receipt_matches": true,
+        "clean": true,
+        "tree_equals_checked_candidate": true,
+        "removed_allowlist_absent": true,
+        "protected_git_blobs_unchanged": true,
+        "post_merge_checks": [
+          {
+            "command": "Test-WebsiteHandoff.ps1",
+            "result": "passed",
+            "hosts": [
+              "Windows PowerShell 5.1",
+              "PowerShell 7.6.5"
+            ],
+            "retained_artwork_entries": 2
+          },
+          {
+            "command": "Update-ReleaseMetadata.ps1 -Check",
+            "result": "passed",
+            "hosts": [
+              "PowerShell 7.6.5"
+            ]
+          },
+          {
+            "command": "python -B tools/codex-winimg/handoff.py plan --repo .",
+            "result": "passed",
+            "tasks": 28,
+            "cases": 75
+          }
+        ]
+      },
+      "checks": [
+        {
+          "command": "git diff --check",
+          "result": "passed"
+        },
+        {
+          "command": "protected code/icon/package-source comparison",
+          "result": "passed",
+          "scope": "Canonical Git blobs retained; Windows checkout EOL normalization recorded separately."
+        },
+        {
+          "command": "Test-WebsiteHandoff.ps1",
+          "result": "passed",
+          "hosts": [
+            "Windows PowerShell 5.1",
+            "PowerShell 7.6.5"
+          ],
+          "retained_artwork_entries": 2
+        },
+        {
+          "command": "Update-ReleaseMetadata.ps1 -Check",
+          "result": "passed",
+          "hosts": [
+            "Windows PowerShell 5.1",
+            "PowerShell 7.6.5"
+          ]
+        },
+        {
+          "command": "python -B tools/codex-winimg/handoff.py plan --repo .",
+          "result": "passed",
+          "tasks": 28,
+          "cases": 75
+        },
+        {
+          "command": "Final isolated Packaging.Tests.ps1 on both actual hosts",
+          "result": "passed",
+          "tested_commit": "204a3381ee561d32b85781dd753b127e3addab3c",
+          "tests_per_host": 26,
+          "skipped": 0,
+          "scope": "Actual clean portable package, source/manifest/checksum/provenance, extracted BAT/PS1 and verified ImageMagick synthetic processing; long-path failures resolved with shorter isolated checkout."
+        },
+        {
+          "command": "Website.Tests.ps1 and Compatibility.Tests.ps1 within actual 174-case aggregate on both hosts",
+          "result": "passed_for_affected_suites",
+          "tests_per_host": 148,
+          "scope": "All three aggregate failures belonged to unchanged Packaging suite path limits; 26/26 Packaging separately passes on each host. Recorded code/icon/package source bindings remain unchanged at current candidate."
+        }
+      ]
     },
     {
       "tool_id": "audiofileforphone",
@@ -1039,7 +1290,34 @@
         "evidence/tool-cleanup/audiofileforphone.md"
       ],
       "observed_at": "2026-10-10",
-      "ambiguities": []
+      "ambiguities": [],
+      "default_branch_verification": {
+        "commit": "2bf1ea1921ab33633b978bd384bbbf098648ceed",
+        "matches_live_remote": true,
+        "worktree_clean": true,
+        "tracked_visual_files": [
+          "AudioFileForPhone_icon.ico",
+          "AudioFileForPhone_icon.png",
+          "AudioFileForPhone_poster.png"
+        ],
+        "obsolete_website_material_removed": [],
+        "reason": "Application/shared PNG/ICO preserved; poster explicitly retained by owner. No website directory, preliminary page design, stale direct artwork reference or other visual candidate in tracked tree."
+      },
+      "checks": [
+        {
+          "command": "git ls-files plus tracked README, runtime, launcher and tests reference search",
+          "result": "passed",
+          "scope": "No active website-only asset consumer or stale direct reference found."
+        },
+        {
+          "command": "git status --short and exact live main remote SHA comparison",
+          "result": "passed"
+        },
+        {
+          "command": "protected image/icon and runtime canonical Git blob comparison",
+          "result": "passed"
+        }
+      ]
     }
   ],
   "owner_retained_posters": [

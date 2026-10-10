@@ -7,7 +7,7 @@
   "inspected_on": "2026-10-10",
   "initial_worktree_clean": true,
   "isolated_clone": true,
-  "status": "pull_request_pending_checks",
+  "status": "merged_confirmed_cleanup",
   "classification_method": "Tracked paths and text references only; image pixels were never inspected, copied into the website, or used as design references.",
   "candidates": [
     {
@@ -362,7 +362,7 @@
   ],
   "cleanup_branch": "codex/remove-obsolete-website-20261010",
   "pull_request_url": "https://github.com/PikkuJanne/WinAudioClean/pull/10",
-  "merged_commit": null,
+  "merged_commit": "3ce068f09d7b6618b95492b97910d4b8b06ba7d4",
   "verification_evidence": "evidence/tool-cleanup/winaudioclean.md",
   "history_and_releases_unchanged": true,
   "approval_scope": "Owner 10 October 2026 authorized confirmed obsolete website-only removal and normal checked PR workflow; ambiguous/shared/runtime files retained.",
@@ -431,25 +431,27 @@
     "prerelease": false
   },
   "cleanup_commit": "f1d94872d11459a137c441ad3f1258564d01bb2e",
-  "latest_observed_at_utc": "2026-10-10T18:09:04.165644+00:00",
+  "latest_observed_at_utc": "2026-10-10T18:24:47.581575+00:00",
   "pull_request": {
     "baseRefOid": "75fed6188f5c5dde13029ebc9426fc210d44d52f",
     "headRefOid": "f1d94872d11459a137c441ad3f1258564d01bb2e",
     "isDraft": false,
-    "mergeCommit": null,
-    "mergeStateStatus": "UNSTABLE",
-    "mergedAt": null,
+    "mergeCommit": {
+      "oid": "3ce068f09d7b6618b95492b97910d4b8b06ba7d4"
+    },
+    "mergeStateStatus": "UNKNOWN",
+    "mergedAt": "2026-10-10T18:24:35Z",
     "reviewDecision": "",
-    "state": "OPEN",
+    "state": "MERGED",
     "url": "https://github.com/PikkuJanne/WinAudioClean/pull/10"
   },
   "workflow_runs": [
     {
-      "conclusion": "",
+      "conclusion": "success",
       "databaseId": 38074471460,
       "event": "pull_request",
       "headSha": "f1d94872d11459a137c441ad3f1258564d01bb2e",
-      "status": "in_progress",
+      "status": "completed",
       "url": "https://github.com/PikkuJanne/WinAudioClean/actions/runs/38074471460"
     },
     {
@@ -461,12 +463,56 @@
       "url": "https://github.com/PikkuJanne/WinAudioClean/actions/runs/38074158141"
     },
     {
-      "conclusion": "",
+      "conclusion": "success",
       "databaseId": 38074155380,
       "event": "push",
       "headSha": "f1d94872d11459a137c441ad3f1258564d01bb2e",
-      "status": "in_progress",
+      "status": "completed",
       "url": "https://github.com/PikkuJanne/WinAudioClean/actions/runs/38074155380"
+    }
+  ],
+  "default_branch_verification": {
+    "observed_at_utc": "2026-10-10T18:24:52.029459+00:00",
+    "local_branch": "main",
+    "local_commit": "3ce068f09d7b6618b95492b97910d4b8b06ba7d4",
+    "live_remote_commit": "3ce068f09d7b6618b95492b97910d4b8b06ba7d4",
+    "merged_receipt_matches": true,
+    "clean": true,
+    "tree_equals_checked_candidate": true,
+    "removed_allowlist_absent": true,
+    "protected_git_blobs_unchanged": true,
+    "post_merge_checks": [
+      {
+        "command": "python -B scripts/Test-Coverage.py --repo .",
+        "result": "passed",
+        "required_cases": 90,
+        "mapped_cases": 90,
+        "scope": "Structural traceability, not execution evidence."
+      },
+      {
+        "command": "python -B docs/codex/winaudioclean/tools/handoff.py validate-plan --plan-root docs/codex/winaudioclean",
+        "result": "passed",
+        "tasks": 30,
+        "acceptance_cases": 90
+      }
+    ]
+  },
+  "default_branch_workflow_runs": [
+    {
+      "conclusion": "",
+      "databaseId": 38075654116,
+      "event": "push",
+      "headSha": "3ce068f09d7b6618b95492b97910d4b8b06ba7d4",
+      "status": "in_progress",
+      "url": "https://github.com/PikkuJanne/WinAudioClean/actions/runs/38075654116"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 37638838654,
+      "event": "push",
+      "headSha": "75fed6188f5c5dde13029ebc9426fc210d44d52f",
+      "status": "completed",
+      "url": "https://github.com/PikkuJanne/WinAudioClean/actions/runs/37638838654"
     }
   ]
 }

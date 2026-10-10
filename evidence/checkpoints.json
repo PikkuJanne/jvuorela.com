@@ -15,6 +15,19 @@
       "commit": "367c8d3d8b88442579969cd2601e88e02f0f3620",
       "push": "origin/main synchronized",
       "evidence": "evidence/asset-review.md"
+    },
+    {
+      "id": "editable-content-runtime-packaging",
+      "date": "2026-10-10",
+      "commit": "bfa39db806b576057e727d1bb300e1754f6c0b79",
+      "push": "origin/main synchronized",
+      "ci_result": "success",
+      "ci_url": "https://github.com/PikkuJanne/jvuorela.com/actions/runs/38075219346",
+      "evidence": [
+        "evidence/importer-runtime-2026-10-10.md",
+        "evidence/editor-blocks.json",
+        "evidence/theme-content-review-runtime.json"
+      ]
     }
   ]
 }
