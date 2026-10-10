@@ -1,0 +1,292 @@
+{
+  "bundle_version": "2.0.0",
+  "prepared_date": "2026-10-10",
+  "scope": "Final integrated Codex instructions; approved image bytes delivered separately; no implementation/deletion performed",
+  "files": [
+    {
+      "path": ".github/workflows/handoff-checks.yml",
+      "size_bytes": 750,
+      "sha256": "bc93ddccb8200b3b26819b171d5d4ce37290caf0391f0a0b780e452bf51b91ab"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 586,
+      "sha256": "e4e727b32dd96cab34ca81770f395f7038b36265ba2e41211b65341fa68ebe4f"
+    },
+    {
+      "path": "ACCEPTANCE.json",
+      "size_bytes": 11224,
+      "sha256": "3ac1c6473a88df5dde5c9619dff6940594c58a9ce8ef46ff323758b205622d58"
+    },
+    {
+      "path": "AGENTS.md",
+      "size_bytes": 3353,
+      "sha256": "f822bbb2b43faf7ff4bafaf0fc63d0b741ba9dff34c8f6636822441af97e1f89"
+    },
+    {
+      "path": "ARTWORK_LICENSE.md",
+      "size_bytes": 1005,
+      "sha256": "3183cfa9b01fed822b237667def727021624f1f1b5d22a7e01658616f5179bd5"
+    },
+    {
+      "path": "BUNDLE_VALIDATION.md",
+      "size_bytes": 2850,
+      "sha256": "9eb724e8d07b03bc96fa57f0049192dc97b34e4afd4f8574203fac0d3d53daa1"
+    },
+    {
+      "path": "CHANGES_FROM_V1.md",
+      "size_bytes": 1742,
+      "sha256": "8ef1cec43644ebfd332053faabfe0f0488a7e29859519a6fdbdbc1ec14285fbf"
+    },
+    {
+      "path": "CODEX_ASSET_INTEGRATION_PROMPT.md",
+      "size_bytes": 1261,
+      "sha256": "13ed367693eed53c25f30349a99854b00377f8e982bc4bdfb7aebb61c0fb3681"
+    },
+    {
+      "path": "CODEX_CONTINUE_PROMPT.md",
+      "size_bytes": 1093,
+      "sha256": "1004831f587872ba7c40655cb58382f7bfd19220700b6ac759031d3bf53b5a1e"
+    },
+    {
+      "path": "CODEX_LAUNCH_PROMPT.md",
+      "size_bytes": 1763,
+      "sha256": "946b863d8b3adca573f7209b0387ae43e07a58f3e19de581dbde103cba253505"
+    },
+    {
+      "path": "CODEX_START_PROMPT.md",
+      "size_bytes": 3530,
+      "sha256": "6cf89abdbf16c621048915faebd6bdfadb19cb37040432b92f6e1c1fe2fcdfb7"
+    },
+    {
+      "path": "DECISIONS.md",
+      "size_bytes": 3845,
+      "sha256": "6f246217be3d6b349d59eea69ff119ef37f1ae26a067ea2cc3b9d4dc58ce2e99"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 18072,
+      "sha256": "b90ed8150a6d371c84b7dbaa680cd0e9893ef7c2558765e1e00930513efcfe3b"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "size_bytes": 915,
+      "sha256": "d88e379486d9d3f177bdf2208bd751cc11755f7d6722de48502a9459cf771d1d"
+    },
+    {
+      "path": "PROJECT_BRIEF.md",
+      "size_bytes": 3435,
+      "sha256": "edb2cf8dcc79b74c9e552428c3d01938690c161cbdde7a52c823e300bb40acf7"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 1066,
+      "sha256": "2142cbb1957039b98db8efcb1128323923193b12ea20247f421c4d79ddc5c9b3"
+    },
+    {
+      "path": "ROADMAP.md",
+      "size_bytes": 2548,
+      "sha256": "5ff3c0a4a9e66382e802e21afffabe9a94d446dd750cdbcb9253b6142d7b3908"
+    },
+    {
+      "path": "START_HERE.md",
+      "size_bytes": 4090,
+      "sha256": "e692156349c3e94216c1f30e1ae8b6d83356bab916fe9d5c88162b341c720336"
+    },
+    {
+      "path": "STATUS.md",
+      "size_bytes": 1487,
+      "sha256": "1ee65b503e7b9c6d7d71395b0870af3d8ade99bc76090dea3422622a60ee1c9b"
+    },
+    {
+      "path": "TASKS.json",
+      "size_bytes": 12332,
+      "sha256": "e126d422b019d0b3db0b60e26a2e04ccbb49a7294007e2674d5f1203b05f44ce"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size_bytes": 967,
+      "sha256": "2f6f77da5237b8046f6e06a1812c403849fb480198994f45094fcc2bac0947c4"
+    },
+    {
+      "path": "assets/DELIVERY_CHECKLIST.md",
+      "size_bytes": 1044,
+      "sha256": "e3d0c69d24ad7b91f065d0311b7707a3f232683b263ec551cc02186e5cc95339"
+    },
+    {
+      "path": "assets/approved/README.md",
+      "size_bytes": 467,
+      "sha256": "d05ae7fd04cb1f11e20f6c424599c124b1c23876ac861121eb74a9e5f0a3013f"
+    },
+    {
+      "path": "assets/intake/README.md",
+      "size_bytes": 349,
+      "sha256": "e6a49277ad34ed37abd2e3777921c8192bf9b8dfc4af6ef15c474788e238850d"
+    },
+    {
+      "path": "assets/manifest.json",
+      "size_bytes": 77669,
+      "sha256": "0aa55e09930e0f09e5f1b0cdc81bccce8753efdc91e083c01bd51ec84c278904"
+    },
+    {
+      "path": "assets/masters-private/README.md",
+      "size_bytes": 306,
+      "sha256": "47b11bb617942fb98c15164804eab5b73b1c2f133379d1274923d69d9111bffa"
+    },
+    {
+      "path": "content/COPY_REVIEW.md",
+      "size_bytes": 1069,
+      "sha256": "27ad0337624ea034851c355ba1bb99d7efcd93cf9f4298ef107c13081ffb5561"
+    },
+    {
+      "path": "content/DATA_CONTRACT.md",
+      "size_bytes": 2444,
+      "sha256": "16b9ebe03ad60928845930e9cba5e4b5e040102941a9643ef3b83ae55124a5e9"
+    },
+    {
+      "path": "content/releases.json",
+      "size_bytes": 7008,
+      "sha256": "a95d35c7c341a75eb2de1210b1f75dfb8fefa631e8a68de8f8c6c2ef9e45008c"
+    },
+    {
+      "path": "content/site.json",
+      "size_bytes": 1893,
+      "sha256": "2594a61fe8eda16de3f8ad81458c150e009fb0116f675a9f261a053faf9441f0"
+    },
+    {
+      "path": "content/tools.json",
+      "size_bytes": 15187,
+      "sha256": "07fb2897be36e7f84909ec8d700bc5d0c184b96db942faedcbdadf7a6a426432"
+    },
+    {
+      "path": "docs/01_WORDPRESS_ARCHITECTURE.md",
+      "size_bytes": 6196,
+      "sha256": "a9cac1e23faae09907f9cf7762db2cb3f277c3d3af2f21678f6b08a7efc7db08"
+    },
+    {
+      "path": "docs/02_PAGE_LAYOUTS.md",
+      "size_bytes": 3836,
+      "sha256": "02b18d869d96f1c5ebebdb322254a5a4ba7468408f493e1704bdcad5c0042152"
+    },
+    {
+      "path": "docs/03_CONTENT_AND_EDITOR.md",
+      "size_bytes": 3159,
+      "sha256": "43c42856f6544f90d3605debe1758999b7fb544bcb1486dbc2401776d9fd232f"
+    },
+    {
+      "path": "docs/04_VISUAL_ASSET_CONTRACT.md",
+      "size_bytes": 8742,
+      "sha256": "6aadeff395ab39bcae7997f93c610a2f0f17cd55187a8f083d220cfd2fa7df39"
+    },
+    {
+      "path": "docs/05_ARTWORK_HANDOFF.md",
+      "size_bytes": 1341,
+      "sha256": "fa835c11c0355ca12934ecc1a4b34e26b1c8bb496925910be68b3ebf1db5ecb7"
+    },
+    {
+      "path": "docs/06_QA.md",
+      "size_bytes": 5073,
+      "sha256": "dc1fde685d52e87061fd3d35bb301156bbf665857a322c45ba04e52060c5c47b"
+    },
+    {
+      "path": "docs/07_IONOS_DEPLOYMENT.md",
+      "size_bytes": 6230,
+      "sha256": "6b213ba7b02248c656aa5094d9568a2197eb5c17462c5f405e1a78ab247439e5"
+    },
+    {
+      "path": "docs/08_RELEASE_GATES.md",
+      "size_bytes": 2599,
+      "sha256": "ffa1ced951ec0aab9891a3f7bbe48b86e7ca13e49437d7d0d6eedfa3aa1f7274"
+    },
+    {
+      "path": "docs/09_MAINTENANCE_AND_SECURITY.md",
+      "size_bytes": 2520,
+      "sha256": "7be3d765c7537949cea41520959ba8d2b5b3e420e52c8066e949b391b7ebc2df"
+    },
+    {
+      "path": "docs/10_SOURCES_AND_EVIDENCE.md",
+      "size_bytes": 3041,
+      "sha256": "53b0ebb61ebea3801e8443807dbd95d52e8b41f090dfb9869866f3172fa5711b"
+    },
+    {
+      "path": "docs/11_PUBLIC_GITHUB.md",
+      "size_bytes": 5679,
+      "sha256": "3ad418318aa1f8ccc828ac4ad1cd6af8a25f3489552e9ea247b540f15b59a002"
+    },
+    {
+      "path": "docs/12_TOOL_REPOSITORY_CLEANUP.md",
+      "size_bytes": 4716,
+      "sha256": "353975e6c164afe94b97a83e414ebca90ce224aa9711fbaac83f2ea76f5ea9a8"
+    },
+    {
+      "path": "evidence/INDEX.md",
+      "size_bytes": 668,
+      "sha256": "98cd17f1e07ffdd8433d2703c245f78940d754dccad5a0ba7c7d63df89a6f147"
+    },
+    {
+      "path": "reference/PowerShell_Tools_Content_Audit_v1.md",
+      "size_bytes": 18163,
+      "sha256": "92f166d843d5f9622486aa05a8ef23e7fd0793063d87522628dc07a4b4544dbb"
+    },
+    {
+      "path": "reference/PowerShell_Tools_Website_Roadmap_v1.md",
+      "size_bytes": 8985,
+      "sha256": "5f4013dcb7b88b24ed711b252cb7d71c624d7df2c770fe12f9430b9853a17832"
+    },
+    {
+      "path": "repositories/tool-cleanup.json",
+      "size_bytes": 3091,
+      "sha256": "172de6c7b5eedbc993f8ea4b0d143772123b12bcd71213a511d74452b2a6257f"
+    },
+    {
+      "path": "templates/ARTWORK_LAYOUT_MEASUREMENTS.md",
+      "size_bytes": 864,
+      "sha256": "4cdbb4e9058df253929f1cae180339173f1a5dd70b298b725fea11198e4fac95"
+    },
+    {
+      "path": "templates/DECISION_RECORD.md",
+      "size_bytes": 321,
+      "sha256": "79d873fc6497a1f21af957c1b4ce516e9a4df7a5f6241608541025504e58ff16"
+    },
+    {
+      "path": "templates/HOSTING_INVENTORY.md",
+      "size_bytes": 919,
+      "sha256": "14666a4f540c112177aeea070c8fa1dfdcf0ab2d8051972592af2885bec7d000"
+    },
+    {
+      "path": "templates/LAUNCH_REVIEW.md",
+      "size_bytes": 1009,
+      "sha256": "ec28a043011b8c428a3587af2cdfd03d23692c8ebaa8384edb323c0c24df342b"
+    },
+    {
+      "path": "templates/TASK_EVIDENCE.md",
+      "size_bytes": 439,
+      "sha256": "3817aa07138c0ed38b4e6bec6ac3dc39a186de1247ecb088aac9c73a3dea9576"
+    },
+    {
+      "path": "templates/TOOL_ASSET_CLEANUP.md",
+      "size_bytes": 813,
+      "sha256": "8a82bb75e1e5a905afa00134f94aab1768b2e2de28d51d7b50e27ff8da4e5b50"
+    },
+    {
+      "path": "tools/inspect_assets.py",
+      "size_bytes": 9719,
+      "sha256": "a15b8ae5adff6cfbdbf9b35b553e80be2fdbfb0e0c20f02bf1cfb7006fb24ddb"
+    },
+    {
+      "path": "tools/test_inspect_assets.py",
+      "size_bytes": 4183,
+      "sha256": "af75e572d5e3773d19f85f700b130b8e7eeec6666519736d05141ff7b0f45538"
+    },
+    {
+      "path": "tools/test_validate_bundle.py",
+      "size_bytes": 4508,
+      "sha256": "e69f64d74204903b9e3413f996104724df2d12e4d48922752bc8b2a8a4b9f857"
+    },
+    {
+      "path": "tools/validate_bundle.py",
+      "size_bytes": 14374,
+      "sha256": "d48c4bcef18eb291cec3c2a183f0a5465c4caf099da61d9864d9a7a4f5bbbd36"
+    }
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "schema_version": 1,
+  "statuses": [
+    "todo",
+    "in_progress",
+    "blocked",
+    "done"
+  ],
+  "instructions": "Use actual evidence; continue around blockers; commit and push passing checkpoints to PUBLIC GitHub. IONOS public cutover needs concrete launch authorization. Approved supplied assets only; scoped tool cleanup is included.",
+  "tasks": [
+    {
+      "id": "T00",
+      "milestone": "M0",
+      "title": "Inspect and preserve workspace; establish website source root",
+      "depends_on": [],
+      "specifications": [
+        "PROJECT_BRIEF.md",
+        "DECISIONS.md"
+      ],
+      "acceptance_ids": [
+        "A00"
+      ],
+      "status": "done",
+      "evidence": [
+        "evidence/foundation.md"
+      ],
+      "blocker": null
+    },
+    {
+      "id": "T01",
+      "milestone": "M0",
+      "title": "Inventory hosting and choose local environment",
+      "depends_on": [
+        "T00"
+      ],
+      "specifications": [
+        "docs/01_WORDPRESS_ARCHITECTURE.md",
+        "templates/HOSTING_INVENTORY.md"
+      ],
+      "acceptance_ids": [
+        "A01"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T02",
+      "milestone": "M1",
+      "title": "Create reproducible local WordPress setup",
+      "depends_on": [
+        "T01"
+      ],
+      "specifications": [
+        "docs/01_WORDPRESS_ARCHITECTURE.md"
+      ],
+      "acceptance_ids": [
+        "A02"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T03",
+      "milestone": "M1",
+      "title": "Implement installable minimal custom theme",
+      "depends_on": [
+        "T02"
+      ],
+      "specifications": [
+        "docs/01_WORDPRESS_ARCHITECTURE.md"
+      ],
+      "acceptance_ids": [
+        "A03"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T04",
+      "milestone": "M1",
+      "title": "Implement safe draft content import and editor styles",
+      "depends_on": [
+        "T03"
+      ],
+      "specifications": [
+        "docs/01_WORDPRESS_ARCHITECTURE.md",
+        "docs/03_CONTENT_AND_EDITOR.md"
+      ],
+      "acceptance_ids": [
+        "A04",
+        "A05"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T05",
+      "milestone": "M2",
+      "title": "Build home lineup and navigation",
+      "depends_on": [
+        "T04"
+      ],
+      "specifications": [
+        "docs/02_PAGE_LAYOUTS.md",
+        "content/site.json"
+      ],
+      "acceptance_ids": [
+        "A06"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T06",
+      "milestone": "M2",
+      "title": "Build reusable tool Page layout",
+      "depends_on": [
+        "T04"
+      ],
+      "specifications": [
+        "docs/02_PAGE_LAYOUTS.md",
+        "content/tools.json"
+      ],
+      "acceptance_ids": [
+        "A07"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T07",
+      "milestone": "M2",
+      "title": "Implement supplied-asset slots and support routes",
+      "depends_on": [
+        "T05",
+        "T06"
+      ],
+      "specifications": [
+        "docs/02_PAGE_LAYOUTS.md",
+        "docs/04_VISUAL_ASSET_CONTRACT.md",
+        "assets/manifest.json"
+      ],
+      "acceptance_ids": [
+        "A08",
+        "A09"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T08",
+      "milestone": "M3",
+      "title": "Validate editorial workflow and refine draft copy",
+      "depends_on": [
+        "T07"
+      ],
+      "specifications": [
+        "docs/03_CONTENT_AND_EDITOR.md",
+        "content/COPY_REVIEW.md"
+      ],
+      "acceptance_ids": [
+        "A10"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T09",
+      "milestone": "M3",
+      "title": "Implement metadata and responsive/accessibility baseline",
+      "depends_on": [
+        "T07"
+      ],
+      "specifications": [
+        "docs/06_QA.md"
+      ],
+      "acceptance_ids": [
+        "A11",
+        "A12"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T10",
+      "milestone": "M3",
+      "title": "Review code and signed-out request behavior",
+      "depends_on": [
+        "T08",
+        "T09"
+      ],
+      "specifications": [
+        "docs/09_MAINTENANCE_AND_SECURITY.md",
+        "docs/06_QA.md"
+      ],
+      "acceptance_ids": [
+        "A13",
+        "A14"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T11",
+      "milestone": "M4",
+      "title": "Build candidate package and content/media procedure",
+      "depends_on": [
+        "T10"
+      ],
+      "specifications": [
+        "docs/07_IONOS_DEPLOYMENT.md"
+      ],
+      "acceptance_ids": [
+        "A15",
+        "A16"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T12",
+      "milestone": "M4",
+      "title": "Rehearse backup and restore locally",
+      "depends_on": [
+        "T11"
+      ],
+      "specifications": [
+        "docs/07_IONOS_DEPLOYMENT.md"
+      ],
+      "acceptance_ids": [
+        "A17"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T13",
+      "milestone": "M4",
+      "title": "Prepare and verify actual hosted private preview",
+      "depends_on": [
+        "T11",
+        "T12"
+      ],
+      "specifications": [
+        "docs/07_IONOS_DEPLOYMENT.md",
+        "templates/HOSTING_INVENTORY.md"
+      ],
+      "acceptance_ids": [
+        "A18"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T14",
+      "milestone": "M4",
+      "title": "Measure layouts against the already supplied artwork",
+      "depends_on": [
+        "T09",
+        "T25"
+      ],
+      "specifications": [
+        "docs/05_ARTWORK_HANDOFF.md",
+        "templates/ARTWORK_LAYOUT_MEASUREMENTS.md"
+      ],
+      "acceptance_ids": [
+        "A19"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T15",
+      "milestone": "M5",
+      "title": "Integrate inspected supplied pilot artwork",
+      "depends_on": [
+        "T14"
+      ],
+      "specifications": [
+        "docs/04_VISUAL_ASSET_CONTRACT.md",
+        "docs/05_ARTWORK_HANDOFF.md"
+      ],
+      "acceptance_ids": [
+        "A20",
+        "A21"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T16",
+      "milestone": "M5",
+      "title": "Integrate remaining supplied character/avatar sets",
+      "depends_on": [
+        "T15"
+      ],
+      "specifications": [
+        "docs/04_VISUAL_ASSET_CONTRACT.md"
+      ],
+      "acceptance_ids": [
+        "A22"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T17",
+      "milestone": "M5",
+      "title": "Integrate selected social/icon/background assets and finish CSS",
+      "depends_on": [
+        "T16"
+      ],
+      "specifications": [
+        "docs/04_VISUAL_ASSET_CONTRACT.md",
+        "assets/manifest.json"
+      ],
+      "acceptance_ids": [
+        "A23",
+        "A24"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T18",
+      "milestone": "M6",
+      "title": "Recheck final seven v1.0.0 releases and copy",
+      "depends_on": [
+        "T08"
+      ],
+      "specifications": [
+        "content/releases.json",
+        "docs/03_CONTENT_AND_EDITOR.md",
+        "docs/06_QA.md"
+      ],
+      "acceptance_ids": [
+        "A25",
+        "A26"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T19",
+      "milestone": "M6",
+      "title": "Complete owner review, support text and editing guide",
+      "depends_on": [
+        "T08"
+      ],
+      "specifications": [
+        "docs/03_CONTENT_AND_EDITOR.md",
+        "docs/09_MAINTENANCE_AND_SECURITY.md"
+      ],
+      "acceptance_ids": [
+        "A27",
+        "A28"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T20",
+      "milestone": "M6",
+      "title": "Freeze and test final candidate",
+      "depends_on": [
+        "T13",
+        "T17",
+        "T18",
+        "T19",
+        "T24",
+        "T28"
+      ],
+      "specifications": [
+        "docs/06_QA.md",
+        "docs/08_RELEASE_GATES.md",
+        "templates/LAUNCH_REVIEW.md"
+      ],
+      "acceptance_ids": [
+        "A29",
+        "A30"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T21",
+      "milestone": "M7",
+      "title": "Obtain missing launch authorization and deploy candidate",
+      "depends_on": [
+        "T20"
+      ],
+      "specifications": [
+        "docs/07_IONOS_DEPLOYMENT.md",
+        "templates/LAUNCH_REVIEW.md"
+      ],
+      "acceptance_ids": [
+        "A31"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T22",
+      "milestone": "M7",
+      "title": "Verify signed-out live launch or roll back",
+      "depends_on": [
+        "T21"
+      ],
+      "specifications": [
+        "docs/07_IONOS_DEPLOYMENT.md",
+        "docs/08_RELEASE_GATES.md"
+      ],
+      "acceptance_ids": [
+        "A32",
+        "A33"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T23",
+      "milestone": "M7",
+      "title": "Publish public open-source website release and final handover",
+      "depends_on": [
+        "T22",
+        "T24",
+        "T27",
+        "T28"
+      ],
+      "specifications": [
+        "docs/08_RELEASE_GATES.md",
+        "docs/09_MAINTENANCE_AND_SECURITY.md",
+        "docs/11_PUBLIC_GITHUB.md",
+        "docs/12_TOOL_REPOSITORY_CLEANUP.md"
+      ],
+      "acceptance_ids": [
+        "A34"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T24",
+      "milestone": "M0",
+      "title": "Establish PUBLIC GitHub remote and passing-checkpoint sync",
+      "depends_on": [
+        "T00"
+      ],
+      "specifications": [
+        "docs/11_PUBLIC_GITHUB.md"
+      ],
+      "acceptance_ids": [
+        "A35",
+        "A36"
+      ],
+      "status": "done",
+      "evidence": [
+        "evidence/foundation.md"
+      ],
+      "blocker": null
+    },
+    {
+      "id": "T25",
+      "milestone": "M0",
+      "title": "Inspect the 47 local approved assets and reject forbidden sources",
+      "depends_on": [
+        "T00"
+      ],
+      "specifications": [
+        "assets/manifest.json",
+        "docs/04_VISUAL_ASSET_CONTRACT.md",
+        "tools/inspect_assets.py"
+      ],
+      "acceptance_ids": [
+        "A37",
+        "A38"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T26",
+      "milestone": "M0",
+      "title": "Audit seven tool repositories for preliminary website-only assets",
+      "depends_on": [
+        "T00"
+      ],
+      "specifications": [
+        "docs/12_TOOL_REPOSITORY_CLEANUP.md",
+        "repositories/tool-cleanup.json"
+      ],
+      "acceptance_ids": [
+        "A39"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T27",
+      "milestone": "M6",
+      "title": "Remove confirmed obsolete website-only assets and verify default branches",
+      "depends_on": [
+        "T26",
+        "T25"
+      ],
+      "specifications": [
+        "docs/12_TOOL_REPOSITORY_CLEANUP.md",
+        "templates/TOOL_ASSET_CLEANUP.md"
+      ],
+      "acceptance_ids": [
+        "A40",
+        "A41"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    },
+    {
+      "id": "T28",
+      "milestone": "M6",
+      "title": "Complete licensing, runtime CI and clean-clone public build",
+      "depends_on": [
+        "T17",
+        "T11",
+        "T24"
+      ],
+      "specifications": [
+        "docs/11_PUBLIC_GITHUB.md",
+        "LICENSE_SCOPE.md",
+        "ARTWORK_LICENSE.md"
+      ],
+      "acceptance_ids": [
+        "A42",
+        "A43"
+      ],
+      "status": "todo",
+      "evidence": [],
+      "blocker": null
+    }
+  ]
+}

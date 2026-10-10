@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "scope": "Requirements for future implementation, not completed evidence",
+  "cases": [
+    {
+      "id": "A00",
+      "task_id": "T00",
+      "criterion": "Existing Git/files inspected; changes preserved; correct project scope and bundle import mapping recorded.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A01",
+      "task_id": "T01",
+      "criterion": "Actual target capabilities or unknowns recorded without secrets; local versions selected independently of missing credentials.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A02",
+      "task_id": "T02",
+      "criterion": "Documented local setup starts/restarts and can be recreated without production secrets.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A03",
+      "task_id": "T03",
+      "criterion": "Theme activates with no presentation plugins; PHP/debug checks pass; standard WP hooks work.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A04",
+      "task_id": "T04",
+      "criterion": "First import creates expected draft Pages without publishing or touching unrelated content.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A05",
+      "task_id": "T04",
+      "criterion": "Rerun is idempotent; unmarked slug and edited-page conflicts are refused with a diff.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A06",
+      "task_id": "T05",
+      "criterion": "Home links to seven actual Pages; long labels and header/footer work with keyboard and no JS.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A07",
+      "task_id": "T06",
+      "criterion": "All seven records render editable text, three benefits, requirements, quick start and correct release-preview states.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A08",
+      "task_id": "T07",
+      "criterion": "Every selected asset slot maps to the exact allowlisted owner source; no preliminary tool-repository imagery or generated artwork is used.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A09",
+      "task_id": "T07",
+      "criterion": "Support Pages and genuine HTTP 404 use correct templates; canonical route set is consistent.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A10",
+      "task_id": "T08",
+      "criterion": "Owner-style edits survive editor reload, theme update and seed plan; home cards remain consistent.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A11",
+      "task_id": "T09",
+      "criterion": "Unique titles, descriptions, canonical/social fields and core sitemap behavior verified; no duplicate metadata.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A12",
+      "task_id": "T09",
+      "criterion": "320–1440px, keyboard, 200% zoom, reduced motion and no-JS checks pass with screenshots.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A13",
+      "task_id": "T10",
+      "criterion": "Metadata saves are authorized/sanitized; no debug errors or secret paths in runtime package.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A14",
+      "task_id": "T10",
+      "criterion": "Signed-out network inspection finds no unexpected external scripts/fonts/trackers; actual host behavior documented separately.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A15",
+      "task_id": "T11",
+      "criterion": "ZIP has one theme root and only runtime/public files; checksum produced; exact ZIP installed on disposable WordPress.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A16",
+      "task_id": "T11",
+      "criterion": "Content/media initialization is complete and distinct from theme updates; no stale database overwrite.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A17",
+      "task_id": "T12",
+      "criterion": "Database, uploads and code restore on disposable instance reproduces representative page/image.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A18",
+      "task_id": "T13",
+      "criterion": "Actual hosting access/private preview verified; signed-out access protection and HTTPS tested; missing access remains blocked.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A19",
+      "task_id": "T14",
+      "criterion": "Actual supplied source dimensions and layout boxes measured in home/pilot screenshots; layouts accommodate completed artwork without new creative requests.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A20",
+      "task_id": "T15",
+      "criterion": "Pilot bytes, source lineage, hashes, separate rights facts and mechanical derivatives inspected; existing owner design approval recorded truthfully.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A21",
+      "task_id": "T15",
+      "criterion": "Pilot desktop/mobile framing visually checked, all important faces/props preserved; any actual creative issue flagged. Routine integration uses existing approval.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A22",
+      "task_id": "T16",
+      "criterion": "All seven character/avatar identities and crops correct on mobile/desktop; editable wording preserved.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A23",
+      "task_id": "T17",
+      "criterion": "All 47 visual inputs accounted for and all 33 selected website slots verified, including eight social previews, icons/favicon and both backgrounds; ancillary usage recorded.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A24",
+      "task_id": "T17",
+      "criterion": "Responsive variants, image priorities, alpha edges, CLS and measured transfer budgets reviewed with final art.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A25",
+      "task_id": "T18",
+      "criterion": "Seven public stable tag records resolved to actual commits; each advertised runtime ZIP downloaded and checksum verified.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A26",
+      "task_id": "T18",
+      "criterion": "Final copy/requirements match those releases; exact download/documentation links work signed out.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A27",
+      "task_id": "T19",
+      "criterion": "Owner-supplied public/contact details and actual privacy facts reviewed; no invented address or unresolved public TODO.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A28",
+      "task_id": "T19",
+      "criterion": "Actual editor/image/link/backup maintenance guide delivered; content wording approval recorded.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A29",
+      "task_id": "T20",
+      "criterion": "Exact final candidate installs privately with approved content/assets; final route/layout/network/performance checks pass.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A30",
+      "task_id": "T20",
+      "criterion": "Backup/rollback evidence and concrete planned public actions prepared; current candidate hash recorded.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A31",
+      "task_id": "T21",
+      "criterion": "Launch authorization exists; exact reviewed candidate deployed to confirmed target with backup; unrelated data/services preserved.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A32",
+      "task_id": "T22",
+      "criterion": "Apex HTTPS/www, all Pages, 404, downloads, art/social assets and production indexing verified live after cache purge.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A33",
+      "task_id": "T22",
+      "criterion": "If failure occurred, rollback outcome recorded; live completion remains false until retested successfully.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A34",
+      "task_id": "T23",
+      "criterion": "Live/deployed/local/remote commits agree; public website v1.0.0 source tag/release, checksummed artifacts, clean signed-out clone, owner guide and all seven cleanup outcomes verified.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A35",
+      "task_id": "T24",
+      "criterion": "Actual owner/repository verified; intended website repository is public, source is license-marked and no private history/content exposed.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A36",
+      "task_id": "T24",
+      "criterion": "Passing checkpoints are committed and pushed with actual remote commit evidence; normal protections respected and auth/network blockers explicit.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A37",
+      "task_id": "T25",
+      "criterion": "All 47 exact visual filenames/aliases reconciled; real PNG/ICO metadata/hashes and visual identity inspected; reference text reviewed.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A38",
+      "task_id": "T25",
+      "criterion": "Original inputs come only from the two owner project folders; no tool-repository fallback/hotlink/reference use; derivative provenance and private-master exclusion verified.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A39",
+      "task_id": "T26",
+      "criterion": "All seven actual default branches/commits inspected; candidates classified with reference evidence and protected runtime/shared files recorded, or verified no-candidates outcomes.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A40",
+      "task_id": "T27",
+      "criterion": "Only confirmed obsolete website-only paths/direct stale references removed through narrow checked commits/PRs; tool runtime/icons/releases/history unchanged.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A41",
+      "task_id": "T27",
+      "criterion": "Actual default branches rechecked after merge, stale links gone and protected assets intact; each repo has merged/no-candidates evidence or an explicit unresolved blocker.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A42",
+      "task_id": "T28",
+      "criterion": "GPL-2.0-or-later code/docs and truthful separate asset/font/dependency notices exist; implementation CI checks actual theme/import/package behavior.",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "A43",
+      "task_id": "T28",
+      "criterion": "Clean signed-out public clone reconstructs the candidate theme/content/media from committed public sources/derivatives without private masters or credentials.",
+      "status": "not_run",
+      "evidence": null
+    }
+  ]
+}

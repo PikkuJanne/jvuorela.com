@@ -1,0 +1,19 @@
+name: Handoff checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  handoff:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Validate handoff structure
+        run: python3 -B tools/validate_bundle.py --structure-only
+      - name: Run handoff and intake regression checks
+        run: python3 -B -m unittest discover -s tools -p 'test_*.py' -v
+# If imported under docs/build-handoff-v2/, move this workflow to repo-root .github/workflows
+# and set the two run steps' working-directory to docs/build-handoff-v2.
+# Add actual WordPress/theme runtime checks during implementation; these checks alone are not site QA.

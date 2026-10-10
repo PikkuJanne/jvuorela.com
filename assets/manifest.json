@@ -1,0 +1,2138 @@
+{
+  "schema_version": 2,
+  "artwork_creation_by_codex": false,
+  "required_slot_count": 33,
+  "optional_slot_count": 14,
+  "note": "Artwork completed by owner; exact filenames mapped. Source bytes supplied separately. 33 selected website-use slots plus 14 ancillary slots; all 47 require intake accounting.",
+  "slots": [
+    {
+      "slot_id": "winbooksplit-character",
+      "tool_id": "winbooksplit",
+      "kind": "character",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 2400,
+        "height": 3200
+      },
+      "aspect_ratio": "3:4",
+      "expected_filename_stem": "winbooksplit-character-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/WinBookSplit_character.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "contain",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1407644,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "tool hero"
+    },
+    {
+      "slot_id": "winbooksplit-avatar",
+      "tool_id": "winbooksplit",
+      "kind": "avatar",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "aspect_ratio": "1:1",
+      "expected_filename_stem": "winbooksplit-avatar-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/WinBookSplit_portrait.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2318822,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "home tool card"
+    },
+    {
+      "slot_id": "winbooksplit-social",
+      "tool_id": "winbooksplit",
+      "kind": "social",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1200,
+        "height": 630
+      },
+      "aspect_ratio": "40:21",
+      "expected_filename_stem": "winbooksplit-social-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/WinBookSplit_SM.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2439548,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "page sharing metadata"
+    },
+    {
+      "slot_id": "winbooksplit-icon",
+      "tool_id": "winbooksplit",
+      "kind": "icon",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "aspect_ratio": "1:1",
+      "expected_filename_stem": "winbooksplit-icon-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/WinBookSplit.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1931166,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "tool interface icon"
+    },
+    {
+      "slot_id": "winpdfmerger-character",
+      "tool_id": "winpdfmerger",
+      "kind": "character",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 2400,
+        "height": 3200
+      },
+      "aspect_ratio": "3:4",
+      "expected_filename_stem": "winpdfmerger-character-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/WinPDFMerger_character.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "contain",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1158282,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "tool hero"
+    },
+    {
+      "slot_id": "winpdfmerger-avatar",
+      "tool_id": "winpdfmerger",
+      "kind": "avatar",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "aspect_ratio": "1:1",
+      "expected_filename_stem": "winpdfmerger-avatar-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/WinPDFMerger_portrait.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2496105,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "home tool card"
+    },
+    {
+      "slot_id": "winpdfmerger-social",
+      "tool_id": "winpdfmerger",
+      "kind": "social",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1200,
+        "height": 630
+      },
+      "aspect_ratio": "40:21",
+      "expected_filename_stem": "winpdfmerger-social-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/WinPDFMerger_ SM.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2546064,
+      "source_aliases": [
+        "Website Assets/WinPDFMerger_SM.png"
+      ],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "page sharing metadata"
+    },
+    {
+      "slot_id": "winpdfmerger-icon",
+      "tool_id": "winpdfmerger",
+      "kind": "icon",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "aspect_ratio": "1:1",
+      "expected_filename_stem": "winpdfmerger-icon-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/WinPDFMerger.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1922395,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "tool interface icon"
+    },
+    {
+      "slot_id": "winvidcompress-character",
+      "tool_id": "winvidcompress",
+      "kind": "character",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 2400,
+        "height": 3200
+      },
+      "aspect_ratio": "3:4",
+      "expected_filename_stem": "winvidcompress-character-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/WinVidCompress_character.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "contain",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1176036,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "tool hero"
+    },
+    {
+      "slot_id": "winvidcompress-avatar",
+      "tool_id": "winvidcompress",
+      "kind": "avatar",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "aspect_ratio": "1:1",
+      "expected_filename_stem": "winvidcompress-avatar-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/WinVidCompress_portrait.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2568018,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "home tool card"
+    },
+    {
+      "slot_id": "winvidcompress-social",
+      "tool_id": "winvidcompress",
+      "kind": "social",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1200,
+        "height": 630
+      },
+      "aspect_ratio": "40:21",
+      "expected_filename_stem": "winvidcompress-social-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/WinVidCompress_SM.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2379196,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "page sharing metadata"
+    },
+    {
+      "slot_id": "winvidcompress-icon",
+      "tool_id": "winvidcompress",
+      "kind": "icon",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "aspect_ratio": "1:1",
+      "expected_filename_stem": "winvidcompress-icon-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/WinVidCompress.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1890802,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "tool interface icon"
+    },
+    {
+      "slot_id": "universalpodcastdownloader-character",
+      "tool_id": "universalpodcastdownloader",
+      "kind": "character",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 2400,
+        "height": 3200
+      },
+      "aspect_ratio": "3:4",
+      "expected_filename_stem": "universalpodcastdownloader-character-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/UniversalPodcastDownloader_character.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "contain",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1116169,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "tool hero"
+    },
+    {
+      "slot_id": "universalpodcastdownloader-avatar",
+      "tool_id": "universalpodcastdownloader",
+      "kind": "avatar",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "aspect_ratio": "1:1",
+      "expected_filename_stem": "universalpodcastdownloader-avatar-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/UniversalPodcastDownloader_portrait.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2368955,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "home tool card"
+    },
+    {
+      "slot_id": "universalpodcastdownloader-social",
+      "tool_id": "universalpodcastdownloader",
+      "kind": "social",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1200,
+        "height": 630
+      },
+      "aspect_ratio": "40:21",
+      "expected_filename_stem": "universalpodcastdownloader-social-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/UniversalPodcastDownloader_SM.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2293710,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "page sharing metadata"
+    },
+    {
+      "slot_id": "universalpodcastdownloader-icon",
+      "tool_id": "universalpodcastdownloader",
+      "kind": "icon",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "aspect_ratio": "1:1",
+      "expected_filename_stem": "universalpodcastdownloader-icon-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/UniversalPodcastDownloader.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1939736,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "tool interface icon"
+    },
+    {
+      "slot_id": "winaudioclean-character",
+      "tool_id": "winaudioclean",
+      "kind": "character",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 2400,
+        "height": 3200
+      },
+      "aspect_ratio": "3:4",
+      "expected_filename_stem": "winaudioclean-character-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/WinAudioClean_character.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "contain",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1194786,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "tool hero"
+    },
+    {
+      "slot_id": "winaudioclean-avatar",
+      "tool_id": "winaudioclean",
+      "kind": "avatar",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "aspect_ratio": "1:1",
+      "expected_filename_stem": "winaudioclean-avatar-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/WinAudioClean_portrait.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2065925,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "home tool card"
+    },
+    {
+      "slot_id": "winaudioclean-social",
+      "tool_id": "winaudioclean",
+      "kind": "social",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1200,
+        "height": 630
+      },
+      "aspect_ratio": "40:21",
+      "expected_filename_stem": "winaudioclean-social-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/WinAudioClean_SM.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2182783,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "page sharing metadata"
+    },
+    {
+      "slot_id": "winaudioclean-icon",
+      "tool_id": "winaudioclean",
+      "kind": "icon",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "aspect_ratio": "1:1",
+      "expected_filename_stem": "winaudioclean-icon-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/WinAudioClean.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1804770,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "tool interface icon"
+    },
+    {
+      "slot_id": "winimagenormalizer-character",
+      "tool_id": "winimagenormalizer",
+      "kind": "character",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 2400,
+        "height": 3200
+      },
+      "aspect_ratio": "3:4",
+      "expected_filename_stem": "winimagenormalizer-character-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/WinImageNormalizer_character.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "contain",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1156306,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "tool hero"
+    },
+    {
+      "slot_id": "winimagenormalizer-avatar",
+      "tool_id": "winimagenormalizer",
+      "kind": "avatar",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "aspect_ratio": "1:1",
+      "expected_filename_stem": "winimagenormalizer-avatar-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/WinImageNormalizer_portrait.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2278207,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "home tool card"
+    },
+    {
+      "slot_id": "winimagenormalizer-social",
+      "tool_id": "winimagenormalizer",
+      "kind": "social",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1200,
+        "height": 630
+      },
+      "aspect_ratio": "40:21",
+      "expected_filename_stem": "winimagenormalizer-social-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/WinImageNormalizer_SM.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2395522,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "page sharing metadata"
+    },
+    {
+      "slot_id": "winimagenormalizer-icon",
+      "tool_id": "winimagenormalizer",
+      "kind": "icon",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "aspect_ratio": "1:1",
+      "expected_filename_stem": "winimagenormalizer-icon-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/WinImageNormalizer.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1770820,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "tool interface icon"
+    },
+    {
+      "slot_id": "audiofileforphone-character",
+      "tool_id": "audiofileforphone",
+      "kind": "character",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 2400,
+        "height": 3200
+      },
+      "aspect_ratio": "3:4",
+      "expected_filename_stem": "audiofileforphone-character-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/AudioFileForPhone_character.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "contain",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1144376,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "tool hero"
+    },
+    {
+      "slot_id": "audiofileforphone-avatar",
+      "tool_id": "audiofileforphone",
+      "kind": "avatar",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "aspect_ratio": "1:1",
+      "expected_filename_stem": "audiofileforphone-avatar-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/AudioFileForPhone_portrait.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2680906,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "home tool card"
+    },
+    {
+      "slot_id": "audiofileforphone-social",
+      "tool_id": "audiofileforphone",
+      "kind": "social",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1200,
+        "height": 630
+      },
+      "aspect_ratio": "40:21",
+      "expected_filename_stem": "audiofileforphone-social-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/AudioFileForPhone_SM.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2450130,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "page sharing metadata"
+    },
+    {
+      "slot_id": "audiofileforphone-icon",
+      "tool_id": "audiofileforphone",
+      "kind": "icon",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "aspect_ratio": "1:1",
+      "expected_filename_stem": "audiofileforphone-icon-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/AudioFileForPhone.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1700571,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "tool interface icon"
+    },
+    {
+      "slot_id": "site-icon",
+      "tool_id": null,
+      "kind": "site_icon",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "expected_filename_stem": "site-icon-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/Website_icon.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1537033,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "WordPress site icon"
+    },
+    {
+      "slot_id": "site-social",
+      "tool_id": null,
+      "kind": "social",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1200,
+        "height": 630
+      },
+      "expected_filename_stem": "site-social-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/Website_SM.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 3195508,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "page sharing metadata"
+    },
+    {
+      "slot_id": "site-background-desktop",
+      "tool_id": null,
+      "kind": "background",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 2560,
+        "height": 1440
+      },
+      "expected_filename_stem": "site-background-desktop-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/Website_background.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1893207,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "responsive site background"
+    },
+    {
+      "slot_id": "site-background-mobile",
+      "tool_id": null,
+      "kind": "background",
+      "required_for_launch": true,
+      "recommended_master_size": {
+        "width": 1080,
+        "height": 1920
+      },
+      "expected_filename_stem": "site-background-mobile-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/Mobile_background.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1905855,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": false,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "responsive site background"
+    },
+    {
+      "slot_id": "winbooksplit-application-icon",
+      "tool_id": "winbooksplit",
+      "kind": "application-icon",
+      "required_for_launch": false,
+      "recommended_master_size": null,
+      "aspect_ratio": null,
+      "expected_filename_stem": "winbooksplit-application-icon-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/WinBookSplit.ico",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 370070,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "retain inventory; not the site favicon"
+    },
+    {
+      "slot_id": "winbooksplit-poster",
+      "tool_id": "winbooksplit",
+      "kind": "poster",
+      "required_for_launch": false,
+      "recommended_master_size": null,
+      "aspect_ratio": null,
+      "expected_filename_stem": "winbooksplit-poster-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/WinBookSplit_poster.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2281371,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "optional promotional media; do not invent a gallery"
+    },
+    {
+      "slot_id": "winpdfmerger-application-icon",
+      "tool_id": "winpdfmerger",
+      "kind": "application-icon",
+      "required_for_launch": false,
+      "recommended_master_size": null,
+      "aspect_ratio": null,
+      "expected_filename_stem": "winpdfmerger-application-icon-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/WinPDFMerger.ico",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 370070,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "retain inventory; not the site favicon"
+    },
+    {
+      "slot_id": "winpdfmerger-poster",
+      "tool_id": "winpdfmerger",
+      "kind": "poster",
+      "required_for_launch": false,
+      "recommended_master_size": null,
+      "aspect_ratio": null,
+      "expected_filename_stem": "winpdfmerger-poster-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/WinPDFMerger_poster.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2094288,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "optional promotional media; do not invent a gallery"
+    },
+    {
+      "slot_id": "winvidcompress-application-icon",
+      "tool_id": "winvidcompress",
+      "kind": "application-icon",
+      "required_for_launch": false,
+      "recommended_master_size": null,
+      "aspect_ratio": null,
+      "expected_filename_stem": "winvidcompress-application-icon-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/WinVidCompress.ico",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 370070,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "retain inventory; not the site favicon"
+    },
+    {
+      "slot_id": "winvidcompress-poster",
+      "tool_id": "winvidcompress",
+      "kind": "poster",
+      "required_for_launch": false,
+      "recommended_master_size": null,
+      "aspect_ratio": null,
+      "expected_filename_stem": "winvidcompress-poster-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/WinVidCompress_poster.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2039034,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "optional promotional media; do not invent a gallery"
+    },
+    {
+      "slot_id": "universalpodcastdownloader-application-icon",
+      "tool_id": "universalpodcastdownloader",
+      "kind": "application-icon",
+      "required_for_launch": false,
+      "recommended_master_size": null,
+      "aspect_ratio": null,
+      "expected_filename_stem": "universalpodcastdownloader-application-icon-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/UniversalPodcastDownloader.ico",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 370070,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "retain inventory; not the site favicon"
+    },
+    {
+      "slot_id": "universalpodcastdownloader-poster",
+      "tool_id": "universalpodcastdownloader",
+      "kind": "poster",
+      "required_for_launch": false,
+      "recommended_master_size": null,
+      "aspect_ratio": null,
+      "expected_filename_stem": "universalpodcastdownloader-poster-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/UniversalPodcastDownloader_poster.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 2053800,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "optional promotional media; do not invent a gallery"
+    },
+    {
+      "slot_id": "winaudioclean-application-icon",
+      "tool_id": "winaudioclean",
+      "kind": "application-icon",
+      "required_for_launch": false,
+      "recommended_master_size": null,
+      "aspect_ratio": null,
+      "expected_filename_stem": "winaudioclean-application-icon-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/WinAudioClean.ico",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 370070,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "retain inventory; not the site favicon"
+    },
+    {
+      "slot_id": "winaudioclean-poster",
+      "tool_id": "winaudioclean",
+      "kind": "poster",
+      "required_for_launch": false,
+      "recommended_master_size": null,
+      "aspect_ratio": null,
+      "expected_filename_stem": "winaudioclean-poster-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/WinAudioClean_poster.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1977575,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "optional promotional media; do not invent a gallery"
+    },
+    {
+      "slot_id": "winimagenormalizer-application-icon",
+      "tool_id": "winimagenormalizer",
+      "kind": "application-icon",
+      "required_for_launch": false,
+      "recommended_master_size": null,
+      "aspect_ratio": null,
+      "expected_filename_stem": "winimagenormalizer-application-icon-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/WinImageNormalizer.ico",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 370070,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "retain inventory; not the site favicon"
+    },
+    {
+      "slot_id": "winimagenormalizer-poster",
+      "tool_id": "winimagenormalizer",
+      "kind": "poster",
+      "required_for_launch": false,
+      "recommended_master_size": null,
+      "aspect_ratio": null,
+      "expected_filename_stem": "winimagenormalizer-poster-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/WinImageNormalizer_poster.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1951470,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "optional promotional media; do not invent a gallery"
+    },
+    {
+      "slot_id": "audiofileforphone-application-icon",
+      "tool_id": "audiofileforphone",
+      "kind": "application-icon",
+      "required_for_launch": false,
+      "recommended_master_size": null,
+      "aspect_ratio": null,
+      "expected_filename_stem": "audiofileforphone-application-icon-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/AudioFileForPhone.ico",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 370070,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "retain inventory; not the site favicon"
+    },
+    {
+      "slot_id": "audiofileforphone-poster",
+      "tool_id": "audiofileforphone",
+      "kind": "poster",
+      "required_for_launch": false,
+      "recommended_master_size": null,
+      "aspect_ratio": null,
+      "expected_filename_stem": "audiofileforphone-poster-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "PS Visuals/AudioFileForPhone_poster.png",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 1886321,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "optional promotional media; do not invent a gallery"
+    },
+    {
+      "slot_id": "site-favicon",
+      "tool_id": null,
+      "kind": "favicon",
+      "required_for_launch": true,
+      "recommended_master_size": null,
+      "expected_filename_stem": "site-favicon-v01",
+      "status": "owner_listed_pending_local_inspection",
+      "source_file": "Website Assets/Website_icon.ico",
+      "source_sha256": null,
+      "rights": {
+        "creator_or_source": "Owner-supplied website-project artwork",
+        "publication_basis": "Owner explicitly requested public website and public GitHub delivery",
+        "reuse_license": null,
+        "public_attribution": null,
+        "status": "record_actual_provenance_at_intake; do_not_assume_GPL_for_artwork"
+      },
+      "approval": {
+        "approved": true,
+        "reviewer": "Janne Vuorela",
+        "date": "2026-10-10",
+        "scope": "Owner-selected project artwork for website integration and public derivatives; actual local bytes and separate reuse license remain to be verified."
+      },
+      "crop": {
+        "mode": "owner_supplied",
+        "approved_rectangle_px": null,
+        "focal_point_percent": null
+      },
+      "derivatives": [],
+      "alt_text": null,
+      "expected_source_bytes": 370070,
+      "source_aliases": [],
+      "inventory_required": true,
+      "source_root": "owner_asset_parent",
+      "actual_metadata": null,
+      "alpha_expectation": true,
+      "verification": {
+        "status": "not_run",
+        "evidence": null
+      },
+      "intended_use": "browser favicon"
+    }
+  ],
+  "core_slot_count": 23,
+  "expected_source_file_count": 47,
+  "allowed_source_folders": [
+    "Website Assets",
+    "PS Visuals"
+  ],
+  "tool_repository_assets_allowed": false,
+  "source_bytes_included_in_bundle": false,
+  "reference_files": [
+    {
+      "source_file": "PS Visuals/tesktit.txt",
+      "expected_source_bytes": 692,
+      "action": "Read and compare with audited draft copy; do not publish automatically."
+    }
+  ]
+}

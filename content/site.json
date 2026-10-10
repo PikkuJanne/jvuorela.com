@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "site_title": "Janne Vuorela — PowerShell Tools",
+  "canonical_origin": "https://jvuorela.com",
+  "language": "en",
+  "theme_slug": "jvuorela-tools",
+  "theme_release_target": "1.0.0",
+  "home": {
+    "route": "/",
+    "heading": "Seven tools. Your Windows workflow.",
+    "introduction": "Practical PowerShell tools by Janne Vuorela for books, PDFs, videos, podcasts, recordings and images. Download a tool, set up its dependencies, and run it on your own computer.",
+    "supporting_line": "Focused tools. Local workflows. Source code on GitHub.",
+    "social_slot": "site-social",
+    "copy_status": "draft"
+  },
+  "support_pages": [
+    {
+      "id": "impressum",
+      "route": "/impressum/",
+      "title": "Impressum",
+      "status": "owner_details_required"
+    },
+    {
+      "id": "privacy",
+      "route": "/privacy/",
+      "title": "Privacy",
+      "status": "actual_processing_review_required"
+    }
+  ],
+  "not_found": {
+    "title": "Page not found",
+    "body": "The page may have moved. Explore the tools from the home page.",
+    "return_label": "Back to the tools"
+  },
+  "footer": {
+    "owner_name": "Janne Vuorela",
+    "source_profile": "https://github.com/PikkuJanne",
+    "copy_status": "draft"
+  },
+  "publish_seed_pages": false,
+  "remote_repo_url": "https://github.com/PikkuJanne/jvuorela.com",
+  "asset_manifest": "assets/manifest.json",
+  "asset_slots": {
+    "site_icon": "site-icon",
+    "favicon": "site-favicon",
+    "social": "site-social",
+    "desktop_background": "site-background-desktop",
+    "mobile_background": "site-background-mobile"
+  },
+  "repository_policy": {
+    "owner": "PikkuJanne",
+    "default_new_name": "jvuorela.com",
+    "visibility_required": "public",
+    "open_source_required": true,
+    "code_license": "GPL-2.0-or-later",
+    "sync_each_passing_checkpoint": true,
+    "actual_remote_url": "https://github.com/PikkuJanne/jvuorela.com.git",
+    "public_release_required": true
+  }
+}

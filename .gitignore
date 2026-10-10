@@ -1,0 +1,41 @@
+# Merge these entries into an existing repository; do not overwrite its policy.
+.env
+.env.*
+!.env.example
+wp-config.php
+**/wp-config.php
+*.sql
+*.sql.gz
+*.dump
+*.bak
+*.pem
+*.key
+*.pfx
+*.p12
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+node_modules/
+vendor/
+local-wordpress/
+private/
+backups/
+build/
+dist/
+assets/intake/*
+!assets/intake/README.md
+assets/masters-private/*
+!assets/masters-private/README.md
+
+# Owner masters and local reports are not public source.
+**/Website Assets/
+**/PS Visuals/
+asset-intake*.json
+# Approved optimized derivatives under assets/approved remain tracked.
+
+/JVuorela_Website_Codex_Final_Bundle_v2/
+/.runtime/
+/playwright-report/
+/test-results/

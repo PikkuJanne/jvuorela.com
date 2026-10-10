@@ -1,0 +1,5 @@
+Continue the current jvuorela.com project using this final v2 bundle and its existing progress. Read AGENTS.md, DECISIONS.md, STATUS.md, TASKS.json and latest evidence, then inspect Git. Preserve changes and do not restart finished work.
+
+Select a small unblocked task, implement and verify it, record evidence, commit and push to the verified PUBLIC website GitHub remote. Public/open-source GitHub development is authorized and mandatory. The 47 owner-supplied visual files are mapped in assets/manifest.json; no artwork creation is pending. Use only those inputs or traced derivatives in the website repository. Never use tool-repository preliminary imagery.
+
+Continue the isolated tool-repository cleanup under docs/12_TOOL_REPOSITORY_CLEANUP.md without changing runtime behavior, icons, published releases or history. Continue useful local work around access blockers. Completion requires the live IONOS site, public open-source source/tag/release and documented cleanup outcomes. Obtain any missing approval for the concrete IONOS cutover, not for already-authorized normal GitHub work.

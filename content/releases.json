@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "evidence_scope": "GitHub API release listings, not download or executable verification",
+  "records": [
+    {
+      "tool_id": "winbooksplit",
+      "repo": "PikkuJanne/WinBookSplit",
+      "expected_tag": "v1.0.0",
+      "observed_at": "2026-10-09",
+      "observed_status": "not_published",
+      "release_page_url": null,
+      "assets": [],
+      "launch_verification": {
+        "status": "not_run",
+        "checked_at": null,
+        "tag_commit": null,
+        "runtime_asset_name": null,
+        "runtime_sha256": null,
+        "checksum_matches": null,
+        "release_is_stable": null,
+        "copy_matches_release": null,
+        "evidence_path": null
+      }
+    },
+    {
+      "tool_id": "winpdfmerger",
+      "repo": "PikkuJanne/WinPDFMerger",
+      "expected_tag": "v1.0.0",
+      "observed_at": "2026-10-09",
+      "observed_status": "not_published",
+      "release_page_url": null,
+      "assets": [],
+      "launch_verification": {
+        "status": "not_run",
+        "checked_at": null,
+        "tag_commit": null,
+        "runtime_asset_name": null,
+        "runtime_sha256": null,
+        "checksum_matches": null,
+        "release_is_stable": null,
+        "copy_matches_release": null,
+        "evidence_path": null
+      }
+    },
+    {
+      "tool_id": "winvidcompress",
+      "repo": "PikkuJanne/WinVidCompress",
+      "expected_tag": "v1.0.0",
+      "observed_at": "2026-10-09",
+      "observed_status": "published",
+      "release_page_url": "https://github.com/PikkuJanne/WinVidCompress/releases/tag/v1.0.0",
+      "assets": [
+        {
+          "name": "WinVidCompress-1.0.0.zip",
+          "url": "https://github.com/PikkuJanne/WinVidCompress/releases/download/v1.0.0/WinVidCompress-1.0.0.zip",
+          "size_bytes": 250197
+        },
+        {
+          "name": "WinVidCompress-1.0.0.zip.sha256",
+          "url": "https://github.com/PikkuJanne/WinVidCompress/releases/download/v1.0.0/WinVidCompress-1.0.0.zip.sha256",
+          "size_bytes": 91
+        }
+      ],
+      "launch_verification": {
+        "status": "not_run",
+        "checked_at": null,
+        "tag_commit": null,
+        "runtime_asset_name": null,
+        "runtime_sha256": null,
+        "checksum_matches": null,
+        "release_is_stable": null,
+        "copy_matches_release": null,
+        "evidence_path": null
+      }
+    },
+    {
+      "tool_id": "universalpodcastdownloader",
+      "repo": "PikkuJanne/UniversalPodcastDownloader",
+      "expected_tag": "v1.0.0",
+      "observed_at": "2026-10-09",
+      "observed_status": "published",
+      "release_page_url": "https://github.com/PikkuJanne/UniversalPodcastDownloader/releases/tag/v1.0.0",
+      "assets": [
+        {
+          "name": "manifest.json",
+          "url": "https://github.com/PikkuJanne/UniversalPodcastDownloader/releases/download/v1.0.0/manifest.json",
+          "size_bytes": 4787
+        },
+        {
+          "name": "SHA256SUMS",
+          "url": "https://github.com/PikkuJanne/UniversalPodcastDownloader/releases/download/v1.0.0/SHA256SUMS",
+          "size_bytes": 183
+        },
+        {
+          "name": "UniversalPodcastDownloader-1.0.0.zip",
+          "url": "https://github.com/PikkuJanne/UniversalPodcastDownloader/releases/download/v1.0.0/UniversalPodcastDownloader-1.0.0.zip",
+          "size_bytes": 6212904
+        }
+      ],
+      "launch_verification": {
+        "status": "not_run",
+        "checked_at": null,
+        "tag_commit": null,
+        "runtime_asset_name": null,
+        "runtime_sha256": null,
+        "checksum_matches": null,
+        "release_is_stable": null,
+        "copy_matches_release": null,
+        "evidence_path": null
+      }
+    },
+    {
+      "tool_id": "winaudioclean",
+      "repo": "PikkuJanne/WinAudioClean",
+      "expected_tag": "v1.0.0",
+      "observed_at": "2026-10-09",
+      "observed_status": "published",
+      "release_page_url": "https://github.com/PikkuJanne/WinAudioClean/releases/tag/v1.0.0",
+      "assets": [
+        {
+          "name": "WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.provenance.json",
+          "url": "https://github.com/PikkuJanne/WinAudioClean/releases/download/v1.0.0/WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.provenance.json",
+          "size_bytes": 2560
+        },
+        {
+          "name": "WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.sha256",
+          "url": "https://github.com/PikkuJanne/WinAudioClean/releases/download/v1.0.0/WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.sha256",
+          "size_bytes": 113
+        },
+        {
+          "name": "WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.zip",
+          "url": "https://github.com/PikkuJanne/WinAudioClean/releases/download/v1.0.0/WinAudioClean-1.0.0-6dcf1bf56bc4-tool-only.zip",
+          "size_bytes": 443971
+        }
+      ],
+      "launch_verification": {
+        "status": "not_run",
+        "checked_at": null,
+        "tag_commit": null,
+        "runtime_asset_name": null,
+        "runtime_sha256": null,
+        "checksum_matches": null,
+        "release_is_stable": null,
+        "copy_matches_release": null,
+        "evidence_path": null
+      }
+    },
+    {
+      "tool_id": "winimagenormalizer",
+      "repo": "PikkuJanne/WinImgNormalizer",
+      "expected_tag": "v1.0.0",
+      "observed_at": "2026-10-09",
+      "observed_status": "published",
+      "release_page_url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/tag/v1.0.0",
+      "assets": [
+        {
+          "name": "build-provenance.json",
+          "url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/download/v1.0.0/build-provenance.json",
+          "size_bytes": 763
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/download/v1.0.0/SHA256SUMS.txt",
+          "size_bytes": 190
+        },
+        {
+          "name": "WinImgNormalizer-1.0.0-portable.zip",
+          "url": "https://github.com/PikkuJanne/WinImgNormalizer/releases/download/v1.0.0/WinImgNormalizer-1.0.0-portable.zip",
+          "size_bytes": 184659
+        }
+      ],
+      "launch_verification": {
+        "status": "not_run",
+        "checked_at": null,
+        "tag_commit": null,
+        "runtime_asset_name": null,
+        "runtime_sha256": null,
+        "checksum_matches": null,
+        "release_is_stable": null,
+        "copy_matches_release": null,
+        "evidence_path": null
+      }
+    },
+    {
+      "tool_id": "audiofileforphone",
+      "repo": "PikkuJanne/AudioFileForPhone",
+      "expected_tag": "v1.0.0",
+      "observed_at": "2026-10-09",
+      "observed_status": "not_published",
+      "release_page_url": null,
+      "assets": [],
+      "launch_verification": {
+        "status": "not_run",
+        "checked_at": null,
+        "tag_commit": null,
+        "runtime_asset_name": null,
+        "runtime_sha256": null,
+        "checksum_matches": null,
+        "release_is_stable": null,
+        "copy_matches_release": null,
+        "evidence_path": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "scope": "Confirmed obsolete website-only assets and direct stale references; never runtime/tool release/history removal",
+  "reuse_for_website_allowed": false,
+  "normal_git_cleanup_authorized": true,
+  "history_rewrite_authorized": false,
+  "published_release_changes_authorized": false,
+  "repositories": [
+    {
+      "tool_id": "winbooksplit",
+      "repo_url": "https://github.com/PikkuJanne/WinBookSplit",
+      "default_branch": null,
+      "inspected_commit": null,
+      "status": "not_inspected",
+      "candidates": [],
+      "protected_files": [],
+      "cleanup_branch": null,
+      "pull_request_url": null,
+      "merged_commit": null,
+      "verification_evidence": null
+    },
+    {
+      "tool_id": "winpdfmerger",
+      "repo_url": "https://github.com/PikkuJanne/WinPDFMerger",
+      "default_branch": null,
+      "inspected_commit": null,
+      "status": "not_inspected",
+      "candidates": [],
+      "protected_files": [],
+      "cleanup_branch": null,
+      "pull_request_url": null,
+      "merged_commit": null,
+      "verification_evidence": null
+    },
+    {
+      "tool_id": "winvidcompress",
+      "repo_url": "https://github.com/PikkuJanne/WinVidCompress",
+      "default_branch": null,
+      "inspected_commit": null,
+      "status": "not_inspected",
+      "candidates": [],
+      "protected_files": [],
+      "cleanup_branch": null,
+      "pull_request_url": null,
+      "merged_commit": null,
+      "verification_evidence": null
+    },
+    {
+      "tool_id": "universalpodcastdownloader",
+      "repo_url": "https://github.com/PikkuJanne/UniversalPodcastDownloader",
+      "default_branch": null,
+      "inspected_commit": null,
+      "status": "not_inspected",
+      "candidates": [],
+      "protected_files": [],
+      "cleanup_branch": null,
+      "pull_request_url": null,
+      "merged_commit": null,
+      "verification_evidence": null
+    },
+    {
+      "tool_id": "winaudioclean",
+      "repo_url": "https://github.com/PikkuJanne/WinAudioClean",
+      "default_branch": null,
+      "inspected_commit": null,
+      "status": "not_inspected",
+      "candidates": [],
+      "protected_files": [],
+      "cleanup_branch": null,
+      "pull_request_url": null,
+      "merged_commit": null,
+      "verification_evidence": null
+    },
+    {
+      "tool_id": "winimagenormalizer",
+      "repo_url": "https://github.com/PikkuJanne/WinImgNormalizer",
+      "default_branch": null,
+      "inspected_commit": null,
+      "status": "not_inspected",
+      "candidates": [],
+      "protected_files": [],
+      "cleanup_branch": null,
+      "pull_request_url": null,
+      "merged_commit": null,
+      "verification_evidence": null
+    },
+    {
+      "tool_id": "audiofileforphone",
+      "repo_url": "https://github.com/PikkuJanne/AudioFileForPhone",
+      "default_branch": null,
+      "inspected_commit": null,
+      "status": "not_inspected",
+      "candidates": [],
+      "protected_files": [],
+      "cleanup_branch": null,
+      "pull_request_url": null,
+      "merged_commit": null,
+      "verification_evidence": null
+    }
+  ]
+}
